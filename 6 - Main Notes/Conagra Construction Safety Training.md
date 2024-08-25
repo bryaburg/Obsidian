@@ -1,0 +1,473 @@
+
+2024-08-22 10:07
+
+Status:
+
+Tags:
+
+[[Conagra]]
+[[Esco]]
+[[Projects]]
+[[Safety]]
+
+# Conagra Construction Safety Training
+
+# GMP's
+- ## Prohibited Items and behaviors
+	- Firearms and other weapons
+		- Firearms and other weapons of any kind are prohibited on Conagra Brands' premises
+	- Drugs and Alcohol
+		- Being under the influence of drugs and/ or alcohol is strictly prohibited
+	- Spitting, Chewing, Tobacco, Gum, or Snuff
+		- No chewing tobacco, gum, or snuff in your mouth is allowed at any time while working on Conagra Brands' Premises
+	- Profane or Abusive Language
+		- Profane and abusive language is prohibited on the premises
+	- Sexual Harassment
+		- Sexual harassment, by an employee of any gender identity toward another is prohibited
+	- Gambling
+		- Gambling while on the premises is not allowed
+	- Horseplay
+		- Any form of horseplay that creates a safety hazard is prohibited
+	- Glass Containers
+		- Glass containers are not allowed in any Conagra Brands facility
+	- Nuts or items containing nuts
+		- Conagra Brands has a strict policy against nuts.  You may not bring nuts or any food item containing nuts onto the premises
+- ## Before Entering the plant:
+	- Remove all jewelry
+	- Place a hairnet on your head and/or beard
+- ## Once you enter the plant
+	- Wash Hands
+- ## The Following items are prohibited from the plant
+	- Food, candy, gum, cough drops, and drinks
+	- Glass containers
+	- Eating, chewing, and smoking are prohibited
+	- Designated areas are present for eating and smoking
+- ## Conagra Brands' GMP Expectations
+	- Follow Conagra Brands' guidelines on food safety and food quality
+	- Aim to provide healthy food of the highest Quality
+- For more information, please refer to the "Contractor Work Rules", Section 3.0
+- ### What should you do before entering the plant?
+	- Put on hairnet
+	- Wash your hands thoroughly
+	- Spit out your gum or chewing tobacco
+	- Leave your glass container in the car
+- ### True or false: Engaging in profane or abusive language is prohibited
+	- True
+- # Ammonia
+- ## Conagra Brands Anhydrous Ammonia Expectations
+	- Dangers of anhydrous ammonia
+	- Safety precautions to prevent accidents
+	- How to respond to an accident
+- Anhydrous ammonia poses serious health risks
+- Exposure can cause injury and even death
+- Anhydrous ammonia is pure, undiluted ammonia
+- At normal pressure/temp- lighter than air, colorless gas
+- Under pressure- liquid
+- ## Properties of anhydrous ammonia:
+	- Low boiling point (-28F).  Good for refrigeration, but can cause frostbite
+	- Very corrosive. Can cause burns to skin, eyes, lungs
+	- Hygroscopic; seeks water from the nearest source. Eyes, nose, throat, mouth, moist skin
+- Most deaths are the result of damage to the throat and lungs
+- ## Symptoms of exposure vary with concentration
+	- Low concentration (5-50ppm) - headaches, loss of sense of smell, nausea, vomiting
+	- Concentration >50ppm - irritation to nose, mouth, throat; coughing, wheezing
+	- High concentration (300-500ppm) - immediately dangerous to life; lung irritation, coughing, shortness of breath
+- Ammonia is flammable and explosive, especially if released in a confined space
+- Federal and state laws require a plan to prevent accidents and to respond to emergencies
+- ## Develop Operating Procedures
+	- Procedures for refrigeration operators and maintenance personnel
+	- Only workers properly trained in procedures should work with refrigeration equipment
+- ## Protect Equipment, Tanks, Piping
+	- Forklifts and hand trucks can damage unprotected components leading to accidental release
+	- Devices to protect against damage:
+		- Horizontal or vertical structures
+		- Block access to storage bins near refrigeration equipment
+		- Curbs, barriers, bollards, aprons to prevent impact with wheeled vehicles
+
+- ## Ammonia Detector System
+	- Two required in machinery room
+	- Additional detectors in areas where leaks could occur, or areas not staffed 24/7
+	- Notification sent to monitored location - pager, on  site staff, or third-party service
+- ## Emergency Ventilation System
+	- Constant ventilation system
+	- Emergency system activated by a switch or by a detector
+- ## Color Coding, Labeling, and Signage
+	- Alert workers to the presence of ammonia
+	- Ammonia pipe marker
+		- Abbreviation identifying system components
+		- Physical state of refrigerant - yellow/ liquid; blue/vapor; both/both
+		- Ammonia in black letters on orange background
+		- Internal pipe pressure - red/high; green/low
+		- Arrow in direction of flow
+	- Ammonia placards and warning signs
+- ## Good Housekeeping Practices
+	- Flammables and combustibles should not be placed in machinery room or near refrigeration equipment
+	- Clear, unobstructed approach and space around equipment for inspection, service, or emergency shutdown
+- Anhydrous ammonia is net odorless
+- Like household cleaners, but much stronger
+- Employees not part of the response team should evacuate immediately
+- Follow defined evacuation procedures
+- Do not enter cloud of airborne anhydrous ammonia
+- ## Conagra Brands' Ammonia Exposure Expectations
+	- Failure to comply may result in immediate dismissal from the plant site
+	- Questions? Ask your plant representative and/or immediate supervisor
+- For more information, please refer to the "Contractor Work Rules", section on Ammonia
+- ### In what form is anhydrous ammonia usually transported and used in the facility?
+	- Pressurized Liquid
+- ### True or False: Anhydrous ammonia doesn't mix with water and will travel away from it if released into the air.
+	- False
+- ### Which of the following are considered safe work practices for facilities where anhydrous ammonia is used as a refrigerant?
+	- Devices to protect against damage from forklifts, hand trucks, and other equipment
+	- Emergency ventilation system activated by remote switch
+	- Clear, unobstructed access to refrigeration equipment
+- True or False: If you are not part of a facility response team, in case of accidental release, you should immediately evacuate the facility following defined evacuation procedures.
+	- True
+- # PPE 
+- Personal Protective Equipment Expectations
+	- What is it?
+	- Why use it?
+	- Know your and your employer's responsibilities
+	- Learn Conagra Brands' expectations for PPE
+- Workers Face Many Hazards
+	- Physical, chemical, mechanical, biological hazards
+	- Ingestion or injection of harmful substances
+- PPE is the last line of defense to prevent workers from becoming exposed to hazards at the job site
+- Understand PPE
+- You must demonstrate your ability to properly wear your PPE before starting work
+- Additional training occurs if:
+	- You cannot demonstrate proper skill level in PPE use
+	- Changes to your job's PPE requirements occur
+- ## Safety Helmets and Hardhats
+	- Protect your head from life-threatening injuries due to falling objects, bumps, and contact with electricity
+	- Make sure your safety helmet or hardhat:
+		- is water and fire-resistant
+		- Properly fits: You need to know how to adjust and replace the suspension and headband
+		- Meet [ANSI Standards Z-89.1](https://law.resource.org/pub/us/cfr/ibr/002/ansi.z89.1.1969.pdf) equivalent ASTM standard
+		- Is regularly cleaned and inspected
+- ## Eye and Face Protection
+	- Protect your eyes and face from severe injuries due to foreign objects, infectious diseases, or chemicals.
+	- Make sure your eye and face protection:
+		- Are certified meeting [ANSI Z-87.1](https://shannonoptical.com/wp-content/uploads/2023/07/ANSI-ISEA-Z87-1-2020.pdf) standards
+		- Properly fits, including allowing for unrestricted vision movement and does net interfere with other PPE equipment
+		- Is something other than your everyday eyewear
+- ## Ear Protection
+	- Your employer will enact Hearing Conservation Program to protect your hearing, now and in the long-term:
+		- Hearing protection will be required when noise is above 85 decibels
+		- Signs will be placed in high decibel areas reminding employees that hearing protection is required
+		- All hearing protection is metal-detectable
+- ## Hand Protection
+	- Gloves protect workers from:
+		- Germs
+		- splinters and slivers
+		- punctures
+		- cuts
+		- hot and cold surfaces
+	- Recognize and protect yourself from:
+		- pinch points
+		- Hot and cold surfaces
+		- rotating machine parts
+		- sharp edges
+		- chemicals
+		- and more
+- ## Foot Protection
+	- Protect your feet:
+		- Punctures, crushing, cuts, burns, sprains
+		- The ability to trip, slip, and fall
+	- All contractors must wear impact-resistant shoes that are rated [ANSI Z-41.1](https://www.osha.gov/laws-regs/standardinterpretations/1994-02-18) or the equivalent.  Make sure shoes are always clean and in good condition.
+- ## High Visibility Clothing
+	- Be sure your high visibility clothing meets [ANSI 107](https://webstore.ansi.org/standards/isea/ansiisea1072020) requirements
+	- Know which color to wear.  Yellow and green are the most popular.  Orange is not permitted on Conagra property
+	- Remove high visibility clothing when conducting hot work or energized electrical work.  Put it back on as soon as that work is completed.
+- Personal safety is our #1 concern
+	- safety = ppe
+	- inspect equipment daily
+	- level of ppe depends on your job tasks
+	- additional training provided
+	- ask your supervisor questions about ppe
+	- Conagra Brands monitors proper ppe use
+- For more information, please refer to the "Contractor Work Rules", Section 4.3
+- ### Protective footwear has two primary functions at work.
+	- Protection from punctures, crushing, cuts, burns, and sprains
+	- Protection from slipping, tripping, and falling
+- ### True or False: The purpose of PPE is to be the first line of defense in protecting workers from on-the-job hazards
+	- False
+- ### How much training will you have on your specific level of PPE?
+	- Numerous training if your requirements change, the environment changes, or you cannot demonstrate the proper skill level in PPE use
+- # LOTO
+- Lockout/Tagout (LOTO) Definition
+	- Protects workers from unexpected release of hazardous energy when equipment is started or operated during maintenance or repair
+	- Establishes use of markings or barriers to prevent unauthorized workers from energizing and operating equipment
+- Only trained and authorized workers may engage in the lockout/tagout process
+	- Energy isolating devices used to disengage machinery or equipment from energy source
+	- lockout devices attached to energy isolating devices to prevent reignition
+	- Apply tagout device to warn others
+	- Attempt to turn on machinery/equipment after lockout to ensure the energy is isolated
+- Locks
+	- Conagra Brands requires red locks, identified with a tag
+	- Other methods may be used, like removing a valve handle
+	- Purpose is to isolate the equipment from hazardous energy that could turn the machinery on
+- Tags
+	- Tag identify de-energized energy sources
+	- Tags also identify the authorized person who locked and tagged the equipment
+	- Tags may be used in place of locks when machinery cannot be physically locked
+- Never remove a lock or tag that is not yours 
+- Never attempt to start equipment or machinery that is locked or tagged
+- Immediate termination, can result in series injury
+- ## Electrical Energy
+	- Electrical energy is found and created by electrical power, power that is stored in a battery or capacitor, or static electricity.  When inadvertently exposed to electrical energy, people can suffer from the effects of electric shock, burns, electrocution, fires, and explosions.
+- Know About Lockout/Tagout Policies and Procedures
+	- Never remove a lock or tag
+	- Never try to restore energy or restart equipment or machinery with a lock or tag
+	- Only authorized and trained personnel may place and remove a lock and tag
+- Failure to comply may result in death
+- Lockout/Tagout training is necessary prior to beginning work
+- Before locking out a piece of equipment, the following people must be present
+	- Designated Conagra Brands contact
+	- Contractor supervisor of the job
+	- Contractor employee performing the work
+- Failure to comply may result in immediate dismissal from the plant site
+- ### True or False:  Any contractor is allowed to place a lock and/or tag on a piece of equipment or machinery
+	- False
+- ### How is a piece of machinery or equipment appropriately locked?
+	- With a red Conagra Brands-approved lock
+- ### After locking out a piece of equipment or machinery, the trained and authorized personnel should.
+	- Double-check that the locking mechanism works by attempting to turn on the equipment or machinery
+- # Fall Arrest Systems
+- Fall arrest Components
+- Each element works together to protect a falling worker
+	- Anchor/Anchor Point
+		- Ats as the secure point to attach the connecting device
+		- Permanent or temporary
+		- Fixed or mobile
+		- Must support a 5,000-pound load rating
+	- Body Harness & D-Ring
+		- Component worn by the worker
+		- Body harness straps are placed over the shoulders and down the sides of the body, then fastened around the legs and across the chest.
+		- D-Ring: located in the back of the harness and designed to rest between the shoulder blades
+	- Connecting Device
+		- critical link connecting the body harness to the anchor/anchor point
+		- Fixed-Length shock-absorbing lanyard
+		- Self-retracting lifeline
+	- Deceleration Device
+		- used in conjunction with the shock-absorbing lanyard
+		- it works to eliminate or lessen the forces felt on worker's body as they fall
+	- D-Ring and Snap Hooks
+		- Must be rated to sustain a minimum tensile load of 5,000 pounds
+		- Snap hooks and carabiners need to be able to avert accidental disengagement, or they must be capable of locking
+- Consider the following environmental conditions:
+	- Temperature
+	- Chemicals Present
+	- Grease and Moisture Levels
+	- Other area-specific factors
+- Consider the following work conditions:
+	- Welding
+	- Chemical cleaning
+	- Sandblasting
+- ## Fall Protection Equipment Maintenance
+	- Monitor, protect, maintain
+	- Consider cleaning and maintenance program depending on work conditions, i.e. if chemicals, grease, and/or moisture is present
+	- At least implement monthly inspections to the work area
+	- Before each use, inspect the equipment closely
+- ## Use Fall Protection When a Worker is:
+	- More than six (6) feet from the ground
+	- less than 12 feet from the leading edge
+	- Elevated in a lift, regardless of the height
+- Failure to comply may result in immediate dismissal from the plant site.
+- Additional training provided on work site 
+- Questions? Ask your plant representative and/or immediate supervisor
+- ### True or False:  When in an elevated lift that is only two feet off the ground, you do not need fall protection
+	- False
+- ### Where must the D-ring be located on a worker's body?
+	- On the back between the shoulders
+- ### What is the purpose of a deceleration device?
+	- to prevent a freefall
+- # Hot Work
+- Hot work generates a heat source, such as:
+	- Open flame
+	- Sparks
+	- Other ways to ignite a fire
+- Hot work includes, but not limited too:
+	- Welding
+	- Cutting
+	- Brazing
+	- Soldering
+	- Grinding
+- Flammable or Combustible Liquids/Materials
+	- These items should be at least ten(10) feet away from the hot work activity.  Any combustibles within 35 feet of the hot work area must be covered by fire-resistant curtains 
+- Firefighting Equipment
+	- Fire extinguishers, sprinklers, and other firefighting equipment must be easily accessible and in good working order
+- Managers
+	- Managers are present to ensure all hot work activities are up to Conagra Brands' best practices standards
+- Hot Work Permit
+	- If hot work cannot be done in designated area then a permit must be filled out.  The hot work permit outlines the protocol necessary to complete the hot work away from a designated hot work area
+	- Outline procedures in writing 
+	- includes a checklist of hazards
+	- identifies necessary precautions
+	- alerts other departments about the hot work
+- Authorized personnel are responsible for:
+	- inspecting site for hazards
+	- determining which safeguards to enact
+	- finding essential personnel and gaining authorizations
+	- Review the protocol with person performing the hot work
+- Permits expire at:
+	- Job completion
+	- Change of location
+	- end of shift
+- Fire watch requirements:
+	- monitor work area during hot work
+	- May not conduct other activities, except basic housekeeping in the area
+	- Capably trained in extinguishing fires 
+	- begins fire watch before hot work
+	- remains at hot work site while it's happening
+	- continues fire watch for one-hour post-job completion
+	- rechecks the area for three hours post-job completion, every 30 minutes
+- True or False:  A hot work permit is required for hot work performed outside of the maintenance shop.
+	- True
+- Hot work may generate:
+	- Open Flames 
+	- Sparks
+- True or False: Hot work permits are not shared with other departments
+	- False
+- # Confined Space
+- Confined spaces are not designed to be populated yet they can allow a person entry or exit
+- Manhole
+	- A small confined space, like a manhole, has a narrow opening and is available for a worker to squeeze in and perform their job duty.  Access to space like a manhole is restricted, and the narrow opening means employees should take caution while entering and exiting
+- Crawlspace
+	- A large confined space, like a crawl space, is large enough for a worker to enter and commonly sufficiently sized to complete the task.  However, it in not designed for regular occupancy
+- Tank
+	- Workers cannot continuously work in a complete enclosed space.  They may enter and perform a specific duty, and may have difficulty due to space constraints within the area.  Once the worker exits this space, they must barricade it to prevent unauthorized entry.
+- Confinement could lead to injury
+- Tight entry/exist
+- Restricted airflow
+- Air quality issues affect confined spaces
+	- insufficient oxygen
+	- toxic
+	- combustible
+	- generally harmful atmosphere
+- Poor atmosphere exposure may lead to:
+	- immediate death due to asphyxiation
+	- acute or chronic poisoning
+	- mental impairment leading to physical injury
+- Storage Tanks or bins
+	- Gasoline tanks and chemical storage tanks are tight enclosed spaces
+- Mixing Tanks
+	- These large, cylindrical tanks come in 6-ft or 10-ft sizes.  They include one small opening that doubles as an entrance and exit. 
+- Railroad Tank Cars
+	- Chemical tanks cars are one example of a tank car that may need entry by a person
+- Silos
+	- Grain silos are large confined spaces, yet still allow access via one doorway.
+- Vaults
+	- Electrical vaults are one example of a large confined space.
+- Pits
+	- Pits are an example of an underground confined space, usually as an excavation in the earth or developed underneath a large power press
+- A permit-required confined space has one or more of the following characteristics:
+	- Contains or has the potential to contain a hazardous atmosphere
+	- Contains material that may potentially engulf an entrant
+	- Has walls that converge inward or floors that slope downward and taper into a smaller area; thin is an asphyxiation risk
+	- Contains any other recognized safety or health hazard, including unguarded machinery, exposed live wires, or heat stress
+- Entry permit:
+	- Workers must obtain a written permit each time they enter a permit-required confined space.  A copy must be kept at the confined space for the attendant to reference.  On the entry permit, the entry supervisor will write down the exact time allotted for the work.  The entry permit expires immediately upon completion of the work, or when the time allotted expires - whichever comes first.
+- Signs
+	- Signage will identify a confined space as permit-required
+- Tripod Extraction Device
+	- Rescue services equipment must be available at every permit-required confined space.  This includes a no-entry retrieval system (such as a harness and cable attached to a mechanical hoist).   tripod extraction device provides safety for the attendant and emergency response team, who will not need to physically enter the space to retrieve the worker inside.
+- Rescue Items
+	- Respirators, including self-contained breathing apparatuses, must be easily accessible for use by rescue personnel.  This includes all types of respirators and cartridges.
+- Monitoring Device
+	- Essential for evaluating the safety of the atmosphere, monitoring devices allow for testing of a confined space before and during entry.
+- Copy of permit-required confined space entry program
+	- This document must be nearby for reference by the attendants and workers
+- Attendant
+	- Attendants do not enter the confined space.  They are responsible for monitoring the entry, limiting access to unauthorized personnel, protecting the space from outside hazards, and isolating the space from hazards.  Attendants are highly trained in every aspect of the entry program.
+- Worker 
+	- Workers are specifically authorized to enter a permit-required confined space.  They have received training on the appropriate use, testing, and maintenance of all ventilation, communication, and emergency equipment.  They understand how to properly use protective clothing or gear to ensure the utmost safety upon entry and exit of the space.
+- Communication Device
+	- Communication between the attendant and worker is essential during every aspect of the job task.  Communication devices may vary; one example is a radio
+- # Final Test
+- A release of ammonia will typically result in:
+	- The smell of a strong order,  Like household cleaner, but stronger
+	- The evacuation of the facility
+	- The creation of a visible, dense white cloud
+	- The response of the emergency response team
+- True or False:  Anhydrous ammonia is odorless, so you will not smell a leak
+	- False
+- Which of the following are strategies to prevent anhydrous ammonia accidents?
+	- Allow only workers who are properly trained should work on anhydrous ammonia repairs
+	- Require the use of ammonia detectors
+- True or False:  All jewelry and piercings must be removed before entering the plant.
+	- True
+- True or False: Hairnets, for the head and beard, are optional 
+	- False
+- True or False: Conagra Brands prohibits bringing certain items into the plant or on the premises to ensure the safety of you and your coworkers.
+	- True
+- Select all the following that are prohibited while working:
+	- Chewing Tobacco
+	- Gum
+	- Cough Drops
+	- Spitting
+- True or False: PPE is the first line of defense to prevent injuries:
+	- False
+- Safety helmets or hardhats must be:
+	- water and fire-resistant
+	- fit properly
+	- regularly cleaned and inspected
+- Gloves protect workers from germs, splinters, cuts, and more.  But what else should workers keep in mind when wearing gloves?
+	- To recognize and protect themselves from pinch points, temperature of work surfaces, sharp edges, and chemicals
+- When hearing protection is required:
+	- Signs will be posted reminding employees to wear their hearing protection
+- True or False: The purpose of a tagout is to ensure no one checks out the equipment
+	- false
+- Tags may be used in place of  locks when:
+	- The machinery or equipment is unable to be physically locked
+- True or False: Marking and barriers are required to be put into place to prevent unauthorized workers from energizing and operating equipment.
+	- True
+- The energy isolation standard is also known as:
+	- OSHA's lockout/tagout protocol to manage hazardous energy
+- After securing a self-retracting lifeline, what should a worker do first?
+	- Tug the line to ensure in locks
+- True or False: Conagra Brands takes fall arrest seriously to protect our workers from serious injury or death. 
+	- True
+- True or False: A fall arrest system is required if you are going into an elevated lift that is 3 feet off the ground
+	- True
+- True or False: A workers wearing a body harness should be attaches around the shoulders and the waist.
+	- False
+- True or False: If hazardous work conditions, like welding, chemical cleaning, and sandblasting, are present, then additional fall protection systems should be in place.
+	- true
+- Which two of the following are the main safety purpose of a fall arrest system?
+	- All elements of the fall arrest system together to minimize the distance of a worker's fall
+	- All elements work to decelerate the forces placed on the falling worker's body
+- What is the purpose of a hot work permit?
+	- Outlines the standards expected by workers
+	- to give notice to other departments and workers so they're aware of the plan
+- Authorizing signatures on a hot work permit are there to:
+	- Address specific concerns, like environmental effects and fire hazard protection
+- True or False: Everyone is responsible for a fire watch during hot work.
+	- False
+- When does a hot work permit expires?
+	- At job completion 
+	- At the end of shift
+	- When the location changes
+- True or False: Before a hot work permit is issued, an authorized individual will review the scope of work.
+	- True
+- What are some examples of a "large confined space"?
+	- Silos
+	- crawl space
+	- vaults
+- True or False: A completely enclosed space does not need to be barricaded when not in use.
+	- False
+- True or False: A small confined space is defined as a tight area with a narrow opening allowing a worker to enter.
+	- True
+- In a confined space, which characteristics means that a permit is required to work in the space?
+	- it is a hazardous atmosphere and asphyxiation risk
+	- it contains unguarded machinery
+	- it contains material that may engulf an entrant
+- Confined spaces, as defined by OSHA, are:
+	- Tight areas that are not designed for continuous occupancy and are difficult to exit in the event of an emergency
+- Why could air in a confined space become toxic?
+	- The space lacks ventilation, thereby causing insufficient oxygen which may be toxic and combustible
+- ![[Pasted image 20240823120308.png]]
+# Reference
+
+[[51240055 - Conagra Brands - Russellville AR - Frozen Dinner Line 11 FlexiCell Panel CNA Upgrades]]
+Website - [isnetworld](https://www.isnetworld.com/onlinetr/completetraining)
+
