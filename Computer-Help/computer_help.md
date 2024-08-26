@@ -19,3 +19,11 @@ curl daveeddy.com/ip
 site:drive.google.com "Movie or book"
 doctype:pdf "Book"
 ```
+
+## Download any video on web
+
+- inspect page
+- network tab
+- find video link called "media" it should have a tab that is getting longer
+- open in new tab
+- right click and download video

@@ -32,6 +32,7 @@ Some websites can fall into multiple categories. If you can't find what you need
 
 - [Repair](#repair)
 - [Parts](#parts)
+- [Buying](#buying)
 
 ## Automation
 
@@ -63,10 +64,10 @@ Some websites can fall into multiple categories. If you can't find what you need
 
 ## Cheat Sheets
 
-- [Python Cheat Sheet](#Python Cheat Sheet)
-- [Front-end Cheat Sheet](#Front-end Cheat Sheet)
-- [HTML Cheat Sheet](#HTML Cheat Sheet)
-- [CSS Cheat Sheet](#CSS Cheat Sheet)
+- [Python Cheat Sheet](#Python-Cheat-Sheet)
+- [Front-end Cheat Sheet](#Front-end-Cheat-Sheet)
+- [HTML Cheat Sheet](#HTML-Cheat-Sheet)
+- [CSS Cheat Sheet](#CSS-Cheat-Sheet)
 
 ## Computer Software / Parts
 
@@ -174,7 +175,7 @@ Some websites can fall into multiple categories. If you can't find what you need
 ## Language
 
 - [Grammar](#grammar)
-- - [Writing](#writing)
+- [Writing](#writing)
 - [Words \& Meanings](#words--meanings)
 
 ## Mathematics
@@ -527,6 +528,9 @@ Some websites can fall into multiple categories. If you can't find what you need
 - [Aes Wave](https://www.aeswave.com) - AESwave sells automotive diagnostic tools and equipment for professional technicians.
 - [MAPerformance](https://www.maperformance.com) - MAPerformance sells high-performance automotive parts.
 
+### Buying
+
+- [Car Edge](https://caredge.com/)
 ## Automation
 
 - [PLC Professor](https://www.plcprofessor.com) - The PLC Professor provides educational resources for learning PLC programming.

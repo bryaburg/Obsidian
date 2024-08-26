@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "338c9dedb4de6395",
+            "id": "8b3acd24559fae19",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -20,12 +20,24 @@
             }
           },
           {
-            "id": "8b3acd24559fae19",
+            "id": "639dddf206b3f447",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Bookmarks/README.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e2000a05ae7494c5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Computer-Help/computer_help.md",
                 "mode": "source",
                 "source": false
               }
@@ -160,11 +172,12 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "8b3acd24559fae19",
+  "active": "639dddf206b3f447",
   "lastOpenFiles": [
+    "Computer-Help/computer_help.md",
+    "Bookmarks/README.md",
     "Obsidian",
     "6 - Main Notes/Safety.md",
-    "Bookmarks/README.md",
     "6 - Main Notes/Hearing Conservation.md",
     "Certs/Safety/Hearing Conservation - National Safety Council.pdf",
     "6 - Main Notes/Conagra Construction Safety Training.md",
@@ -205,7 +218,6 @@
     "6 - Main Notes/Librewolf.md",
     "7 - Documents/Beckhoff/B&R/B&R Module/X67+System-ENG_V3.30.pdf",
     "7 - Documents/Beckhoff/B&R/B&R Module/X67BC8331-ENG_V3.06.pdf",
-    "7 - Documents/Beckhoff/B&R/B&R Module/X67 System-ENG_V3.30.pdf",
     "7 - Documents/Banner/Banner Engineering/Banner I_O Config.gif",
     "Books/Solution Manual - Mechanics of Materials 8th Edition -  Hibbeler/Mechanics_of_Materials-8th-Hibbeler.jpg",
     "Untitled.canvas"
