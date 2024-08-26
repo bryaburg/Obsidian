@@ -266,7 +266,7 @@ Some websites can fall into multiple categories. If you can't find what you need
 ## Software Engineering
 
 - [Android Development](#Android-Development)
-- [Game Development][#Game-Development]
+- [Game Development][#game-development]
 	- [Pokemon](#Pokemon)
 	- [Chess](#Chess)
 	- [Linux](#Linux)
