@@ -118,7 +118,7 @@ Some websites can fall into multiple categories. If you can't find what you need
 - [Civil Engineering](#civil-engineering)
 - [Electronics Engineering](#electronics-engineering)
 - [Mechanical Engineering](#mechanical-engineering)
-- [Materials / Nanotechnology](#Materials / Nanotechnology)
+- [Materials / Nanotechnology](#Materials-/-Nanotechnology)
 - [Thermodynamics](#Thermodynamics)
 - [Control](#Control)
 - [Vibrations](Vibrations)
@@ -265,8 +265,8 @@ Some websites can fall into multiple categories. If you can't find what you need
 
 ## Software Engineering
 
-- [Android Development](#Android Development)
-- [Game Development][#Game Development]
+- [Android Development](#Android-Development)
+- [Game Development][#Game-Development]
 	- [Pokemon](#Pokemon)
 	- [Chess](#Chess)
 	- [Linux](#Linux)
@@ -1100,6 +1100,7 @@ real interview questions from your favorite companies
 - [Tenable Nessus](https://www.tenable.com/) - Tenable Nessus provides vulnerability scanning and assessment tools.
 - [Wifiphisher](https://wifiphisher.org) - Wifiphisher is a security tool for phishing attacks on Wi-Fi networks.
 - [ZoomEye](https://www.zoomeye.org) - ZoomEye is a search engine for finding internet-connected devices.
+- [Google Hacking Database](https://www.exploit-db.com/google-hacking-database) - Google Dorking help
 
 ### Hacking Tutorial
 
