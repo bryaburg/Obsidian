@@ -118,7 +118,7 @@ Some websites can fall into multiple categories. If you can't find what you need
 - [Civil Engineering](#civil-engineering)
 - [Electronics Engineering](#electronics-engineering)
 - [Mechanical Engineering](#mechanical-engineering)
-- [Materials / Nanotechnology](#Materials-/-Nanotechnology)
+- [Materials / Nanotechnology](#Materials/Nanotechnology)
 - [Thermodynamics](#Thermodynamics)
 - [Control](#Control)
 - [Vibrations](Vibrations)
@@ -1026,7 +1026,7 @@ real interview questions from your favorite companies
 - [How a Car Works](https://www.howacarworks.com/) - Complete and free guide explaining how cars work.
 - [IIHS Ratings](https://www.iihs.org/ratings) - Crash test ratings and safety information from the Insurance Institute for Highway Safety.
 - [Euro NCAP](https://www.euroncap.com/en/) - European New Car Assessment Programme providing safety ratings for vehicles.
-### Materials / Nanotechnology
+### Materials/Nanotechnology
 
 - [DoITPoMS](https://www.doitpoms.ac.uk/index.php) - DoITPoMS from Department of Materials Science and Metallurgy, University of Cambridge
 - [Nanoscience Resources](https://ssd.phys.strath.ac.uk/) - Nanoscience resources of the Department of Physics at the University of Strathclyde
