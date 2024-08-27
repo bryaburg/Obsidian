@@ -266,7 +266,7 @@ Some websites can fall into multiple categories. If you can't find what you need
 ## Software Engineering
 
 - [Android Development](#Android-Development)
-- [Game Development][#game-development]
+- [Game Development(#game-development)
 	- [Pokemon](#Pokemon)
 	- [Chess](#Chess)
 	- [Linux](#Linux)
@@ -1300,9 +1300,7 @@ real interview questions from your favorite companies
 - [Rejected.us](https://rejected.us/) - Read and share stories of job rejections.
 - [Tech Interview Handbook](https://www.techinterviewhandbook.org/) - Free curated interview preparation materials.
 - [4 Day Week](https://4dayweek.io) - 4 Day Week lists jobs that offer a four-day workweek.
-- [Hiring.ca](https://hiring.ca) - Hiring.ca is a job board for Canadian job seekers.
-
-### Careers
+- [Hiring.ca](https://hiring.ca) - Hiring.ca is a job board for Canadian job seeke### Careers
 
 - [Roadmap.sh](https://roadmap.sh/) - Provides roadmaps for various development areas.
 - [WTF Should I Do With My Life](https://www.wtfshouldidowithmylife.com/) - A resource to explore and learn about different occupations.
@@ -1546,6 +1544,7 @@ real interview questions from your favorite companies
 - [FlixHQ](https://flixhq.to/home) - FlixHQ provides streaming links for movies and TV shows.
 - [Cuevana3](https://hd.cuevana3.nu/peliculas/) - Cuevana3 is a streaming site for movies and TV shows.
 - [Cuevana Latino](https://cuevanalatino.me/mulan-1998) - Cuevana Latino is a streaming site for movies and TV shows in Spanish.
+- [Cinezone](https://ww1.cinezone.city/) - Movies and tv shows
 
 ### Anime
 

@@ -17,4 +17,6 @@ Tags:
 [[Fall Protection]]
 [[First Aid]]
 [[Hearing Conservation]]
+[[Lockout Tagout (LOTO) Programs and Procedures]]
+[[Personal Protective Equipment (PPE)]]
 
