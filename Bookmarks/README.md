@@ -1307,6 +1307,7 @@ real interview questions from your favorite companies
 - [path-to-polymath.notion](https://path-to-polymathy.notion.site/path-to-polymathy/Path-To-Polymathy-d7586429b7ce4db1889fc539822b9670) - Arrangement of every discipline and field out there, and what specific topics make them up.
 - [The Forage](https://www.theforage.com/) - The Forage provides virtual work experience programs.
 - [SideHustleStack](https://sidehustlestack.co) - SideHustleStack is a directory of side hustles and online jobs.
+- [Forest Service Careers](https://forestservicecareers.usajobs.gov/Search/Results?a=AG11&s=relevance&sd=asc&p=1) - Careers in forestry with the government
 
 ### Freelancing
 
