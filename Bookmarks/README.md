@@ -560,6 +560,7 @@ Some websites can fall into multiple categories. If you can't find what you need
 - [Rockwell Automation's customer](https://rockwellautomation.custhelp.com) - Rockwell Automation's customer support portal.
 - [Rockwell Documentation](https://www.rockwellautomation.com/en-us/support/documentation.html) - Rockwell Automation's documentation and support portal.
 - [Rockwell TCP and UDP Port Configuration](https://literature.rockwellautomation.com/idc/groups/literature/documents/qr/comm-qr001_-en-e.pdf) - Rockwell's TCP and UDP port configs
+- [Knowledge Base](https://rockwellautomation.custhelp.com/) - Rockwell's Knowledge base for tickets and answers
 
 ### Instrumentation Tools
 
@@ -595,6 +596,8 @@ Some websites can fall into multiple categories. If you can't find what you need
 - [Sci-Hub](https://www.sci-hub.se) - Sci-Hub provides free access to millions of research papers.
 - [Librivox](https://www.librivox.org) - Audio Book Store
 - [Intel Techniques](https://inteltechniques.com/)  Privacy books 
+- [The-Eye](https://the-eye.eu/) - an achieve of a lot of books
+- [ebook2pdf](https://ebook2pdf.com/) - Book Converter
 
 ## Business Links
 
@@ -1553,7 +1556,6 @@ real interview questions from your favorite companies
 - [Reddit Legal Anime Streams](https://reddit.com/r/anime/wiki/legal_streams/) - Wiki page providing a list of legal anime streaming sites on Reddit.
 - [Anilist](https://anilist.co/) - Track, share, and discover your favorite anime and manga
 - [Ani-CLI](https://github.com/pystardust/ani-cli) - Ani-cli is a command-line tool that allows you to watch anime directly from your terminal.
-- [GoGo Anime](https://gogoanime.network) - Gogoanime is a platform where you can watch anime online for free.
 
 ## Music / Audio Links
 
@@ -2707,6 +2709,7 @@ real interview questions from your favorite companies
 - [Microsoft-Activation-Scripts](https://github.com/massgravel/Microsoft-Activation-Scripts) - This repository contains scripts for activating Microsoft products.
 - [Bloatbox](https://github.com/builtbybel/bloatbox) - Bloatbox helps you remove unwanted Windows 10 apps.
 - [Win11Debloat](https://github.com/Raphire/Win11Debloat) - This repository contains scripts for debloating Windows 11.
+- [Windows 10 Debloater]([GitHub - Sycnex/Windows10Debloater: Script to remove Windows 10 bloatware.](https://github.com/Sycnex/Windows10Debloater)) 
 - [massgrave](https://massgrave.dev/genuine-installation-media)
 - [bobpony](https://dl.bobpony.com/windows/10/)
 - [MSDN](https://files.dog/MSDN/)

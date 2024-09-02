@@ -18,3 +18,5 @@ Tags:
 [[51240053 - Conagra Brands - Waterloo IA - Snacks Multipack Cartoner CNA]]
 [[51240055 - Conagra Brands - Russellville AR - Frozen Dinner Line 11 FlexiCell Panel CNA Upgrades]]
 [[Conagra Construction Safety Training]]
+[[51240110 - Conagra Brands - Russellville AR - Frozen Sustainability Project]]
+[[51240056 - Conagra Brands - Russellville AR - Frozen Dinner Line 11 Pallet Wrapper CNA Upgrades]]
