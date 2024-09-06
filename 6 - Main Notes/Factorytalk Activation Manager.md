@@ -10,3 +10,6 @@ Tags:
 
 
 # Reference
+
+[[Factorytalk Activation Manager Flexnet Stopped]]
+[[Factorytalk Activation Manager manual cleanup]]

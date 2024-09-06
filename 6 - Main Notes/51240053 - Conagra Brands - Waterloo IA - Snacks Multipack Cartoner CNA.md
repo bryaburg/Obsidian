@@ -10,7 +10,7 @@ Tags:
 
 # 51240053 - Conagra Brands - Waterloo IA - Snacks Multipack Cartoner CNA
 
-- PLC Revision 31
+- PLC Revision 34
 - 
 # Reference
 
