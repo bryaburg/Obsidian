@@ -1323,7 +1323,6 @@ real interview questions from your favorite companies
 - [University of Nebraska Omaha - Job & Internship Resources](https://www.unomaha.edu/student-life/achievement/academic-and-career-development-center/career-development/jobs-and-internships/job-internship-resources.php) - Résumé and Cover Letter Resources provided by the Academic and Career Development Center at the University of Nebraska Omaha.
 - [VisualCV](https://www.visualcv.com/resume-samples/) - Collection of 500+ professional resume examples.
 - [SuperPortfolio](https://superportfolio.co/) - Online Portfolio Maker.
-- [Referd.ai](https://www.referd.ai/resume-scanner) - Free resume scanner.
 - [RxResu.me](https://rxresu.me/) - Free and open-source resume builder.
 - [GoodCV](https://www.goodcv.com/) - Create a professional Resume/CV in minutes without Photoshop or AI techniques.
 - [JSON Resume](https://jsonresume.io/) - Upload your JSON resume according to the spec and have it rendered beautifully.

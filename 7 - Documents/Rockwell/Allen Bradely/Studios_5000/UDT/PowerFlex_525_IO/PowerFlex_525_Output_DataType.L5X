@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<RSLogix5000Content SchemaRevision="1.0" SoftwareRevision="34.01" TargetName="PowerFlex_525_Output" TargetType="DataType" ContainsContext="true" ExportDate="Fri Sep 06 09:54:54 2024" ExportOptions="References NoRawData L5KData DecoratedData Context Dependencies ForceProtectedEncoding AllProjDocTrans">
+<Controller Use="Context" Name="CARTMP1">
+<DataTypes Use="Context">
+<DataType Use="Target" Name="PowerFlex_525_Output" Family="NoFamily" Class="User">
+<Members>
+<Member Name="LogicCommand" DataType="INT" Dimension="0" Radix="Decimal" Hidden="false" ExternalAccess="Read/Write"/>
+<Member Name="ZZZZZZZZZZPowerFlex_1" DataType="SINT" Dimension="0" Radix="Decimal" Hidden="true" ExternalAccess="Read/Write"/>
+<Member Name="Stop" DataType="BIT" Dimension="0" Radix="Decimal" Hidden="false" Target="ZZZZZZZZZZPowerFlex_1" BitNumber="0" ExternalAccess="Read/Write"/>
+<Member Name="Start" DataType="BIT" Dimension="0" Radix="Decimal" Hidden="false" Target="ZZZZZZZZZZPowerFlex_1" BitNumber="1" ExternalAccess="Read/Write"/>
+<Member Name="Jog" DataType="BIT" Dimension="0" Radix="Decimal" Hidden="false" Target="ZZZZZZZZZZPowerFlex_1" BitNumber="2" ExternalAccess="Read/Write"/>
+<Member Name="ClearFaults" DataType="BIT" Dimension="0" Radix="Decimal" Hidden="false" Target="ZZZZZZZZZZPowerFlex_1" BitNumber="3" ExternalAccess="Read/Write"/>
+<Member Name="Forward" DataType="BIT" Dimension="0" Radix="Decimal" Hidden="false" Target="ZZZZZZZZZZPowerFlex_1" BitNumber="4" ExternalAccess="Read/Write"/>
+<Member Name="Reverse" DataType="BIT" Dimension="0" Radix="Decimal" Hidden="false" Target="ZZZZZZZZZZPowerFlex_1" BitNumber="5" ExternalAccess="Read/Write"/>
+<Member Name="ForceKeypadCtrl" DataType="BIT" Dimension="0" Radix="Decimal" Hidden="false" Target="ZZZZZZZZZZPowerFlex_1" BitNumber="6" ExternalAccess="Read/Write"/>
+<Member Name="MOPIncrement" DataType="BIT" Dimension="0" Radix="Decimal" Hidden="false" Target="ZZZZZZZZZZPowerFlex_1" BitNumber="7" ExternalAccess="Read/Write"/>
+<Member Name="ZZZZZZZZZZPowerFlex_10" DataType="SINT" Dimension="0" Radix="Decimal" Hidden="true" ExternalAccess="Read/Write"/>
+<Member Name="AccelRate1" DataType="BIT" Dimension="0" Radix="Decimal" Hidden="false" Target="ZZZZZZZZZZPowerFlex_10" BitNumber="0" ExternalAccess="Read/Write"/>
+<Member Name="AccelRate2" DataType="BIT" Dimension="0" Radix="Decimal" Hidden="false" Target="ZZZZZZZZZZPowerFlex_10" BitNumber="1" ExternalAccess="Read/Write"/>
+<Member Name="DecelRate1" DataType="BIT" Dimension="0" Radix="Decimal" Hidden="false" Target="ZZZZZZZZZZPowerFlex_10" BitNumber="2" ExternalAccess="Read/Write"/>
+<Member Name="DecelRate2" DataType="BIT" Dimension="0" Radix="Decimal" Hidden="false" Target="ZZZZZZZZZZPowerFlex_10" BitNumber="3" ExternalAccess="Read/Write"/>
+<Member Name="FreqSel01" DataType="BIT" Dimension="0" Radix="Decimal" Hidden="false" Target="ZZZZZZZZZZPowerFlex_10" BitNumber="4" ExternalAccess="Read/Write"/>
+<Member Name="FreqSel02" DataType="BIT" Dimension="0" Radix="Decimal" Hidden="false" Target="ZZZZZZZZZZPowerFlex_10" BitNumber="5" ExternalAccess="Read/Write"/>
+<Member Name="FreqSel03" DataType="BIT" Dimension="0" Radix="Decimal" Hidden="false" Target="ZZZZZZZZZZPowerFlex_10" BitNumber="6" ExternalAccess="Read/Write"/>
+<Member Name="MOPDecrement" DataType="BIT" Dimension="0" Radix="Decimal" Hidden="false" Target="ZZZZZZZZZZPowerFlex_10" BitNumber="7" ExternalAccess="Read/Write"/>
+<Member Name="FreqCommand" DataType="INT" Dimension="0" Radix="Decimal" Hidden="false" ExternalAccess="Read/Write"/>
+</Members>
+</DataType>
+</DataTypes>
+</Controller>
+</RSLogix5000Content>

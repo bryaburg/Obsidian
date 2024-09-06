@@ -4,35 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "8eb44bbca1e2191b",
+        "id": "ec00bc4c72589959",
         "type": "tabs",
         "children": [
           {
-            "id": "e165016f72bbf01a",
+            "id": "a37e8c133ca79b8c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "6 - Main Notes/51240055 - Conagra Brands - Russellville AR - Frozen Dinner Line 11 FlexiCell Panel CNA Upgrades.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "83383c1adae142b1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "6 - Main Notes/51240053 - Conagra Brands - Waterloo IA - Snacks Multipack Cartoner CNA.md",
+                "file": "Bookmarks/README.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "6 - Main Notes/51240053 - Conagra Brands - Waterloo IA - Snacks Multipack Cartoner CNA.md",
+                "file": "Bookmarks/README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "6 - Main Notes/51240053 - Conagra Brands - Waterloo IA - Snacks Multipack Cartoner CNA.md",
+                "file": "Bookmarks/README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "6 - Main Notes/51240053 - Conagra Brands - Waterloo IA - Snacks Multipack Cartoner CNA.md"
+                "file": "Bookmarks/README.md"
               }
             }
           }
@@ -160,43 +147,44 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "83383c1adae142b1",
+  "active": "a37e8c133ca79b8c",
   "lastOpenFiles": [
+    "7 - Documents/Rockwell/Allen Bradely/PowerFlex 525/UDC-CCW-16.2.0.8651.zip",
+    "7 - Documents/Rockwell/Allen Bradely/PowerFlex 525/EDS_Files_for_PowerFlex_525.zip",
+    "7 - Documents/Rockwell/Allen Bradely/PowerFlex 525/EDS_Files_for_PowerFlex_520_Series_Drives_Family.zip",
+    "7 - Documents/Rockwell/Allen Bradely/PowerFlex 525/Add-on-Profiles/UDC-AOP_16.2.0.8651.zip",
+    "7 - Documents/Rockwell/Allen Bradely/PowerFlex 525/Add-on-Profiles",
+    "7 - Documents/Rockwell/Allen Bradely/PowerFlex 525/ABDrives/PowerFlex520class/PowerFlex_525_1.003_80_AppUpdate.msi",
+    "7 - Documents/Rockwell/Allen Bradely/PowerFlex 525/ABDrives/PowerFlex520class",
+    "7 - Documents/Rockwell/Allen Bradely/PowerFlex 525/ABDrives",
+    "6 - Main Notes/51240056 - Conagra Brands - Russellville AR - Frozen Dinner Line 11 Pallet Wrapper CNA Upgrades.md",
+    "6 - Main Notes/PanelView Plus 7.md",
+    "7 - Documents/Rockwell/Allen Bradely/Stratix Switches/Stratix 5800 Managed Switches.pdf",
+    "6 - Main Notes/51240105 - Kraft Heinz - Cedar Rapids IA VFD IP Addressing - General.md",
+    "6 - Main Notes/51240107 - Builders FirstSource - New Hampton IA SLC 5-01 Upgrade - General.md",
+    "6 - Main Notes/51240110 - Conagra Brands - Russellville AR - Frozen Sustainability Project.md",
+    "6 - Main Notes/64220146 - CHS - Mankato MN Suez Remium RO Implementation.md",
+    "6 - Main Notes/51240016 - Kraft Heinz - Cedar Rapids IA AMC Ammonia HMI Glitch Reset - General.md",
+    "6 - Main Notes/51240012 - Treehouse Foods - Cedar Rapids IA Casepacker Support - General.md",
+    "6 - Main Notes/51240017 - Builders FirstSource - New Hampton IA SLC Support - General.md",
+    "6 - Main Notes/51240018 - Kraft Heinz - Cedar Rapids IA 2024 Support - General.md",
+    "6 - Main Notes/51240053 - Conagra Brands - Waterloo IA - Snacks Multipack Cartoner CNA.md",
     "6 - Main Notes/51240055 - Conagra Brands - Russellville AR - Frozen Dinner Line 11 FlexiCell Panel CNA Upgrades.md",
-    "7 - Documents/Rockwell/Allen Bradely/GuardShield 450L-B/GuardShield Safety Light Curtain Manual.pdf",
-    "7 - Documents/Rockwell/Allen Bradely/GuardShield 450L-B/450L GuardShield Safety Light Curtain.pdf",
-    "7 - Documents/Rockwell/Allen Bradely/GuardShield 450L-B/Allen-Bradley GuardShield 450L-B Safety Light Curtain.pdf",
-    "7 - Documents/Rockwell/Allen Bradely/GuardShield 450L-B",
-    "7 - Documents/Rockwell/Allen Bradely/New folder",
+    "7 - Documents/Rockwell/Allen Bradely/Studios_5000/UDT/PowerFlex_525_IO/PowerFlex_525_Output_DataType.L5X",
+    "7 - Documents/Rockwell/Allen Bradely/Studios_5000/UDT/PowerFlex_525_IO/PowerFlex_525_Input_DataType.L5X",
+    "6 - Main Notes/Travel Booking.md",
+    "6 - Main Notes/TCP Port Probe Utility.md",
     "6 - Main Notes/Python Packet Cannon.md",
     "Bookmarks/README.md",
     "6 - Main Notes/Factorytalk Activation Manager Flexnet Stopped.md",
     "6 - Main Notes/Factorytalk Activation Manager.md",
     "6 - Main Notes/Factorytalk Activation Manager manual cleanup.md",
-    "7 - Documents/Rockwell/Allen Bradely/PowerFlex 525/PowerFlex 525 Adjustable Frequency AC Drive Parameter Groups.pdf",
-    "6 - Main Notes/51240056 - Conagra Brands - Russellville AR - Frozen Dinner Line 11 Pallet Wrapper CNA Upgrades.md",
     "3 - Tags/Conagra.md",
-    "6 - Main Notes/PanelView Plus 7.md",
-    "7 - Documents/Rockwell/Allen Bradely/1734-AENT/POINT I-O and ArmorPOINT I-O Dual-Port Ethernet-IP Adapters.pdf",
-    "6 - Main Notes/51240110 - Conagra Brands - Russellville AR - Frozen Sustainability Project.md",
     "6 - Main Notes/yt-dlp.md",
     "3 - Tags/Esco.md",
     "6 - Main Notes/Docker.md",
     "6 - Main Notes/51230093 - Conagra Brands - Waterloo IA - Snacks Roaster Operation Simulator - General.md",
-    "6 - Main Notes/51240053 - Conagra Brands - Waterloo IA - Snacks Multipack Cartoner CNA.md",
     "Anime List/Anime.md",
-    "6 - Main Notes/Tracfone APN Settings.md",
-    "6 - Main Notes/Bash Curl Command.md",
-    "6 - Main Notes/Bash.md",
-    "3 - Tags/Windows.md",
-    "Computer-Help/computer_help.md",
-    "6 - Main Notes/().md",
-    "Anime List",
-    "6 - Main Notes/51240105 - Kraft Heinz - Cedar Rapids IA VFD IP Addressing - General.md",
-    "6 - Main Notes/51240018 - Kraft Heinz - Cedar Rapids IA 2024 Support - General.md",
-    "7 - Documents/Rockwell/Allen Bradely/1203-GK5/1203-CN1 ControlNet Communications Module.pdf",
-    "7 - Documents/Banner/Banner Vision Systems/Banner Vision System 1 v2.pdf",
-    "6 - Main Notes/Safety.md",
     "Screenshots/Pasted image 20240823120308.png",
     "Screenshots/Pasted image 20240820142301.png",
     "Screenshots/Pasted image 20240820141745.png",
