@@ -121,7 +121,7 @@ Some websites can fall into multiple categories. If you can't find what you need
 - [Materials / Nanotechnology](#Materials/Nanotechnology)
 - [Thermodynamics](#Thermodynamics)
 - [Control](#Control)
-- [Vibrations](Vibrations)
+- [Vibrations](#Vibrations)
 
 ## Gaming
 

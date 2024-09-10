@@ -238,6 +238,13 @@ before an option to negate its meaning
 - use the -o operator, which represents an OR condition
 - find /home \( -name “*.sh” -o -name “*.pl” \)
 - The -a operator represents an AND condition, and is implied by default whenever two selection criteria are placed together
+
+## The Vi/vim Editor
+
+- Ctrl-w: deletes entire word
+- 5h and 3l:  Moves 5 spaces to the right and 3 spaces to the left
+- :(colon)  enters into *ex Mode* or *Last Line Mode*
+- vi reads the file $HOME/.exrc (same as ~/.exrc)
 - 
 
 # Reference

@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "ec00bc4c72589959",
+        "id": "64d3da489e2d3395",
         "type": "tabs",
         "children": [
           {
-            "id": "a37e8c133ca79b8c",
+            "id": "10f76f6e2a477993",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Bookmarks/README.md",
+                "file": "6 - Main Notes/You Unix Linux The Ultimate Guide.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Bookmarks/README.md",
+                "file": "6 - Main Notes/You Unix Linux The Ultimate Guide.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Bookmarks/README.md",
+                "file": "6 - Main Notes/You Unix Linux The Ultimate Guide.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Bookmarks/README.md"
+                "file": "6 - Main Notes/You Unix Linux The Ultimate Guide.md"
               }
             }
           }
@@ -147,19 +147,31 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "a37e8c133ca79b8c",
+  "active": "10f76f6e2a477993",
   "lastOpenFiles": [
-    "7 - Documents/Rockwell/Allen Bradely/PowerFlex 525/UDC-CCW-16.2.0.8651.zip",
-    "7 - Documents/Rockwell/Allen Bradely/PowerFlex 525/EDS_Files_for_PowerFlex_525.zip",
-    "7 - Documents/Rockwell/Allen Bradely/PowerFlex 525/EDS_Files_for_PowerFlex_520_Series_Drives_Family.zip",
-    "7 - Documents/Rockwell/Allen Bradely/PowerFlex 525/Add-on-Profiles/UDC-AOP_16.2.0.8651.zip",
-    "7 - Documents/Rockwell/Allen Bradely/PowerFlex 525/Add-on-Profiles",
-    "7 - Documents/Rockwell/Allen Bradely/PowerFlex 525/ABDrives/PowerFlex520class/PowerFlex_525_1.003_80_AppUpdate.msi",
-    "7 - Documents/Rockwell/Allen Bradely/PowerFlex 525/ABDrives/PowerFlex520class",
-    "7 - Documents/Rockwell/Allen Bradely/PowerFlex 525/ABDrives",
+    "6 - Main Notes/51240053 - Conagra Brands - Waterloo IA - Snacks Multipack Cartoner CNA.md",
+    "6 - Main Notes/Travel Booking.md",
+    "6 - Main Notes/You Unix Linux The Ultimate Guide.md",
+    "Bookmarks/README.md",
+    "7 - Documents/Plus/PS-5000 Series Programmable Limit Switch.pdf",
+    "7 - Documents/Plus",
+    "7 - Documents/New folder",
+    "6 - Main Notes/Lazyvim.md",
+    "6 - Main Notes/browser.md",
+    "6 - Main Notes/Git.md",
+    "6 - Main Notes/Python.md",
+    "6 - Main Notes/Factorytalk Activation Manager.md",
+    "6 - Main Notes/Factorytalk Activation Manager manual cleanup.md",
+    "6 - Main Notes/Factorytalk Activation Manager Flexnet Stopped.md",
+    "7 - Documents/Rockwell/Allen Bradely/PowerFlex 525/EDS_Files_for_PowerFlex_520_Series_Drives_Family/EtherNetIP/0001007F00080200.eds",
+    "7 - Documents/Rockwell/Allen Bradely/PowerFlex 525/EDS_Files_for_PowerFlex_520_Series_Drives_Family/EtherNetIP/000100796C3C0200.eds",
+    "7 - Documents/Rockwell/Allen Bradely/PowerFlex 525/EDS_Files_for_PowerFlex_520_Series_Drives_Family/EtherNetIP/0001007F00080100.eds",
+    "7 - Documents/Rockwell/Allen Bradely/PowerFlex 525/EDS_Files_for_PowerFlex_520_Series_Drives_Family/DeviceNet/000100795C3C0100.eds",
+    "7 - Documents/Rockwell/Allen Bradely/PowerFlex 525/EDS_Files_for_PowerFlex_520_Series_Drives_Family/DeviceNet/000100795C3C0200.eds",
+    "7 - Documents/Rockwell/Allen Bradely/PowerFlex 525/EDS_Files_for_PowerFlex_520_Series_Drives_Family/DeviceNet/0001007E81080300.eds",
+    "7 - Documents/Rockwell/Allen Bradely/PowerFlex 525/EDS_Files_for_PowerFlex_520_Series_Drives_Family/DeviceNet/0001007E81080200.eds",
     "6 - Main Notes/51240056 - Conagra Brands - Russellville AR - Frozen Dinner Line 11 Pallet Wrapper CNA Upgrades.md",
     "6 - Main Notes/PanelView Plus 7.md",
-    "7 - Documents/Rockwell/Allen Bradely/Stratix Switches/Stratix 5800 Managed Switches.pdf",
     "6 - Main Notes/51240105 - Kraft Heinz - Cedar Rapids IA VFD IP Addressing - General.md",
     "6 - Main Notes/51240107 - Builders FirstSource - New Hampton IA SLC 5-01 Upgrade - General.md",
     "6 - Main Notes/51240110 - Conagra Brands - Russellville AR - Frozen Sustainability Project.md",
@@ -168,23 +180,11 @@
     "6 - Main Notes/51240012 - Treehouse Foods - Cedar Rapids IA Casepacker Support - General.md",
     "6 - Main Notes/51240017 - Builders FirstSource - New Hampton IA SLC Support - General.md",
     "6 - Main Notes/51240018 - Kraft Heinz - Cedar Rapids IA 2024 Support - General.md",
-    "6 - Main Notes/51240053 - Conagra Brands - Waterloo IA - Snacks Multipack Cartoner CNA.md",
     "6 - Main Notes/51240055 - Conagra Brands - Russellville AR - Frozen Dinner Line 11 FlexiCell Panel CNA Upgrades.md",
-    "7 - Documents/Rockwell/Allen Bradely/Studios_5000/UDT/PowerFlex_525_IO/PowerFlex_525_Output_DataType.L5X",
-    "7 - Documents/Rockwell/Allen Bradely/Studios_5000/UDT/PowerFlex_525_IO/PowerFlex_525_Input_DataType.L5X",
-    "6 - Main Notes/Travel Booking.md",
     "6 - Main Notes/TCP Port Probe Utility.md",
     "6 - Main Notes/Python Packet Cannon.md",
-    "Bookmarks/README.md",
-    "6 - Main Notes/Factorytalk Activation Manager Flexnet Stopped.md",
-    "6 - Main Notes/Factorytalk Activation Manager.md",
-    "6 - Main Notes/Factorytalk Activation Manager manual cleanup.md",
     "3 - Tags/Conagra.md",
     "6 - Main Notes/yt-dlp.md",
-    "3 - Tags/Esco.md",
-    "6 - Main Notes/Docker.md",
-    "6 - Main Notes/51230093 - Conagra Brands - Waterloo IA - Snacks Roaster Operation Simulator - General.md",
-    "Anime List/Anime.md",
     "Screenshots/Pasted image 20240823120308.png",
     "Screenshots/Pasted image 20240820142301.png",
     "Screenshots/Pasted image 20240820141745.png",

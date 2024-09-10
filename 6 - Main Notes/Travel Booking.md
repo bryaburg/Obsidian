@@ -13,20 +13,17 @@ Tags:
 
 ---
 
-Dear [Travel Agent's Name],
-
-I hope this message finds you well.
+Dear Tim Klopfenstein,
 
 I am reaching out to request assistance with booking travel arrangements for an upcoming project. Below are the details for the travel booking:
 
-- **Project Number:** [Your Project Number]
+- **Project Number:** 51240056 - Conagra Brands - Russellville AR - Frozen Dinner Line 11 Pallet Wrapper CNA Upgrades
 - **Traveler Name(s):** Bryan Burgess
-- **Travel Dates:** [Departure Date] to [Return Date]
-- **Destination(s):** [Destination(s)]
-- **Preferred Departure City:** [City]
-- **Hotel Address:** [Hotel/Accommodation Preferences]
-- **Flight Preferences:** [Flight Preferences, e.g., direct/non-stop, class of service]
-- **Additional Notes:** [Any other special requests or considerations]
+- **Travel Dates:** 09/18/2024 to 09/25/2024
+- **Destination(s):** Russelleville, AR
+- **Preferred Departure City:** N/A
+- **Hotel Address:** ![Address](https://duckduckgo.com/assets/maps/icon-map.svg)300 East Harrell Drive, Russellville, AR 72802
+- **Flight Preferences:** N/A
 
 Please let me know if you need any further information or if there are any forms that need to be completed.
 
