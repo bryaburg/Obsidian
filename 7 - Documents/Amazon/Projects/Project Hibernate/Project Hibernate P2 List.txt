@@ -1,0 +1,11 @@
+CP32:
+	Did not enter energy save:IQZF32413, BRB32313
+
+	Did not exit energy save mode: BRB32427, BSB32327, IQZF32210, IQZF32211, IQZF32212, IQZF32213
+
+CP61:
+	Intermittently turning off while running: BRB61311,
+
+Smartpac:
+	Intermittently turning off while running: IQZF63210, BRB63220
+	

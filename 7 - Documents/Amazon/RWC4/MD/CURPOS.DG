@@ -1,0 +1,38 @@
+F Number: F236039
+VERSION : HandlingTool         
+$VERSION: V9.10170      9/18/2019
+DATE:     06-NOV-20 09:53 
+
+CURRENT ROBOT POSITION::
+Group #:  1
+ 
+CURRENT JOINT POSITION:
+Joint   1:     -1.76
+Joint   2:    -17.17
+Joint   3:     -7.78
+Joint   4:      -.36
+Joint   5:    -82.13
+Joint   6:    -28.19
+
+
+Frame #:   0  Tool #:   3
+CURRENT USER FRAME POSITION:
+CFG: N U T, 0, 0, 0
+X:   1739.98
+Y:    -47.99
+Z:    178.94
+W:      -.10
+P:      -.36
+R:     90.00
+
+
+Tool #:   3
+CURRENT WORLD POSITION:
+CFG: N U T, 0, 0, 0
+X:   1739.98
+Y:    -47.99
+Z:    178.94
+W:      -.10
+P:      -.36
+R:     90.00
+

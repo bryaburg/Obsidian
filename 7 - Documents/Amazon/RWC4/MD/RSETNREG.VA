@@ -1,0 +1,32 @@
+[RSETNREG]ISEVERITY  Storage: CMOS  Access: RW  : INTEGER = Uninitialized
+
+[RSETNREG]ISTAT  Storage: CMOS  Access: RW  : INTEGER = Uninitialized
+
+[RSETNREG]IDATATYPE  Storage: CMOS  Access: RW  : INTEGER = Uninitialized
+
+[RSETNREG]ISRCIDX  Storage: CMOS  Access: RW  : INTEGER = Uninitialized
+
+[RSETNREG]IDSTIDX  Storage: CMOS  Access: RW  : INTEGER = Uninitialized
+
+[RSETNREG]IOPTION  Storage: CMOS  Access: RW  : INTEGER = Uninitialized
+
+[RSETNREG]STRHOST  Storage: CMOS  Access: RW  : STRING[40] = Uninitialized
+
+[RSETNREG]IMAXREGNUM  Storage: UNINIT_DRAM  Access: RW  : INTEGER = Uninitialized
+
+[RSETNREG]IVALUE  Storage: CMOS  Access: RW  : INTEGER = Uninitialized
+
+[RSETNREG]RVALUE  Storage: CMOS  Access: RW  : REAL = Uninitialized
+
+[RSETNREG]IDMYSTAT  Storage: CMOS  Access: RW  : INTEGER = Uninitialized
+
+[RSETNREG]IARG  Storage: CMOS  Access: RW  : INTEGER = Uninitialized
+
+[RSETNREG]RARG  Storage: CMOS  Access: RW  : REAL = Uninitialized
+
+[RSETNREG]STRARG  Storage: CMOS  Access: RW  : STRING[40] = Uninitialized
+
+[RSETNREG]IENTRY  Storage: CMOS  Access: RW  : INTEGER = Uninitialized
+
+[RSETNREG]BREALFLAG  Storage: CMOS  Access: RW  : BOOLEAN = Uninitialized
+

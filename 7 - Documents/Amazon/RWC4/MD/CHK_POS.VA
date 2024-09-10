@@ -1,0 +1,52 @@
+[CHK_POS]NILL_POS  Storage: CMOS  Access: RW  : POSITION = Uninitialized
+
+[CHK_POS]UFRAME  Storage: CMOS  Access: RW  : POSITION = Uninitialized
+
+[CHK_POS]UTOOL  Storage: CMOS  Access: RW  : POSITION = Uninitialized
+
+[CHK_POS]POS_DATA  Storage: CMOS  Access: RW  : XYZWPREXT = Uninitialized
+
+[CHK_POS]FRAME_OFS  Storage: CMOS  Access: RW  : XYZWPREXT = Uninitialized
+
+[CHK_POS]TOOL_OFS  Storage: CMOS  Access: RW  : XYZWPREXT = Uninitialized
+
+[CHK_POS]WORK_POS  Storage: CMOS  Access: RW  : XYZWPREXT = Uninitialized
+
+[CHK_POS]STATUS  Storage: CMOS  Access: RW  : INTEGER = Uninitialized
+
+[CHK_POS]I  Storage: CMOS  Access: RW  : INTEGER = Uninitialized
+
+[CHK_POS]GROUP_NUM  Storage: CMOS  Access: RW  : INTEGER = Uninitialized
+
+[CHK_POS]ENTRY  Storage: CMOS  Access: RW  : INTEGER = Uninitialized
+
+[CHK_POS]POS_TYPE  Storage: CMOS  Access: RW  : INTEGER = Uninitialized
+
+[CHK_POS]NUM_AXES  Storage: CMOS  Access: RW  : INTEGER = Uninitialized
+
+[CHK_POS]DATA_TYPE  Storage: CMOS  Access: RW  : ARRAY[7] OF INTEGER
+  [1] = Uninitialized
+  [2] = Uninitialized
+  [3] = Uninitialized
+  [4] = Uninitialized
+  [5] = Uninitialized
+  [6] = Uninitialized
+  [7] = Uninitialized
+
+[CHK_POS]INT_PARAM  Storage: CMOS  Access: RW  : ARRAY[7] OF INTEGER
+  [1] = Uninitialized
+  [2] = Uninitialized
+  [3] = Uninitialized
+  [4] = Uninitialized
+  [5] = Uninitialized
+  [6] = Uninitialized
+  [7] = Uninitialized
+
+[CHK_POS]REAL_PARAM  Storage: CMOS  Access: RW  : REAL = Uninitialized
+
+[CHK_POS]STR_PARAM  Storage: CMOS  Access: RW  : STRING[100] = Uninitialized
+
+[CHK_POS]RET_STATUS  Storage: CMOS  Access: RW  : INTEGER = Uninitialized
+
+[CHK_POS]ERR_MSG  Storage: CMOS  Access: RW  : STRING[40] = Uninitialized
+

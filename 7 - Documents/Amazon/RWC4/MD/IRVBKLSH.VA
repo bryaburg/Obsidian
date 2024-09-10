@@ -1,0 +1,25 @@
+[IRVBKLSH]STAT  Storage: CMOS  Access: RW  : INTEGER = 0
+
+[IRVBKLSH]GROUP_NUM  Storage: CMOS  Access: RW  : INTEGER = 1
+
+[IRVBKLSH]CUR_POS  Storage: CMOS  Access: RW  : POSITION = 
+  Group: 1   Config: N U T, 0, 0, 0
+  X: -1502.598   Y:  2156.740   Z:  -554.012
+  W:     -.111   P:      .121   R:    90.790
+
+[IRVBKLSH]$PIXEL  Storage: DRAM  Access: RW  : PIXEL = 
+   Field: $PIXEL.VT Access: RW: REAL = Uninitialized
+   Field: $PIXEL.HZ Access: RW: REAL = Uninitialized
+
+[IRVBKLSH]$VECTOR2  Storage: DRAM  Access: RW  : VECTOR2 = 
+   Field: $VECTOR2.X Access: RW: REAL = Uninitialized
+   Field: $VECTOR2.Y Access: RW: REAL = Uninitialized
+
+[IRVBKLSH]$AFFPOSE  Storage: DRAM  Access: RW  : AFFPOSE = 
+   Field: $AFFPOSE.VT Access: RW: REAL = Uninitialized
+   Field: $AFFPOSE.HZ Access: RW: REAL = Uninitialized
+   Field: $AFFPOSE.ANGLE Access: RW: REAL = Uninitialized
+   Field: $AFFPOSE.SCALE Access: RW: REAL = Uninitialized
+   Field: $AFFPOSE.ASPECT Access: RW: REAL = Uninitialized
+   Field: $AFFPOSE.SKEW Access: RW: REAL = Uninitialized
+

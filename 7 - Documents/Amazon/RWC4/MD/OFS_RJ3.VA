@@ -1,0 +1,70 @@
+[OFS_RJ3]REG_NUM  Storage: CMOS  Access: RW  : ARRAY[8] OF INTEGER
+  [1] = Uninitialized
+  [2] = Uninitialized
+  [3] = Uninitialized
+  [4] = Uninitialized
+  [5] = Uninitialized
+  [6] = Uninitialized
+  [7] = Uninitialized
+  [8] = Uninitialized
+
+[OFS_RJ3]I  Storage: CMOS  Access: RW  : INTEGER = Uninitialized
+
+[OFS_RJ3]STATUS  Storage: CMOS  Access: RW  : INTEGER = Uninitialized
+
+[OFS_RJ3]GROUP_NUM  Storage: CMOS  Access: RW  : INTEGER = Uninitialized
+
+[OFS_RJ3]P1_XYZEX  Storage: CMOS  Access: RW  : XYZWPREXT = Uninitialized
+
+[OFS_RJ3]P2_XYZEX  Storage: CMOS  Access: RW  : XYZWPREXT = Uninitialized
+
+[OFS_RJ3]NOM  Storage: CMOS  Access: RW  : POSITION = Uninitialized
+
+[OFS_RJ3]NOM_XYZEX  Storage: CMOS  Access: RW  : XYZWPREXT = Uninitialized
+
+[OFS_RJ3]ACT  Storage: CMOS  Access: RW  : POSITION = Uninitialized
+
+[OFS_RJ3]ACT_XYZEX  Storage: CMOS  Access: RW  : XYZWPREXT = Uninitialized
+
+[OFS_RJ3]POS  Storage: CMOS  Access: RW  : POSITION = Uninitialized
+
+[OFS_RJ3]POS_XYZEX  Storage: CMOS  Access: RW  : XYZWPREXT = Uninitialized
+
+[OFS_RJ3]POS_XYZ  Storage: CMOS  Access: RW  : XYZWPR = Uninitialized
+
+[OFS_RJ3]OFS  Storage: CMOS  Access: RW  : POSITION = Uninitialized
+
+[OFS_RJ3]OFS_INV  Storage: CMOS  Access: RW  : POSITION = Uninitialized
+
+[OFS_RJ3]OFF_A  Storage: CMOS  Access: RW  : POSITION = Uninitialized
+
+[OFS_RJ3]OFF_A_XYZ  Storage: CMOS  Access: RW  : XYZWPR = Uninitialized
+
+[OFS_RJ3]OFF_A_XYZEX  Storage: CMOS  Access: RW  : XYZWPREXT = Uninitialized
+
+[OFS_RJ3]POS_TYPE  Storage: CMOS  Access: RW  : INTEGER = Uninitialized
+
+[OFS_RJ3]DATA_TYPE  Storage: CMOS  Access: RW  : ARRAY[8] OF INTEGER
+  [1] = Uninitialized
+  [2] = Uninitialized
+  [3] = Uninitialized
+  [4] = Uninitialized
+  [5] = Uninitialized
+  [6] = Uninitialized
+  [7] = Uninitialized
+  [8] = Uninitialized
+
+[OFS_RJ3]REAL_PARAM  Storage: CMOS  Access: RW  : REAL = Uninitialized
+
+[OFS_RJ3]STR_PARAM  Storage: CMOS  Access: RW  : STRING[100] = Uninitialized
+
+[OFS_RJ3]REAL_FLAG  Storage: CMOS  Access: RW  : BOOLEAN = Uninitialized
+
+[OFS_RJ3]NOMI_FLAG  Storage: CMOS  Access: RW  : INTEGER = Uninitialized
+
+[OFS_RJ3]REAL_VALUE  Storage: CMOS  Access: RW  : REAL = Uninitialized
+
+[OFS_RJ3]RET_STATUS  Storage: CMOS  Access: RW  : INTEGER = Uninitialized
+
+[OFS_RJ3]ERR_MSG  Storage: CMOS  Access: RW  : STRING[40] = Uninitialized
+

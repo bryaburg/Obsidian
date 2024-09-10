@@ -1,0 +1,10 @@
+[IRVDISPLAY4D]NAME  Storage: DRAM  Access: RW  : STRING[40] = Uninitialized
+
+[IRVDISPLAY4D]DATA_TYPE  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+
+[IRVDISPLAY4D]DMY_INT  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+
+[IRVDISPLAY4D]DMY_REAL  Storage: DRAM  Access: RW  : REAL = Uninitialized
+
+[IRVDISPLAY4D]STAT  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+

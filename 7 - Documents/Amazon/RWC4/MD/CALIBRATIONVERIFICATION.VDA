@@ -1,0 +1,433 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<VISDATA filename="CALIBRATIONVERIFICATION">
+  <PROPERTY name="version" class="UBYTE">2</PROPERTY>
+  <PROPERTY name="created" class="STRING">31-MAR-18 08:23 </PROPERTY>
+  <PROPERTY name="modified" class="STRING">16-SEP-19 12:07 </PROPERTY>
+  <VISTOOL type="4" typename="VP2S">
+    <PROPERTY name="text" class="STRING">2-D Single-View Vision Process</PROPERTY>
+    <PROPERTY name="version" class="SHORT">1280</PROPERTY>
+    <PROPERTY name="camdata_name" class="STRING">TOTECAMERA</PROPERTY>
+    <PROPERTY name="find_first" class="BOOLEAN" raw="0">FALSE</PROPERTY>
+    <PROPERTY name="num_to_find" class="INTEGER">1</PROPERTY>
+    <PROPERTY name="offset_type" class="INTEGER">2</PROPERTY>
+    <PROPERTY name="ctlr_name" class="STRING"></PROPERTY>
+    <PROPERTY name="group_num" class="INTEGER">1</PROPERTY>
+    <PROPERTY name="uframe_num" class="INTEGER">12</PROPERTY>
+    <PROPERTY name="utool_num" class="INTEGER">1</PROPERTY>
+    <PROPERTY name="logging" class="USHORT">1</PROPERTY>
+    <PROPERTY name="use_model_id" class="BOOLEAN" raw="0">FALSE</PROPERTY>
+    <PROPERTY name="convert_to_mm" class="BOOLEAN" raw="1">TRUE</PROPERTY>
+    <PROPERTY name="used_index" class="INTEGER">0</PROPERTY>
+    <PROPERTY name="display_image_name" class="STRING">Snap Tool 1</PROPERTY>
+    <PROPERTY name="num_ref_data" class="INTEGER">1</PROPERTY>
+    <PROPERTY name="ref_data" class="VP2S_REF_DATA" index="0">
+      <PROPERTY name="model_id" class="INTEGER">1</PROPERTY>
+      <PROPERTY name="part_z_height" class="FLOAT" raw="3291004928">   -675</PROPERTY>
+      <PROPERTY name="is_trained" class="BOOLEAN" raw="1">TRUE</PROPERTY>
+      <PROPERTY name="nominal" class="XYZWPR">
+        <PROPERTY name="x" class="FLOAT" raw="1036976441">  .10107655</PROPERTY>
+        <PROPERTY name="y" class="FLOAT" raw="3213979817"> -1.1362506</PROPERTY>
+        <PROPERTY name="z" class="FLOAT" raw="3291004929"> -675.00006</PROPERTY>
+        <PROPERTY name="w" class="FLOAT" raw="2969113052"> -1.8122210e-09</PROPERTY>
+        <PROPERTY name="p" class="FLOAT" raw="845972523"> 1.3767059e-08</PROPERTY>
+        <PROPERTY name="r" class="FLOAT" raw="1022485347">  .029527371</PROPERTY>
+      </PROPERTY>
+      <PROPERTY name="limit_check_name" class="STRING"></PROPERTY>
+    </PROPERTY>
+    <PROPERTY name="num_com_tool" class="INTEGER">3</PROPERTY>
+    <VISTOOL type="159" typename="CTGS">
+      <PROPERTY name="text" class="STRING">Snap Tool 1</PROPERTY>
+      <PROPERTY name="version" class="USHORT">1281</PROPERTY>
+      <PROPERTY name="snap_window" class="ROI">
+        <PROPERTY name="pos" class="PIXEL">
+          <PROPERTY name="x" class="INTEGER">224</PROPERTY>
+          <PROPERTY name="y" class="INTEGER">336</PROPERTY>
+        </PROPERTY>
+        <PROPERTY name="size" class="PIXEL">
+          <PROPERTY name="x" class="INTEGER">570</PROPERTY>
+          <PROPERTY name="y" class="INTEGER">620</PROPERTY>
+        </PROPERTY>
+      </PROPERTY>
+      <PROPERTY name="binning_level" class="INTEGER">1</PROPERTY>
+      <PROPERTY name="exposure" class="EXPOSURE">
+        <PROPERTY name="exposure" class="INTEGER">21213</PROPERTY>
+        <PROPERTY name="is_auto" class="BOOLEAN" raw="0">FALSE</PROPERTY>
+        <PROPERTY name="num_expo" class="BYTE">1</PROPERTY>
+        <PROPERTY name="multi_exposure" class="MULTIEXPO">
+          <PROPERTY name="ref_area" class="ROI">
+            <PROPERTY name="pos" class="PIXEL">
+              <PROPERTY name="x" class="INTEGER">********</PROPERTY>
+              <PROPERTY name="y" class="INTEGER">********</PROPERTY>
+            </PROPERTY>
+            <PROPERTY name="size" class="PIXEL">
+              <PROPERTY name="x" class="INTEGER">********</PROPERTY>
+              <PROPERTY name="y" class="INTEGER">********</PROPERTY>
+            </PROPERTY>
+          </PROPERTY>
+          <PROPERTY name="dont_care" class="IMAGE">
+          </PROPERTY>
+          <PROPERTY name="scaling_mode" class="INTEGER">0</PROPERTY>
+        </PROPERTY>
+      </PROPERTY>
+      <PROPERTY name="led_mode" class="LEDMODE">
+        <PROPERTY name="type" class="UBYTE">0</PROPERTY>
+      </PROPERTY>
+      <PROPERTY name="red_gain" class="FLOAT" raw="1065353216">      1</PROPERTY>
+      <PROPERTY name="green_gain" class="FLOAT" raw="1065353216">      1</PROPERTY>
+      <PROPERTY name="blue_gain" class="FLOAT" raw="1065353216">      1</PROPERTY>
+    </VISTOOL>
+    <VISTOOL type="64" typename="CTWS">
+      <PROPERTY name="text" class="STRING">Window Shift Tool 1</PROPERTY>
+      <PROPERTY name="version" class="USHORT">1280</PROPERTY>
+      <PROPERTY name="input_data_type" class="UBYTE">1</PROPERTY>
+      <PROPERTY name="vpresult_vreg_index" class="INTEGER">********</PROPERTY>
+      <PROPERTY name="num_child_tools" class="INTEGER">1</PROPERTY>
+      <VISTOOL type="2" typename="CTGL">
+        <PROPERTY name="text" class="STRING">GPM Locator Tool 1</PROPERTY>
+        <PROPERTY name="version" class="INTEGER">1280</PROPERTY>
+        <PROPERTY name="input_image_name" class="STRING">Snap Tool 1</PROPERTY>
+        <PROPERTY name="model_id" class="INTEGER">1</PROPERTY>
+        <PROPERTY name="model_scale" class="INTEGER">1</PROPERTY>
+        <PROPERTY name="train_area" class="AFFRECT">
+          <PROPERTY name="po" class="VECTOR2">
+            <PROPERTY name="x" class="FLOAT" raw="1134837760"> 328.5</PROPERTY>
+            <PROPERTY name="y" class="FLOAT" raw="1141104640"> 527.5</PROPERTY>
+          </PROPERTY>
+          <PROPERTY name="vx" class="VECTOR2">
+            <PROPERTY name="x" class="FLOAT" raw="1131282432"> 238</PROPERTY>
+            <PROPERTY name="y" class="FLOAT" raw="0"> 0</PROPERTY>
+          </PROPERTY>
+          <PROPERTY name="vy" class="VECTOR2">
+            <PROPERTY name="x" class="FLOAT" raw="0"> 0</PROPERTY>
+            <PROPERTY name="y" class="FLOAT" raw="1127350272"> 178</PROPERTY>
+          </PROPERTY>
+        </PROPERTY>
+        <PROPERTY name="search_area" class="AFFRECT">
+          <PROPERTY name="po" class="VECTOR2">
+            <PROPERTY name="x" class="FLOAT" raw="1134149632"> 307.5</PROPERTY>
+            <PROPERTY name="y" class="FLOAT" raw="1140940800"> 517.5</PROPERTY>
+          </PROPERTY>
+          <PROPERTY name="vx" class="VECTOR2">
+            <PROPERTY name="x" class="FLOAT" raw="1132953600"> 271</PROPERTY>
+            <PROPERTY name="y" class="FLOAT" raw="0"> 0</PROPERTY>
+          </PROPERTY>
+          <PROPERTY name="vy" class="VECTOR2">
+            <PROPERTY name="x" class="FLOAT" raw="0"> 0</PROPERTY>
+            <PROPERTY name="y" class="FLOAT" raw="1128595456"> 197</PROPERTY>
+          </PROPERTY>
+        </PROPERTY>
+        <PROPERTY name="bias_base_tool_name" class="STRING"></PROPERTY>
+        <PROPERTY name="num_child_tool" class="INTEGER">0</PROPERTY>
+      </VISTOOL>
+    </VISTOOL>
+    <VISTOOL type="25" typename="CTBL">
+      <PROPERTY name="text" class="STRING">Blob Locator Tool 1</PROPERTY>
+      <PROPERTY name="version" class="USHORT">1280</PROPERTY>
+      <PROPERTY name="input_image_name" class="STRING">Snap Tool 1</PROPERTY>
+      <PROPERTY name="is_auto" class="BOOLEAN" raw="0">FALSE</PROPERTY>
+      <PROPERTY name="usr_thr_lo" class="UBYTE">100</PROPERTY>
+      <PROPERTY name="thresh_param_lo" class="BINTHRESHPARAM">
+        <PROPERTY name="sys_thr" class="FLOAT" raw="2147483647">********</PROPERTY>
+        <PROPERTY name="histo_hi" class="FLOAT" raw="2147483647">********</PROPERTY>
+        <PROPERTY name="histo_lo" class="FLOAT" raw="2147483647">********</PROPERTY>
+      </PROPERTY>
+      <PROPERTY name="usr_thr_hi" class="UBYTE">255</PROPERTY>
+      <PROPERTY name="thresh_param_hi" class="BINTHRESHPARAM">
+        <PROPERTY name="sys_thr" class="FLOAT" raw="2147483647">********</PROPERTY>
+        <PROPERTY name="histo_hi" class="FLOAT" raw="2147483647">********</PROPERTY>
+        <PROPERTY name="histo_lo" class="FLOAT" raw="2147483647">********</PROPERTY>
+      </PROPERTY>
+      <PROPERTY name="dual_thresh_enb" class="BOOLEAN" raw="0">FALSE</PROPERTY>
+      <PROPERTY name="blob_polarity" class="UBYTE">2</PROPERTY>
+      <PROPERTY name="model_id" class="INTEGER">1</PROPERTY>
+      <PROPERTY name="trained_blob" class="IMAGEBLOB">
+        <PROPERTY name="version" class="UBYTE">1</PROPERTY>
+        <PROPERTY name="color" class="UBYTE">1</PROPERTY>
+        <PROPERTY name="area" class="INTEGER">2261</PROPERTY>
+        <PROPERTY name="center" class="VECTOR2">
+          <PROPERTY name="x" class="FLOAT" raw="1140839311"> 511.6528</PROPERTY>
+          <PROPERTY name="y" class="FLOAT" raw="1142949898"> 640.12561</PROPERTY>
+        </PROPERTY>
+        <PROPERTY name="angle" class="FLOAT" raw="0"> 0</PROPERTY>
+        <PROPERTY name="radii" class="VECTOR2">
+          <PROPERTY name="x" class="FLOAT" raw="1104412672"> 26.5</PROPERTY>
+          <PROPERTY name="y" class="FLOAT" raw="1104150528"> 26</PROPERTY>
+        </PROPERTY>
+        <PROPERTY name="perimeter" class="INTEGER">178</PROPERTY>
+        <PROPERTY name="perimeter" class="INTEGER">178</PROPERTY>
+        <PROPERTY name="circularity" class="FLOAT" raw="1063620935">  .896748</PROPERTY>
+        <PROPERTY name="elongation" class="FLOAT" raw="1065514535"> 1.0192307</PROPERTY>
+        <PROPERTY name="count" class="INTEGER">0</PROPERTY>
+        <PROPERTY name="count" class="INTEGER">151</PROPERTY>
+        <PROPERTY name="first_point" class="PIXEL">
+          <PROPERTY name="x" class="FLOAT" raw="20"> 2.8025969e-44</PROPERTY>
+          <PROPERTY name="y" class="FLOAT" raw="41"> 5.7453237e-44</PROPERTY>
+        </PROPERTY>
+        <PROPERTY name="last_point" class="PIXEL">
+          <PROPERTY name="x" class="FLOAT" raw="20"> 2.8025969e-44</PROPERTY>
+          <PROPERTY name="y" class="FLOAT" raw="41"> 5.7453237e-44</PROPERTY>
+        </PROPERTY>
+        <PROPERTY name="closed" class="BOOLEAN" raw="1">TRUE</PROPERTY>
+        <PROPERTY name="length" class="INTEGER">151</PROPERTY>
+        <PROPERTY name="num_pixels" class="INTEGER">151</PROPERTY>
+        <PROPERTY name="strength" class="INTEGER">0</PROPERTY>
+        <PROPERTY name="contrast" class="INTEGER">0</PROPERTY>
+        <PROPERTY name="link" class="UBYTE" index="0">7</PROPERTY>
+        <PROPERTY name="link" class="UBYTE" index="1">6</PROPERTY>
+        <PROPERTY name="link" class="UBYTE" index="2">6</PROPERTY>
+        <PROPERTY name="link" class="UBYTE" index="3">6</PROPERTY>
+        <PROPERTY name="link" class="UBYTE" index="4">7</PROPERTY>
+        <PROPERTY name="link" class="UBYTE" index="5">6</PROPERTY>
+        <PROPERTY name="link" class="UBYTE" index="6">7</PROPERTY>
+        <PROPERTY name="link" class="UBYTE" index="7">6</PROPERTY>
+        <PROPERTY name="link" class="UBYTE" index="8">7</PROPERTY>
+        <PROPERTY name="link" class="UBYTE" index="9">6</PROPERTY>
+        <PROPERTY name="link" class="UBYTE" index="10">7</PROPERTY>
+        <PROPERTY name="link" class="UBYTE" index="11">7</PROPERTY>
+        <PROPERTY name="link" class="UBYTE" index="12">6</PROPERTY>
+        <PROPERTY name="link" class="UBYTE" index="13">7</PROPERTY>
+        <PROPERTY name="link" class="UBYTE" index="14">7</PROPERTY>
+        <PROPERTY name="link" class="UBYTE" index="15">7</PROPERTY>
+        <PROPERTY name="link" class="UBYTE" index="16">0</PROPERTY>
+        <PROPERTY name="link" class="UBYTE" index="17">7</PROPERTY>
+        <PROPERTY name="link" class="UBYTE" index="18">7</PROPERTY>
+        <PROPERTY name="link" class="UBYTE" index="19">7</PROPERTY>
+        <PROPERTY name="link" class="UBYTE" index="20">0</PROPERTY>
+        <PROPERTY name="link" class="UBYTE" index="21">0</PROPERTY>
+        <PROPERTY name="link" class="UBYTE" index="22">7</PROPERTY>
+        <PROPERTY name="link" class="UBYTE" index="23">0</PROPERTY>
+        <PROPERTY name="link" class="UBYTE" index="24">7</PROPERTY>
+        <PROPERTY name="link" class="UBYTE" index="25">0</PROPERTY>
+        <PROPERTY name="link" class="UBYTE" index="26">0</PROPERTY>
+        <PROPERTY name="link" class="UBYTE" index="27">0</PROPERTY>
+        <PROPERTY name="link" class="UBYTE" index="28">7</PROPERTY>
+        <PROPERTY name="link" class="UBYTE" index="29">0</PROPERTY>
+        <PROPERTY name="link" class="UBYTE" index="30">0</PROPERTY>
+        <PROPERTY name="link" class="UBYTE" index="31">0</PROPERTY>
+        <PROPERTY name="link" class="UBYTE" index="32">0</PROPERTY>
+        <PROPERTY name="link" class="UBYTE" index="33">0</PROPERTY>
+        <PROPERTY name="link" class="UBYTE" index="34">0</PROPERTY>
+        <PROPERTY name="link" class="UBYTE" index="35">0</PROPERTY>
+        <PROPERTY name="link" class="UBYTE" index="36">0</PROPERTY>
+        <PROPERTY name="link" class="UBYTE" index="37">0</PROPERTY>
+        <PROPERTY name="link" class="UBYTE" index="38">0</PROPERTY>
+        <PROPERTY name="link" class="UBYTE" index="39">1</PROPERTY>
+        <PROPERTY name="link" class="UBYTE" index="40">0</PROPERTY>
+        <PROPERTY name="link" class="UBYTE" index="41">0</PROPERTY>
+        <PROPERTY name="link" class="UBYTE" index="42">1</PROPERTY>
+        <PROPERTY name="link" class="UBYTE" index="43">0</PROPERTY>
+        <PROPERTY name="link" class="UBYTE" index="44">0</PROPERTY>
+        <PROPERTY name="link" class="UBYTE" index="45">1</PROPERTY>
+        <PROPERTY name="link" class="UBYTE" index="46">1</PROPERTY>
+        <PROPERTY name="link" class="UBYTE" index="47">0</PROPERTY>
+        <PROPERTY name="link" class="UBYTE" index="48">1</PROPERTY>
+        <PROPERTY name="link" class="UBYTE" index="49">1</PROPERTY>
+        <PROPERTY name="link" class="UBYTE" index="50">0</PROPERTY>
+        <PROPERTY name="link" class="UBYTE" index="51">1</PROPERTY>
+        <PROPERTY name="link" class="UBYTE" index="52">1</PROPERTY>
+        <PROPERTY name="link" class="UBYTE" index="53">1</PROPERTY>
+        <PROPERTY name="link" class="UBYTE" index="54">2</PROPERTY>
+        <PROPERTY name="link" class="UBYTE" index="55">1</PROPERTY>
+        <PROPERTY name="link" class="UBYTE" index="56">1</PROPERTY>
+        <PROPERTY name="link" class="UBYTE" index="57">1</PROPERTY>
+        <PROPERTY name="link" class="UBYTE" index="58">2</PROPERTY>
+        <PROPERTY name="link" class="UBYTE" index="59">1</PROPERTY>
+        <PROPERTY name="link" class="UBYTE" index="60">2</PROPERTY>
+        <PROPERTY name="link" class="UBYTE" index="61">2</PROPERTY>
+        <PROPERTY name="link" class="UBYTE" index="62">1</PROPERTY>
+        <PROPERTY name="link" class="UBYTE" index="63">2</PROPERTY>
+        <PROPERTY name="link" class="UBYTE" index="64">2</PROPERTY>
+        <PROPERTY name="link" class="UBYTE" index="65">1</PROPERTY>
+        <PROPERTY name="link" class="UBYTE" index="66">2</PROPERTY>
+        <PROPERTY name="link" class="UBYTE" index="67">2</PROPERTY>
+        <PROPERTY name="link" class="UBYTE" index="68">2</PROPERTY>
+        <PROPERTY name="link" class="UBYTE" index="69">2</PROPERTY>
+        <PROPERTY name="link" class="UBYTE" index="70">2</PROPERTY>
+        <PROPERTY name="link" class="UBYTE" index="71">2</PROPERTY>
+        <PROPERTY name="link" class="UBYTE" index="72">2</PROPERTY>
+        <PROPERTY name="link" class="UBYTE" index="73">2</PROPERTY>
+        <PROPERTY name="link" class="UBYTE" index="74">2</PROPERTY>
+        <PROPERTY name="link" class="UBYTE" index="75">3</PROPERTY>
+        <PROPERTY name="link" class="UBYTE" index="76">1</PROPERTY>
+        <PROPERTY name="link" class="UBYTE" index="77">3</PROPERTY>
+        <PROPERTY name="link" class="UBYTE" index="78">2</PROPERTY>
+        <PROPERTY name="link" class="UBYTE" index="79">2</PROPERTY>
+        <PROPERTY name="link" class="UBYTE" index="80">3</PROPERTY>
+        <PROPERTY name="link" class="UBYTE" index="81">2</PROPERTY>
+        <PROPERTY name="link" class="UBYTE" index="82">3</PROPERTY>
+        <PROPERTY name="link" class="UBYTE" index="83">2</PROPERTY>
+        <PROPERTY name="link" class="UBYTE" index="84">3</PROPERTY>
+        <PROPERTY name="link" class="UBYTE" index="85">3</PROPERTY>
+        <PROPERTY name="link" class="UBYTE" index="86">2</PROPERTY>
+        <PROPERTY name="link" class="UBYTE" index="87">3</PROPERTY>
+        <PROPERTY name="link" class="UBYTE" index="88">2</PROPERTY>
+        <PROPERTY name="link" class="UBYTE" index="89">3</PROPERTY>
+        <PROPERTY name="link" class="UBYTE" index="90">4</PROPERTY>
+        <PROPERTY name="link" class="UBYTE" index="91">3</PROPERTY>
+        <PROPERTY name="link" class="UBYTE" index="92">3</PROPERTY>
+        <PROPERTY name="link" class="UBYTE" index="93">3</PROPERTY>
+        <PROPERTY name="link" class="UBYTE" index="94">4</PROPERTY>
+        <PROPERTY name="link" class="UBYTE" index="95">3</PROPERTY>
+        <PROPERTY name="link" class="UBYTE" index="96">4</PROPERTY>
+        <PROPERTY name="link" class="UBYTE" index="97">3</PROPERTY>
+        <PROPERTY name="link" class="UBYTE" index="98">4</PROPERTY>
+        <PROPERTY name="link" class="UBYTE" index="99">3</PROPERTY>
+        <PROPERTY name="link" class="UBYTE" index="100">4</PROPERTY>
+        <PROPERTY name="link" class="UBYTE" index="101">3</PROPERTY>
+        <PROPERTY name="link" class="UBYTE" index="102">4</PROPERTY>
+        <PROPERTY name="link" class="UBYTE" index="103">4</PROPERTY>
+        <PROPERTY name="link" class="UBYTE" index="104">4</PROPERTY>
+        <PROPERTY name="link" class="UBYTE" index="105">4</PROPERTY>
+        <PROPERTY name="link" class="UBYTE" index="106">4</PROPERTY>
+        <PROPERTY name="link" class="UBYTE" index="107">4</PROPERTY>
+        <PROPERTY name="link" class="UBYTE" index="108">4</PROPERTY>
+        <PROPERTY name="link" class="UBYTE" index="109">4</PROPERTY>
+        <PROPERTY name="link" class="UBYTE" index="110">4</PROPERTY>
+        <PROPERTY name="link" class="UBYTE" index="111">4</PROPERTY>
+        <PROPERTY name="link" class="UBYTE" index="112">4</PROPERTY>
+        <PROPERTY name="link" class="UBYTE" index="113">4</PROPERTY>
+        <PROPERTY name="link" class="UBYTE" index="114">4</PROPERTY>
+        <PROPERTY name="link" class="UBYTE" index="115">4</PROPERTY>
+        <PROPERTY name="link" class="UBYTE" index="116">5</PROPERTY>
+        <PROPERTY name="link" class="UBYTE" index="117">4</PROPERTY>
+        <PROPERTY name="link" class="UBYTE" index="118">4</PROPERTY>
+        <PROPERTY name="link" class="UBYTE" index="119">5</PROPERTY>
+        <PROPERTY name="link" class="UBYTE" index="120">4</PROPERTY>
+        <PROPERTY name="link" class="UBYTE" index="121">5</PROPERTY>
+        <PROPERTY name="link" class="UBYTE" index="122">5</PROPERTY>
+        <PROPERTY name="link" class="UBYTE" index="123">4</PROPERTY>
+        <PROPERTY name="link" class="UBYTE" index="124">5</PROPERTY>
+        <PROPERTY name="link" class="UBYTE" index="125">5</PROPERTY>
+        <PROPERTY name="link" class="UBYTE" index="126">4</PROPERTY>
+        <PROPERTY name="link" class="UBYTE" index="127">5</PROPERTY>
+        <PROPERTY name="link" class="UBYTE" index="128">5</PROPERTY>
+        <PROPERTY name="link" class="UBYTE" index="129">5</PROPERTY>
+        <PROPERTY name="link" class="UBYTE" index="130">6</PROPERTY>
+        <PROPERTY name="link" class="UBYTE" index="131">5</PROPERTY>
+        <PROPERTY name="link" class="UBYTE" index="132">5</PROPERTY>
+        <PROPERTY name="link" class="UBYTE" index="133">6</PROPERTY>
+        <PROPERTY name="link" class="UBYTE" index="134">5</PROPERTY>
+        <PROPERTY name="link" class="UBYTE" index="135">6</PROPERTY>
+        <PROPERTY name="link" class="UBYTE" index="136">5</PROPERTY>
+        <PROPERTY name="link" class="UBYTE" index="137">6</PROPERTY>
+        <PROPERTY name="link" class="UBYTE" index="138">5</PROPERTY>
+        <PROPERTY name="link" class="UBYTE" index="139">6</PROPERTY>
+        <PROPERTY name="link" class="UBYTE" index="140">6</PROPERTY>
+        <PROPERTY name="link" class="UBYTE" index="141">6</PROPERTY>
+        <PROPERTY name="link" class="UBYTE" index="142">5</PROPERTY>
+        <PROPERTY name="link" class="UBYTE" index="143">7</PROPERTY>
+        <PROPERTY name="link" class="UBYTE" index="144">5</PROPERTY>
+        <PROPERTY name="link" class="UBYTE" index="145">6</PROPERTY>
+        <PROPERTY name="link" class="UBYTE" index="146">6</PROPERTY>
+        <PROPERTY name="link" class="UBYTE" index="147">6</PROPERTY>
+        <PROPERTY name="link" class="UBYTE" index="148">6</PROPERTY>
+        <PROPERTY name="link" class="UBYTE" index="149">7</PROPERTY>
+        <PROPERTY name="link" class="UBYTE" index="150">5</PROPERTY>
+        <PROPERTY name="count" class="INTEGER">0</PROPERTY>
+      </PROPERTY>
+      <PROPERTY name="area" class="INTEGER">1845</PROPERTY>
+      <PROPERTY name="perimeter" class="INTEGER">160</PROPERTY>
+      <PROPERTY name="x" class="FLOAT" raw="1102003009"> 21.903933</PROPERTY>
+      <PROPERTY name="y" class="FLOAT" raw="1101831330"> 21.576481</PROPERTY>
+      <PROPERTY name="circularity" class="FLOAT" raw="1063620935">  .896748</PROPERTY>
+      <PROPERTY name="elongation" class="FLOAT" raw="1065514535"> 1.0192307</PROPERTY>
+      <PROPERTY name="train_area" class="AFFRECT">
+        <PROPERTY name="po" class="VECTOR2">
+          <PROPERTY name="x" class="FLOAT" raw="1139294208"> 464.5</PROPERTY>
+          <PROPERTY name="y" class="FLOAT" raw="1142202368"> 594.5</PROPERTY>
+        </PROPERTY>
+        <PROPERTY name="vx" class="VECTOR2">
+          <PROPERTY name="x" class="FLOAT" raw="1119879168"> 96</PROPERTY>
+          <PROPERTY name="y" class="FLOAT" raw="0"> 0</PROPERTY>
+        </PROPERTY>
+        <PROPERTY name="vy" class="VECTOR2">
+          <PROPERTY name="x" class="FLOAT" raw="0"> 0</PROPERTY>
+          <PROPERTY name="y" class="FLOAT" raw="1119354880"> 92</PROPERTY>
+        </PROPERTY>
+      </PROPERTY>
+      <PROPERTY name="model_image" class="IMAGE">
+        <PROPERTY name="size" class="PIXEL">
+          <PROPERTY name="x" class="INTEGER">96</PROPERTY>
+          <PROPERTY name="y" class="INTEGER">92</PROPERTY>
+        </PROPERTY>
+        <PROPERTY name="image_data" class="BINARY">CALIBRATIONVERIFICATION02.PNG</PROPERTY>
+      </PROPERTY>
+      <PROPERTY name="search_area" class="AFFRECT">
+        <PROPERTY name="po" class="VECTOR2">
+          <PROPERTY name="x" class="FLOAT" raw="1139654656"> 475.5</PROPERTY>
+          <PROPERTY name="y" class="FLOAT" raw="1142431744"> 608.5</PROPERTY>
+        </PROPERTY>
+        <PROPERTY name="vx" class="VECTOR2">
+          <PROPERTY name="x" class="FLOAT" raw="1120272384"> 99</PROPERTY>
+          <PROPERTY name="y" class="FLOAT" raw="0"> 0</PROPERTY>
+        </PROPERTY>
+        <PROPERTY name="vy" class="VECTOR2">
+          <PROPERTY name="x" class="FLOAT" raw="0"> 0</PROPERTY>
+          <PROPERTY name="y" class="FLOAT" raw="1120272384"> 99</PROPERTY>
+        </PROPERTY>
+      </PROPERTY>
+      <PROPERTY name="use_runtime_mask" class="BOOLEAN" raw="0">FALSE</PROPERTY>
+      <PROPERTY name="runtime_mask" class="IMAGE">
+      </PROPERTY>
+      <PROPERTY name="use_computed_mask" class="BOOLEAN" raw="0">FALSE</PROPERTY>
+      <PROPERTY name="calc_angle" class="BOOLEAN" raw="1">TRUE</PROPERTY>
+      <PROPERTY name="angle_method" class="UBYTE">1</PROPERTY>
+      <PROPERTY name="find_open" class="BOOLEAN" raw="0">FALSE</PROPERTY>
+      <PROPERTY name="morph_type" class="UBYTE">0</PROPERTY>
+      <PROPERTY name="morph_iter" class="UBYTE">1</PROPERTY>
+      <PROPERTY name="run_param" class="CTBL_RUNPARAM">
+        <PROPERTY name="area" class="DOFRANGE">
+          <PROPERTY name="enabled" class="BOOLEAN" raw="1">TRUE</PROPERTY>
+          <PROPERTY name="max_value" class="FLOAT" raw="1158307840"> 2214</PROPERTY>
+          <PROPERTY name="min_value" class="FLOAT" raw="1152942080"> 1476</PROPERTY>
+        </PROPERTY>
+        <PROPERTY name="perimeter" class="DOFRANGE">
+          <PROPERTY name="enabled" class="BOOLEAN" raw="1">TRUE</PROPERTY>
+          <PROPERTY name="max_value" class="FLOAT" raw="1128267776"> 192</PROPERTY>
+          <PROPERTY name="min_value" class="FLOAT" raw="1124073472"> 128</PROPERTY>
+        </PROPERTY>
+        <PROPERTY name="semi_major" class="DOFRANGE">
+          <PROPERTY name="enabled" class="BOOLEAN" raw="1">TRUE</PROPERTY>
+          <PROPERTY name="max_value" class="FLOAT" raw="1104299803"> 26.284719</PROPERTY>
+          <PROPERTY name="min_value" class="FLOAT" raw="1099706215"> 17.523146</PROPERTY>
+        </PROPERTY>
+        <PROPERTY name="semi_minor" class="DOFRANGE">
+          <PROPERTY name="enabled" class="BOOLEAN" raw="1">TRUE</PROPERTY>
+          <PROPERTY name="max_value" class="FLOAT" raw="1104093789"> 25.891779</PROPERTY>
+          <PROPERTY name="min_value" class="FLOAT" raw="1099568872"> 17.261185</PROPERTY>
+        </PROPERTY>
+        <PROPERTY name="circularity" class="DOFRANGE">
+          <PROPERTY name="enabled" class="BOOLEAN" raw="1">TRUE</PROPERTY>
+          <PROPERTY name="max_value" class="FLOAT" raw="1065991569"> 1.0760976</PROPERTY>
+          <PROPERTY name="min_value" class="FLOAT" raw="1060611948">  .7173984</PROPERTY>
+        </PROPERTY>
+        <PROPERTY name="elongation" class="DOFRANGE">
+          <PROPERTY name="enabled" class="BOOLEAN" raw="1">TRUE</PROPERTY>
+          <PROPERTY name="max_value" class="FLOAT" raw="1067224521"> 1.2230769</PROPERTY>
+          <PROPERTY name="min_value" class="FLOAT" raw="1062255883">  .81538456</PROPERTY>
+        </PROPERTY>
+      </PROPERTY>
+      <PROPERTY name="show_mode" class="UBYTE">3</PROPERTY>
+      <PROPERTY name="ref_pose" class="XFORM2">
+        <PROPERTY name="matrix" class="MATRIX2">
+          <PROPERTY name="e00" class="FLOAT" raw="1065353216"> 1</PROPERTY>
+          <PROPERTY name="e01" class="FLOAT" raw="948009337"> 6.1738254e-05</PROPERTY>
+          <PROPERTY name="e10" class="FLOAT" raw="3095492985"> -6.1738254e-05</PROPERTY>
+          <PROPERTY name="e11" class="FLOAT" raw="1065353216"> 1</PROPERTY>
+        </PROPERTY>
+        <PROPERTY name="trans" class="VECTOR2">
+          <PROPERTY name="x" class="FLOAT" raw="1138737136"> 447.49951</PROPERTY>
+          <PROPERTY name="y" class="FLOAT" raw="1142562846"> 616.50183</PROPERTY>
+        </PROPERTY>
+      </PROPERTY>
+      <PROPERTY name="num_child_tools" class="INTEGER">0</PROPERTY>
+    </VISTOOL>
+    <PROPERTY name="sorting" class="SORTING">
+      <PROPERTY name="measurement" class="USHORT">6</PROPERTY>
+      <PROPERTY name="order" class="USHORT">1</PROPERTY>
+      <PROPERTY name="level" class="USHORT">1</PROPERTY>
+    </PROPERTY>
+    <PROPERTY name="tol_dupl_check" class="FLOAT" raw="1101004800">      20</PROPERTY>
+    <PROPERTY name="tol_dupl_chk_ang" class="FLOAT" raw="1127481351">     180</PROPERTY>
+  </VISTOOL>
+</VISDATA>

@@ -1,0 +1,285 @@
+F Number: F236039
+VERSION : HandlingTool         
+$VERSION: V9.10170      9/18/2019
+DATE:     06-NOV-20 09:53 
+
+VERSION INFORMATION::
+SOFTWARE:              ID:
+HandlingTool          7DF1/23
+S/W Serial No.      : 1667755   
+Controller ID       : 7458918   
+Robot No.           : F236039
+Manufacturing ID    : 
+R-2000iC/125L, HandlingTool   
+R-2000iC/125L         V9.10P/23 
+Servo Code          : V05.00    
+Cart. Mot. Parameter: V3.00
+JNT. Mot. Parameter : V3.00
+DCS                 : V4.2.10
+Stop pattern        : A
+Software Edition No.: V9.10P/23 
+Update Version      : None
+Customization Ver.  : None
+Root Version        : V9.10170  
+Boot MONITOR        : V9.10P/22
+Teach Pendant       : 7D0A/01P
+Browser Plugins     : V9.10204
+TP Core Firmware    : V9.10P/28
+TP Operating System : 01.52/7.0
+HTML5 Browser       : 1.2.0.0
+FPGA Version        : 13
+Media from FRA        10/01/2019
+
+CONFIG::
+FEATURE:              ORD NO:
+HandlingTool          H552
+English Dictionary    H521
+4D Standard           R782
+Analog I/O            H550
+Angle Shift           J614
+Auto Software Update  ATUP
+Automatic Backup      J545
+Background Editing    J616
+Camera I/F            VCAM
+CnrRndImp             CRIM
+Common calib UIF      CUIF
+Condition Monitor     J628
+Control Reliable      CNRE
+DHCP                  R526
+Data Acquisition      R631
+Diagnostic log        RSCH
+Document Viewer       DOCV
+Dual Check Safety UIF DCSU
+Enhanced UIF          R869
+Enhanced User Frame   J604
+Ext. DIO Config       EIOC
+Extended Error Log    R542
+Extended User Frames  R696
+External DI BWD       ESET
+FCTN Menu Save        J516
+FTP Interface         J716
+GigE Interface        R681
+Group Mask Exchange   MASK
+HTTP Proxy Svr        PRXY
+High-Speed Skip       J627
+Host Communications   HOCO
+Hour Meter            J513
+I/O Interconnect 2    J542
+Incr Instruction      J510
+Incremental Jog       J637
+KAREL Cmd. Language   J650
+KAREL Run-Time Env    J539
+Kernel + Basic S/W    H510
+License Checker       LCHK
+LogBook(System)       OPLG
+MACROs, Skip/Offset   J503
+MH Core               MHCR
+MMR Motion log        PSLG
+MechStop Protection   MCSP
+Mirror Shift          J506
+Mixed logic           J554
+Mode Switch           MDSW
+Motion Diag. Core     MDCO
+Motion Optm. Core     OPCO
+Motion Profiler       MPRO
+Motion logger         R637
+Multi-Tasking         J600
+PCM function          PCMF
+Position Checking     R000
+Position Registers    J514
+Print Function        J507
+Prog Num Selection    J515
+Program Adjust        J517
+Program Shift         J505
+Program Status        PRST
+Program Viewer        J697
+RDM Robot Discovery   FRDM
+Realtime Freq Anlys   FREQ
+Remote Conn Standard  RMCN
+Robot Servo Code      H930
+SNPX basic            SNBA
+SNTP Client           R610
+Shift Library         SHLB
+Shift and Mirror Lib  SMLB
+Socket Messaging      R636
+TCP Auto Set          J520
+TCP/IP Interface      HTCP
+TMILIB Interface      TMIL
+TP Firmware           R789
+TP Menu Accounting    TPAC
+TPTX                  TPTX
+Telnet Interface      TELN
+Tool Offset           J509
+Torque Simulator I/F  J882
+Touch Panel           R781
+Trouble Diag. & Prev. J958
+Tutorial              TUTO
+USB port on iPendant  J957
+USR EVNT              UEVT
+Unexcepted motn Check UECK
+User Frame            UFRM
+VCalibration Common   VCCM
+Vision Core           VCOR
+Vision Library        VIPL
+Vision SP CSCX        CSCX
+Vision SP CSGE        CSGE
+Vision SP CSUI        CSUI
+Web Plus              WEBP
+Web Server            HTTP
+Web Svr Enhancements  R626
+ZDT Application       R882
+iPendant              CGTP
+iPendant Grid Display IGUI
+iPendant Setup        IPGS
+iRCalib. Standard     IRCL
+iRDiag Core           DGCO
+R-2000iC/125L         H722
+2D Guidance Plus      R905
+4D Graphics           R764
+ADV-CP Path Ctrl      R806
+ADV-CP Speed Ctrl     R805
+Advanced DCS Package  R859
+Alarm Cause/Remedy    R665
+Ascii Program Loader  R796
+Ascii Upload          R507
+AutoSingularityAvoidM R512
+Collision Guard       R534
+Collision Guard Pack  J684
+Constant Path         R663
+Cycle Time Priority   J523
+DCS Pos./Speed check  J567
+DCS Safe I/O connect  J568
+Data trans.betw.Robot J740
+Domain Name Serv.     J755
+EtherNet/IP Safety    R713
+Ethernet/IP Scanner   R785
+FRA Params            R650
+Internet Conn/Custo   R558
+Math Function         J593
+Motion Interface      R583
+Motion Package        R809
+NRTL                  J547
+Online Help           R664
+Persistent Strg       NVDT
+ROS Ethernet Packets  R603
+Singularity Avoidance R792
+Vision support tools  J873
+iPendant Haptic       R848
+iRVision 2D Pkg       R685
+iRVision GiGe Camera  R697
+iRVision Img. File CS R728
+iRVision Inspect Pkg  R688
+64MB DRAM             D064
+64MB FROM             F064
+Auto SingularityAvoid RTSA
+Cell I/O              CLIO
+Common shell          R645
+Common shell core     CMSC
+Common softpanel      CMSP
+Common style select   STYL
+Corner Region         R654
+Cycle time Opt.       CTOP
+DCS Pos./speed common DCSC
+Demo Control          R769
+EMAIL Enhancements    JNN8
+Email Client          JNN7
+Enhanced Rob Serv Req ORSR
+Enhanced T1 Mode      R680
+Ethernet/IP I/O Adp.  R538
+EthernetIP I/O scan   R540
+HapticMotion          HPMO
+Linear Distance       R633
+MR Standard           MRST
+Max Speed             R634
+OPT TP Ins            OPIS
+Process Speed         R644
+Real Simple Syn.(RSS) R679
+Requires CP           CPRQ
+Robot Library Setup   RLCM
+Robot Service Request SRSR
+SMB Client            R677
+Servo Schedule        SVSH
+Soft Limit            SLMT
+Vision 3DL Lib        V3DL
+Vision Image File CS  CSIF
+Vision Karel Builtin  PBVX
+Vision SP APLC        APLC
+Vision SP APVO        APVO
+Vision SP CCGP        CCGP
+Vision SP CCRG        CCRG
+Vision SP CDCM        CDCM
+Vision SP CDLS        CDLS
+Vision SP CSBU        CSBU
+Vision SP CSKW        CSKW
+Vision SP CTAC        CTAC
+Vision SP CTBI        CTBI
+Vision SP CTBL        CTBL
+Vision SP CTCB        CTCB
+Vision SP CTCC        CTCC
+Vision SP CTCE        CTCE
+Vision SP CTCF        CTCF
+Vision SP CTCO        CTCO
+Vision SP CTCS        CTCS
+Vision SP CTCT        CTCT
+Vision SP CTEH        CTEH
+Vision SP CTEP        CTEP
+Vision SP CTEV        CTEV
+Vision SP CTEX        CTEX
+Vision SP CTFI        CTFI
+Vision SP CTFL        CTFL
+Vision SP CTGC        CTGC
+Vision SP CTGL        CTGL
+Vision SP CTGS        CTGS
+Vision SP CTHS        CTHS
+Vision SP CTIA        CTIA
+Vision SP CTIS        CTIS
+Vision SP CTLN        CTLN
+Vision SP CTML        CTML
+Vision SP CTMO        CTMO
+Vision SP CTMW        CTMW
+Vision SP CTNS        CTNS
+Vision SP CTPA        CTPA
+Vision SP CTPC        CTPC
+Vision SP CTRI        CTRI
+Vision SP CTSC        CTSC
+Vision SP CTSI        CTSI
+Vision SP CTWI        CTWI
+Vision SP CTWS        CTWS
+Vision SP VGFS        VGFS
+Vision SP VP2M        VP2M
+Vision SP VP2N        VP2N
+Vision SP VP2S        VP2S
+Vision SP VPBS        VPBS
+Vision SP VPDS        VPDS
+Vision SP VPFF        VPFF
+Vision SP VPIS        VPIS
+Vision TUT VP2S01     VT21
+Vision TUT VP2S02     VT22
+Vision TUT VTBGGN     VTBG
+Vision Training UIF   CVSU
+iHMI UIF Components   IHCP
+iRConnect for iRVisn  VIRC
+iRVision KAREL I/F    CVKL
+iRVision TPP I/F      CVTP
+
+CONFIG2::
+DEMO. FEATURE:        ORD NO:
+
+MOTOR::
+    GR: AX:     MOTOR ID AND INFO:
+     1   1     aiSR22/4000 80A H1 DSP1-S1
+     1   2     aiSR30/3000 80A H2 DSP1-S2
+     1   3     aiSR30/3000 80A H3 DSP1-S3
+     1   4     aiSR10/4000 40A H4 DSP1-S4
+     1   5     aiSR10/4000 40A H5 DSP1-S5
+     1   6     aiSR10/4000 40A H6 DSP1-S6
+
+SERVO::
+GROUP: AXIS:  SERVO PARAM ID:
+     1   1    P01.00
+     1   2    P01.00
+     1   3    P01.00
+     1   4    P01.00
+     1   5    P01.00
+     1   6    P01.00
+

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<VISDATA filename="SIDEBTOOL1THRESHOLD">
+  <PROPERTY name="version" class="UBYTE">2</PROPERTY>
+  <PROPERTY name="created" class="STRING">27-DEC-18 22:42 </PROPERTY>
+  <PROPERTY name="modified" class="STRING">30-JAN-19 15:25 </PROPERTY>
+  <VISTOOL type="78" typename="APVO">
+    <PROPERTY name="text" class="STRING">Vision Override</PROPERTY>
+    <PROPERTY name="version" class="USHORT">256</PROPERTY>
+    <PROPERTY name="proc_name" class="STRING">SIDEB_EDGELOCATION</PROPERTY>
+    <PROPERTY name="tool_name" class="STRING">GPM Locator Tool 1</PROPERTY>
+    <PROPERTY name="prop_id" class="USHORT">34</PROPERTY>
+    <PROPERTY name="limit_low" class="FLOAT" raw="2147483647">********</PROPERTY>
+    <PROPERTY name="limit_high" class="FLOAT" raw="2147483647">********</PROPERTY>
+  </VISTOOL>
+</VISDATA>

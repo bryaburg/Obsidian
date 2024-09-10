@@ -1,0 +1,6 @@
+[IRVOVRDANYVP]DATA_NAME  Storage: DRAM  Access: RW  : STRING[100] = Uninitialized
+
+[IRVOVRDANYVP]NEW_VALUE  Storage: DRAM  Access: RW  : REAL = Uninitialized
+
+[IRVOVRDANYVP]STAT  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+

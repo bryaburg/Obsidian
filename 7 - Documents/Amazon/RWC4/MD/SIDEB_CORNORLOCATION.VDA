@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<VISDATA filename="SIDEB_CORNORLOCATION">
+  <PROPERTY name="version" class="UBYTE">2</PROPERTY>
+  <PROPERTY name="created" class="STRING">31-MAR-18 08:23 </PROPERTY>
+  <PROPERTY name="modified" class="STRING">29-AUG-19 10:48 </PROPERTY>
+  <VISTOOL type="4" typename="VP2S">
+    <PROPERTY name="text" class="STRING">2-D Single-View Vision Process</PROPERTY>
+    <PROPERTY name="version" class="SHORT">1280</PROPERTY>
+    <PROPERTY name="camdata_name" class="STRING">TOTECAMERA</PROPERTY>
+    <PROPERTY name="find_first" class="BOOLEAN" raw="0">FALSE</PROPERTY>
+    <PROPERTY name="num_to_find" class="INTEGER">1</PROPERTY>
+    <PROPERTY name="offset_type" class="INTEGER">1</PROPERTY>
+    <PROPERTY name="ctlr_name" class="STRING"></PROPERTY>
+    <PROPERTY name="group_num" class="INTEGER">1</PROPERTY>
+    <PROPERTY name="uframe_num" class="INTEGER">7</PROPERTY>
+    <PROPERTY name="utool_num" class="INTEGER">3</PROPERTY>
+    <PROPERTY name="logging" class="USHORT">0</PROPERTY>
+    <PROPERTY name="use_model_id" class="BOOLEAN" raw="0">FALSE</PROPERTY>
+    <PROPERTY name="convert_to_mm" class="BOOLEAN" raw="1">TRUE</PROPERTY>
+    <PROPERTY name="used_index" class="INTEGER">0</PROPERTY>
+    <PROPERTY name="display_image_name" class="STRING">Snap Tool 1</PROPERTY>
+    <PROPERTY name="num_ref_data" class="INTEGER">1</PROPERTY>
+    <PROPERTY name="ref_data" class="VP2S_REF_DATA" index="0">
+      <PROPERTY name="model_id" class="INTEGER">1</PROPERTY>
+      <PROPERTY name="part_z_height" class="FLOAT" raw="3281387520">   -300</PROPERTY>
+      <PROPERTY name="is_trained" class="BOOLEAN" raw="1">TRUE</PROPERTY>
+      <PROPERTY name="nominal" class="XYZWPR">
+        <PROPERTY name="x" class="FLOAT" raw="3240324096"> -10.213867</PROPERTY>
+        <PROPERTY name="y" class="FLOAT" raw="3281501088"> -303.46582</PROPERTY>
+        <PROPERTY name="z" class="FLOAT" raw="3281387520"> -300</PROPERTY>
+        <PROPERTY name="w" class="FLOAT" raw="3009575300"> -5.2730243e-08</PROPERTY>
+        <PROPERTY name="p" class="FLOAT" raw="844497903"> 1.2457334e-08</PROPERTY>
+        <PROPERTY name="r" class="FLOAT" raw="3225031037"> -2.9073174</PROPERTY>
+      </PROPERTY>
+      <PROPERTY name="limit_check_name" class="STRING"></PROPERTY>
+    </PROPERTY>
+    <PROPERTY name="num_com_tool" class="INTEGER">3</PROPERTY>
+    <VISTOOL type="159" typename="CTGS">
+      <PROPERTY name="text" class="STRING">Snap Tool 1</PROPERTY>
+      <PROPERTY name="version" class="USHORT">1281</PROPERTY>
+      <PROPERTY name="snap_window" class="ROI">
+        <PROPERTY name="pos" class="PIXEL">
+          <PROPERTY name="x" class="INTEGER">64</PROPERTY>
+          <PROPERTY name="y" class="INTEGER">0</PROPERTY>
+        </PROPERTY>
+        <PROPERTY name="size" class="PIXEL">
+          <PROPERTY name="x" class="INTEGER">894</PROPERTY>
+          <PROPERTY name="y" class="INTEGER">1280</PROPERTY>
+        </PROPERTY>
+      </PROPERTY>
+      <PROPERTY name="binning_level" class="INTEGER">2</PROPERTY>
+      <PROPERTY name="exposure" class="EXPOSURE">
+        <PROPERTY name="exposure" class="INTEGER">15000</PROPERTY>
+        <PROPERTY name="is_auto" class="BOOLEAN" raw="0">FALSE</PROPERTY>
+        <PROPERTY name="num_expo" class="BYTE">2</PROPERTY>
+        <PROPERTY name="multi_exposure" class="MULTIEXPO">
+          <PROPERTY name="ref_area" class="ROI">
+            <PROPERTY name="pos" class="PIXEL">
+              <PROPERTY name="x" class="INTEGER">********</PROPERTY>
+              <PROPERTY name="y" class="INTEGER">********</PROPERTY>
+            </PROPERTY>
+            <PROPERTY name="size" class="PIXEL">
+              <PROPERTY name="x" class="INTEGER">********</PROPERTY>
+              <PROPERTY name="y" class="INTEGER">********</PROPERTY>
+            </PROPERTY>
+          </PROPERTY>
+          <PROPERTY name="dont_care" class="IMAGE">
+          </PROPERTY>
+          <PROPERTY name="scaling_mode" class="INTEGER">0</PROPERTY>
+        </PROPERTY>
+      </PROPERTY>
+      <PROPERTY name="led_mode" class="LEDMODE">
+        <PROPERTY name="type" class="UBYTE">0</PROPERTY>
+      </PROPERTY>
+      <PROPERTY name="red_gain" class="FLOAT" raw="1065353216">      1</PROPERTY>
+      <PROPERTY name="green_gain" class="FLOAT" raw="1065353216">      1</PROPERTY>
+      <PROPERTY name="blue_gain" class="FLOAT" raw="1065353216">      1</PROPERTY>
+    </VISTOOL>
+    <VISTOOL type="111" typename="CTFL">
+      <PROPERTY name="text" class="STRING">Image Filter Tool 1</PROPERTY>
+      <PROPERTY name="version" class="INTEGER">1536</PROPERTY>
+      <PROPERTY name="filter" class="CTFL_FILTER" index="0">
+        <PROPERTY name="enable" class="BOOLEAN" raw="1">TRUE</PROPERTY>
+        <PROPERTY name="type" class="UBYTE">18</PROPERTY>
+        <PROPERTY name="num_iterations" class="UBYTE">1</PROPERTY>
+      </PROPERTY>
+      <PROPERTY name="filter" class="CTFL_FILTER" index="1">
+        <PROPERTY name="enable" class="BOOLEAN" raw="1">TRUE</PROPERTY>
+        <PROPERTY name="type" class="UBYTE">2</PROPERTY>
+        <PROPERTY name="num_iterations" class="UBYTE">1</PROPERTY>
+      </PROPERTY>
+      <PROPERTY name="filter" class="CTFL_FILTER" index="2">
+        <PROPERTY name="enable" class="BOOLEAN" raw="0">FALSE</PROPERTY>
+        <PROPERTY name="type" class="UBYTE">16</PROPERTY>
+        <PROPERTY name="num_iterations" class="UBYTE">5</PROPERTY>
+      </PROPERTY>
+      <PROPERTY name="filter" class="CTFL_FILTER" index="3">
+        <PROPERTY name="enable" class="BOOLEAN" raw="0">FALSE</PROPERTY>
+        <PROPERTY name="type" class="UBYTE">19</PROPERTY>
+        <PROPERTY name="num_iterations" class="UBYTE">1</PROPERTY>
+      </PROPERTY>
+      <PROPERTY name="filter" class="CTFL_FILTER" index="4">
+        <PROPERTY name="enable" class="BOOLEAN" raw="0">FALSE</PROPERTY>
+        <PROPERTY name="type" class="UBYTE">10</PROPERTY>
+        <PROPERTY name="num_iterations" class="UBYTE">4</PROPERTY>
+      </PROPERTY>
+      <PROPERTY name="filter" class="CTFL_FILTER" index="5">
+        <PROPERTY name="enable" class="BOOLEAN" raw="0">FALSE</PROPERTY>
+        <PROPERTY name="type" class="UBYTE">9</PROPERTY>
+        <PROPERTY name="num_iterations" class="UBYTE">1</PROPERTY>
+      </PROPERTY>
+      <PROPERTY name="filter" class="CTFL_FILTER" index="6">
+        <PROPERTY name="enable" class="BOOLEAN" raw="0">FALSE</PROPERTY>
+        <PROPERTY name="type" class="UBYTE">0</PROPERTY>
+        <PROPERTY name="num_iterations" class="UBYTE">1</PROPERTY>
+      </PROPERTY>
+      <PROPERTY name="filter" class="CTFL_FILTER" index="7">
+        <PROPERTY name="enable" class="BOOLEAN" raw="0">FALSE</PROPERTY>
+        <PROPERTY name="type" class="UBYTE">0</PROPERTY>
+        <PROPERTY name="num_iterations" class="UBYTE">1</PROPERTY>
+      </PROPERTY>
+      <PROPERTY name="filter" class="CTFL_FILTER" index="8">
+        <PROPERTY name="enable" class="BOOLEAN" raw="0">FALSE</PROPERTY>
+        <PROPERTY name="type" class="UBYTE">0</PROPERTY>
+        <PROPERTY name="num_iterations" class="UBYTE">1</PROPERTY>
+      </PROPERTY>
+      <PROPERTY name="filter" class="CTFL_FILTER" index="9">
+        <PROPERTY name="enable" class="BOOLEAN" raw="0">FALSE</PROPERTY>
+        <PROPERTY name="type" class="UBYTE">0</PROPERTY>
+        <PROPERTY name="num_iterations" class="UBYTE">1</PROPERTY>
+      </PROPERTY>
+      <PROPERTY name="input_image_name" class="STRING">Snap Tool 1</PROPERTY>
+      <PROPERTY name="run_in_window" class="BOOLEAN" raw="1">TRUE</PROPERTY>
+    </VISTOOL>
+    <VISTOOL type="91" typename="CTCB">
+      <PROPERTY name="text" class="STRING">Combination Locator Tool 1</PROPERTY>
+      <PROPERTY name="version" class="USHORT">256</PROPERTY>
+      <PROPERTY name="tool_name" class="STRING" index="0">Position Calculation Tool 1</PROPERTY>
+      <PROPERTY name="num_child_tools" class="INTEGER">3</PROPERTY>
+      <VISTOOL type="2" typename="CTGL">
+        <PROPERTY name="text" class="STRING">GPM Locator Tool 1</PROPERTY>
+        <PROPERTY name="version" class="INTEGER">1280</PROPERTY>
+        <PROPERTY name="input_image_name" class="STRING">Image Filter Tool 1</PROPERTY>
+        <PROPERTY name="model_id" class="INTEGER">1</PROPERTY>
+        <PROPERTY name="model_scale" class="INTEGER">1</PROPERTY>
+        <PROPERTY name="train_area" class="AFFRECT">
+          <PROPERTY name="po" class="VECTOR2">
+            <PROPERTY name="x" class="FLOAT" raw="1138737152"> 447.5</PROPERTY>
+            <PROPERTY name="y" class="FLOAT" raw="1118240768"> 83.5</PROPERTY>
+          </PROPERTY>
+          <PROPERTY name="vx" class="VECTOR2">
+            <PROPERTY name="x" class="FLOAT" raw="1133707264"> 294</PROPERTY>
+            <PROPERTY name="y" class="FLOAT" raw="0"> 0</PROPERTY>
+          </PROPERTY>
+          <PROPERTY name="vy" class="VECTOR2">
+            <PROPERTY name="x" class="FLOAT" raw="0"> 0</PROPERTY>
+            <PROPERTY name="y" class="FLOAT" raw="1135542272"> 350</PROPERTY>
+          </PROPERTY>
+        </PROPERTY>
+        <PROPERTY name="search_area" class="AFFRECT">
+          <PROPERTY name="po" class="VECTOR2">
+            <PROPERTY name="x" class="FLOAT" raw="1137295360"> 403.5</PROPERTY>
+            <PROPERTY name="y" class="FLOAT" raw="1113980928"> 57.5</PROPERTY>
+          </PROPERTY>
+          <PROPERTY name="vx" class="VECTOR2">
+            <PROPERTY name="x" class="FLOAT" raw="1141538816"> 554</PROPERTY>
+            <PROPERTY name="y" class="FLOAT" raw="0"> 0</PROPERTY>
+          </PROPERTY>
+          <PROPERTY name="vy" class="VECTOR2">
+            <PROPERTY name="x" class="FLOAT" raw="0"> 0</PROPERTY>
+            <PROPERTY name="y" class="FLOAT" raw="1137049600"> 396</PROPERTY>
+          </PROPERTY>
+        </PROPERTY>
+        <PROPERTY name="bias_base_tool_name" class="STRING"></PROPERTY>
+        <PROPERTY name="num_child_tool" class="INTEGER">0</PROPERTY>
+      </VISTOOL>
+      <VISTOOL type="2" typename="CTGL">
+        <PROPERTY name="text" class="STRING">GPM Locator Tool 2</PROPERTY>
+        <PROPERTY name="version" class="INTEGER">1280</PROPERTY>
+        <PROPERTY name="input_image_name" class="STRING">Image Filter Tool 1</PROPERTY>
+        <PROPERTY name="model_id" class="INTEGER">1</PROPERTY>
+        <PROPERTY name="model_scale" class="INTEGER">1</PROPERTY>
+        <PROPERTY name="train_area" class="AFFRECT">
+          <PROPERTY name="po" class="VECTOR2">
+            <PROPERTY name="x" class="FLOAT" raw="1138802688"> 449.5</PROPERTY>
+            <PROPERTY name="y" class="FLOAT" raw="1146839040"> 877.5</PROPERTY>
+          </PROPERTY>
+          <PROPERTY name="vx" class="VECTOR2">
+            <PROPERTY name="x" class="FLOAT" raw="1136328704"> 374</PROPERTY>
+            <PROPERTY name="y" class="FLOAT" raw="0"> 0</PROPERTY>
+          </PROPERTY>
+          <PROPERTY name="vy" class="VECTOR2">
+            <PROPERTY name="x" class="FLOAT" raw="0"> 0</PROPERTY>
+            <PROPERTY name="y" class="FLOAT" raw="1136066560"> 366</PROPERTY>
+          </PROPERTY>
+        </PROPERTY>
+        <PROPERTY name="search_area" class="AFFRECT">
+          <PROPERTY name="po" class="VECTOR2">
+            <PROPERTY name="x" class="FLOAT" raw="1137688576"> 415.5</PROPERTY>
+            <PROPERTY name="y" class="FLOAT" raw="1143824384"> 693.5</PROPERTY>
+          </PROPERTY>
+          <PROPERTY name="vx" class="VECTOR2">
+            <PROPERTY name="x" class="FLOAT" raw="1141342208"> 542</PROPERTY>
+            <PROPERTY name="y" class="FLOAT" raw="0"> 0</PROPERTY>
+          </PROPERTY>
+          <PROPERTY name="vy" class="VECTOR2">
+            <PROPERTY name="x" class="FLOAT" raw="0"> 0</PROPERTY>
+            <PROPERTY name="y" class="FLOAT" raw="1142063104"> 586</PROPERTY>
+          </PROPERTY>
+        </PROPERTY>
+        <PROPERTY name="bias_base_tool_name" class="STRING"></PROPERTY>
+        <PROPERTY name="num_child_tool" class="INTEGER">0</PROPERTY>
+      </VISTOOL>
+      <VISTOOL type="94" typename="CTPC">
+        <PROPERTY name="text" class="STRING">Position Calculation Tool 1</PROPERTY>
+        <PROPERTY name="version" class="USHORT">256</PROPERTY>
+        <PROPERTY name="model_id" class="INTEGER">1</PROPERTY>
+        <PROPERTY name="calc_mode" class="INTEGER">2</PROPERTY>
+        <PROPERTY name="tool_name" class="STRING" index="0">GPM Locator Tool 1</PROPERTY>
+        <PROPERTY name="tool_name" class="STRING" index="1">GPM Locator Tool 2</PROPERTY>
+        <PROPERTY name="tool_name" class="STRING" index="2"></PROPERTY>
+        <PROPERTY name="num_child_tools" class="INTEGER">0</PROPERTY>
+      </VISTOOL>
+    </VISTOOL>
+    <PROPERTY name="sorting" class="SORTING">
+      <PROPERTY name="measurement" class="USHORT">6</PROPERTY>
+      <PROPERTY name="order" class="USHORT">1</PROPERTY>
+      <PROPERTY name="level" class="USHORT">1</PROPERTY>
+    </PROPERTY>
+    <PROPERTY name="tol_dupl_check" class="FLOAT" raw="1101004800">      20</PROPERTY>
+    <PROPERTY name="tol_dupl_chk_ang" class="FLOAT" raw="1127481351">     180</PROPERTY>
+  </VISTOOL>
+</VISDATA>

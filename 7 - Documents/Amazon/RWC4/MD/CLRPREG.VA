@@ -1,0 +1,26 @@
+[CLRPREG]RECV_FLAG  Storage: CMOS  Access: RW  : ARRAY[10] OF BOOLEAN
+  [1] = Uninitialized
+  [2] = Uninitialized
+  [3] = Uninitialized
+  [4] = Uninitialized
+  [5] = Uninitialized
+  [6] = Uninitialized
+  [7] = Uninitialized
+  [8] = Uninitialized
+  [9] = Uninitialized
+  [10] = Uninitialized
+
+[CLRPREG]PREG_DATA  Storage: CMOS  Access: RW  : ARRAY[10] OF XYZWPREXT
+  [1] = Uninitialized
+  [2] = Uninitialized
+  [3] = Uninitialized
+  [4] = Uninitialized
+  [5] = Uninitialized
+  [6] = Uninitialized
+  [7] = Uninitialized
+  [8] = Uninitialized
+  [9] = Uninitialized
+  [10] = Uninitialized
+
+[CLRPREG]I  Storage: CMOS  Access: RW  : INTEGER = Uninitialized
+

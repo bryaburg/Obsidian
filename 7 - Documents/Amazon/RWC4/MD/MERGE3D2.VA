@@ -1,0 +1,62 @@
+[MERGE3D2]TMP_POS  Storage: CMOS  Access: RW  : ARRAY[4] OF POSITION
+  [1] = Uninitialized
+  [2] = Uninitialized
+  [3] = Uninitialized
+  [4] = Uninitialized
+
+[MERGE3D2]TMP_XYZEX  Storage: CMOS  Access: RW  : XYZWPREXT = Uninitialized
+
+[MERGE3D2]I  Storage: CMOS  Access: RW  : INTEGER = Uninitialized
+
+[MERGE3D2]STATUS  Storage: CMOS  Access: RW  : INTEGER = Uninitialized
+
+[MERGE3D2]EXT_FLAG  Storage: CMOS  Access: RW  : BOOLEAN = Uninitialized
+
+[MERGE3D2]CHECK_TYPE  Storage: CMOS  Access: RW  : INTEGER = Uninitialized
+
+[MERGE3D2]SHIFT  Storage: CMOS  Access: RW  : VECTOR = Uninitialized
+
+[MERGE3D2]NV  Storage: CMOS  Access: RW  : VECTOR = Uninitialized
+
+[MERGE3D2]OV  Storage: CMOS  Access: RW  : VECTOR = Uninitialized
+
+[MERGE3D2]AV  Storage: CMOS  Access: RW  : VECTOR = Uninitialized
+
+[MERGE3D2]P1_P2  Storage: CMOS  Access: RW  : VECTOR = Uninitialized
+
+[MERGE3D2]V1V2  Storage: CMOS  Access: RW  : REAL = Uninitialized
+
+[MERGE3D2]K  Storage: CMOS  Access: RW  : REAL = Uninitialized
+
+[MERGE3D2]NORM  Storage: CMOS  Access: RW  : REAL = Uninitialized
+
+[MERGE3D2]HEIGHT_2D  Storage: CMOS  Access: RW  : REAL = Uninitialized
+
+[MERGE3D2]HEIGHT_V  Storage: CMOS  Access: RW  : VECTOR = Uninitialized
+
+[MERGE3D2]DATA_TYPE  Storage: CMOS  Access: RW  : ARRAY[7] OF INTEGER
+  [1] = Uninitialized
+  [2] = Uninitialized
+  [3] = Uninitialized
+  [4] = Uninitialized
+  [5] = Uninitialized
+  [6] = Uninitialized
+  [7] = Uninitialized
+
+[MERGE3D2]INT_PARAM  Storage: CMOS  Access: RW  : ARRAY[7] OF INTEGER
+  [1] = Uninitialized
+  [2] = Uninitialized
+  [3] = Uninitialized
+  [4] = Uninitialized
+  [5] = Uninitialized
+  [6] = Uninitialized
+  [7] = Uninitialized
+
+[MERGE3D2]REAL_PARAM  Storage: CMOS  Access: RW  : REAL = Uninitialized
+
+[MERGE3D2]STR_PARAM  Storage: CMOS  Access: RW  : STRING[20] = Uninitialized
+
+[MERGE3D2]RET_STATUS  Storage: CMOS  Access: RW  : INTEGER = Uninitialized
+
+[MERGE3D2]ERR_MSG  Storage: CMOS  Access: RW  : STRING[40] = Uninitialized
+

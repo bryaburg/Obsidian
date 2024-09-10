@@ -1,0 +1,1190 @@
+F Number: F236039
+VERSION : HandlingTool         
+$VERSION: V9.10170      9/18/2019
+DATE:     06-NOV-20 09:53 
+DCS Version: V4.2.10
+
+--- Joint Position Check ---------------
+No.         G A Status    Comment
+  1 ENABLE  1  1 DSBL [Right Side Clear]
+  2 ENABLE  1  1 DSBL [Left Side Clear ]
+  3 ENABLE  1  1 UNSF [In Right Side   ]
+  4 ENABLE  1  1 UNSF [In Left Side    ]
+  5 DISABLE 1  1 ---- [                ]
+  6 ENABLE  1  1 SAFE [At Pick         ]
+  7 ENABLE  1  1 UNSF [RH Jackpot      ]
+  8 ENABLE  1  1 UNSF [LH Jackpot      ]
+  9 DISABLE 1  1 ---- [                ]
+ 10 ENABLE  1  1 SAFE [At Home J1      ]
+ 11 ENABLE  1  2 SAFE [At Home J2      ]
+ 12 ENABLE  1  3 SAFE [At Home J3      ]
+ 13 ENABLE  1  4 SAFE [At Home J4      ]
+ 14 ENABLE  1  5 SAFE [At Home J5      ]
+ 15 ENABLE  1  6 SAFE [At Home J6      ]
+ 16 ENABLE  1  1 UNSF [at EOAT chg 1   ]
+ 17 ENABLE  1  2 UNSF [at EOAT chg J2  ]
+ 18 ENABLE  1  3 UNSF [at EOAT chg J3  ]
+ 19 ENABLE  1  4 SAFE [at EOAT chg J4  ]
+ 20 ENABLE  1  5 UNSF [at EOAT chg J5  ]
+ 21 ENABLE  1  6 UNSF [at EOAT chg J6  ]
+ 22 ENABLE  1  1 UNSF [dsble J1 at EOAT]
+ 23 ENABLE  1  2 UNSF [dsble J2 at EOAT]
+ 24 ENABLE  1  3 UNSF [dsble J3 at EOAT]
+ 25 ENABLE  1  4 SAFE [dsble J4 at EOAT]
+ 26 ENABLE  1  5 UNSF [dsble J5 a EOAT ]
+ 27 ENABLE  1  6 UNSF [dsble J6 at EOAT]
+ 28 DISABLE 1  1 ---- [                ]
+ 29 ENABLE  1  2 DSBL [LH J2 limit     ]
+ 30 ENABLE  1  2 DSBL [RH J2 limit     ]
+ 31 DISABLE 1  1 ---- [                ]
+ 32 DISABLE 1  1 ---- [                ]
+ 33 DISABLE 1  1 ---- [                ]
+ 34 DISABLE 1  1 ---- [                ]
+ 35 DISABLE 1  1 ---- [                ]
+ 36 DISABLE 1  1 ---- [                ]
+ 37 DISABLE 1  1 ---- [                ]
+ 38 DISABLE 1  1 ---- [                ]
+ 39 DISABLE 1  1 ---- [                ]
+ 40 DISABLE 1  1 ---- [                ]
+
+    No.  1              Status:DSBL
+  1 Comment:   [Right Side Clear       ]
+  2 Enable/Disable:            ENABLE 
+  3 Group:                            1
+  4 Axis:                             1
+  5 Safe side:                  OUTSIDE
+    Position (deg):
+      Current:                   -1.756
+  6   Upper limit:              185.000
+  7   Lower limit:                3.000
+  8 Stop type:         Stop Category 0
+  9 Disabling input: CSI[  4:          ]
+
+    No.  2              Status:DSBL
+  1 Comment:   [Left Side Clear        ]
+  2 Enable/Disable:            ENABLE 
+  3 Group:                            1
+  4 Axis:                             1
+  5 Safe side:                  OUTSIDE
+    Position (deg):
+      Current:                   -1.756
+  6   Upper limit:               -3.000
+  7   Lower limit:             -185.000
+  8 Stop type:         Stop Category 0
+  9 Disabling input: CSI[  5:          ]
+
+    No.  3              Status:UNSF
+  1 Comment:   [In Right Side          ]
+  2 Enable/Disable:            ENABLE 
+  3 Group:                            1
+  4 Axis:                             1
+  5 Safe side:                  INSIDE 
+    Position (deg):
+      Current:                   -1.756
+  6   Upper limit:              170.000
+  7   Lower limit:                2.500
+  8 Stop type:         Not stop       
+  9 Disabling input: ---[  0:          ]
+
+    No.  4              Status:UNSF
+  1 Comment:   [In Left Side           ]
+  2 Enable/Disable:            ENABLE 
+  3 Group:                            1
+  4 Axis:                             1
+  5 Safe side:                  INSIDE 
+    Position (deg):
+      Current:                   -1.756
+  6   Upper limit:               -2.500
+  7   Lower limit:             -175.000
+  8 Stop type:         Not stop       
+  9 Disabling input: ---[  0:          ]
+
+    No.  6              Status:SAFE
+  1 Comment:   [At Pick                ]
+  2 Enable/Disable:            ENABLE 
+  3 Group:                            1
+  4 Axis:                             1
+  5 Safe side:                  INSIDE 
+    Position (deg):
+      Current:                   -1.756
+  6   Upper limit:                9.000
+  7   Lower limit:               -9.000
+  8 Stop type:         Not stop       
+  9 Disabling input: ---[  0:          ]
+
+    No.  7              Status:UNSF
+  1 Comment:   [RH Jackpot             ]
+  2 Enable/Disable:            ENABLE 
+  3 Group:                            1
+  4 Axis:                             1
+  5 Safe side:                  INSIDE 
+    Position (deg):
+      Current:                   -1.756
+  6   Upper limit:              185.000
+  7   Lower limit:              160.000
+  8 Stop type:         Not stop       
+  9 Disabling input: ---[  0:          ]
+
+    No.  8              Status:UNSF
+  1 Comment:   [LH Jackpot             ]
+  2 Enable/Disable:            ENABLE 
+  3 Group:                            1
+  4 Axis:                             1
+  5 Safe side:                  INSIDE 
+    Position (deg):
+      Current:                   -1.756
+  6   Upper limit:             -160.000
+  7   Lower limit:             -185.000
+  8 Stop type:         Not stop       
+  9 Disabling input: ---[  0:          ]
+
+    No. 10              Status:SAFE
+  1 Comment:   [At Home J1             ]
+  2 Enable/Disable:            ENABLE 
+  3 Group:                            1
+  4 Axis:                             1
+  5 Safe side:                  INSIDE 
+    Position (deg):
+      Current:                   -1.756
+  6   Upper limit:               -1.700
+  7   Lower limit:               -1.800
+  8 Stop type:         Not stop       
+  9 Disabling input: ---[  0:          ]
+
+    No. 11              Status:SAFE
+  1 Comment:   [At Home J2             ]
+  2 Enable/Disable:            ENABLE 
+  3 Group:                            1
+  4 Axis:                             2
+  5 Safe side:                  INSIDE 
+    Position (deg):
+      Current:                  -17.223
+  6   Upper limit:              -17.100
+  7   Lower limit:              -17.300
+  8 Stop type:         Not stop       
+  9 Disabling input: ---[  0:          ]
+
+    No. 12              Status:SAFE
+  1 Comment:   [At Home J3             ]
+  2 Enable/Disable:            ENABLE 
+  3 Group:                            1
+  4 Axis:                             3
+  5 Safe side:                  INSIDE 
+    Position (deg):
+      Current:                   -7.651
+  6   Upper limit:               -7.650
+  7   Lower limit:               -7.850
+  8 Stop type:         Not stop       
+  9 Disabling input: ---[  0:          ]
+
+    No. 13              Status:SAFE
+  1 Comment:   [At Home J4             ]
+  2 Enable/Disable:            ENABLE 
+  3 Group:                            1
+  4 Axis:                             4
+  5 Safe side:                  INSIDE 
+    Position (deg):
+      Current:                    -.366
+  6   Upper limit:                -.250
+  7   Lower limit:                -.450
+  8 Stop type:         Not stop       
+  9 Disabling input: ---[  0:          ]
+
+    No. 14              Status:SAFE
+  1 Comment:   [At Home J5             ]
+  2 Enable/Disable:            ENABLE 
+  3 Group:                            1
+  4 Axis:                             5
+  5 Safe side:                  INSIDE 
+    Position (deg):
+      Current:                  -82.126
+  6   Upper limit:              -82.000
+  7   Lower limit:              -82.200
+  8 Stop type:         Not stop       
+  9 Disabling input: ---[  0:          ]
+
+    No. 15              Status:SAFE
+  1 Comment:   [At Home J6             ]
+  2 Enable/Disable:            ENABLE 
+  3 Group:                            1
+  4 Axis:                             6
+  5 Safe side:                  INSIDE 
+    Position (deg):
+      Current:                  -28.194
+  6   Upper limit:              -28.100
+  7   Lower limit:              -28.300
+  8 Stop type:         Not stop       
+  9 Disabling input: ---[  0:          ]
+
+    No. 16              Status:UNSF
+  1 Comment:   [at EOAT chg 1          ]
+  2 Enable/Disable:            ENABLE 
+  3 Group:                            1
+  4 Axis:                             1
+  5 Safe side:                  INSIDE 
+    Position (deg):
+      Current:                   -1.756
+  6   Upper limit:               71.700
+  7   Lower limit:               73.700
+  8 Stop type:         Not stop       
+  9 Disabling input: ---[  0:          ]
+
+    No. 17              Status:UNSF
+  1 Comment:   [at EOAT chg J2         ]
+  2 Enable/Disable:            ENABLE 
+  3 Group:                            1
+  4 Axis:                             2
+  5 Safe side:                  INSIDE 
+    Position (deg):
+      Current:                  -17.223
+  6   Upper limit:                3.100
+  7   Lower limit:                5.100
+  8 Stop type:         Not stop       
+  9 Disabling input: ---[  0:          ]
+
+    No. 18              Status:UNSF
+  1 Comment:   [at EOAT chg J3         ]
+  2 Enable/Disable:            ENABLE 
+  3 Group:                            1
+  4 Axis:                             3
+  5 Safe side:                  INSIDE 
+    Position (deg):
+      Current:                   -7.651
+  6   Upper limit:              -31.100
+  7   Lower limit:              -33.100
+  8 Stop type:         Not stop       
+  9 Disabling input: ---[  0:          ]
+
+    No. 19              Status:SAFE
+  1 Comment:   [at EOAT chg J4         ]
+  2 Enable/Disable:            ENABLE 
+  3 Group:                            1
+  4 Axis:                             4
+  5 Safe side:                  INSIDE 
+    Position (deg):
+      Current:                    -.366
+  6   Upper limit:                -.500
+  7   Lower limit:                1.500
+  8 Stop type:         Not stop       
+  9 Disabling input: ---[  0:          ]
+
+    No. 20              Status:UNSF
+  1 Comment:   [at EOAT chg J5         ]
+  2 Enable/Disable:            ENABLE 
+  3 Group:                            1
+  4 Axis:                             5
+  5 Safe side:                  INSIDE 
+    Position (deg):
+      Current:                  -82.126
+  6   Upper limit:              -56.700
+  7   Lower limit:              -58.700
+  8 Stop type:         Not stop       
+  9 Disabling input: ---[  0:          ]
+
+    No. 21              Status:UNSF
+  1 Comment:   [at EOAT chg J6         ]
+  2 Enable/Disable:            ENABLE 
+  3 Group:                            1
+  4 Axis:                             6
+  5 Safe side:                  INSIDE 
+    Position (deg):
+      Current:                  -28.194
+  6   Upper limit:               76.500
+  7   Lower limit:               78.500
+  8 Stop type:         Not stop       
+  9 Disabling input: ---[  0:          ]
+
+    No. 22              Status:UNSF
+  1 Comment:   [dsble J1 at EOAT chg   ]
+  2 Enable/Disable:            ENABLE 
+  3 Group:                            1
+  4 Axis:                             1
+  5 Safe side:                  INSIDE 
+    Position (deg):
+      Current:                   -1.756
+  6   Upper limit:               71.500
+  7   Lower limit:               72.500
+  8 Stop type:         Stop Category 0
+  9 Disabling input: CSI[ 10:          ]
+
+    No. 23              Status:UNSF
+  1 Comment:   [dsble J2 at EOAT chg   ]
+  2 Enable/Disable:            ENABLE 
+  3 Group:                            1
+  4 Axis:                             2
+  5 Safe side:                  INSIDE 
+    Position (deg):
+      Current:                  -17.223
+  6   Upper limit:                4.500
+  7   Lower limit:                5.500
+  8 Stop type:         Stop Category 0
+  9 Disabling input: CSI[ 10:          ]
+
+    No. 24              Status:UNSF
+  1 Comment:   [dsble J3 at EOAT chg   ]
+  2 Enable/Disable:            ENABLE 
+  3 Group:                            1
+  4 Axis:                             3
+  5 Safe side:                  INSIDE 
+    Position (deg):
+      Current:                   -7.651
+  6   Upper limit:              -31.500
+  7   Lower limit:              -32.500
+  8 Stop type:         Stop Category 0
+  9 Disabling input: CSI[ 10:          ]
+
+    No. 25              Status:SAFE
+  1 Comment:   [dsble J4 at EOAT chg   ]
+  2 Enable/Disable:            ENABLE 
+  3 Group:                            1
+  4 Axis:                             4
+  5 Safe side:                  INSIDE 
+    Position (deg):
+      Current:                    -.366
+  6   Upper limit:                0.000
+  7   Lower limit:               -1.000
+  8 Stop type:         Stop Category 0
+  9 Disabling input: CSI[ 10:          ]
+
+    No. 26              Status:UNSF
+  1 Comment:   [dsble J5 a EOAT chg    ]
+  2 Enable/Disable:            ENABLE 
+  3 Group:                            1
+  4 Axis:                             5
+  5 Safe side:                  INSIDE 
+    Position (deg):
+      Current:                  -82.126
+  6   Upper limit:              -57.500
+  7   Lower limit:              -58.500
+  8 Stop type:         Stop Category 0
+  9 Disabling input: CSI[ 10:          ]
+
+    No. 27              Status:UNSF
+  1 Comment:   [dsble J6 at EOAT chg   ]
+  2 Enable/Disable:            ENABLE 
+  3 Group:                            1
+  4 Axis:                             6
+  5 Safe side:                  INSIDE 
+    Position (deg):
+      Current:                  -28.194
+  6   Upper limit:               78.500
+  7   Lower limit:               79.500
+  8 Stop type:         Stop Category 0
+  9 Disabling input: CSI[ 10:          ]
+
+    No. 29              Status:DSBL
+  1 Comment:   [LH J2 limit            ]
+  2 Enable/Disable:            ENABLE 
+  3 Group:                            1
+  4 Axis:                             2
+  5 Safe side:                  INSIDE 
+    Position (deg):
+      Current:                  -17.223
+  6   Upper limit:               76.000
+  7   Lower limit:              -52.000
+  8 Stop type:         Stop Category 0
+  9 Disabling input: CSI[ 11:          ]
+
+    No. 30              Status:DSBL
+  1 Comment:   [RH J2 limit            ]
+  2 Enable/Disable:            ENABLE 
+  3 Group:                            1
+  4 Axis:                             2
+  5 Safe side:                  INSIDE 
+    Position (deg):
+      Current:                  -17.223
+  6   Upper limit:               76.000
+  7   Lower limit:              -52.000
+  8 Stop type:         Stop Category 0
+  9 Disabling input: CSI[ 12:          ]
+
+--- Cartesian Position Check -----------
+  Process time factor (Max.1000):  572
+ No.        G M Status     Comment
+  1 ENABLE  1 WD SAFE [Cell Box In     ]
+  2 ENABLE  1 RD SAFE [Jackpot Box Out ]
+  3 ENABLE  1 RD SAFE [Incoming Box Out]
+  4 DISABLE 1 WD ---- [                ]
+  5 ENABLE  1 WD DSBL [Middle Box In   ]
+  6 ENABLE  1 RD DSBL [Left Side Box Ou]
+  7 ENABLE  1 RD DSBL [Right Side Box O]
+  8 DISABLE 1 WD ---- [                ]
+  9 ENABLE  1 RD DSBL [Left Side J2 Slo]
+ 10 ENABLE  1 RD DSBL [Right Side J2 Sl]
+ 11 DISABLE 1 WD ---- [                ]
+ 12 DISABLE 1 WD ---- [                ]
+ 13 DISABLE 1 RD ---- [pick dcs test   ]
+ 14 DISABLE 1 WD ---- [                ]
+ 15 DISABLE 1 WD ---- [                ]
+ 16 DISABLE 1 WD ---- [                ]
+ 17 DISABLE 1 WD ---- [                ]
+ 18 DISABLE 1 WD ---- [                ]
+ 19 DISABLE 1 WD ---- [                ]
+ 20 DISABLE 1 WD ---- [                ]
+ 21 DISABLE 1 WD ---- [                ]
+ 22 DISABLE 1 WD ---- [                ]
+ 23 DISABLE 1 WD ---- [                ]
+ 24 DISABLE 1 WD ---- [                ]
+ 25 DISABLE 1 WD ---- [                ]
+ 26 DISABLE 1 WD ---- [                ]
+ 27 DISABLE 1 WD ---- [                ]
+ 28 DISABLE 1 WD ---- [                ]
+ 29 DISABLE 1 WD ---- [                ]
+ 30 DISABLE 1 WD ---- [                ]
+ 31 DISABLE 1 WD ---- [                ]
+ 32 DISABLE 1 WD ---- [                ]
+
+    No.  1              Status:SAFE
+  1 Comment:   [Cell Box In            ]
+  2 Enable/Disable:            ENABLE 
+  3 Method:    Working zone(Diagnal)   
+  4 Group:                            1
+  5 Target model 1:         Robot model
+  6 Target model 2:        User model 1
+  7 Target model 3:             DISABLE
+  8 Base frame:   User frame:     0
+    Position(mm):
+        Current      Point 1    Point 2
+  9 X    1740.0     2600.0    -2600.0
+ 10 Y     -48.0     2495.0    -2495.0
+ 11 Z     178.9    -1350.0     2000.0
+ 12 Stop type:         Stop Category 0
+ 13 Disabling input: ---[  0:          ]
+ 14 Use Stop Position Prediction: No    
+ -- Speed check detail --
+    Limit(mm/s) / DSBL input
+  1 Limit 1:  250.0 / ---[  0]
+  2 Limit 2:  250.0 / ---[  0]
+  3 Limit 3:  250.0 / ---[  0]
+  4 Limit 4:  250.0 / ---[  0]
+  5 delay time:                   0 msec
+  6 Permissible distance(mm):       0.0
+
+    No.  2              Status:SAFE
+  1 Comment:   [Jackpot Box Out        ]
+  2 Enable/Disable:            ENABLE 
+  3 Method:    Restricted zone(Diagnal)
+  4 Group:                            1
+  5 Target model 1:         Robot model
+  6 Target model 2:             DISABLE
+  7 Target model 3:             DISABLE
+  8 Base frame:   User frame:     0
+    Position(mm):
+        Current      Point 1    Point 2
+  9 X    1740.0    -3640.0    -2400.0
+ 10 Y     -48.0     -890.0      800.0
+ 11 Z     178.9    -1350.0     1050.0
+ 12 Stop type:         Stop Category 0
+ 13 Disabling input: ---[  0:          ]
+ 14 Use Stop Position Prediction: No    
+ -- Speed check detail --
+    Limit(mm/s) / DSBL input
+  1 Limit 1:  250.0 / ---[  0]
+  2 Limit 2:  250.0 / ---[  0]
+  3 Limit 3:  250.0 / ---[  0]
+  4 Limit 4:  250.0 / ---[  0]
+  5 delay time:                   0 msec
+  6 Permissible distance(mm):       0.0
+
+    No.  3              Status:SAFE
+  1 Comment:   [Incoming Box Out       ]
+  2 Enable/Disable:            ENABLE 
+  3 Method:    Restricted zone(Diagnal)
+  4 Group:                            1
+  5 Target model 1:         Robot model
+  6 Target model 2:             DISABLE
+  7 Target model 3:             DISABLE
+  8 Base frame:   User frame:     0
+    Position(mm):
+        Current      Point 1    Point 2
+  9 X    1740.0     3600.0     2200.0
+ 10 Y     -48.0      880.0     -400.0
+ 11 Z     178.9     1050.0    -1600.0
+ 12 Stop type:         Stop Category 0
+ 13 Disabling input: ---[  0:          ]
+ 14 Use Stop Position Prediction: No    
+ -- Speed check detail --
+    Limit(mm/s) / DSBL input
+  1 Limit 1:  250.0 / ---[  0]
+  2 Limit 2:  250.0 / ---[  0]
+  3 Limit 3:  250.0 / ---[  0]
+  4 Limit 4:  250.0 / ---[  0]
+  5 delay time:                   0 msec
+  6 Permissible distance(mm):       0.0
+
+    No.  5              Status:DSBL
+  1 Comment:   [Middle Box In          ]
+  2 Enable/Disable:            ENABLE 
+  3 Method:    Working zone(Diagnal)   
+  4 Group:                            1
+  5 Target model 1:        User model 1
+  6 Target model 2:             DISABLE
+  7 Target model 3:             DISABLE
+  8 Base frame:   User frame:     0
+    Position(mm):
+        Current      Point 1    Point 2
+  9 X    1740.0     2960.0    -2950.0
+ 10 Y     -48.0      272.3     -330.0
+ 11 Z     178.9    -1350.0     2000.0
+ 12 Stop type:         Stop Category 1
+ 13 Disabling input: CSI[  9:          ]
+ 14 Use Stop Position Prediction: No    
+ -- Speed check detail --
+    Limit(mm/s) / DSBL input
+  1 Limit 1:  250.0 / ---[  0]
+  2 Limit 2:  250.0 / ---[  0]
+  3 Limit 3:  250.0 / ---[  0]
+  4 Limit 4:  250.0 / ---[  0]
+  5 delay time:                   0 msec
+  6 Permissible distance(mm):       0.0
+
+    No.  6              Status:DSBL
+  1 Comment:   [Left Side Box Out      ]
+  2 Enable/Disable:            ENABLE 
+  3 Method:    Restricted zone(Diagnal)
+  4 Group:                            1
+  5 Target model 1:        User model 1
+  6 Target model 2:             DISABLE
+  7 Target model 3:             DISABLE
+  8 Base frame:   User frame:     0
+    Position(mm):
+        Current      Point 1    Point 2
+  9 X    1740.0    -3000.0     2950.0
+ 10 Y     -48.0     -780.0     -880.0
+ 11 Z     178.9    -1385.0     1500.0
+ 12 Stop type:         Stop Category 0
+ 13 Disabling input: CSI[  7:          ]
+ 14 Use Stop Position Prediction: Yes   
+ -- Speed check detail --
+    Limit(mm/s) / DSBL input
+  1 Limit 1:  250.0 / ---[  0]
+  2 Limit 2:  250.0 / ---[  0]
+  3 Limit 3:  250.0 / ---[  0]
+  4 Limit 4:  250.0 / ---[  0]
+  5 delay time:                   0 msec
+  6 Permissible distance(mm):       0.0
+
+    No.  7              Status:DSBL
+  1 Comment:   [Right Side Box Out     ]
+  2 Enable/Disable:            ENABLE 
+  3 Method:    Restricted zone(Diagnal)
+  4 Group:                            1
+  5 Target model 1:        User model 1
+  6 Target model 2:             DISABLE
+  7 Target model 3:             DISABLE
+  8 Base frame:   User frame:     0
+    Position(mm):
+        Current      Point 1    Point 2
+  9 X    1740.0    -3000.0     2950.0
+ 10 Y     -48.0      780.0      880.0
+ 11 Z     178.9    -1385.0     1500.0
+ 12 Stop type:         Stop Category 0
+ 13 Disabling input: CSI[  6:          ]
+ 14 Use Stop Position Prediction: Yes   
+ -- Speed check detail --
+    Limit(mm/s) / DSBL input
+  1 Limit 1:  250.0 / ---[  0]
+  2 Limit 2:  250.0 / ---[  0]
+  3 Limit 3:  250.0 / ---[  0]
+  4 Limit 4:  250.0 / ---[  0]
+  5 delay time:                   0 msec
+  6 Permissible distance(mm):       0.0
+
+    No.  9              Status:DSBL
+  1 Comment:   [Left Side J2 Slowdown  ]
+  2 Enable/Disable:            ENABLE 
+  3 Method:    Restricted zone(Diagnal)
+  4 Group:                            1
+  5 Target model 1:        User model 2
+  6 Target model 2:             DISABLE
+  7 Target model 3:             DISABLE
+  8 Base frame:   User frame:     0
+    Position(mm):
+        Current      Point 1    Point 2
+  9 X    1740.0    -3000.0     2950.0
+ 10 Y     -48.0     -547.0     -880.0
+ 11 Z     178.9      500.0     1500.0
+ 12 Stop type:         Not stop       
+ 13 Disabling input: CSI[  7:          ]
+ 14 Use Stop Position Prediction: No    
+ -- Speed check detail --
+    Limit(mm/s) / DSBL input
+  1 Limit 1:  250.0 / ---[  0]
+  2 Limit 2:  250.0 / ---[  0]
+  3 Limit 3:  250.0 / ---[  0]
+  4 Limit 4:  250.0 / ---[  0]
+  5 delay time:                   0 msec
+  6 Permissible distance(mm):       0.0
+
+    No. 10              Status:DSBL
+  1 Comment:   [Right Side J2 Slowdown ]
+  2 Enable/Disable:            ENABLE 
+  3 Method:    Restricted zone(Diagnal)
+  4 Group:                            1
+  5 Target model 1:        User model 2
+  6 Target model 2:             DISABLE
+  7 Target model 3:             DISABLE
+  8 Base frame:   User frame:     0
+    Position(mm):
+        Current      Point 1    Point 2
+  9 X    1740.0    -3000.0     2950.0
+ 10 Y     -48.0      547.0      880.0
+ 11 Z     178.9      500.0     1500.0
+ 12 Stop type:         Not stop       
+ 13 Disabling input: CSI[  6:          ]
+ 14 Use Stop Position Prediction: No    
+ -- Speed check detail --
+    Limit(mm/s) / DSBL input
+  1 Limit 1:  250.0 / ---[  0]
+  2 Limit 2:  250.0 / ---[  0]
+  3 Limit 3:  250.0 / ---[  0]
+  4 Limit 4:  250.0 / ---[  0]
+  5 delay time:                   0 msec
+  6 Permissible distance(mm):       0.0
+
+--- Cartesian Speed Check --------------
+No.         G T Status     Comment
+  1 ENABLE  1  0 DSBL [100 Safe Speed ]
+  2 ENABLE  1  0 DSBL [10 Safe Speed  ]
+  3 DISABLE 1  0 ---- [                ]
+  4 DISABLE 1  0 ---- [                ]
+  5 DISABLE 1  0 ---- [                ]
+  6 DISABLE 1  0 ---- [                ]
+  7 DISABLE 1  0 ---- [                ]
+  8 DISABLE 1  0 ---- [                ]
+  9 DISABLE 1  0 ---- [                ]
+ 10 DISABLE 1  0 ---- [                ]
+ 11 DISABLE 1  0 ---- [                ]
+ 12 DISABLE 1  0 ---- [                ]
+ 13 DISABLE 1  0 ---- [                ]
+ 14 DISABLE 1  0 ---- [                ]
+ 15 DISABLE 1  0 ---- [                ]
+ 16 DISABLE 1  0 ---- [                ]
+
+    No.  1              Status:DSBL
+  1 Comment:   [100 Safe Speed        ]
+  2 Enable/Disable:             ENABLE 
+  3 Direction:                 ALL     
+  4 Group:                            1
+  5 Tool frame:                       0
+    (0:FacePlate, -1:Current tool)
+  6 Base frame:        User Frame :   0
+    Speed of the direction(mm/sec):
+      Current:                    0.000
+  7   Limit:                  10000.000
+  8 Stop type:         Stop Category 0
+  9 delay time:                2000 msec
+ 10 disabling input: CSI[  8:          ]
+ 11 Permissible distance(mm):       0.0
+
+    No.  2              Status:DSBL
+  1 Comment:   [10 Safe Speed         ]
+  2 Enable/Disable:             ENABLE 
+  3 Direction:                  Y      
+  4 Group:                            1
+  5 Tool frame:                       0
+    (0:FacePlate, -1:Current tool)
+  6 Base frame:        User Frame :   0
+    Speed of the direction(mm/sec):
+      Current:                    0.000
+  7   Limit:                    300.000
+  8 Stop type:         Stop Category 0
+  9 delay time:                2000 msec
+ 10 disabling input: CSI[ 13:          ]
+ 11 Permissible distance(mm):       0.0
+
+--- User model -------------------------
+No. Elem Status  type      Comment
+  1  4     OK  [EOAT                   ]
+  2  1     OK  [J3                     ]
+  3  0     OK  [                       ]
+  4  0     OK  [                       ]
+  5  0     OK  [                       ]
+  6  0     OK  [                       ]
+  7  0     OK  [                       ]
+  8  0     OK  [                       ]
+  9  0     OK  [                       ]
+ 10  0     OK  [                       ]
+ 11  0     OK  [                       ]
+ 12  0     OK  [                       ]
+ 13  0     OK  [                       ]
+ 14  0     OK  [                       ]
+ 15  0     OK  [                       ]
+ 16  0     OK  [                       ]
+
+No.   1  [EOAT                   ]
+ Elements
+  No.         Link  Shape   Size Status
+  1  ENABLE   99  Line_seg   120    OK 
+  2  ENABLE   99  Line_seg   120    OK 
+  3  ENABLE   99  Line_seg   120    OK 
+  4  ENABLE   99  Line_seg   120    OK 
+  5  DISABLE  99  Point        0    OK 
+  6  DISABLE  99  Point        0    OK 
+  7  DISABLE  99  Point        0    OK 
+  8  DISABLE  99  Point        0    OK 
+  9  DISABLE  99  Point        0    OK 
+ 10  DISABLE  99  Point        0    OK 
+
+No.   1  [EOAT                   ]
+Element:  1    Status:  OK 
+
+  1 Enable/Disable:             ENABLE 
+  2 Link No.(99:FacePlate):          99
+  3 Link type:                 NORMAL  
+  4 Tool frame:                       0
+  5 Shape:                     Line_seg
+  6 Size (mm):                    120.0
+  Pos1
+  7  X: -272.000 Y:   14.000 Z:  200.000
+  Pos2
+  8  X:  317.000 Y:  -14.000 Z:  200.000
+
+No.   1  [EOAT                   ]
+Element:  2    Status:  OK 
+
+  1 Enable/Disable:             ENABLE 
+  2 Link No.(99:FacePlate):          99
+  3 Link type:                 NORMAL  
+  4 Tool frame:                       0
+  5 Shape:                     Line_seg
+  6 Size (mm):                    120.0
+  Pos1
+  7  X: -137.000 Y:  248.000 Z:  200.000
+  Pos2
+  8  X:  182.000 Y: -248.000 Z:  200.000
+
+No.   1  [EOAT                   ]
+Element:  3    Status:  OK 
+
+  1 Enable/Disable:             ENABLE 
+  2 Link No.(99:FacePlate):          99
+  3 Link type:                 NORMAL  
+  4 Tool frame:                       0
+  5 Shape:                     Line_seg
+  6 Size (mm):                    120.0
+  Pos1
+  7  X: -272.000 Y:   14.000 Z:  500.000
+  Pos2
+  8  X:  317.000 Y:  -14.000 Z:  500.000
+
+No.   1  [EOAT                   ]
+Element:  4    Status:  OK 
+
+  1 Enable/Disable:             ENABLE 
+  2 Link No.(99:FacePlate):          99
+  3 Link type:                 NORMAL  
+  4 Tool frame:                       0
+  5 Shape:                     Line_seg
+  6 Size (mm):                    120.0
+  Pos1
+  7  X: -137.000 Y:  248.000 Z:  500.000
+  Pos2
+  8  X:  182.000 Y: -248.000 Z:  500.000
+
+No.   2  [J3                     ]
+ Elements
+  No.         Link  Shape   Size Status
+  1  ENABLE    3  Line_seg   220    OK 
+  2  DISABLE  99  Point        0    OK 
+  3  DISABLE  99  Point        0    OK 
+  4  DISABLE  99  Point        0    OK 
+  5  DISABLE  99  Point        0    OK 
+  6  DISABLE  99  Point        0    OK 
+  7  DISABLE  99  Point        0    OK 
+  8  DISABLE  99  Point        0    OK 
+  9  DISABLE  99  Point        0    OK 
+ 10  DISABLE  99  Point        0    OK 
+
+No.   2  [J3                     ]
+Element:  1    Status:  OK 
+
+  1 Enable/Disable:             ENABLE 
+  2 Link No.(99:FacePlate):           3
+  3 Link type:                 NORMAL  
+  4 Tool frame:                       0
+  5 Shape:                     Line_seg
+  6 Size (mm):                    220.0
+  Pos1
+  7  X: -200.000 Y:  -50.000 Z:  -20.000
+  Pos2
+  8  X: -220.000 Y:  215.000 Z:  -20.000
+
+--- Tool frame -------------------------
+Group: 1                          Status
+Tool select:                     0   OK 
+(0:FacePlate,-1:Tool change)
+Current Tool:                    0
+    0  0    ---[  0:          ]      OK 
+         X:      0.0  W:      0.0
+         Y:      0.0  P:      0.0
+         Z:      0.0  R:      0.0
+    0  0    ---[  0:          ]      OK 
+         X:      0.0  W:      0.0
+         Y:      0.0  P:      0.0
+         Z:      0.0  R:      0.0
+    0  0    ---[  0:          ]      OK 
+         X:      0.0  W:      0.0
+         Y:      0.0  P:      0.0
+         Z:      0.0  R:      0.0
+    0  0    ---[  0:          ]      OK 
+         X:      0.0  W:      0.0
+         Y:      0.0  P:      0.0
+         Z:      0.0  R:      0.0
+    0  0    ---[  0:          ]      OK 
+         X:      0.0  W:      0.0
+         Y:      0.0  P:      0.0
+         Z:      0.0  R:      0.0
+    0  0    ---[  0:          ]      OK 
+         X:      0.0  W:      0.0
+         Y:      0.0  P:      0.0
+         Z:      0.0  R:      0.0
+    0  0    ---[  0:          ]      OK 
+         X:      0.0  W:      0.0
+         Y:      0.0  P:      0.0
+         Z:      0.0  R:      0.0
+    0  0    ---[  0:          ]      OK 
+         X:      0.0  W:      0.0
+         Y:      0.0  P:      0.0
+         Z:      0.0  R:      0.0
+    0  0    ---[  0:          ]      OK 
+         X:      0.0  W:      0.0
+         Y:      0.0  P:      0.0
+         Z:      0.0  R:      0.0
+    0  0    ---[  0:          ]      OK 
+         X:      0.0  W:      0.0
+         Y:      0.0  P:      0.0
+         Z:      0.0  R:      0.0
+    0  0    ---[  0:          ]      OK 
+         X:      0.0  W:      0.0
+         Y:      0.0  P:      0.0
+         Z:      0.0  R:      0.0
+    0  0    ---[  0:          ]      OK 
+         X:      0.0  W:      0.0
+         Y:      0.0  P:      0.0
+         Z:      0.0  R:      0.0
+    0  0    ---[  0:          ]      OK 
+         X:      0.0  W:      0.0
+         Y:      0.0  P:      0.0
+         Z:      0.0  R:      0.0
+    0  0    ---[  0:          ]      OK 
+         X:      0.0  W:      0.0
+         Y:      0.0  P:      0.0
+         Z:      0.0  R:      0.0
+    0  0    ---[  0:          ]      OK 
+         X:      0.0  W:      0.0
+         Y:      0.0  P:      0.0
+         Z:      0.0  R:      0.0
+    0  0    ---[  0:          ]      OK 
+         X:      0.0  W:      0.0
+         Y:      0.0  P:      0.0
+         Z:      0.0  R:      0.0
+
+--- User frame -------------------------
+Group: 1
+  No.     XYZ(mm)     WPR(deg)    Status
+    0   X:      0.0  W:      0.0     OK 
+        Y:      0.0  P:      0.0
+        Z:      0.0  R:      0.0
+    0   X:      0.0  W:      0.0     OK 
+        Y:      0.0  P:      0.0
+        Z:      0.0  R:      0.0
+    0   X:      0.0  W:      0.0     OK 
+        Y:      0.0  P:      0.0
+        Z:      0.0  R:      0.0
+    0   X:      0.0  W:      0.0     OK 
+        Y:      0.0  P:      0.0
+        Z:      0.0  R:      0.0
+    0   X:      0.0  W:      0.0     OK 
+        Y:      0.0  P:      0.0
+        Z:      0.0  R:      0.0
+    0   X:      0.0  W:      0.0     OK 
+        Y:      0.0  P:      0.0
+        Z:      0.0  R:      0.0
+    0   X:      0.0  W:      0.0     OK 
+        Y:      0.0  P:      0.0
+        Z:      0.0  R:      0.0
+    0   X:      0.0  W:      0.0     OK 
+        Y:      0.0  P:      0.0
+        Z:      0.0  R:      0.0
+    0   X:      0.0  W:      0.0     OK 
+        Y:      0.0  P:      0.0
+        Z:      0.0  R:      0.0
+
+--- Stop position prediction -----------
+Group: 1                          Status
+Cartesian
+  1 Mode:                   USER     OK 
+  2 Expand Point as line:   DISABLE  OK 
+    Stop Category 0
+  3   Stopping distance (mm): 315.1  OK 
+  4   Speed (mm/sec):        3821.1  OK 
+    Stop Category 1
+  5   Stopping distance (mm): 150.0  OK 
+  6   Speed (mm/sec):        2905.8  OK 
+Joint J1
+  7 Mode:                   DISABLE  OK 
+    Stop Category 0
+  8   Stopping distance(deg):   0.0  OK 
+  9   Speed(deg/sec):           0.0  OK 
+    Stop Category 1
+ 10   Stopping distance(deg):   0.0  OK 
+ 11   Speed(deg/sec):           0.0  OK 
+Joint J2
+ 12 Mode:                   DISABLE  OK 
+    Stop Category 0
+ 13   Stopping distance(deg):   0.0  OK 
+ 14   Speed(deg/sec):           0.0  OK 
+    Stop Category 1
+ 15   Stopping distance(deg):   0.0  OK 
+ 16   Speed(deg/sec):           0.0  OK 
+Joint J3
+ 17 Mode:                   DISABLE  OK 
+    Stop Category 0
+ 18   Stopping distance(deg):   0.0  OK 
+ 19   Speed(deg/sec):           0.0  OK 
+    Stop Category 1
+ 20   Stopping distance(deg):   0.0  OK 
+ 21   Speed(deg/sec):           0.0  OK 
+Joint J4
+ 22 Mode:                   DISABLE  OK 
+    Stop Category 0
+ 23   Stopping distance(deg):   0.0  OK 
+ 24   Speed(deg/sec):           0.0  OK 
+    Stop Category 1
+ 25   Stopping distance(deg):   0.0  OK 
+ 26   Speed(deg/sec):           0.0  OK 
+Joint J5
+ 27 Mode:                   DISABLE  OK 
+    Stop Category 0
+ 28   Stopping distance(deg):   0.0  OK 
+ 29   Speed(deg/sec):           0.0  OK 
+    Stop Category 1
+ 30   Stopping distance(deg):   0.0  OK 
+ 31   Speed(deg/sec):           0.0  OK 
+Joint J6
+ 32 Mode:                   DISABLE  OK 
+    Stop Category 0
+ 33   Stopping distance(deg):   0.0  OK 
+ 34   Speed(deg/sec):           0.0  OK 
+    Stop Category 1
+ 35   Stopping distance(deg):   0.0  OK 
+ 36   Speed(deg/sec):           0.0  OK 
+Joint J7
+ 37 Mode:                   DISABLE  OK 
+    Stop Category 0
+ 38   Stopping distance(deg):   0.0  OK 
+ 39   Speed(deg/sec):           0.0  OK 
+    Stop Category 1
+ 40   Stopping distance(deg):   0.0  OK 
+ 41   Speed(deg/sec):           0.0  OK 
+Joint J8
+ 42 Mode:                   DISABLE  OK 
+    Stop Category 0
+ 43   Stopping distance(deg):   0.0  OK 
+ 44   Speed(deg/sec):           0.0  OK 
+    Stop Category 1
+ 45   Stopping distance(deg):   0.0  OK 
+ 46   Speed(deg/sec):           0.0  OK 
+Joint J9
+ 47 Mode:                   DISABLE  OK 
+    Stop Category 0
+ 48   Stopping distance(deg):   0.0  OK 
+ 49   Speed(deg/sec):           0.0  OK 
+    Stop Category 1
+ 50   Stopping distance(deg):   0.0  OK 
+ 51   Speed(deg/sec):           0.0  OK 
+
+--- Pos./speed check setup -------------
+                          Status: OK 
+ SSI[13] Configuration check
+  1 Disabled JPC DSBL Signal    DISABLE
+  2 Disabled JSC DSBL Signal    DISABLE
+  3 Disabled CPC DSBL Signal    DISABLE
+  4 Disabled CSC DSBL Signal    DISABLE
+  5 Invalid Tool Frame          DISABLE
+ Position/Speed check setup
+  6 Disabled CPC Position Check DISABLE
+  7 Shift+Reset direction check ENABLE 
+--- Robot setup ------------------------
+                                  Status
+Number of groups: 1                  OK 
+Scan time: 8 msec                    OK 
+---------- Group 1 ----------       
+Robot: R-2000iC/125L                 OK 
+Number of axes: 6                    OK 
+J1: Servo card - Axis 1              OK 
+J2: Servo card - Axis 2              OK 
+J3: Servo card - Axis 3              OK 
+J4: Servo card - Axis 4              OK 
+J5: Servo card - Axis 5              OK 
+J6: Servo card - Axis 6              OK 
+
+
+--- Mastering parameter ----------------
+    Axis  Position  Master count  Status
+---------- Group 1 ----------       
+J1      -1.756 deg       72655       OK 
+J2     -17.223 deg    17677858       OK 
+J3      -7.651 deg    15069784       OK 
+J4       -.366 deg     -168630       OK 
+J5     -82.126 deg      212102       OK 
+J6     -28.194 deg   -39372269       OK 
+
+--- CIP safety -------------------------
+    Status:                        OK    
+  1 Enable/Bypass:              ENABLE  
+  2 CIP Safety input size(byte):   8  
+  2 CIP Safety input size(byte):   8  
+  4 Config Signature Date/Time: ACTUAL  
+
+--- Safe I/O connect -------------------
+ Output     Input1         Input2 Status
+  SSO[  1]=  SSI[  1] AND  CSI[  3] OK 
+  SSO[  2]=  SSI[  2] AND  CSI[  2] OK 
+  SSO[  3]=  SSI[  3] AND  CSI[  1] OK 
+  CSO[  1]=  SSI[  3]      ---[  0] OK 
+  CSO[  2]=  SSI[  6]      ---[  0] OK 
+  CSO[  3]=  JPC[  3]      ---[  0] OK 
+  CSO[  4]=  JPC[  4]      ---[  0] OK 
+  CSO[  5]=  JPC[ 10] AND  JPC[ 11] OK 
+  CSO[  6]=  JPC[ 12] AND  JPC[ 13] OK 
+  CSO[  7]=  JPC[ 14] AND  JPC[ 15] OK 
+  CSO[  8]=  JPC[  6]      ---[  0] OK 
+  CSO[  9]=  CPC[  6]      ---[  0] OK 
+  CSO[ 10]=  CPC[  7]      ---[  0] OK 
+  CSO[ 11]=  JPC[  7]      ---[  0] OK 
+  CSO[ 12]=  JPC[  8]      ---[  0] OK 
+  CSO[ 13]=  JPC[ 16] AND  JPC[ 17] OK 
+  CSO[ 14]=  JPC[ 18] AND  JPC[ 19] OK 
+  CSO[ 15]=  JPC[ 20] AND  JPC[ 21] OK 
+  CSO[ 16]=! CPC[  9] AND! CSI[  7] OK 
+  CSO[ 17]=! CPC[ 10] AND! CSI[  6] OK 
+  CSO[ 18]=! CSO[ 16] AND! CSO[ 17] OK 
+  CSO[ 19]=! CSO[ 18]      ---[  0] OK 
+  ---[  0]=  ---[  0]      ---[  0] OK 
+  ---[  0]=  ---[  0]      ---[  0] OK 
+  ---[  0]=  ---[  0]      ---[  0] OK 
+  ---[  0]=  ---[  0]      ---[  0] OK 
+  ---[  0]=  ---[  0]      ---[  0] OK 
+  ---[  0]=  ---[  0]      ---[  0] OK 
+  ---[  0]=  ---[  0]      ---[  0] OK 
+  ---[  0]=  ---[  0]      ---[  0] OK 
+  ---[  0]=  ---[  0]      ---[  0] OK 
+  ---[  0]=  ---[  0]      ---[  0] OK 
+  ---[  0]=  ---[  0]      ---[  0] OK 
+  ---[  0]=  ---[  0]      ---[  0] OK 
+  ---[  0]=  ---[  0]      ---[  0] OK 
+  ---[  0]=  ---[  0]      ---[  0] OK 
+  ---[  0]=  ---[  0]      ---[  0] OK 
+  ---[  0]=  ---[  0]      ---[  0] OK 
+  ---[  0]=  ---[  0]      ---[  0] OK 
+  ---[  0]=  ---[  0]      ---[  0] OK 
+  ---[  0]=  ---[  0]      ---[  0] OK 
+  ---[  0]=  ---[  0]      ---[  0] OK 
+  ---[  0]=  ---[  0]      ---[  0] OK 
+  ---[  0]=  ---[  0]      ---[  0] OK 
+  ---[  0]=  ---[  0]      ---[  0] OK 
+  ---[  0]=  ---[  0]      ---[  0] OK 
+  ---[  0]=  ---[  0]      ---[  0] OK 
+  ---[  0]=  ---[  0]      ---[  0] OK 
+  ---[  0]=  ---[  0]      ---[  0] OK 
+  ---[  0]=  ---[  0]      ---[  0] OK 
+  ---[  0]=  ---[  0]      ---[  0] OK 
+  ---[  0]=  ---[  0]      ---[  0] OK 
+  ---[  0]=  ---[  0]      ---[  0] OK 
+  ---[  0]=  ---[  0]      ---[  0] OK 
+  ---[  0]=  ---[  0]      ---[  0] OK 
+  ---[  0]=  ---[  0]      ---[  0] OK 
+  ---[  0]=  ---[  0]      ---[  0] OK 
+  ---[  0]=  ---[  0]      ---[  0] OK 
+  ---[  0]=  ---[  0]      ---[  0] OK 
+  ---[  0]=  ---[  0]      ---[  0] OK 
+  ---[  0]=  ---[  0]      ---[  0] OK 
+  ---[  0]=  ---[  0]      ---[  0] OK 
+  ---[  0]=  ---[  0]      ---[  0] OK 
+  ---[  0]=  ---[  0]      ---[  0] OK 
+
+--- I/O Link i Slave--------------------
+                                  Status
+Input size (byte):           0      OK 
+Output size (byte):          0      OK 
+
+--- Safe I/O Consistency Check ---------
+No. Signal 1   Singal 2  Time(ms) Status
+ 1  ---[  0]    ---[  0]    1000    OK 
+ 2  ---[  0]    ---[  0]    1000    OK 
+ 3  ---[  0]    ---[  0]    1000    OK 
+ 4  ---[  0]    ---[  0]    1000    OK 
+ 5  ---[  0]    ---[  0]    1000    OK 
+ 6  ---[  0]    ---[  0]    1000    OK 
+ 7  ---[  0]    ---[  0]    1000    OK 
+ 8  ---[  0]    ---[  0]    1000    OK 
+ 9  ---[  0]    ---[  0]    1000    OK 
+10  ---[  0]    ---[  0]    1000    OK 
+11  ---[  0]    ---[  0]    1000    OK 
+12  ---[  0]    ---[  0]    1000    OK 
+13  ---[  0]    ---[  0]    1000    OK 
+14  ---[  0]    ---[  0]    1000    OK 
+15  ---[  0]    ---[  0]    1000    OK 
+16  ---[  0]    ---[  0]    1000    OK 
+
+--- Safe I/O device --------------------
+  1 Safe I/O process: I/O connect   OK 
+  2 SFDO Pulse check: DISABLE(PL d) OK 
+ Configuration                    status
+   ---- Device 1 -------------
+  3 Type:E-stop board              OK 
+  4 Robot number: 1                 OK 
+  5 Input:  SPI[  1 -   8](PL e)    OK 
+  6 Output: SPO[  1 -   8](PL d)    OK 
+   ---- Device 2 -------------
+  7 Type:No device                 OK 
+  8 Robot number: 0                 OK 
+  9 Input:  SPI[  0 -   0](PL e)    OK 
+ 10 Output: SPO[  0 -   0](PL d)    OK 
+   ---- Device 3 -------------
+ 11 Type:No device                 OK 
+ 12 Robot number: 0                 OK 
+ 13 Input:  SPI[  0 -   0](PL e)    OK 
+ 14 Output: SPO[  0 -   0](PL d)    OK 
+   ---- Device 4 -------------
+ 15 Type:No device                 OK 
+ 16 Robot number: 0                 OK 
+ 17 Input:  SPI[  0 -   0](PL e)    OK 
+ 18 Output: SPO[  0 -   0](PL d)    OK 
+   ---- Device 5 -------------
+ 19 Type:No device                 OK 
+ 20 Robot number: 0                 OK 
+ 21 Input:  SPI[  0 -   0](PL e)    OK 
+ 22 Output: SPO[  0 -   0](PL d)    OK 
+   ---- Device 6 -------------
+ 23 Type:No device                 OK 
+ 24 Robot number: 0                 OK 
+ 25 Input:  SPI[  0 -   0](PL e)    OK 
+ 26 Output: SPO[  0 -   0](PL d)    OK 
+   ---- Device 7 -------------
+ 27 Type:No device                 OK 
+ 28 Robot number: 0                 OK 
+ 29 Input:  SPI[  0 -   0](PL e)    OK 
+ 30 Output: SPO[  0 -   0](PL d)    OK 
+   ---- Device 8 -------------
+ 31 Type:No device                 OK 
+ 32 Robot number: 0                 OK 
+ 33 Input:  SPI[  0 -   0](PL e)    OK 
+ 34 Output: SPO[  0 -   0](PL d)    OK 
+
+--- Signature number (Dec) -------------
+                Current        Latch
+1 Total:        2000696673            0
+  Time:25-AUG-20 03:09              None
+2 Base:         1398655434            0
+  Time:25-AUG-20 03:09              None
+   Mastering:   1691530607
+   Robot:       -200224083
+   Other:       1165367760
+3 Pos./Speed:   -782602348            0
+  Time:25-AUG-20 03:09              None
+4 I/O connect:   -46822438            0
+  Time:25-AUG-20 03:09              None
+

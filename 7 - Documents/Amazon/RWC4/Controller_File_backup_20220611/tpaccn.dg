@@ -1,0 +1,68 @@
+                       TP Accounting
+
+F Number: F253267
+VERSION : HandlingTool         
+$VERSION: V9.10170      9/18/2019
+DATE:     11-JUN-22 07:12 
+
+Menu                         Elapsed Time         #Sel       #Keys
+                     (YY-MM-DD HH:MM:SS)
+Id:  962, 1                       02:02            3          34
+Program Setup                     02:48            2          17
+Home                     02-06 05:17:20          153       16453
+DCS                               04:02            4          53
+File                           01:20:24            8         543
+Registers                      01:40:22           48       11489
+Position Reg                   01:13:58           11        2268
+SELECT                      10 20:17:50          510       22125
+Ovrd Select                          22            2           8
+Clock                          01:06:56            5          59
+EDIT                     06-26 21:05:06          538       62372
+Hints                       04 06:53:14           10        1031
+Version ID                        49:20            2         112
+Id:  381, 5                          02            2           0
+Alarm Log                   10 23:28:54           29        7875
+Vision Config                        46            2          61
+Vision Log                        01:28            3           3
+Vision Setup                      13:14            3           4
+Vision Utilities                  08:12            3         158
+SOP                                  12            1          40
+UOP                                  10            1          44
+Vision Devices                    03:32            3           6
+Robot                             01:44           10          72
+Tool Offset                       01:02            3          53
+Ref Position                      02:26            3         232
+Frame Offset                         28            3          74
+Frames                            36:18           19        1407
+Digital                           14:26           10        2640
+User Alarm                           02            1          22
+System Log                           32            2         206
+Analog                               10            2          28
+Cell Intface                      46:00            5          77
+4D Display                        01:46            7          36
+Id:  381, 3                       02:10            4          14
+Id:  381, 2                 02 23:37:32            2         741
+Motion Log                  03 04:15:06            4        1169
+Home                        14 09:02:24           39        3286
+Position Display            02 21:13:38            3         709
+Tool1                                48            1           8
+Host Comm                         14:38           11         318
+EtherNet/IP                       02:46            2         260
+Group                                10            2          40
+Prog Select                          44            2          22
+Setup                                18            1           1
+Group Exchg                          20            1           2
+
+Full Menus:              10-23 00:05:42 
+Quick Menus:                         00 
+
+MENU Popup:                                      334
+[ TYPE ] Pullup:                                  26
+
+Functions at COLD start
+ABORT (ALL)                                      164
+T/Singularity JOG                                  1
+CYCLE POWER                                        2
+
+Functions at CTRL start
+START (COLD)                                       2

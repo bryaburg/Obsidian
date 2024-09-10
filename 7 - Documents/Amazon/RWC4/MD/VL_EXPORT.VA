@@ -1,0 +1,24 @@
+[VL_EXPORT]RNUM_STAT  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+
+[VL_EXPORT]OUTPUTSTAT  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+
+[VL_EXPORT]TIMEOUT  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+
+[VL_EXPORT]TARGET_TICK  Storage: DRAM  Access: RW  : REAL = Uninitialized
+
+[VL_EXPORT]MAXREGNUM  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+
+[VL_EXPORT]ENTRY  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+
+[VL_EXPORT]DATA_TYPE  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+
+[VL_EXPORT]DMY_INT  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+
+[VL_EXPORT]DMY_REAL  Storage: DRAM  Access: RW  : REAL = Uninitialized
+
+[VL_EXPORT]DMY_STR  Storage: DRAM  Access: RW  : STRING[2] = Uninitialized
+
+[VL_EXPORT]STATUS  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+
+[VL_EXPORT]DONE  Storage: DRAM  Access: RW  : BOOLEAN = Uninitialized
+

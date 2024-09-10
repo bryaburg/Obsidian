@@ -1,0 +1,38 @@
+[RGETPREG]ISEVERITY  Storage: CMOS  Access: RW  : INTEGER = Uninitialized
+
+[RGETPREG]ISTAT  Storage: CMOS  Access: RW  : INTEGER = Uninitialized
+
+[RGETPREG]IDATATYPE  Storage: CMOS  Access: RW  : INTEGER = Uninitialized
+
+[RGETPREG]ISRCIDX  Storage: CMOS  Access: RW  : INTEGER = Uninitialized
+
+[RGETPREG]IDSTIDX  Storage: CMOS  Access: RW  : INTEGER = Uninitialized
+
+[RGETPREG]ISRCGRPIDX  Storage: CMOS  Access: RW  : INTEGER = Uninitialized
+
+[RGETPREG]IDSTGRPIDX  Storage: CMOS  Access: RW  : INTEGER = Uninitialized
+
+[RGETPREG]IOPTION  Storage: CMOS  Access: RW  : INTEGER = Uninitialized
+
+[RGETPREG]STRHOST  Storage: CMOS  Access: RW  : STRING[40] = Uninitialized
+
+[RGETPREG]IMAXPREGNUM  Storage: UNINIT_DRAM  Access: RW  : INTEGER = Uninitialized
+
+[RGETPREG]IVALUE  Storage: CMOS  Access: RW  : INTEGER = Uninitialized
+
+[RGETPREG]RVALUE  Storage: CMOS  Access: RW  : REAL = Uninitialized
+
+[RGETPREG]IDMYSTAT  Storage: CMOS  Access: RW  : INTEGER = Uninitialized
+
+[RGETPREG]IARG  Storage: CMOS  Access: RW  : INTEGER = Uninitialized
+
+[RGETPREG]RARG  Storage: CMOS  Access: RW  : REAL = Uninitialized
+
+[RGETPREG]STRARG  Storage: CMOS  Access: RW  : STRING[40] = Uninitialized
+
+[RGETPREG]IENTRY  Storage: CMOS  Access: RW  : INTEGER = Uninitialized
+
+[RGETPREG]INUMGRPSC  Storage: UNINIT_DRAM  Access: RW  : INTEGER = Uninitialized
+
+[RGETPREG]BDBGOUTPUT  Storage: CMOS  Access: RW  : BOOLEAN = Uninitialized
+

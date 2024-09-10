@@ -1,0 +1,54 @@
+[ADJ_OFS]OFFSET_POS  Storage: CMOS  Access: RW  : POSITION = Uninitialized
+
+[ADJ_OFS]OFFSET_XYZ  Storage: CMOS  Access: RW  : XYZWPREXT = Uninitialized
+
+[ADJ_OFS]ADJUST_POS  Storage: CMOS  Access: RW  : POSITION = Uninitialized
+
+[ADJ_OFS]ADJUST_XYZ  Storage: CMOS  Access: RW  : XYZWPREXT = Uninitialized
+
+[ADJ_OFS]WORK_POS_1  Storage: CMOS  Access: RW  : POSITION = Uninitialized
+
+[ADJ_OFS]WORK_POS_2  Storage: CMOS  Access: RW  : POSITION = Uninitialized
+
+[ADJ_OFS]WORK_POS_3  Storage: CMOS  Access: RW  : POSITION = Uninitialized
+
+[ADJ_OFS]STATUS  Storage: CMOS  Access: RW  : INTEGER = Uninitialized
+
+[ADJ_OFS]I  Storage: CMOS  Access: RW  : INTEGER = Uninitialized
+
+[ADJ_OFS]GROUP_NUM  Storage: CMOS  Access: RW  : INTEGER = Uninitialized
+
+[ADJ_OFS]POS  Storage: CMOS  Access: RW  : POSITION = Uninitialized
+
+[ADJ_OFS]POS_XYZEX  Storage: CMOS  Access: RW  : XYZWPREXT = Uninitialized
+
+[ADJ_OFS]POS_XYZ  Storage: CMOS  Access: RW  : XYZWPR = Uninitialized
+
+[ADJ_OFS]ENTRY  Storage: CMOS  Access: RW  : INTEGER = Uninitialized
+
+[ADJ_OFS]POS_TYPE  Storage: CMOS  Access: RW  : INTEGER = Uninitialized
+
+[ADJ_OFS]NUM_AXES  Storage: CMOS  Access: RW  : INTEGER = Uninitialized
+
+[ADJ_OFS]DATA_TYPE  Storage: CMOS  Access: RW  : ARRAY[5] OF INTEGER
+  [1] = Uninitialized
+  [2] = Uninitialized
+  [3] = Uninitialized
+  [4] = Uninitialized
+  [5] = Uninitialized
+
+[ADJ_OFS]INT_PARAM  Storage: CMOS  Access: RW  : ARRAY[5] OF INTEGER
+  [1] = Uninitialized
+  [2] = Uninitialized
+  [3] = Uninitialized
+  [4] = Uninitialized
+  [5] = Uninitialized
+
+[ADJ_OFS]REAL_PARAM  Storage: CMOS  Access: RW  : REAL = Uninitialized
+
+[ADJ_OFS]STR_PARAM  Storage: CMOS  Access: RW  : STRING[100] = Uninitialized
+
+[ADJ_OFS]RET_STATUS  Storage: CMOS  Access: RW  : INTEGER = Uninitialized
+
+[ADJ_OFS]ERR_MSG  Storage: CMOS  Access: RW  : STRING[40] = Uninitialized
+

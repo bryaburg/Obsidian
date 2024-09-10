@@ -1,0 +1,6 @@
+[IRVHOMING]SETU_VP_NAME  Storage: DRAM  Access: RW  : STRING[40] = Uninitialized
+
+[IRVHOMING]MID_LEARNING  Storage: DRAM  Access: RW  : BOOLEAN = Uninitialized
+
+[IRVHOMING]INITIAL_RPOS  Storage: DRAM  Access: RW  : XYZWPR = Uninitialized
+

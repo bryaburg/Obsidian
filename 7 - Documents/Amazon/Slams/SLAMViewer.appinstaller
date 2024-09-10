@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AppInstaller
+	Uri="https://slamviewer.s3.amazonaws.com/Install/SLAMViewer.appinstaller"
+	Version="3.7.38.0" xmlns="http://schemas.microsoft.com/appx/appinstaller/2017/2">
+	<MainBundle
+		Name="37152DarrelVinsonSolution.54454540681EA"
+		Version="3.7.38.0"
+		Publisher="CN=Darrel Vinson, O=Darrel Vinson, S=Florida, C=US"
+		Uri="https://slamviewer.s3.amazonaws.com/Install/SLAMViewer_3.7.38.0_Test/SLAMViewer_3.7.38.0_x86_x64.msixbundle" />
+	<UpdateSettings>
+		<OnLaunch
+			HoursBetweenUpdateChecks="0" />
+	</UpdateSettings>
+</AppInstaller>

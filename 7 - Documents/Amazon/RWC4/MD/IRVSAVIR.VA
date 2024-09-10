@@ -1,0 +1,16 @@
+[IRVSAVIR]OUTP_PATH  Storage: DRAM  Access: RW  : STRING[50] = Uninitialized
+
+[IRVSAVIR]IMREG_NUM  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+
+[IRVSAVIR]NUM_IMREGS  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+
+[IRVSAVIR]REG_NUM  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+
+[IRVSAVIR]NOT_ZIP_INT  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+
+[IRVSAVIR]NOT_ZIP  Storage: DRAM  Access: RW  : BOOLEAN = Uninitialized
+
+[IRVSAVIR]STAT  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+
+[IRVSAVIR]STAT2  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+

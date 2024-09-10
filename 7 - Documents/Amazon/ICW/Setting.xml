@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <Mode value="Basic Mode" />
+  <CommentVisble value="False" />
+  <PCAddress value="" />
+  <Symbol value="Black" />
+  <Background value="White" />
+  <Device value="#000000" />
+  <SymbolClick value="White" />
+  <Background_active value="Blue" />
+  <DeviceClick value="#FFFFFF" />
+  <Comment value="LimeGreen" />
+  <LineComment value="White" />
+  <LineFontColor value="Blue" />
+  <UnitType value="Metric" />
+</root>

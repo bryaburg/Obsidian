@@ -1,0 +1,33 @@
+[IRVRGTRG]INITIAL_JNT  Storage: CMOS  Access: RW  : JOINTPOS9 = Uninitialized
+
+[IRVRGTRG]INITIAL_POSE  Storage: CMOS  Access: RW  : AFFPOSE = 
+   Field: INITIAL_POSE.VT Access: RW: REAL = Uninitialized
+   Field: INITIAL_POSE.HZ Access: RW: REAL = Uninitialized
+   Field: INITIAL_POSE.ANGLE Access: RW: REAL = Uninitialized
+   Field: INITIAL_POSE.SCALE Access: RW: REAL = Uninitialized
+   Field: INITIAL_POSE.ASPECT Access: RW: REAL = Uninitialized
+   Field: INITIAL_POSE.SKEW Access: RW: REAL = Uninitialized
+
+[IRVRGTRG]CENTER_PIX  Storage: CMOS  Access: RW  : PIXEL = 
+   Field: CENTER_PIX.VT Access: RW: REAL = Uninitialized
+   Field: CENTER_PIX.HZ Access: RW: REAL = Uninitialized
+
+[IRVRGTRG]JACOB_MAT  Storage: CMOS  Access: RW  : ARRAY[3,3] OF REAL
+    [1,1] = Uninitialized
+    [1,2] = Uninitialized
+    [1,3] = Uninitialized
+    [2,1] = Uninitialized
+    [2,2] = Uninitialized
+    [2,3] = Uninitialized
+    [3,1] = Uninitialized
+    [3,2] = Uninitialized
+    [3,3] = Uninitialized
+
+[IRVRGTRG]UTOOL  Storage: CMOS  Access: RW  : XYZWPR = Uninitialized
+
+[IRVRGTRG]DEBUG_MODE  Storage: CMOS  Access: RW  : INTEGER = Uninitialized
+
+[IRVRGTRG]ENTRY  Storage: CMOS  Access: RW  : INTEGER = Uninitialized
+
+[IRVRGTRG]STATUS  Storage: CMOS  Access: RW  : INTEGER = Uninitialized
+

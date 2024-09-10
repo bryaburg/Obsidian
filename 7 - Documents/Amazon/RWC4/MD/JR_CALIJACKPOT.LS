@@ -1,0 +1,39 @@
+/PROG  JR_CALIJACKPOT
+/ATTR
+OWNER		= MNEDITOR;
+COMMENT		= "";
+PROG_SIZE	= 538;
+CREATE		= DATE 18-03-30  TIME 09:27:32;
+MODIFIED	= DATE 18-05-23  TIME 11:27:34;
+FILE_NAME	= ;
+VERSION		= 0;
+LINE_COUNT	= 6;
+MEMORY_SIZE	= 886;
+PROTECT		= READ;
+TCD:  STACK_SIZE	= 0,
+      TASK_PRIORITY	= 50,
+      TIME_SLICE	= 0,
+      BUSY_LAMP_OFF	= 0,
+      ABORT_REQUEST	= 0,
+      PAUSE_REQUEST	= 0;
+DEFAULT_GROUP	= 1,*,*,*,*;
+CONTROL_CODE	= 00000000 00000000;
+/APPL
+
+AUTO_SINGULARITY_HEADER;
+  ENABLE_SINGULARITY_AVOIDANCE   : TRUE;
+/MN
+   1:   ;
+   2:  UFRAME_NUM=0 ;
+   3:  UTOOL_NUM=1 ;
+   4:   ;
+   5:J P[1] 100% FINE    ;
+   6:  DO[87:OFF:Lights ON]=ON ;
+/POS
+P[1]{
+   GP1:
+	UF : 0, UT : 1,		CONFIG : 'N U T, 0, 0, 0',
+	X = -1292.280  mm,	Y =  -345.220  mm,	Z =  -687.735  mm,
+	W =      .461 deg,	P =     -.421 deg,	R =     -.460 deg
+};
+/END

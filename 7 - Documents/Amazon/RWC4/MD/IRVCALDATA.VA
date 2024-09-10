@@ -1,0 +1,32 @@
+[IRVCALDATA]NAME  Storage: CMOS  Access: RW  : STRING[40] = Uninitialized
+
+[IRVCALDATA]DATA_TYPE  Storage: CMOS  Access: RW  : INTEGER = Uninitialized
+
+[IRVCALDATA]DMY_INT  Storage: CMOS  Access: RW  : INTEGER = Uninitialized
+
+[IRVCALDATA]DMY_REAL  Storage: CMOS  Access: RW  : REAL = Uninitialized
+
+[IRVCALDATA]DMY_STR  Storage: CMOS  Access: RW  : STRING[2] = Uninitialized
+
+[IRVCALDATA]STAT  Storage: CMOS  Access: RW  : INTEGER = Uninitialized
+
+[IRVCALDATA]ENTRY  Storage: CMOS  Access: RW  : INTEGER = Uninitialized
+
+[IRVCALDATA]CAL_DAT_TYPE  Storage: CMOS  Access: RW  : INTEGER = Uninitialized
+
+[IRVCALDATA]PR_NUMBER  Storage: CMOS  Access: RW  : INTEGER = Uninitialized
+
+[IRVCALDATA]MAX_PR_NUM  Storage: CMOS  Access: RW  : INTEGER = Uninitialized
+
+[IRVCALDATA]STAT_REG  Storage: CMOS  Access: RW  : INTEGER = Uninitialized
+
+[IRVCALDATA]MAX_REG_NUM  Storage: CMOS  Access: RW  : INTEGER = Uninitialized
+
+[IRVCALDATA]GROUP_NUM  Storage: CMOS  Access: RW  : INTEGER = Uninitialized
+
+[IRVCALDATA]CAM_FRAME  Storage: CMOS  Access: RW  : XYZWPR = Uninitialized
+
+[IRVCALDATA]LASER_FRAME  Storage: CMOS  Access: RW  : XYZWPR = Uninitialized
+
+[IRVCALDATA]OUTPUT_STAT  Storage: CMOS  Access: RW  : INTEGER = Uninitialized
+

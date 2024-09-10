@@ -1,0 +1,77 @@
+Instances: 
+
+Instance 0 Open? 0 Pane 1, Sub 0, RIPE 255 Conn 0 PMON 0
+  No Scene Pointer
+  selected_p 
+relvar_num = 0 
+  dyn_idle 0, exiting 1, echo_client 0, pip_display 0, dlg_mode 0
+ rmt_checkins 0, softpart_active 0, dlgxml , tpmm_task 0, last_access 0, last_curfile 0
+  Grp1 moved_status 0 last_sent_pos 
+Scene mask = 0000000000000000000000000000000000000000000000000000000000000000
+userp mask = 0000000000000000000000000000000000000000000000000000000000000000
+
+Instance 1 Open? 0 Pane 2, Sub 0, RIPE 255 Conn 0 PMON 0
+  No Scene Pointer
+  selected_p 
+relvar_num = 0 
+  dyn_idle 0, exiting 1, echo_client 0, pip_display 0, dlg_mode 0
+ rmt_checkins 0, softpart_active 0, dlgxml , tpmm_task 0, last_access 0, last_curfile 0
+  Grp1 moved_status 0 last_sent_pos 
+Scene mask = 0000000000000000000000000000000000000000000000000000000000000000
+userp mask = 0000000000000000000000000000000000000000000000000000000000000000
+
+Instance 2 Open? 0 Pane 3, Sub 0, RIPE 255 Conn 0 PMON 0
+  No Scene Pointer
+  selected_p 
+relvar_num = 0 
+  dyn_idle 0, exiting 1, echo_client 0, pip_display 0, dlg_mode 0
+ rmt_checkins 0, softpart_active 0, dlgxml , tpmm_task 0, last_access 0, last_curfile 0
+  Grp1 moved_status 0 last_sent_pos 
+Scene mask = 0000000000000000000000000000000000000000000000000000000000000000
+userp mask = 0000000000000000000000000000000000000000000000000000000000000000
+
+Instance 3  not used
+
+Instance 4  not used
+
+Instance 5  not used
+
+Instance 6  not used
+
+Instance 7  not used
+
+Instance 8  not used
+
+Instance 9  not used
+
+Instance 10  not used
+
+Instance 11  not used
+
+Instance 12  not used
+
+Instance 13  not used
+
+Instance 14  not used
+
+Instance 15  not used
+
+Scenes (9):
+ 0 'generic' 'cust:1,11'
+Scene mask = 0000000000000000000000000000000000000000000001010000110000100010
+ 1 'dcs' 'cust:1,11'
+Scene mask = 0000000000000000000000000000000000000000000001000000110000110010
+ 2 'nodemap' 'cust:1,11'
+Scene mask = 0000000000000000000000000000000000000000000001000000110100100010
+ 3 'register' 'cust:1,11'
+Scene mask = 0000000000000000000000000000000000000000000001000000110000101010
+ 4 'trace' 'cust:1,11'
+Scene mask = 0000000000000000000000000000000000000000000001000000110001100010
+ 5 'select' 'cust:1,11'
+Scene mask = 0000000000000000000000000000000000000000000001000010110000100010
+ 6 'frames' 'cust:1,11'
+Scene mask = 0000000000000000000000000000000000000000000001100000110000100010
+ 7 'vision' 'cust:1,11,22'
+Scene mask = 0000000000000000000000000000000000000000010001000000110000100010
+ 8 'prmon' 'cust:1,11'
+Scene mask = 0000000000000000000000000000000000000000000001000000110100100010

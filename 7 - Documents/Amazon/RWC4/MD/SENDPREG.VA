@@ -1,0 +1,60 @@
+[SENDPREG]DATA_TYPE  Storage: CMOS  Access: RW  : ARRAY[4] OF INTEGER
+  [1] = Uninitialized
+  [2] = Uninitialized
+  [3] = Uninitialized
+  [4] = Uninitialized
+
+[SENDPREG]INT_PARAM  Storage: CMOS  Access: RW  : ARRAY[4] OF INTEGER
+  [1] = Uninitialized
+  [2] = Uninitialized
+  [3] = Uninitialized
+  [4] = Uninitialized
+
+[SENDPREG]REAL_PARAM  Storage: CMOS  Access: RW  : REAL = Uninitialized
+
+[SENDPREG]STR_PARAM  Storage: CMOS  Access: RW  : ARRAY[4] OF STRING[30]
+  [1] = Uninitialized
+  [2] = Uninitialized
+  [3] = Uninitialized
+  [4] = Uninitialized
+
+[SENDPREG]STATUS  Storage: CMOS  Access: RW  : INTEGER = Uninitialized
+
+[SENDPREG]REG_NUM  Storage: CMOS  Access: RW  : INTEGER = Uninitialized
+
+[SENDPREG]ROBOT_NAME  Storage: CMOS  Access: RW  : STRING[30] = Uninitialized
+
+[SENDPREG]REG_ARY_NUM  Storage: CMOS  Access: RW  : INTEGER = Uninitialized
+
+[SENDPREG]GROUP_NUM  Storage: CMOS  Access: RW  : INTEGER = Uninitialized
+
+[SENDPREG]POS_TYPE  Storage: CMOS  Access: RW  : INTEGER = Uninitialized
+
+[SENDPREG]NUM_AXES  Storage: CMOS  Access: RW  : INTEGER = Uninitialized
+
+[SENDPREG]POS_XYZEX  Storage: CMOS  Access: RW  : XYZWPREXT = Uninitialized
+
+[SENDPREG]PROG_NAME  Storage: CMOS  Access: RW  : STRING[30] = Uninitialized
+
+[SENDPREG]REG_ARY_STR  Storage: CMOS  Access: RW  : STRING[2] = Uninitialized
+
+[SENDPREG]VAR_NAME  Storage: CMOS  Access: RW  : STRING[30] = Uninitialized
+
+[SENDPREG]ENTRY  Storage: CMOS  Access: RW  : INTEGER = Uninitialized
+
+[SENDPREG]RECV_FLAG  Storage: CMOS  Access: RW  : BOOLEAN = Uninitialized
+
+[SENDPREG]I  Storage: CMOS  Access: RW  : INTEGER = Uninitialized
+
+[SENDPREG]RET_STATUS  Storage: CMOS  Access: RW  : INTEGER = Uninitialized
+
+[SENDPREG]ERR_MSG  Storage: CMOS  Access: RW  : STRING[40] = Uninitialized
+
+[SENDPREG]TMP_STATUS  Storage: CMOS  Access: RW  : INTEGER = Uninitialized
+
+[SENDPREG]STATUS_STR  Storage: CMOS  Access: RW  : STRING[30] = Uninitialized
+
+[SENDPREG]NUM_ROB_AXS  Storage: CMOS  Access: RW  : INTEGER = Uninitialized
+
+[SENDPREG]EXT_AXES  Storage: CMOS  Access: RW  : INTEGER = Uninitialized
+

@@ -1,0 +1,6 @@
+[IRVLODIR]INP_PATH  Storage: DRAM  Access: RW  : STRING[50] = Uninitialized
+
+[IRVLODIR]IMREG_NUM  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+
+[IRVLODIR]STAT  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+

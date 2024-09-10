@@ -1,0 +1,21 @@
+[*SYSTEM*]$CIPS_CFG  Storage: SHADOW  Access: RW  : CIPS_CFG_T = 
+   Field: $CIPS_CFG.$INTERFACE Access: RW: BYTE = 11
+   Field: $CIPS_CFG.$DUMMY1 Access: RW: BYTE = 255
+   Field: $CIPS_CFG.$DUMMY2 Access: RW: BYTE = 255
+   Field: $CIPS_CFG.$DUMMY3 Access: RW: BYTE = 255
+
+[*SYSTEM*]$CIPS_SET  Storage: SHADOW  Access: RW  : CIPS_SET_T = 
+   Field: $CIPS_SET.$MODE Access: RW: INTEGER = 1
+   Field: $CIPS_SET.$IN_SIZE Access: RW: INTEGER = 8
+   Field: $CIPS_SET.$OUT_SIZE Access: RW: INTEGER = 8
+   Field: $CIPS_SET.$DATE_FIX Access: RW: INTEGER = 1
+   Field: $CIPS_SET.$CSI_VRC  ARRAY[8] OF BYTE
+    [1] = 0
+    [2] = 0
+    [3] = 0
+    [4] = 0
+    [5] = 0
+    [6] = 0
+    [7] = 0
+    [8] = 0
+

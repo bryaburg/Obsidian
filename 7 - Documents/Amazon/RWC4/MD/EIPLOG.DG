@@ -1,0 +1,169 @@
+: [CPINIT] Conn Serial_No[17]: 0x3b01
+
+NOV 07 2020 00:42:46 : [CPINIT] Conn Serial_No[18]: 0x5e27
+
+NOV 07 2020 00:42:46 : [CPINIT] Conn Serial_No[19]: 0x814d
+
+NOV 07 2020 00:42:46 : [CPINIT] Conn Serial_No[20]: 0xa473
+
+NOV 07 2020 00:42:46 : [CPINIT] Conn Serial_No[21]: 0xc799
+
+NOV 07 2020 00:42:46 : [CPINIT] Conn Serial_No[22]: 0xeabf
+
+NOV 07 2020 00:42:46 : [CPINIT] Conn Serial_No[23]: 0xde5
+
+NOV 07 2020 00:42:46 : [CPINIT] Conn Serial_No[24]: 0x310b
+
+NOV 07 2020 00:42:46 : [CPINIT] Conn Serial_No[25]: 0x5431
+
+NOV 07 2020 00:42:46 : [CPINIT] Conn Serial_No[26]: 0x7757
+
+NOV 07 2020 00:42:46 : [CPINIT] Conn Serial_No[27]: 0x9a7d
+
+NOV 07 2020 00:42:46 : [CPINIT] Conn Serial_No[28]: 0xbda3
+
+NOV 07 2020 00:42:46 : [CPINIT] Conn Serial_No[29]: 0xe0c9
+
+NOV 07 2020 00:42:46 : [CPINIT] Conn Serial_No[30]: 0xb933
+
+NOV 07 2020 00:42:46 : [CPINIT] Conn Serial_No[31]: 0xdc59
+
+NOV 07 2020 00:42:46 : [CPINIT] Conn Serial_No[32]: 0xff7f
+
+NOV 07 2020 00:42:46 : [CPINIT] Conn Serial_No[33]: 0x22a5
+
+NOV 07 2020 00:42:46 : [CPINIT] Conn Serial_No[34]: 0x45cb
+
+NOV 07 2020 00:42:46 : [CPINIT] Conn Serial_No[35]: 0x68f1
+
+NOV 07 2020 00:42:46 : [CPINIT] Conn Serial_No[36]: 0x8c17
+
+NOV 07 2020 00:42:46 : [CPINIT] Conn Serial_No[37]: 0xaf3d
+
+NOV 07 2020 00:42:46 : [CPINIT] Conn Serial_No[38]: 0xd263
+
+NOV 07 2020 00:42:46 : [CPINIT] Conn Serial_No[39]: 0xf589
+
+NOV 07 2020 00:42:46 : [CPINIT] Conn Serial_No[40]: 0x18af
+
+NOV 07 2020 00:42:46 : [CPINIT] Conn Serial_No[41]: 0x3bd5
+
+NOV 07 2020 00:42:46 : [CPINIT] Conn Serial_No[42]: 0x5efb
+
+NOV 07 2020 00:42:46 : [CPINIT] Conn Serial_No[43]: 0x8221
+
+NOV 07 2020 00:42:46 : [CPINIT] Conn Serial_No[44]: 0xa547
+
+NOV 07 2020 00:42:46 : [CPINIT] Conn Serial_No[45]: 0xc86d
+
+NOV 07 2020 00:42:46 : [CPINIT] Conn Serial_No[46]: 0xeb93
+
+NOV 07 2020 00:42:46 : [CPINIT] Conn Serial_No[47]: 0xeb9
+
+NOV 07 2020 00:42:46 : [CPINIT] Conn Serial_No[48]: 0x31df
+
+NOV 07 2020 00:42:46 : [CPINIT] Conn Serial_No[49]: 0x5505
+
+NOV 07 2020 00:42:46 : [CPINIT] Conn Serial_No[50]: 0x782b
+
+NOV 07 2020 00:42:46 : [CPINIT] Conn Serial_No[51]: 0x9b51
+
+NOV 07 2020 00:42:46 : [CPINIT] Conn Serial_No[52]: 0xbe77
+
+NOV 07 2020 00:42:46 : [CPINIT] Conn Serial_No[53]: 0xe19d
+
+NOV 07 2020 00:42:46 : [CPINIT] Conn Serial_No[54]: 0x4c3
+
+NOV 07 2020 00:42:46 : [CPINIT] Conn Serial_No[55]: 0x27e9
+
+NOV 07 2020 00:42:46 : [CPINIT] Conn Serial_No[56]: 0x4b0e
+
+NOV 07 2020 00:42:46 : [CPINIT] Conn Serial_No[57]: 0x6e34
+
+NOV 07 2020 00:42:46 : [CPINIT] Conn Serial_No[58]: 0x915a
+
+NOV 07 2020 00:42:46 : [CPINIT] Conn Serial_No[59]: 0xb480
+
+NOV 07 2020 00:42:46 : [CPINIT] Conn Serial_No[60]: 0xd7a6
+
+NOV 07 2020 00:42:46 : [CPINIT] Conn Serial_No[61]: 0xfacc
+
+NOV 07 2020 00:42:46 : [CPINIT] Conn Serial_No[62]: 0x1df2
+
+NOV 07 2020 00:42:46 : [CPINIT] Conn Serial_No[63]: 0x9a48
+
+NOV 07 2020 00:42:46 : [CPINIT] Conn Serial_No[64]: 0xbd6e
+
+NOV 07 2020 00:43:04 : index 0, ADP, I/O o:44 i:44, rpi ot:0 to:0, cco_id 0
+NOV 07 2020 00:43:04 : index 1, ADP, I/O o:44 i:44, rpi ot:0 to:0, cco_id 0
+NOV 07 2020 00:43:04 : index 2, ADP, I/O o:0 i:0, rpi ot:0 to:0, cco_id 0
+NOV 07 2020 00:43:04 : index 3, ADP, I/O o:0 i:0, rpi ot:0 to:0, cco_id 0
+NOV 07 2020 00:43:04 : index 4, ADP, I/O o:0 i:0, rpi ot:0 to:0, cco_id 0
+NOV 07 2020 00:43:04 : index 5, ADP, I/O o:0 i:0, rpi ot:0 to:0, cco_id 0
+NOV 07 2020 00:43:04 : index 6, ADP, I/O o:0 i:0, rpi ot:0 to:0, cco_id 0
+NOV 07 2020 00:43:04 : index 7, ADP, I/O o:0 i:0, rpi ot:0 to:0, cco_id 0
+NOV 07 2020 00:43:04 : index 8, ADP, I/O o:0 i:0, rpi ot:0 to:0, cco_id 0
+NOV 07 2020 00:43:04 : index 9, ADP, I/O o:0 i:0, rpi ot:0 to:0, cco_id 0
+NOV 07 2020 00:43:04 : index 10, ADP, I/O o:0 i:0, rpi ot:0 to:0, cco_id 0
+NOV 07 2020 00:43:04 : index 11, ADP, I/O o:0 i:0, rpi ot:0 to:0, cco_id 0
+NOV 07 2020 00:43:04 : index 12, ADP, I/O o:0 i:0, rpi ot:0 to:0, cco_id 0
+NOV 07 2020 00:43:04 : index 13, ADP, I/O o:0 i:0, rpi ot:0 to:0, cco_id 0
+NOV 07 2020 00:43:04 : index 14, ADP, I/O o:0 i:0, rpi ot:0 to:0, cco_id 0
+NOV 07 2020 00:43:04 : index 15, ADP, I/O o:0 i:0, rpi ot:0 to:0, cco_id 0
+NOV 07 2020 00:43:04 : index 16, ADP, I/O o:0 i:0, rpi ot:0 to:0, cco_id 0
+NOV 07 2020 00:43:04 : index 17, ADP, I/O o:0 i:0, rpi ot:0 to:0, cco_id 0
+NOV 07 2020 00:43:04 : index 18, ADP, I/O o:0 i:0, rpi ot:0 to:0, cco_id 0
+NOV 07 2020 00:43:04 : index 19, ADP, I/O o:0 i:0, rpi ot:0 to:0, cco_id 0
+NOV 07 2020 00:43:04 : index 20, ADP, I/O o:0 i:0, rpi ot:0 to:0, cco_id 0
+NOV 07 2020 00:43:04 : index 21, ADP, I/O o:0 i:0, rpi ot:0 to:0, cco_id 0
+NOV 07 2020 00:43:04 : index 22, ADP, I/O o:0 i:0, rpi ot:0 to:0, cco_id 0
+NOV 07 2020 00:43:04 : index 23, ADP, I/O o:0 i:0, rpi ot:0 to:0, cco_id 0
+NOV 07 2020 00:43:04 : index 24, ADP, I/O o:0 i:0, rpi ot:0 to:0, cco_id 0
+NOV 07 2020 00:43:04 : index 25, ADP, I/O o:0 i:0, rpi ot:0 to:0, cco_id 0
+NOV 07 2020 00:43:04 : index 26, ADP, I/O o:0 i:0, rpi ot:0 to:0, cco_id 0
+NOV 07 2020 00:43:04 : index 27, ADP, I/O o:0 i:0, rpi ot:0 to:0, cco_id 0
+NOV 07 2020 00:43:04 : index 28, ADP, I/O o:0 i:0, rpi ot:0 to:0, cco_id 0
+NOV 07 2020 00:43:04 : index 29, ADP, I/O o:0 i:0, rpi ot:0 to:0, cco_id 0
+NOV 07 2020 00:43:04 : index 30, ADP, I/O o:0 i:0, rpi ot:0 to:0, cco_id 0
+NOV 07 2020 00:43:04 : index 31, ADP, I/O o:0 i:0, rpi ot:0 to:0, cco_id 0
+NOV 07 2020 00:43:04 : index 32, ADP, I/O o:0 i:0, rpi ot:0 to:0, cco_id 0
+NOV 07 2020 00:43:04 : index 33, ADP, I/O o:0 i:0, rpi ot:0 to:0, cco_id 0
+NOV 07 2020 00:43:04 : index 34, ADP, I/O o:0 i:0, rpi ot:0 to:0, cco_id 0
+NOV 07 2020 00:43:04 : index 35, ADP, I/O o:0 i:0, rpi ot:0 to:0, cco_id 0
+NOV 07 2020 00:43:04 : index 36, ADP, I/O o:0 i:0, rpi ot:0 to:0, cco_id 0
+NOV 07 2020 00:43:04 : index 37, ADP, I/O o:0 i:0, rpi ot:0 to:0, cco_id 0
+NOV 07 2020 00:43:04 : index 38, ADP, I/O o:0 i:0, rpi ot:0 to:0, cco_id 0
+NOV 07 2020 00:43:04 : index 39, ADP, I/O o:0 i:0, rpi ot:0 to:0, cco_id 0
+NOV 07 2020 00:43:04 : index 40, ADP, I/O o:0 i:0, rpi ot:0 to:0, cco_id 0
+NOV 07 2020 00:43:04 : index 41, ADP, I/O o:0 i:0, rpi ot:0 to:0, cco_id 0
+NOV 07 2020 00:43:04 : index 42, ADP, I/O o:0 i:0, rpi ot:0 to:0, cco_id 0
+NOV 07 2020 00:43:04 : index 43, ADP, I/O o:0 i:0, rpi ot:0 to:0, cco_id 0
+NOV 07 2020 00:43:04 : index 44, ADP, I/O o:0 i:0, rpi ot:0 to:0, cco_id 0
+NOV 07 2020 00:43:04 : index 45, ADP, I/O o:0 i:0, rpi ot:0 to:0, cco_id 0
+NOV 07 2020 00:43:04 : index 46, ADP, I/O o:0 i:0, rpi ot:0 to:0, cco_id 0
+NOV 07 2020 00:43:04 : index 47, ADP, I/O o:0 i:0, rpi ot:0 to:0, cco_id 0
+NOV 07 2020 00:43:04 : index 48, ADP, I/O o:0 i:0, rpi ot:0 to:0, cco_id 0
+NOV 07 2020 00:43:04 : index 49, ADP, I/O o:0 i:0, rpi ot:0 to:0, cco_id 0
+NOV 07 2020 00:43:04 : index 50, ADP, I/O o:0 i:0, rpi ot:0 to:0, cco_id 0
+NOV 07 2020 00:43:04 : index 51, ADP, I/O o:0 i:0, rpi ot:0 to:0, cco_id 0
+NOV 07 2020 00:43:04 : index 52, ADP, I/O o:0 i:0, rpi ot:0 to:0, cco_id 0
+NOV 07 2020 00:43:04 : index 53, ADP, I/O o:0 i:0, rpi ot:0 to:0, cco_id 0
+NOV 07 2020 00:43:04 : index 54, ADP, I/O o:0 i:0, rpi ot:0 to:0, cco_id 0
+NOV 07 2020 00:43:04 : index 55, ADP, I/O o:0 i:0, rpi ot:0 to:0, cco_id 0
+NOV 07 2020 00:43:04 : index 56, ADP, I/O o:0 i:0, rpi ot:0 to:0, cco_id 0
+NOV 07 2020 00:43:04 : index 57, ADP, I/O o:0 i:0, rpi ot:0 to:0, cco_id 0
+NOV 07 2020 00:43:04 : index 58, ADP, I/O o:0 i:0, rpi ot:0 to:0, cco_id 0
+NOV 07 2020 00:43:04 : index 59, ADP, I/O o:0 i:0, rpi ot:0 to:0, cco_id 0
+NOV 07 2020 00:43:04 : index 60, ADP, I/O o:0 i:0, rpi ot:0 to:0, cco_id 0
+NOV 07 2020 00:43:04 : index 61, ADP, I/O o:0 i:0, rpi ot:0 to:0, cco_id 0
+NOV 07 2020 00:43:04 : index 62, ADP, I/O o:0 i:0, rpi ot:0 to:0, cco_id 0
+NOV 07 2020 00:43:04 : index 63, ADP, I/O o:0 i:0, rpi ot:0 to:0, cco_id 0
+NOV 07 2020 00:43:04 : CPMSG_P->options = 0x0
+NOV 07 2020 00:43:04 : CPMSG_P->state = CIP_OK
+NOV 07 2020 00:43:10 : Register Session Received
+NOV 07 2020 00:43:12 : Recieve FwdOpen 0
+NOV 07 2020 00:43:14 : Recieve FwdOpen 0
+NOV 07 2020 00:43:14 : Adp 0 creq valid
+NOV 07 2020 00:43:14 : Adp0 EO ConnID  to: 0xfb708d09 ot: 0x8845c511
+NOV 07 2020 00:43:14 : Adp0 API  to: 32 ot: 32
+NOV 07 2020 00:43:14 : Recieve FwdOpen 0

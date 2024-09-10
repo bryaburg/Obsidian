@@ -1,0 +1,76 @@
+[IRVRGGTP]PLANE  Storage: CMOS  Access: RW  : ARRAY[4] OF CCRG_PLANE
+     Field: PLANE[1].JACOB  ARRAY[2,2] OF REAL
+        [1,1] = Uninitialized
+        [1,2] = Uninitialized
+        [2,1] = Uninitialized
+        [2,2] = Uninitialized
+     Field: PLANE[1].CORNER  ARRAY[4] OF VECTOR2
+         Field: PLANE[1].CORNER[1].X Access: RW: REAL = Uninitialized
+         Field: PLANE[1].CORNER[1].Y Access: RW: REAL = Uninitialized
+         Field: PLANE[1].CORNER[2].X Access: RW: REAL = Uninitialized
+         Field: PLANE[1].CORNER[2].Y Access: RW: REAL = Uninitialized
+         Field: PLANE[1].CORNER[3].X Access: RW: REAL = Uninitialized
+         Field: PLANE[1].CORNER[3].Y Access: RW: REAL = Uninitialized
+         Field: PLANE[1].CORNER[4].X Access: RW: REAL = Uninitialized
+         Field: PLANE[1].CORNER[4].Y Access: RW: REAL = Uninitialized
+     Field: PLANE[1].INITIAL_POS Access: RW: XYZWPREXT = Uninitialized
+     Field: PLANE[2].JACOB  ARRAY[2,2] OF REAL
+        [1,1] = Uninitialized
+        [1,2] = Uninitialized
+        [2,1] = Uninitialized
+        [2,2] = Uninitialized
+     Field: PLANE[2].CORNER  ARRAY[4] OF VECTOR2
+         Field: PLANE[2].CORNER[1].X Access: RW: REAL = Uninitialized
+         Field: PLANE[2].CORNER[1].Y Access: RW: REAL = Uninitialized
+         Field: PLANE[2].CORNER[2].X Access: RW: REAL = Uninitialized
+         Field: PLANE[2].CORNER[2].Y Access: RW: REAL = Uninitialized
+         Field: PLANE[2].CORNER[3].X Access: RW: REAL = Uninitialized
+         Field: PLANE[2].CORNER[3].Y Access: RW: REAL = Uninitialized
+         Field: PLANE[2].CORNER[4].X Access: RW: REAL = Uninitialized
+         Field: PLANE[2].CORNER[4].Y Access: RW: REAL = Uninitialized
+     Field: PLANE[2].INITIAL_POS Access: RW: XYZWPREXT = Uninitialized
+     Field: PLANE[3].JACOB  ARRAY[2,2] OF REAL
+        [1,1] = Uninitialized
+        [1,2] = Uninitialized
+        [2,1] = Uninitialized
+        [2,2] = Uninitialized
+     Field: PLANE[3].CORNER  ARRAY[4] OF VECTOR2
+         Field: PLANE[3].CORNER[1].X Access: RW: REAL = Uninitialized
+         Field: PLANE[3].CORNER[1].Y Access: RW: REAL = Uninitialized
+         Field: PLANE[3].CORNER[2].X Access: RW: REAL = Uninitialized
+         Field: PLANE[3].CORNER[2].Y Access: RW: REAL = Uninitialized
+         Field: PLANE[3].CORNER[3].X Access: RW: REAL = Uninitialized
+         Field: PLANE[3].CORNER[3].Y Access: RW: REAL = Uninitialized
+         Field: PLANE[3].CORNER[4].X Access: RW: REAL = Uninitialized
+         Field: PLANE[3].CORNER[4].Y Access: RW: REAL = Uninitialized
+     Field: PLANE[3].INITIAL_POS Access: RW: XYZWPREXT = Uninitialized
+     Field: PLANE[4].JACOB  ARRAY[2,2] OF REAL
+        [1,1] = Uninitialized
+        [1,2] = Uninitialized
+        [2,1] = Uninitialized
+        [2,2] = Uninitialized
+     Field: PLANE[4].CORNER  ARRAY[4] OF VECTOR2
+         Field: PLANE[4].CORNER[1].X Access: RW: REAL = Uninitialized
+         Field: PLANE[4].CORNER[1].Y Access: RW: REAL = Uninitialized
+         Field: PLANE[4].CORNER[2].X Access: RW: REAL = Uninitialized
+         Field: PLANE[4].CORNER[2].Y Access: RW: REAL = Uninitialized
+         Field: PLANE[4].CORNER[3].X Access: RW: REAL = Uninitialized
+         Field: PLANE[4].CORNER[3].Y Access: RW: REAL = Uninitialized
+         Field: PLANE[4].CORNER[4].X Access: RW: REAL = Uninitialized
+         Field: PLANE[4].CORNER[4].Y Access: RW: REAL = Uninitialized
+     Field: PLANE[4].INITIAL_POS Access: RW: XYZWPREXT = Uninitialized
+
+[IRVRGGTP]INITIAL_JNT  Storage: CMOS  Access: RW  : JOINTPOS9 = Uninitialized
+
+[IRVRGGTP]DEBUG_MODE  Storage: CMOS  Access: RW  : INTEGER = Uninitialized
+
+[IRVRGGTP]ENTRY  Storage: CMOS  Access: RW  : INTEGER = Uninitialized
+
+[IRVRGGTP]STATUS  Storage: CMOS  Access: RW  : INTEGER = Uninitialized
+
+[IRVRGGTP]BYTE_ARY  Storage: CMOS  Access: RW  : ARRAY[4] OF BYTE
+  [1] = 255
+  [2] = 255
+  [3] = 255
+  [4] = 255
+

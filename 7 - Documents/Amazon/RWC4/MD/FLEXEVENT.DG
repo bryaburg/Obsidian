@@ -1,0 +1,24 @@
+Func       Date      Time    Tick       NavID              Text
+POWR  72 25-AUG-20 02:43:56  9f36 Power Cycle 
+KEY   72 25-AUG-20 02:44:16  c608 /wizard/guided/steps Initial Setup
+KEY   72 25-AUG-20 02:44:16  c608 /wizard/guided/steps Initial Setup
+EXIT  72 25-AUG-20 02:44:16  c609 1133 1 
+POWR  72 25-AUG-20 02:52:02  8505 Power Cycle 
+POWR  72 25-AUG-20 02:54:38  3718 Power Cycle 
+KEY   72 25-AUG-20 02:54:44  3f46 /nav/core/home HOME
+KEY   72 25-AUG-20 02:54:44  3f46 /nav/core/home HOME
+EXIT  72 25-AUG-20 02:54:44  3f47 1133 1 
+POWR  72 25-AUG-20 02:55:54  36ac Power Cycle 
+POWR  72 25-AUG-20 03:01:20  357a Power Cycle 
+POWR  72 25-AUG-20 03:03:28  363f Power Cycle 
+POWR  72 25-AUG-20 03:09:16  3617 Power Cycle 
+POWR  72 25-AUG-20 03:10:50  36fc Power Cycle 
+POWR  72 25-AUG-20 03:25:56  378e Power Cycle 
+POWR  72 05-NOV-20 03:48:58  3622 Power Cycle 
+POWR  72 05-NOV-20 03:57:52  3683 Power Cycle 
+POWR  72 05-NOV-20 04:12:58  33ea Power Cycle 
+POWR  72 05-NOV-20 04:47:54  33eb Power Cycle 
+POWR  72 05-NOV-20 05:23:18  33e5 Power Cycle 
+POWR  72 05-NOV-20 07:32:54  4193 Power Cycle 
+POWR  72 06-NOV-20 01:28:56  460c Power Cycle 
+POWR  72 07-NOV-20 00:43:04  3fda Power Cycle 

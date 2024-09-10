@@ -1,0 +1,30 @@
+[RECVREG]DATA_TYPE  Storage: CMOS  Access: RW  : ARRAY[4] OF INTEGER
+  [1] = Uninitialized
+  [2] = Uninitialized
+  [3] = Uninitialized
+  [4] = Uninitialized
+
+[RECVREG]INT_PARAM  Storage: CMOS  Access: RW  : ARRAY[4] OF INTEGER
+  [1] = Uninitialized
+  [2] = Uninitialized
+  [3] = Uninitialized
+  [4] = Uninitialized
+
+[RECVREG]REAL_PARAM  Storage: CMOS  Access: RW  : REAL = Uninitialized
+
+[RECVREG]STR_PARAM  Storage: CMOS  Access: RW  : STRING[30] = Uninitialized
+
+[RECVREG]STATUS  Storage: CMOS  Access: RW  : INTEGER = Uninitialized
+
+[RECVREG]REG_ARY_NUM  Storage: CMOS  Access: RW  : INTEGER = Uninitialized
+
+[RECVREG]REG_NUM  Storage: CMOS  Access: RW  : INTEGER = Uninitialized
+
+[RECVREG]STATUS_NUM  Storage: CMOS  Access: RW  : INTEGER = Uninitialized
+
+[RECVREG]I  Storage: CMOS  Access: RW  : INTEGER = Uninitialized
+
+[RECVREG]RET_STATUS  Storage: CMOS  Access: RW  : INTEGER = Uninitialized
+
+[RECVREG]ERR_MSG  Storage: CMOS  Access: RW  : STRING[40] = Uninitialized
+

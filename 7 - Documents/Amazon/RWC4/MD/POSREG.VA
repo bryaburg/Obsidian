@@ -1,0 +1,570 @@
+[*POSREG*]$POSREG  Storage: SHADOW  Access: RW  : ARRAY[1,200] OF Position Reg
+    [1,1] =   'Home Pos'   Group: 1
+  J1 =    -1.756 deg   J2 =   -17.169 deg   J3 =    -7.776 deg 
+  J4 =     -.369 deg   J5 =   -82.126 deg   J6 =   -28.194 deg 
+
+    [1,2] =   'Maint Pos' Uninitialized
+    [1,3] =   'zero pos offset' 
+  Group: 1   Config: N D B, 0, 0, 0
+  X:     0.000   Y:     0.000   Z:     0.000
+  W:     0.000   P:     0.000   R:     0.000
+    [1,4] =   '' Uninitialized
+    [1,5] =   'Homing PosReg' 
+  Group: 1   Config: N U T, 0, 0, 0
+  X:   620.001   Y:  1230.002   Z:   200.000
+  W:     -.000   P:     -.000   R:   -90.000
+    [1,6] =   'currentlocation'   Group: 1
+  J1 =    -2.540 deg   J2 =   -16.907 deg   J3 =   -13.423 deg 
+  J4 =     -.163 deg   J5 =   -76.837 deg   J6 =   152.524 deg 
+
+    [1,7] =   'LPOS1' 
+  Group: 1   Config: N U T, 0, 0, 0
+  X:   600.989   Y:   -74.319   Z:   766.615
+  W:      .000   P:      .000   R:   605.880
+    [1,8] =   'LPOS2' 
+  Group: 1   Config: N U T, 0, 0, 0
+  X:   601.020   Y:   -74.297   Z:   742.000
+  W:     -.000   P:      .000   R:    -5.297
+    [1,9] =   '' 
+  Group: 1   Config: N U T, 0, 0, 0
+  X:     -.031   Y:     -.021   Z:    24.615
+  W:      .000   P:     -.000   R:      .010
+    [1,10] =   'Incoming Pick' 
+  Group: 1   Config: N U T, 0, 0, 0
+  X:   113.688   Y:  -555.344   Z:   247.036
+  W:     -.149   P:      .161   R:   -90.000
+    [1,11] =   'Pallet Place' 
+  Group: 1   Config: N U T, 0, 0, 0
+  X:   625.000   Y:   -15.000   Z:     0.000
+  W:     0.000   P:     0.000   R:   -90.000
+    [1,12] =   'Jackpot Pick let' 
+  Group: 1   Config: N U T, -1, 0, 0
+  X:    55.867   Y:   393.370   Z:   -38.788
+  W:     -.013   P:      .000   R:   -90.000
+    [1,13] =   'Jackpot Pick rit' 
+  Group: 1   Config: N U T, 0, 0, 0
+  X:    57.356   Y:   395.243   Z:   -41.877
+  W:      .332   P:      .000   R:   -90.000
+    [1,14] =   'Above Pallet' 
+  Group: 1   Config: N U T, 0, 0, 0
+  X:     0.000   Y:     0.000   Z:  1300.000
+  W:     0.000   P:     0.000   R:     0.000
+    [1,15] =   'Pick Z Offset' 
+  Group: 1   Config: N U T, 0, 0, 0
+  X:     0.000   Y:     0.000   Z:   150.000
+  W:     0.000   P:     0.000   R:     0.000
+    [1,16] =   'Place Z Offset' 
+  Group: 1   Config: N U T, 0, 0, 0
+  X:     0.000   Y:     0.000   Z:   500.000
+  W:     0.000   P:     0.000   R:     0.000
+    [1,17] =   'Place P Offset' 
+  Group: 1   Config: N U T, 0, 0, 0
+  X:     0.000   Y:     0.000   Z:     0.000
+  W:     0.000   P:    -5.000   R:     0.000
+    [1,18] =   'Place -Z Offset' 
+  Group: 1   Config: N U T, 0, 0, 0
+  X:     0.000   Y:     0.000   Z:   -50.000
+  W:     0.000   P:     0.000   R:     0.000
+    [1,19] =   'Sensor Check Z' 
+  Group: 1   Config: N D B, 0, 0, 0
+  X:     0.000   Y:     0.000   Z:   300.000
+  W:     0.000   P:     0.000   R:     0.000
+    [1,20] =   'Homing Joint Pos'   Group: 1
+  J1 =    63.249 deg   J2 =   -37.463 deg   J3 =   -17.175 deg 
+  J4 =     -.000 deg   J5 =   -72.825 deg   J6 =    86.751 deg 
+
+    [1,21] =   'Homing World Pos' 
+  Group: 1   Config: N U T, 0, 0, 0
+  X:   620.001   Y:  1230.002   Z:  -279.598
+  W:     -.000   P:     -.000   R:   -90.000
+    [1,22] =   'pick +x/z offst' 
+  Group: 1   Config: N U T, 0, 0, 0
+  X:   150.000   Y:     0.000   Z:   800.000
+  W:     0.000   P:     0.000   R:   180.000
+    [1,23] =   'pick -x/z offst' 
+  Group: 1   Config: N U T, 0, 0, 0
+  X:  -150.000   Y:     0.000   Z:   800.000
+  W:     0.000   P:     0.000   R:   180.000
+    [1,24] =   'incoming approch' 
+  Group: 1   Config: N U T, 0, 0, 0
+  X:     0.000   Y:     0.000   Z:   750.000
+  W:     0.000   P:     0.000   R:     0.000
+    [1,25] =   'Vision Place Off' 
+  Group: 1   Config: N U T, 0, 0, 0
+  X:     0.000   Y:     0.000   Z:     0.000
+  W:     0.000   P:     0.000   R:     0.000
+    [1,26] =   'Blank Offset' 
+  Group: 1   Config: N U T, 0, 0, 0
+  X:     0.000   Y:     0.000   Z:     0.000
+  W:     0.000   P:     0.000   R:     0.000
+    [1,27] =   'pick +x offset' 
+  Group: 1   Config: N U T, 0, 0, 0
+  X:   150.000   Y:     0.000   Z:   750.000
+  W:     0.000   P:     0.000   R:     0.000
+    [1,28] =   'pick -x offset' 
+  Group: 1   Config: N U T, 0, 0, 0
+  X:  -150.000   Y:     0.000   Z:   750.000
+  W:     0.000   P:     0.000   R:     0.000
+    [1,29] =   'calibration grid' 
+  Group: 1   Config: N U T, 0, 0, 0
+  X:   462.538   Y: -1709.565   Z:   670.378
+  W:      .497   P:     -.009   R:     -.600
+    [1,30] =   'Vision Pic Offt' 
+  Group: 1   Config: N U T, 0, 0, 0
+  X:     0.000   Y:    50.000   Z:   240.000
+  W:     0.000   P:     0.000   R:     0.000
+    [1,31] =   'Vision Offset' 
+  Group: 1   Config: N D B, 0, 0, 0
+  X:     8.228   Y:    -3.214   Z:     -.000
+  W:     -.000   P:     -.000   R:     -.428
+    [1,32] =   'Vision No Y Offt' 
+  Group: 1   Config: N U T, 0, 0, 0
+  X:     0.000   Y:     0.000   Z:   240.000
+  W:     0.000   P:     0.000   R:     0.000
+    [1,33] =   '' Uninitialized
+    [1,34] =   '' Uninitialized
+    [1,35] =   'Pallet 4&5SafePt' 
+  Group: 1   Config: N U T, 0, 0, 0
+  X:   330.000   Y:  1305.000   Z:   350.000
+  W:     0.000   P:     0.000   R:  -180.000
+    [1,36] =   'Pallet 1&2SafePt' 
+  Group: 1   Config: N U T, 0, 0, 0
+  X:   484.800   Y: -1304.530   Z:   350.000
+  W:     -.000   P:      .000   R:     -.000
+    [1,37] =   'pallet6safepoint' 
+  Group: 1   Config: N U T, 0, 0, 0
+  X:  1440.000   Y:   997.000   Z:    64.000
+  W:     0.000   P:     0.000   R:   -29.741
+    [1,38] =   'pallet3safepoint' 
+  Group: 1   Config: N U T, 0, 0, 0
+  X:  1375.000   Y:  -691.000   Z:    55.000
+  W:     0.000   P:     0.000   R:   -90.000
+    [1,39] =   '' Uninitialized
+    [1,40] =   'jackpot appro' 
+  Group: 1   Config: N D B, 0, 0, 0
+  X:     0.000   Y:     0.000   Z:   800.000
+  W:     0.000   P:     0.000   R:     0.000
+    [1,41] =   'vision pos x oft' 
+  Group: 1   Config: N D B, 0, 0, 0
+  X:    30.000   Y:     0.000   Z:     0.000
+  W:     0.000   P:     0.000   R:     0.000
+    [1,42] =   'vision neg x oft' 
+  Group: 1   Config: N D B, 0, 0, 0
+  X:   -30.000   Y:     0.000   Z:     0.000
+  W:     0.000   P:     0.000   R:     0.000
+    [1,43] =   'vision pos y oft' 
+  Group: 1   Config: N D B, 0, 0, 0
+  X:     0.000   Y:    30.000   Z:     0.000
+  W:     0.000   P:     0.000   R:     0.000
+    [1,44] =   'vision neg y oft' 
+  Group: 1   Config: N D B, 0, 0, 0
+  X:     0.000   Y:   -30.000   Z:     0.000
+  W:     0.000   P:     0.000   R:     0.000
+    [1,45] =   'JOINT POS'   Group: 1
+  J1 =    -2.539 deg   J2 =   -16.823 deg   J3 =   -13.896 deg 
+  J4 =     -.163 deg   J5 =   -76.365 deg   J6 =   152.524 deg 
+
+    [1,46] =   'vision shift oft' 
+  Group: 1   Config: N D B, 0, 0, 0
+  X:     0.000   Y:     0.000   Z:   -50.000
+  W:     0.000   P:     0.000   R:     0.000
+    [1,47] =   '' Uninitialized
+    [1,48] =   '' Uninitialized
+    [1,49] =   '' Uninitialized
+    [1,50] =   'EOAT Pick R=60' 
+  Group: 1   Config: N U T, 0, 0, 0
+  X:     0.000   Y:     0.000   Z:   350.000
+  W:  -180.000   P:     0.000   R:    60.000
+    [1,51] =   'EOAT Pick R=-120' 
+  Group: 1   Config: N U T, 0, 0, 0
+  X:     0.000   Y:     0.000   Z:   350.000
+  W:  -180.000   P:     0.000   R:  -120.000
+    [1,52] =   'X OFFSET' 
+  Group: 1   Config: N U T, 0, 0, 0
+  X:   200.000   Y:     0.000   Z:     0.000
+  W:     0.000   P:     0.000   R:     0.000
+    [1,53] =   '-X OFFSET' 
+  Group: 1   Config: N U T, 0, 0, 0
+  X:  -200.000   Y:     0.000   Z:     0.000
+  W:     0.000   P:     0.000   R:     0.000
+    [1,54] =   '' Uninitialized
+    [1,55] =   'maint 1' 
+  Group: 1   Config: N U T, 0, 0, 0
+  X:     0.000   Y:  1807.644   Z:  -255.525
+  W:     -.107   P:      .654   R:   178.910
+    [1,56] =   'maint 2' 
+  Group: 1   Config: N U T, 0, 0, 0
+  X:     2.267   Y:  1567.717   Z: -1209.420
+  W:     -.054   P:      .658   R:  -177.522
+    [1,57] =   'maint 3' 
+  Group: 1   Config: F U T, 0, 0, 0
+  X:   -29.018   Y:  2201.562   Z:    32.977
+  W:   -89.505   P:     -.064   R:  -179.163
+    [1,58] =   'EOAT Change' 
+  Group: 1   Config: N U T, 0, 0, 0
+  X:   590.560   Y:  1883.716   Z:  -497.703
+  W:      .451   P:     -.156   R:   -89.328
+    [1,59] =   '' Uninitialized
+    [1,60] =   'Pallet1 New UF' 
+  Group: 1   Config: N U T, 0, 0, 0
+  X: -1420.000   Y: -1230.000   Z: -1212.000
+  W:     0.000   P:     0.000   R:     0.000
+    [1,61] =   'Pallet2 New UF' 
+  Group: 1   Config: N U T, 0, 0, 0
+  X:   -10.000   Y: -1230.000   Z: -1210.000
+  W:     0.000   P:     0.000   R:     0.000
+    [1,62] =   'Pallet3 New UF' 
+  Group: 1   Config: N U T, 0, 0, 0
+  X:  1405.000   Y: -1140.000   Z: -1209.000
+  W:     0.000   P:     0.000   R:     0.000
+    [1,63] =   'Pallet4 New UF' 
+  Group: 1   Config: N U T, 0, 0, 0
+  X: -1415.000   Y:  1245.000   Z: -1212.000
+  W:     0.000   P:     0.000   R:     0.000
+    [1,64] =   'Pallet5 New UF' 
+  Group: 1   Config: N U T, 0, 0, 0
+  X:    -5.000   Y:  1245.000   Z: -1212.000
+  W:     0.000   P:     0.000   R:     0.000
+    [1,65] =   'Pallet6 New UF' 
+  Group: 1   Config: N U T, 0, 0, 0
+  X:  1405.000   Y:  1140.000   Z: -1209.000
+  W:     0.000   P:     0.000   R:     0.000
+    [1,66] =   '' Uninitialized
+    [1,67] =   '' Uninitialized
+    [1,68] =   '' 
+  Group: 1   Config: N U T, 0, 0, 0
+  X:     0.000   Y:     0.000   Z:     0.000
+  W:     0.000   P:     0.000   R:     0.000
+    [1,69] =   '' Uninitialized
+    [1,70] =   'Pallet Ht Check' 
+  Group: 1   Config: N U T, 0, 0, 0
+  X:   538.759   Y:   -30.187   Z:     0.000
+  W:     0.000   P:     0.000   R:     0.000
+    [1,71] =   'Pallet1 Ht Check' 
+  Group: 1   Config: N U T, 0, 0, 0
+  X:  -814.021   Y: -1771.703   Z: -1280.045
+  W:      .000   P:      .001   R:   -89.999
+    [1,72] =   'Pallet2 Ht Check' 
+  Group: 1   Config: N U T, 0, 0, 0
+  X:   595.585   Y: -1771.777   Z: -1284.204
+  W:     -.000   P:      .000   R:   -90.000
+    [1,73] =   'Pallet3 Ht Check' 
+  Group: 1   Config: N U T, 0, 0, 0
+  X:  2005.278   Y: -1670.235   Z: -1287.064
+  W:     -.000   P:      .000   R:   -90.003
+    [1,74] =   'Pallet4 Ht Check' 
+  Group: 1   Config: N U T, 0, 0, 0
+  X:  -744.996   Y:  1738.512   Z: -1277.922
+  W:      .000   P:      .000   R:    89.998
+    [1,75] =   'Pallet5 Ht Check' 
+  Group: 1   Config: N U T, 0, 0, 0
+  X:   665.000   Y:  1738.513   Z: -1281.735
+  W:      .000   P:     -.000   R:    90.000
+    [1,76] =   'Pallet6 Ht Check' 
+  Group: 1   Config: N U T, 0, 0, 0
+  X:  2075.004   Y:  1636.917   Z: -1283.633
+  W:     -.000   P:      .000   R:    90.000
+    [1,77] =   '' Uninitialized
+    [1,78] =   '' Uninitialized
+    [1,79] =   '' Uninitialized
+    [1,80] =   'Side A UF Master' 
+  Group: 1   Config: N U T, 0, 0, 0
+  X:   310.712   Y:  1219.603   Z: -1257.328
+  W:      .618   P:     -.338   R:     -.203
+    [1,81] =   'Pallet 4 UF' 
+  Group: 1   Config: N U T, 0, 0, 0
+  X: -1300.000   Y:  1250.000   Z: -1200.000
+  W:     0.000   P:     0.000   R:     0.000
+    [1,82] =   'Pallet 5 UF' 
+  Group: 1   Config: N U T, 0, 0, 0
+  X:   115.000   Y:  1250.000   Z: -1200.000
+  W:     0.000   P:     0.000   R:     0.000
+    [1,83] =   'Pallet 6 UF' 
+  Group: 1   Config: N U T, 0, 0, 0
+  X:  1525.000   Y:  1150.000   Z: -1200.000
+  W:     0.000   P:     0.000   R:     0.000
+    [1,84] =   '' Uninitialized
+    [1,85] =   'Side A Ht Master' 
+  Group: 1   Config: N U T, 0, 0, 0
+  X:   855.556   Y:  1184.648   Z: -1246.451
+  W:     -.003   P:      .001   R:      .752
+    [1,86] =   'Side A Offset' 
+  Group: 1   Config: N U T, 0, 0, 0
+  X:  1209.675   Y:   -76.200   Z:     0.000
+  W:     0.000   P:     0.000   R:     0.000
+    [1,87] =   'Side A Ht Offset' 
+  Group: 1   Config: N U T, 0, 0, 0
+  X:     0.000   Y:     0.000   Z:    -4.000
+  W:     0.000   P:     0.000   R:     0.000
+    [1,88] =   'Side A UF Adjust' 
+    [1,89] =   '' Uninitialized
+    [1,90] =   'Side B UF Master' 
+  Group: 1   Config: N U T, 0, 0, 0
+  X:  1522.218   Y: -1145.024   Z: -1231.775
+  W:     -.209   P:     -.076   R:     -.345
+    [1,91] =   'Pallet 1 UF' 
+  Group: 1   Config: N U T, 0, 0, 0
+  X: -1300.000   Y: -1240.000   Z: -1205.000
+  W:     0.000   P:     0.000   R:     0.000
+    [1,92] =   'Pallet 2 UF' 
+  Group: 1   Config: N U T, 0, 0, 0
+  X:   115.000   Y: -1240.000   Z: -1205.000
+  W:     0.000   P:     0.000   R:     0.000
+    [1,93] =   'Pallet 3 UF' 
+  Group: 1   Config: N U T, 0, 0, 0
+  X:  1530.000   Y: -1140.000   Z: -1205.000
+  W:     0.000   P:     0.000   R:     0.000
+    [1,94] =   '' Uninitialized
+    [1,95] =   'Side B Ht Master' 
+  Group: 1   Config: N U T, 0, 0, 0
+  X:  2097.599   Y: -1120.959   Z: -1246.410
+  W:      .459   P:     -.224   R:      .170
+    [1,96] =   'Side B Offset' 
+  Group: 1   Config: N U T, 0, 0, 0
+  X:     0.000   Y:     0.000   Z:     0.000
+  W:     0.000   P:     0.000   R:     0.000
+    [1,97] =   'Side B Ht Offset' 
+  Group: 1   Config: N U T, 0, 0, 0
+  X:     0.000   Y:     0.000   Z:    -7.000
+  W:     0.000   P:     0.000   R:     0.000
+    [1,98] =   'Side B UF Adjust' 
+  Group: 1   Config: N U T, 0, 0, 0
+  X:    -5.000   Y:  1245.000   Z: -1205.000
+  W:     0.000   P:     0.000   R:     0.000
+    [1,99] =   '' Uninitialized
+    [1,100] =   'testing' 
+  Group: 1   Config: N D B, 0, 0, 0
+  X:     0.000   Y:     0.000   Z:     0.000
+  W:     0.000   P:     0.000   R:     0.000
+    [1,101] =   '' Uninitialized
+    [1,102] =   'place JP LH app' 
+  Group: 1   Config: N U T, 0, 0, 0
+  X:  -595.583   Y:  -118.000   Z:   169.947
+  W:    -6.600   P:     -.287   R:    90.000
+    [1,103] =   'place JP LH' 
+  Group: 1   Config: N U T, 0, 0, 0
+  X:  -613.482   Y:  -148.056   Z:   185.659
+  W:     4.439   P:     -.253   R:   -89.054
+    [1,104] =   'place JP RH app' 
+  Group: 1   Config: N U T, 0, 0, 0
+  X:  -576.908   Y:   948.000   Z:   179.369
+  W:    -6.000   P:      .975   R:    89.916
+    [1,105] =   'place JP RH' 
+  Group: 1   Config: N U T, 0, 0, 0
+  X:  -576.908   Y:   948.000   Z:   179.369
+  W:     6.009   P:      .975   R:   -90.365
+    [1,106] =   'JP DCS Path' 
+  Group: 1   Config: N D B, 0, 0, 0
+  X:  -500.000   Y:   500.000   Z:     0.000
+  W:     0.000   P:     0.000   R:     0.000
+    [1,107] =   'pick JP RH app' 
+  Group: 1   Config: N U T, 0, 0, 0
+  X:    29.683   Y:   375.072   Z:   -30.840
+  W:     -.001   P:      .000   R:    90.000
+    [1,108] =   'Pick Path JP LH' 
+  Group: 1   Config: N D B, 0, 0, 0
+  X:  -500.000   Y:  -500.000   Z:     0.000
+  W:     0.000   P:     0.000   R:     0.000
+    [1,109] =   'Pick Path JP RH' 
+  Group: 1   Config: N D B, 0, 0, 0
+  X:  -500.000   Y:   500.000   Z:     0.000
+  W:     0.000   P:     0.000   R:     0.000
+    [1,110] =   'homing -y offset' 
+  Group: 1   Config: N U T, 0, 0, 0
+  X:     0.000   Y:  -150.000   Z:     0.000
+  W:     0.000   P:     0.000   R:     0.000
+    [1,111] =   'homing y offset' 
+  Group: 1   Config: N U T, 0, 0, 0
+  X:     0.000   Y:   150.000   Z:     0.000
+  W:     0.000   P:     0.000   R:     0.000
+    [1,112] =   '' Uninitialized
+    [1,113] =   '' Uninitialized
+    [1,114] =   'Vis pre cal pos' 
+  Group: 1   Config: N U T, 0, 0, 0
+  X:  1644.094   Y:  -580.566   Z:   357.017
+  W:  -179.704   P:     -.025   R:   -29.809
+    [1,115] =   'vis grid plane 1' 
+  Group: 1   Config: N U T, 0, 0, 0
+  X:     0.000   Y:     0.000   Z:      .000
+  W:      .000   P:      .000   R:     -.000
+    [1,116] =   'vis grid plane 2' 
+  Group: 1   Config: N U T, 0, 0, 0
+  X:     0.000   Y:     0.000   Z:   100.000
+  W:     0.000   P:     0.000   R:     0.000
+    [1,117] =   '' Uninitialized
+    [1,118] =   '' Uninitialized
+    [1,119] =   '' Uninitialized
+    [1,120] =   'PckJkptL DcsAvd1' 
+  Group: 1   Config: N U T, 0, 0, 0
+  X:    52.000   Y:   259.000   Z:   764.000
+  W:     0.000   P:     0.000   R:   -90.000
+    [1,121] =   '' 
+  Group: 1   Config: N U T, 0, 0, 0
+  X:    52.000   Y:   259.000   Z:   714.200
+  W:     0.000   P:     0.000   R:   -90.000
+    [1,122] =   '' 
+  Group: 1   Config: N U T, 0, 0, 0
+  X:    30.000   Y:   525.000   Z:   769.000
+  W:     0.000   P:     0.000   R:   -90.000
+    [1,123] =   '' 
+  Group: 1   Config: N U T, 0, 0, 0
+  X:    30.000   Y:   525.000   Z:   719.000
+  W:     0.000   P:     0.000   R:   -90.000
+    [1,124] =   'plastic palletUF' Uninitialized
+    [1,125] =   'Side A UF Master' Uninitialized
+    [1,126] =   'Pallet 4 UF' 
+  Group: 1   Config: N U T, 0, 0, 0
+  X: -1415.000   Y:  1245.000   Z: -1205.000
+  W:     0.000   P:     0.000   R:     0.000
+    [1,127] =   'Pallet 5 UF' 
+  Group: 1   Config: N U T, 0, 0, 0
+  X:    -5.000   Y:  1245.000   Z: -1205.000
+  W:     0.000   P:     0.000   R:     0.000
+    [1,128] =   'Pallet 6 UF' 
+  Group: 1   Config: N U T, 0, 0, 0
+  X:  1405.000   Y:  1140.000   Z: -1205.000
+  W:     0.000   P:     0.000   R:     0.000
+    [1,129] =   'pallet 4 stop ck' 
+  Group: 1   Config: N U T, 0, 0, 0
+  X: -1352.229   Y:  1520.240   Z:  -455.432
+  W:     -.000   P:      .000   R:    90.000
+    [1,130] =   'pallet 5 stop ck' 
+  Group: 1   Config: N U T, 0, 0, 0
+  X:    57.347   Y:  1512.720   Z:  -456.623
+  W:     -.000   P:     -.000   R:    90.000
+    [1,131] =   'pallet 6 stop ck' 
+  Group: 1   Config: N U T, 0, 0, 0
+  X:  1473.827   Y:  1400.242   Z:  -462.144
+  W:     -.000   P:     -.000   R:    90.000
+    [1,132] =   '' Uninitialized
+    [1,133] =   '' Uninitialized
+    [1,134] =   'Side B UF Master' Uninitialized
+    [1,135] =   'Pallet 1 UF' 
+  Group: 1   Config: N U T, 0, 0, 0
+  X: -1420.000   Y: -1230.000   Z: -1205.000
+  W:     0.000   P:     0.000   R:     0.000
+    [1,136] =   'Pallet 2 UF' 
+  Group: 1   Config: N U T, 0, 0, 0
+  X:   -10.000   Y: -1230.000   Z: -1205.000
+  W:     0.000   P:     0.000   R:     0.000
+    [1,137] =   'Pallet 3 UF' 
+  Group: 1   Config: N U T, 0, 0, 0
+  X:  1405.000   Y: -1140.000   Z: -1205.000
+  W:     0.000   P:     0.000   R:     0.000
+    [1,138] =   'pallet 1 stop ck' 
+  Group: 1   Config: N U T, 0, 0, 0
+  X: -1536.029   Y: -1688.130   Z:  -459.520
+  W:      .008   P:      .001   R:      .001
+    [1,139] =   'pallet 2 stop ck' 
+  Group: 1   Config: N U T, 0, 0, 0
+  X:  -128.525   Y: -1695.763   Z:  -463.667
+  W:      .007   P:      .002   R:      .001
+    [1,140] =   'pallet 3 stop ck' 
+  Group: 1   Config: N U T, 0, 0, 0
+  X:  1289.613   Y: -1600.626   Z:  -468.372
+  W:      .004   P:      .001   R:      .000
+    [1,141] =   'PP 1 HT Check 2' 
+  Group: 1   Config: N U T, 0, 0, 0
+  X:  -965.560   Y: -1828.027   Z: -1279.459
+  W:      .000   P:     -.000   R:     -.001
+    [1,142] =   'PP 2 HT Check 2' 
+  Group: 1   Config: N U T, 0, 0, 0
+  X:   451.204   Y: -1834.087   Z: -1283.586
+  W:      .000   P:      .000   R:     -.001
+    [1,143] =   'PP 3 HT Check 2' 
+  Group: 1   Config: N U T, 0, 0, 0
+  X:  1861.255   Y: -1727.296   Z: -1288.786
+  W:      .000   P:      .000   R:      .896
+    [1,144] =   'PP 4 HT Check 2' 
+  Group: 1   Config: N U T, 0, 0, 0
+  X:  -957.709   Y:  2121.544   Z: -1273.866
+  W:      .026   P:     -.000   R:      .000
+    [1,145] =   'PP 5 HT Check 2' 
+  Group: 1   Config: N U T, 0, 0, 0
+  X:   452.907   Y:  2116.761   Z: -1275.870
+  W:     -.001   P:      .000   R:     -.003
+    [1,146] =   'PP 6 HT Check 2' 
+  Group: 1   Config: N U T, 0, 0, 0
+  X:  1864.716   Y:  2004.983   Z: -1279.599
+  W:     -.001   P:      .000   R:     -.002
+    [1,147] =   'PP 1 HT Check 1' 
+  Group: 1   Config: N U T, 0, 0, 0
+  X: -1235.931   Y: -2113.584   Z: -1283.844
+  W:     -.000   P:      .000   R:   179.997
+    [1,148] =   'PP 2 HT Check 1' 
+  Group: 1   Config: N U T, 0, 0, 0
+  X:   178.881   Y: -2119.717   Z: -1289.026
+  W:     -.001   P:     -.000   R:   179.998
+    [1,149] =   'PP 3 HT Check 1' 
+  Group: 1   Config: N U T, 0, 0, 0
+  X:  1595.286   Y: -2019.279   Z: -1287.754
+  W:     -.000   P:      .000   R:   180.000
+    [1,150] =   'PP 4 HT Check 1' 
+  Group: 1   Config: N U T, 0, 0, 0
+  X: -1229.351   Y:  1836.943   Z: -1274.354
+  W:      .001   P:      .000   R:   179.998
+    [1,151] =   'PP 5 HT Check 1' 
+  Group: 1   Config: N U T, 0, 0, 0
+  X:   183.609   Y:  1827.197   Z: -1278.579
+  W:      .000   P:      .000   R:   179.996
+    [1,152] =   'PP 6 HT Check 1' 
+  Group: 1   Config: N U T, 0, 0, 0
+  X:  1594.597   Y:  1720.200   Z: -1281.845
+  W:      .000   P:      .000   R:   179.997
+    [1,153] =   'LH PP Height app' 
+  Group: 1   Config: N U T, 0, 0, 0
+  X:   195.518   Y:  -752.099   Z:   -31.626
+  W:     -.000   P:      .000   R:   -90.000
+    [1,154] =   'RH PP Height app' 
+  Group: 1   Config: N U T, 0, 0, 0
+  X:   302.923   Y:   656.801   Z:   -71.334
+  W:      .000   P:      .000   R:    91.656
+    [1,155] =   '' Uninitialized
+    [1,156] =   '' Uninitialized
+    [1,157] =   '' Uninitialized
+    [1,158] =   '' Uninitialized
+    [1,159] =   '' Uninitialized
+    [1,160] =   '' Uninitialized
+    [1,161] =   '' Uninitialized
+    [1,162] =   '' Uninitialized
+    [1,163] =   '' Uninitialized
+    [1,164] =   '' Uninitialized
+    [1,165] =   '' Uninitialized
+    [1,166] =   '' Uninitialized
+    [1,167] =   '' Uninitialized
+    [1,168] =   '' Uninitialized
+    [1,169] =   '' Uninitialized
+    [1,170] =   '' Uninitialized
+    [1,171] =   '' Uninitialized
+    [1,172] =   '' Uninitialized
+    [1,173] =   '' Uninitialized
+    [1,174] =   '' Uninitialized
+    [1,175] =   '' Uninitialized
+    [1,176] =   '' Uninitialized
+    [1,177] =   '' Uninitialized
+    [1,178] =   '' Uninitialized
+    [1,179] =   '' Uninitialized
+    [1,180] =   '' Uninitialized
+    [1,181] =   '' Uninitialized
+    [1,182] =   '' Uninitialized
+    [1,183] =   '' Uninitialized
+    [1,184] =   '' Uninitialized
+    [1,185] =   '' Uninitialized
+    [1,186] =   '' Uninitialized
+    [1,187] =   '' Uninitialized
+    [1,188] =   '' Uninitialized
+    [1,189] =   '' Uninitialized
+    [1,190] =   '' Uninitialized
+    [1,191] =   '' Uninitialized
+    [1,192] =   '' Uninitialized
+    [1,193] =   '' Uninitialized
+    [1,194] =   '' Uninitialized
+    [1,195] =   '' Uninitialized
+    [1,196] =   '' Uninitialized
+    [1,197] =   '' Uninitialized
+    [1,198] =   '' Uninitialized
+    [1,199] =   '' Uninitialized
+    [1,200] =   '' Uninitialized
+
+[*POSREG*]$MAXPREGNUM  Storage: CMOS  Access: RW  : INTEGER = 200
+

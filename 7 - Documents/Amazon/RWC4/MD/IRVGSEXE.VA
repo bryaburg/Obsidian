@@ -1,0 +1,126 @@
+[IRVGSEXE]VDETVAR  Storage: DRAM  Access: RW  : VCAL_VD_T = 
+   Field: VDETVAR.VPROG_NAME Access: RW: STRING[36] = Uninitialized
+   Field: VDETVAR.CAMERA_NAME Access: RW: STRING[34] = Uninitialized
+   Field: VDETVAR.TOOL_TYPE Access: RW: INTEGER = Uninitialized
+   Field: VDETVAR.DETECT_TYPE Access: RW: INTEGER = Uninitialized
+   Field: VDETVAR.EXPO_TIME Access: RW: INTEGER = Uninitialized
+   Field: VDETVAR.NUM_MUL_EXPO Access: RW: INTEGER = Uninitialized
+   Field: VDETVAR.NUM_MEP_USB Access: RW: INTEGER = Uninitialized
+   Field: VDETVAR.VIS_XYZ Access: RW: XYZWPR = Uninitialized
+   Field: VDETVAR.LOG_PORT Access: RW: INTEGER = Uninitialized
+   Field: VDETVAR.FOCAL_DIST Access: RW: REAL = Uninitialized
+   Field: VDETVAR.GRID_SPACING Access: RW: REAL = Uninitialized
+   Field: VDETVAR.DISTORT  ARRAY[2] OF REAL
+    [1] = Uninitialized
+    [2] = Uninitialized
+   Field: VDETVAR.OVRRD_FOCUS Access: RW: BOOLEAN = Uninitialized
+   Field: VDETVAR.NUM_RETRY Access: RW: INTEGER = Uninitialized
+   Field: VDETVAR.TRIM_RATIO Access: RW: REAL = Uninitialized
+     Field: VDETVAR.FDOT_T.NUM_ITERATIO Access: RW: INTEGER = Uninitialized
+     Field: VDETVAR.FDOT_T.EQUAL_THRES Access: RW: REAL = Uninitialized
+     Field: VDETVAR.FDOT_T.AREA_THRES Access: RW: REAL = Uninitialized
+     Field: VDETVAR.FDOT_T.ANGLE_THRES Access: RW: REAL = Uninitialized
+     Field: VDETVAR.FDOT_T.DIFF_PITCH Access: RW: REAL = Uninitialized
+     Field: VDETVAR.FDOT_T.CONV_THRES Access: RW: REAL = Uninitialized
+     Field: VDETVAR.FDOT_T.W_P_RATE Access: RW: REAL = Uninitialized
+     Field: VDETVAR.FDOT_T.RESIDUAL_ERR Access: RW: REAL = Uninitialized
+   Field: VDETVAR.LED_TYPE Access: RW: INTEGER = Uninitialized
+   Field: VDETVAR.LED_INTENSIT Access: RW: INTEGER = Uninitialized
+   Field: VDETVAR.$DUMMY18 Access: RW: BYTE = 255
+   Field: VDETVAR.$DUMMY19 Access: RW: BYTE = 255
+
+[IRVGSEXE]VFBVAR  Storage: DRAM  Access: RW  : VCAL_VF_T = 
+   Field: VFBVAR.TRGT_VAL_VT Access: RW: REAL = Uninitialized
+   Field: VFBVAR.TRGT_VAL_HZ Access: RW: REAL = Uninitialized
+   Field: VFBVAR.TRGT_VAL_S Access: RW: REAL = Uninitialized
+   Field: VFBVAR.VFB_MAT  ARRAY[3,3] OF REAL
+      [1,1] = Uninitialized
+      [1,2] = Uninitialized
+      [1,3] = Uninitialized
+      [2,1] = Uninitialized
+      [2,2] = Uninitialized
+      [2,3] = Uninitialized
+      [3,1] = Uninitialized
+      [3,2] = Uninitialized
+      [3,3] = Uninitialized
+   Field: VFBVAR.MAT_SIZE Access: RW: REAL = Uninitialized
+   Field: VFBVAR.VFB_TOL Access: RW: REAL = Uninitialized
+   Field: VFBVAR.VFB_LIMIT Access: RW: REAL = Uninitialized
+   Field: VFBVAR.MAX_LOOP Access: RW: INTEGER = Uninitialized
+   Field: VFBVAR.HAND_EYE Access: RW: BOOLEAN = Uninitialized
+
+[IRVGSEXE]MOVEVAR  Storage: DRAM  Access: RW  : VCAL_MV_T = 
+   Field: MOVEVAR.ROB_GROUP Access: RW: INTEGER = Uninitialized
+   Field: MOVEVAR.COMMAND_POS Access: RW: POSITION = Uninitialized
+   Field: MOVEVAR.VS_SPEED Access: RW: REAL = Uninitialized
+   Field: MOVEVAR.MAX_RDELAY Access: RW: INTEGER = Uninitialized
+   Field: MOVEVAR.ROB_AXIS Access: RW: REAL = 8.265251e-40
+   Field: MOVEVAR.MOTYPE Access: RW: INTEGER = Uninitialized
+
+[IRVGSEXE]VGFSVAR  Storage: DRAM  Access: RW  : VGFS_CFG_T = 
+   Field: VGFSVAR.$COMMENT Access: RW: STRING[37] = Uninitialized
+   Field: VGFSVAR.$UF_OR_UT Access: RW: INTEGER = Uninitialized
+   Field: VGFSVAR.$UFRAME_NUM Access: RW: INTEGER = Uninitialized
+   Field: VGFSVAR.$UTOOL_NUM Access: RW: INTEGER = Uninitialized
+   Field: VGFSVAR.$ROBOT_GRP Access: RW: INTEGER = Uninitialized
+   Field: VGFSVAR.$CAMERA_TYPE Access: RW: SHORT = Uninitialized
+   Field: VGFSVAR.$CAMERA_NAME Access: RW: STRING[37] = Uninitialized
+   Field: VGFSVAR.$PS_EXPOSURE Access: RW: SHORT = Uninitialized
+   Field: VGFSVAR.$EXPOSURE Access: RW: REAL = Uninitialized
+   Field: VGFSVAR.$GRID_SPACE Access: RW: REAL = Uninitialized
+   Field: VGFSVAR.$INIT_POS  ARRAY[9] OF REAL
+    [1] = Uninitialized
+    [2] = Uninitialized
+    [3] = Uninitialized
+    [4] = Uninitialized
+    [5] = Uninitialized
+    [6] = Uninitialized
+    [7] = Uninitialized
+    [8] = Uninitialized
+    [9] = Uninitialized
+   Field: VGFSVAR.$MOVE_ANG_R Access: RW: REAL = Uninitialized
+   Field: VGFSVAR.$MOVE_ANG_W Access: RW: REAL = Uninitialized
+   Field: VGFSVAR.$MOVE_ANG_P Access: RW: REAL = Uninitialized
+   Field: VGFSVAR.$MOVE_DST_XY Access: RW: REAL = Uninitialized
+   Field: VGFSVAR.$MOVE_DST_Z Access: RW: REAL = Uninitialized
+   Field: VGFSVAR.$SPEED Access: RW: REAL = Uninitialized
+   Field: VGFSVAR.$INPOS_THRE Access: RW: REAL = Uninitialized
+   Field: VGFSVAR.$VFB_TOL Access: RW: REAL = Uninitialized
+   Field: VGFSVAR.$DIV_NUM_Z Access: RW: INTEGER = Uninitialized
+   Field: VGFSVAR.$DIV_NUM_R Access: RW: INTEGER = Uninitialized
+   Field: VGFSVAR.$DIV_NUM_WP Access: RW: INTEGER = Uninitialized
+   Field: VGFSVAR.$NUM_RETRY Access: RW: INTEGER = Uninitialized
+   Field: VGFSVAR.$NUM_DETECT Access: RW: INTEGER = Uninitialized
+   Field: VGFSVAR.$NUM_EXPO Access: RW: INTEGER = Uninitialized
+   Field: VGFSVAR.$NUM_EXP_USB Access: RW: INTEGER = Uninitialized
+   Field: VGFSVAR.$LOG_PORT Access: RW: INTEGER = Uninitialized
+   Field: VGFSVAR.$LED_TYPE Access: RW: INTEGER = Uninitialized
+   Field: VGFSVAR.$LED_INTENSI Access: RW: INTEGER = Uninitialized
+
+[IRVGSEXE]CURR_STEP  Storage: DRAM  Access: RW  : INTEGER = 0
+
+[IRVGSEXE]SAVED_UTOOL  Storage: DRAM  Access: RW  : POSITION = Uninitialized
+
+[IRVGSEXE]SAVED_POS  Storage: DRAM  Access: RW  : POSITION = Uninitialized
+
+[IRVGSEXE]SAVED_MAT  Storage: DRAM  Access: RW  : ARRAY[3,3] OF REAL
+    [1,1] = Uninitialized
+    [1,2] = Uninitialized
+    [1,3] = Uninitialized
+    [2,1] = Uninitialized
+    [2,2] = Uninitialized
+    [2,3] = Uninitialized
+    [3,1] = Uninitialized
+    [3,2] = Uninitialized
+    [3,3] = Uninitialized
+
+[IRVGSEXE]SAVED_MSIZE  Storage: DRAM  Access: RW  : REAL = Uninitialized
+
+[IRVGSEXE]SAVED_HNDEYE  Storage: DRAM  Access: RW  : BOOLEAN = Uninitialized
+
+[IRVGSEXE]MNUTOOL  Storage: DRAM  Access: RW  : POSITION = Uninitialized
+
+[IRVGSEXE]LOG_INFO  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+
+[IRVGSEXE]LOG_DEBUG  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+

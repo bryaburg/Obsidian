@@ -1,0 +1,21 @@
+F Number: F236039
+VERSION : HandlingTool         
+$VERSION: V9.10170      9/18/2019
+DATE:     06-NOV-20 09:53 
+
+SERIAL PORT CONFIGURATION::
+
+DEVICE: JRS16 RS-232-C P2:
+         USAGE     : Maintenance Cons
+         SPEED     : 9600
+         PARITY    : None
+         STOPBITS  : 1bit
+         TIMEOUT   : 0
+         INTERFACE : RS-232-C
+DEVICE: JD17  RS-232-C P3:
+         USAGE     : No Use
+         SPEED     : 9600
+         PARITY    : None
+         STOPBITS  : 1bit
+         TIMEOUT   : 0
+         INTERFACE : RS-232-C

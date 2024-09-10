@@ -1,0 +1,210 @@
+F Number: F236039
+VERSION : HandlingTool         
+$VERSION: V9.10170      9/18/2019
+DATE:     06-NOV-20 09:53 
+
+IO CONFIGURATION::
+
+DIN[   1]  Call Home
+DIN[   2]  Call Maint
+DIN[   3]  Call Pick Incoming Tote
+DIN[   4]  Call Place Pallet
+DIN[   5]  Call Place Jackpot
+DIN[   6]  Call Pick Jackpot
+DIN[   7]  Call Pallet Height Check
+DIN[   8]  Call Calibration Check
+DIN[   9]  call camera calibration
+DIN[  10]  Call Place Plastic Pallt
+DIN[  11]  Call Pallet Stop Verify
+DIN[  15]  Got New Data
+DIN[  18]  J1 at pick
+DIN[  21]  Override Select 1
+DIN[  22]  Override Select 2
+DIN[  25]  Tote In Gripper
+DIN[  30]  Right Side Safety Fault
+DIN[  31]  Left Side Safety Fault
+DIN[  32]  Right Side Clear toEnter
+DIN[  33]  Left Side Clear to Enter
+DIN[  34]  Robot On RH Side
+DIN[  35]  Robot On LH Side
+DIN[  40]  Right Jackpot Clear
+DIN[  41]  Left Jackpot Clear
+DIN[  45]  Clear To Place On Pallet
+DIN[  46]  Not Ok To Place on Palle
+DIN[  50]  Pick Incoming Ack
+DIN[  51]  Place Pallet Ack
+DIN[  53]  Place Jackpot Ack
+DIN[  55]  Clear To Enter Inc Conv
+DIN[  56]  Clear To Enter Pallet1-4
+DIN[  57]  Clear To Enter Palelt5-8
+DIN[  58]  Clear To Enter Jackpot
+DIN[  60]  Height Check POS Ack
+DIN[  61]  Left Master Height Ack
+DIN[  62]  Right Master Height Ack
+DIN[  63]  Height Check Failed Ack
+DIN[  64]  Height Sensor in Range
+DIN[  65]  wood pallets active
+DIN[  66]  plastic pallets active
+DIN[  70]  Part Present At Infeed
+DIN[  71]  Part Present At Jackpot
+DIN[  72]  Cali Check Failed ACK
+DIN[  73]  Cali Check Pass ACK
+DIN[  78]  Shot Pins AT Home
+DIN[  79]  Shot Pins AT Work
+DIN[  80]  Side Clamps AT Work
+DIN[  81]  Side Clamps AT Home
+DIN[  82]  End Clamps AT Work
+DIN[  83]  End Clamps AT Home
+DIN[  84]  Height Check AT Work
+DIN[  85]  Height Check AT Home
+DIN[  86]  4 Corner check
+DIN[  87]  Incoming Lift AtHome
+DIN[  88]  Tote present Sensors Off
+DIN[  92]  Picked Jackpot Ack
+DIN[  95]  Place Jackpot Ack
+DIN[  96]  Left Jackpot Clear
+DIN[  97]  Right Jackpot Clear
+DIN[ 100]  Move to Maint 1
+DIN[ 101]  Move to Maint 2
+DIN[ 102]  Move to Maint 3
+DIN[ 103]  Move To EOAT Chg
+DIN[ 110]  All Pallet Stops OK
+DIN[ 111]  Pallet Stop 1 CK ACK
+DIN[ 112]  Pallet Stop 2 CK ACK
+DIN[ 113]  Pallet Stop 3 CK ACK
+DIN[ 114]  Pallet Stop 4 CK ACK
+DIN[ 115]  Pallet Stop 5 CK ACK
+DIN[ 116]  Pallet Stop 6 CK ACK
+DIN[ 117]  Stop Check Failed ACK
+DIN[ 121]  PP Height CK 1 ACK
+DIN[ 122]  PP Height CK 2 ACK
+DIN[ 123]  Pallet Height Check Pass
+DIN    1  - 144   RACK:  89   SLOT:   1   PORT:  19
+DIN  145  - 334   RACK:  89   SLOT:   1   PORT: 163
+DOUT[   1]  Called Home
+DOUT[   2]  Called Maint
+DOUT[   3]  Called Pick IncomingTote
+DOUT[   4]  Called Place Pallet
+DOUT[   5]  Called Place Jackpot
+DOUT[   6]  Called Pick Jackpot
+DOUT[   7]  Called Pallet Height Che
+DOUT[   8]  Called Calibration Check
+DOUT[   9]  called camera calibratin
+DOUT[  10]  Callled Place Plastic pt
+DOUT[  11]  Called Pallet Stop Verif
+DOUT[  15]  Get New Tote Data
+DOUT[  16]  Data Cleared
+DOUT[  17]  ROBOT NO DATA
+DOUT[  18]  RESEND DATA
+DOUT[  21]  In Auto
+DOUT[  22]  In T1
+DOUT[  23]  Input Simulated
+DOUT[  24]  Output Simulated
+DOUT[  25]  Heartbeat
+DOUT[  26]  Controller Estop
+DOUT[  27]  Teach Pendant Estop
+DOUT[  28]  Prog Aborted
+DOUT[  29]  Collision Detect
+DOUT[  33]  In Step
+DOUT[  39]  TP Connected
+DOUT[  40]  At Home
+DOUT[  41]  At Maint
+DOUT[  42]  Above Inline
+DOUT[  43]  Above Left Jackpot
+DOUT[  44]  Above Right Jackpot
+DOUT[  45]  Wait For Clear
+DOUT[  46]  Robot Tote Present
+DOUT[  47]  Robot Tote Pick
+DOUT[  50]  Picked Incoming
+DOUT[  51]  Placed Pallet
+DOUT[  55]  Clear Of Inc Conv
+DOUT[  56]  Clear Of Pallets 1-3
+DOUT[  57]  Clear Of Pallets 4-6
+DOUT[  58]  Clear Of Jackpot
+DOUT[  60]  At Height Check POS
+DOUT[  61]  At Left Master Height
+DOUT[  62]  At Right Master Height
+DOUT[  63]  Height Check Failed
+DOUT[  66]  ovc speed select
+DOUT[  68]  DCS avoidance path
+DOUT[  70]  Vision Failed
+DOUT[  72]  Calibration Check Failed
+DOUT[  73]  Calibration Check Passed
+DOUT[  80]  Side Clamps To Home
+DOUT[  81]  Side Clamps To Work
+DOUT[  82]  End Clamps To Work
+DOUT[  83]  End Clamps To Home
+DOUT[  84]  Height Check To Work
+DOUT[  85]  Height Check To Home
+DOUT[  87]  Lights ON
+DOUT[  90]  picking jackpot left
+DOUT[  91]  picking jackpot right
+DOUT[  92]  Picked Jackpot
+DOUT[  93]  Placing Jackpot Left
+DOUT[  94]  Placing Jackpot Right
+DOUT[  95]  Placed Jackpot
+DOUT[ 100]  At Maint 1
+DOUT[ 101]  At Maint 2
+DOUT[ 102]  At Maint 3
+DOUT[ 103]  EOAT Position
+DOUT[ 110]  Stop Check Complet
+DOUT[ 111]  At Pallet Stop 1 CK
+DOUT[ 112]  At Pallet Stop 2 CK
+DOUT[ 113]  At Pallet Stop 3 CK
+DOUT[ 114]  At Pallet Stop 4 CK
+DOUT[ 115]  At Pallet Stop 5 CK
+DOUT[ 116]  At Pallet Stop 6 CK
+DOUT[ 117]  Stop Check Failed
+DOUT[ 121]  At PP Height CK 1
+DOUT[ 122]  At PP Height CH 2
+DOUT[ 123]  Height Check Comp
+DOUT    1  - 144   RACK:  89   SLOT:   1   PORT:  21
+DOUT  145  - 332   RACK:  89   SLOT:   1   PORT: 165
+GIN    1   RACK:  89   SLOT:   1   PORT:  97   #NUM:  16
+GIN    2   RACK:  89   SLOT:   1   PORT: 113   #NUM:  16
+GIN    3   RACK:  89   SLOT:   1   PORT: 129   #NUM:  16
+GIN    4   RACK:  89   SLOT:   1   PORT: 145   #NUM:  16
+GOUT    1   RACK:  89   SLOT:   1   PORT:  97   #NUM:  16
+GOUT    2   RACK:  89   SLOT:   1   PORT: 113   #NUM:  16
+GOUT    3   RACK:  89   SLOT:   1   PORT: 129   #NUM:  16
+GOUT    4   RACK:  89   SLOT:   1   PORT: 145   #NUM:  16
+UI[   1] *IMSTP
+UI[   2] *Hold
+UI[   3] *SFSPD
+UI[   4] Cycle stop
+UI[   5] Fault reset
+UI[   6] Start
+UI[   7] Home
+UI[   8] Enable
+UI[   9] RSR1/PNS1/STYLE1
+UI[  10] RSR2/PNS2/STYLE2
+UI[  11] RSR3/PNS3/STYLE3
+UI[  12] RSR4/PNS4/STYLE4
+UI[  13] RSR5/PNS5/STYLE5
+UI[  14] RSR6/PNS6/STYLE6
+UI[  15] RSR7/PNS7/STYLE7
+UI[  16] RSR8/PNS8/STYLE8
+UI[  17] PNS strobe
+UI[  18] Prod start
+UI    1  -  18   RACK:  89   SLOT:   1   PORT:   1
+UO[   1] Cmd enabled
+UO[   2] System ready
+UO[   3] Prg running
+UO[   4] Prg paused
+UO[   5] Motion held
+UO[   6] Fault
+UO[   7] At perch
+UO[   8] TP enabled
+UO[   9] Batt alarm
+UO[  10] Busy
+UO[  11] ACK1/SNO1
+UO[  12] ACK2/SNO2
+UO[  13] ACK3/SNO3
+UO[  14] ACK4/SNO4
+UO[  15] ACK5/SNO5
+UO[  16] ACK6/SNO6
+UO[  17] ACK7/SNO7
+UO[  18] ACK8/SNO8
+UO[  19] SNACK
+UO[  20] Reserved
+UO    1  -  20   RACK:  89   SLOT:   1   PORT:   1

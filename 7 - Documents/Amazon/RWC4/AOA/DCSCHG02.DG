@@ -1,0 +1,1106 @@
+F Number: F236039
+VERSION : HandlingTool         
+$VERSION: V9.10170      9/18/2019
+DATE:     25-AUG-20 03:02 
+DCS Version: V4.2.10
+
+--- Joint Position Check ---------------
+No.         G A Status    Comment
+  1 DISABLE 1  1 CHGD [Right Side Clear]
+  2 DISABLE 1  1 CHGD [Left Side Clear ]
+  3 DISABLE 1  1 CHGD [In Right Side   ]
+  4 DISABLE 1  1 CHGD [In Left Side    ]
+  5 DISABLE 1  1 ---- [                ]
+  6 DISABLE 1  1 CHGD [At Pick         ]
+  7 DISABLE 1  1 CHGD [RH Jackpot      ]
+  8 DISABLE 1  1 CHGD [LH Jackpot      ]
+  9 DISABLE 1  1 ---- [                ]
+ 10 DISABLE 1  1 CHGD [At Home J1      ]
+ 11 DISABLE 1  1 CHGD [At Home J2      ]
+ 12 DISABLE 1  1 CHGD [At Home J3      ]
+ 13 DISABLE 1  1 CHGD [At Home J4      ]
+ 14 DISABLE 1  1 CHGD [At Home J5      ]
+ 15 DISABLE 1  1 CHGD [At Home J6      ]
+ 16 DISABLE 1  1 CHGD [at EOAT chg 1   ]
+ 17 DISABLE 1  1 CHGD [at EOAT chg J2  ]
+ 18 DISABLE 1  1 CHGD [at EOAT chg J3  ]
+ 19 DISABLE 1  1 CHGD [at EOAT chg J4  ]
+ 20 DISABLE 1  1 CHGD [at EOAT chg J5  ]
+ 21 DISABLE 1  1 CHGD [at EOAT chg J6  ]
+ 22 DISABLE 1  1 CHGD [dsble J1 at EOAT]
+ 23 DISABLE 1  1 CHGD [dsble J2 at EOAT]
+ 24 DISABLE 1  1 CHGD [dsble J3 at EOAT]
+ 25 DISABLE 1  1 CHGD [dsble J4 at EOAT]
+ 26 DISABLE 1  1 CHGD [dsble J5 a EOAT ]
+ 27 DISABLE 1  1 CHGD [dsble J6 at EOAT]
+ 28 DISABLE 1  1 ---- [                ]
+ 29 DISABLE 1  1 CHGD [LH J2 limit     ]
+ 30 DISABLE 1  1 CHGD [RH J2 limit     ]
+ 31 DISABLE 1  1 ---- [                ]
+ 32 DISABLE 1  1 ---- [                ]
+ 33 DISABLE 1  1 ---- [                ]
+ 34 DISABLE 1  1 ---- [                ]
+ 35 DISABLE 1  1 ---- [                ]
+ 36 DISABLE 1  1 ---- [                ]
+ 37 DISABLE 1  1 ---- [                ]
+ 38 DISABLE 1  1 ---- [                ]
+ 39 DISABLE 1  1 ---- [                ]
+ 40 DISABLE 1  1 ---- [                ]
+
+    No.  1              Status:CHGD
+  1 Comment:   [Right Side Clear       ]
+  2 Enable/Disable:            DISABLE
+  3 Group:                            1
+  4 Axis:                             1
+  5 Safe side:                  INSIDE 
+    Position (deg):
+      Current:                    -.000
+  6   Upper limit:                0.000
+  7   Lower limit:                0.000
+  8 Stop type:         Stop Category 0
+  9 Disabling input: ---[  0:          ]
+
+    No.  2              Status:CHGD
+  1 Comment:   [Left Side Clear        ]
+  2 Enable/Disable:            DISABLE
+  3 Group:                            1
+  4 Axis:                             1
+  5 Safe side:                  INSIDE 
+    Position (deg):
+      Current:                    -.000
+  6   Upper limit:                0.000
+  7   Lower limit:                0.000
+  8 Stop type:         Stop Category 0
+  9 Disabling input: ---[  0:          ]
+
+    No.  3              Status:CHGD
+  1 Comment:   [In Right Side          ]
+  2 Enable/Disable:            DISABLE
+  3 Group:                            1
+  4 Axis:                             1
+  5 Safe side:                  INSIDE 
+    Position (deg):
+      Current:                    -.000
+  6   Upper limit:                0.000
+  7   Lower limit:                0.000
+  8 Stop type:         Stop Category 0
+  9 Disabling input: ---[  0:          ]
+
+    No.  4              Status:CHGD
+  1 Comment:   [In Left Side           ]
+  2 Enable/Disable:            DISABLE
+  3 Group:                            1
+  4 Axis:                             1
+  5 Safe side:                  INSIDE 
+    Position (deg):
+      Current:                    -.000
+  6   Upper limit:                0.000
+  7   Lower limit:                0.000
+  8 Stop type:         Stop Category 0
+  9 Disabling input: ---[  0:          ]
+
+    No.  6              Status:CHGD
+  1 Comment:   [At Pick                ]
+  2 Enable/Disable:            DISABLE
+  3 Group:                            1
+  4 Axis:                             1
+  5 Safe side:                  INSIDE 
+    Position (deg):
+      Current:                    -.000
+  6   Upper limit:                0.000
+  7   Lower limit:                0.000
+  8 Stop type:         Stop Category 0
+  9 Disabling input: ---[  0:          ]
+
+    No.  7              Status:CHGD
+  1 Comment:   [RH Jackpot             ]
+  2 Enable/Disable:            DISABLE
+  3 Group:                            1
+  4 Axis:                             1
+  5 Safe side:                  INSIDE 
+    Position (deg):
+      Current:                    -.000
+  6   Upper limit:                0.000
+  7   Lower limit:                0.000
+  8 Stop type:         Stop Category 0
+  9 Disabling input: ---[  0:          ]
+
+    No.  8              Status:CHGD
+  1 Comment:   [LH Jackpot             ]
+  2 Enable/Disable:            DISABLE
+  3 Group:                            1
+  4 Axis:                             1
+  5 Safe side:                  INSIDE 
+    Position (deg):
+      Current:                    -.000
+  6   Upper limit:                0.000
+  7   Lower limit:                0.000
+  8 Stop type:         Stop Category 0
+  9 Disabling input: ---[  0:          ]
+
+    No. 10              Status:CHGD
+  1 Comment:   [At Home J1             ]
+  2 Enable/Disable:            DISABLE
+  3 Group:                            1
+  4 Axis:                             1
+  5 Safe side:                  INSIDE 
+    Position (deg):
+      Current:                    -.000
+  6   Upper limit:                0.000
+  7   Lower limit:                0.000
+  8 Stop type:         Stop Category 0
+  9 Disabling input: ---[  0:          ]
+
+    No. 11              Status:CHGD
+  1 Comment:   [At Home J2             ]
+  2 Enable/Disable:            DISABLE
+  3 Group:                            1
+  4 Axis:                             1
+  5 Safe side:                  INSIDE 
+    Position (deg):
+      Current:                    -.000
+  6   Upper limit:                0.000
+  7   Lower limit:                0.000
+  8 Stop type:         Stop Category 0
+  9 Disabling input: ---[  0:          ]
+
+    No. 12              Status:CHGD
+  1 Comment:   [At Home J3             ]
+  2 Enable/Disable:            DISABLE
+  3 Group:                            1
+  4 Axis:                             1
+  5 Safe side:                  INSIDE 
+    Position (deg):
+      Current:                    -.000
+  6   Upper limit:                0.000
+  7   Lower limit:                0.000
+  8 Stop type:         Stop Category 0
+  9 Disabling input: ---[  0:          ]
+
+    No. 13              Status:CHGD
+  1 Comment:   [At Home J4             ]
+  2 Enable/Disable:            DISABLE
+  3 Group:                            1
+  4 Axis:                             1
+  5 Safe side:                  INSIDE 
+    Position (deg):
+      Current:                    -.000
+  6   Upper limit:                0.000
+  7   Lower limit:                0.000
+  8 Stop type:         Stop Category 0
+  9 Disabling input: ---[  0:          ]
+
+    No. 14              Status:CHGD
+  1 Comment:   [At Home J5             ]
+  2 Enable/Disable:            DISABLE
+  3 Group:                            1
+  4 Axis:                             1
+  5 Safe side:                  INSIDE 
+    Position (deg):
+      Current:                    -.000
+  6   Upper limit:                0.000
+  7   Lower limit:                0.000
+  8 Stop type:         Stop Category 0
+  9 Disabling input: ---[  0:          ]
+
+    No. 15              Status:CHGD
+  1 Comment:   [At Home J6             ]
+  2 Enable/Disable:            DISABLE
+  3 Group:                            1
+  4 Axis:                             1
+  5 Safe side:                  INSIDE 
+    Position (deg):
+      Current:                    -.000
+  6   Upper limit:                0.000
+  7   Lower limit:                0.000
+  8 Stop type:         Stop Category 0
+  9 Disabling input: ---[  0:          ]
+
+    No. 16              Status:CHGD
+  1 Comment:   [at EOAT chg 1          ]
+  2 Enable/Disable:            DISABLE
+  3 Group:                            1
+  4 Axis:                             1
+  5 Safe side:                  INSIDE 
+    Position (deg):
+      Current:                    -.000
+  6   Upper limit:                0.000
+  7   Lower limit:                0.000
+  8 Stop type:         Stop Category 0
+  9 Disabling input: ---[  0:          ]
+
+    No. 17              Status:CHGD
+  1 Comment:   [at EOAT chg J2         ]
+  2 Enable/Disable:            DISABLE
+  3 Group:                            1
+  4 Axis:                             1
+  5 Safe side:                  INSIDE 
+    Position (deg):
+      Current:                    -.000
+  6   Upper limit:                0.000
+  7   Lower limit:                0.000
+  8 Stop type:         Stop Category 0
+  9 Disabling input: ---[  0:          ]
+
+    No. 18              Status:CHGD
+  1 Comment:   [at EOAT chg J3         ]
+  2 Enable/Disable:            DISABLE
+  3 Group:                            1
+  4 Axis:                             1
+  5 Safe side:                  INSIDE 
+    Position (deg):
+      Current:                    -.000
+  6   Upper limit:                0.000
+  7   Lower limit:                0.000
+  8 Stop type:         Stop Category 0
+  9 Disabling input: ---[  0:          ]
+
+    No. 19              Status:CHGD
+  1 Comment:   [at EOAT chg J4         ]
+  2 Enable/Disable:            DISABLE
+  3 Group:                            1
+  4 Axis:                             1
+  5 Safe side:                  INSIDE 
+    Position (deg):
+      Current:                    -.000
+  6   Upper limit:                0.000
+  7   Lower limit:                0.000
+  8 Stop type:         Stop Category 0
+  9 Disabling input: ---[  0:          ]
+
+    No. 20              Status:CHGD
+  1 Comment:   [at EOAT chg J5         ]
+  2 Enable/Disable:            DISABLE
+  3 Group:                            1
+  4 Axis:                             1
+  5 Safe side:                  INSIDE 
+    Position (deg):
+      Current:                    -.000
+  6   Upper limit:                0.000
+  7   Lower limit:                0.000
+  8 Stop type:         Stop Category 0
+  9 Disabling input: ---[  0:          ]
+
+    No. 21              Status:CHGD
+  1 Comment:   [at EOAT chg J6         ]
+  2 Enable/Disable:            DISABLE
+  3 Group:                            1
+  4 Axis:                             1
+  5 Safe side:                  INSIDE 
+    Position (deg):
+      Current:                    -.000
+  6   Upper limit:                0.000
+  7   Lower limit:                0.000
+  8 Stop type:         Stop Category 0
+  9 Disabling input: ---[  0:          ]
+
+    No. 22              Status:CHGD
+  1 Comment:   [dsble J1 at EOAT chg   ]
+  2 Enable/Disable:            DISABLE
+  3 Group:                            1
+  4 Axis:                             1
+  5 Safe side:                  INSIDE 
+    Position (deg):
+      Current:                    -.000
+  6   Upper limit:                0.000
+  7   Lower limit:                0.000
+  8 Stop type:         Stop Category 0
+  9 Disabling input: ---[  0:          ]
+
+    No. 23              Status:CHGD
+  1 Comment:   [dsble J2 at EOAT chg   ]
+  2 Enable/Disable:            DISABLE
+  3 Group:                            1
+  4 Axis:                             1
+  5 Safe side:                  INSIDE 
+    Position (deg):
+      Current:                    -.000
+  6   Upper limit:                0.000
+  7   Lower limit:                0.000
+  8 Stop type:         Stop Category 0
+  9 Disabling input: ---[  0:          ]
+
+    No. 24              Status:CHGD
+  1 Comment:   [dsble J3 at EOAT chg   ]
+  2 Enable/Disable:            DISABLE
+  3 Group:                            1
+  4 Axis:                             1
+  5 Safe side:                  INSIDE 
+    Position (deg):
+      Current:                    -.000
+  6   Upper limit:                0.000
+  7   Lower limit:                0.000
+  8 Stop type:         Stop Category 0
+  9 Disabling input: ---[  0:          ]
+
+    No. 25              Status:CHGD
+  1 Comment:   [dsble J4 at EOAT chg   ]
+  2 Enable/Disable:            DISABLE
+  3 Group:                            1
+  4 Axis:                             1
+  5 Safe side:                  INSIDE 
+    Position (deg):
+      Current:                    -.000
+  6   Upper limit:                0.000
+  7   Lower limit:                0.000
+  8 Stop type:         Stop Category 0
+  9 Disabling input: ---[  0:          ]
+
+    No. 26              Status:CHGD
+  1 Comment:   [dsble J5 a EOAT chg    ]
+  2 Enable/Disable:            DISABLE
+  3 Group:                            1
+  4 Axis:                             1
+  5 Safe side:                  INSIDE 
+    Position (deg):
+      Current:                    -.000
+  6   Upper limit:                0.000
+  7   Lower limit:                0.000
+  8 Stop type:         Stop Category 0
+  9 Disabling input: ---[  0:          ]
+
+    No. 27              Status:CHGD
+  1 Comment:   [dsble J6 at EOAT chg   ]
+  2 Enable/Disable:            DISABLE
+  3 Group:                            1
+  4 Axis:                             1
+  5 Safe side:                  INSIDE 
+    Position (deg):
+      Current:                    -.000
+  6   Upper limit:                0.000
+  7   Lower limit:                0.000
+  8 Stop type:         Stop Category 0
+  9 Disabling input: ---[  0:          ]
+
+    No. 29              Status:CHGD
+  1 Comment:   [LH J2 limit            ]
+  2 Enable/Disable:            DISABLE
+  3 Group:                            1
+  4 Axis:                             1
+  5 Safe side:                  INSIDE 
+    Position (deg):
+      Current:                    -.000
+  6   Upper limit:                0.000
+  7   Lower limit:                0.000
+  8 Stop type:         Stop Category 0
+  9 Disabling input: ---[  0:          ]
+
+    No. 30              Status:CHGD
+  1 Comment:   [RH J2 limit            ]
+  2 Enable/Disable:            DISABLE
+  3 Group:                            1
+  4 Axis:                             1
+  5 Safe side:                  INSIDE 
+    Position (deg):
+      Current:                    -.000
+  6   Upper limit:                0.000
+  7   Lower limit:                0.000
+  8 Stop type:         Stop Category 0
+  9 Disabling input: ---[  0:          ]
+
+--- Joint Speed Check ------------------
+No.         G A Status    Comment
+  1 DISABLE 1  1 CHGD [                ]
+  2 DISABLE 1  1 CHGD [                ]
+  3 DISABLE 1  1 ---- [                ]
+  4 DISABLE 1  1 ---- [                ]
+  5 DISABLE 1  1 ---- [                ]
+  6 DISABLE 1  1 ---- [                ]
+  7 DISABLE 1  1 ---- [                ]
+  8 DISABLE 1  1 ---- [                ]
+  9 DISABLE 1  1 ---- [                ]
+ 10 DISABLE 1  1 ---- [                ]
+ 11 DISABLE 1  1 ---- [                ]
+ 12 DISABLE 1  1 ---- [                ]
+ 13 DISABLE 1  1 ---- [                ]
+ 14 DISABLE 1  1 ---- [                ]
+ 15 DISABLE 1  1 ---- [                ]
+ 16 DISABLE 1  1 ---- [                ]
+ 17 DISABLE 1  1 ---- [                ]
+ 18 DISABLE 1  1 ---- [                ]
+ 19 DISABLE 1  1 ---- [                ]
+ 20 DISABLE 1  1 ---- [                ]
+ 21 DISABLE 1  1 ---- [                ]
+ 22 DISABLE 1  1 ---- [                ]
+ 23 DISABLE 1  1 ---- [                ]
+ 24 DISABLE 1  1 ---- [                ]
+ 25 DISABLE 1  1 ---- [                ]
+ 26 DISABLE 1  1 ---- [                ]
+ 27 DISABLE 1  1 ---- [                ]
+ 28 DISABLE 1  1 ---- [                ]
+ 29 DISABLE 1  1 ---- [                ]
+ 30 DISABLE 1  1 ---- [                ]
+ 31 DISABLE 1  1 ---- [                ]
+ 32 DISABLE 1  1 ---- [                ]
+ 33 DISABLE 1  1 ---- [                ]
+ 34 DISABLE 1  1 ---- [                ]
+ 35 DISABLE 1  1 ---- [                ]
+ 36 DISABLE 1  1 ---- [                ]
+ 37 DISABLE 1  1 ---- [                ]
+ 38 DISABLE 1  1 ---- [                ]
+ 39 DISABLE 1  1 ---- [                ]
+ 40 DISABLE 1  1 ---- [                ]
+
+    No.  1              Status:CHGD
+  1 Comment:   [                       ]
+  2 Enable/Disable:             DISABLE
+  3 Direction:                      ALL
+  4 Group:                            1
+  5 Axis:                             1
+    Speed(deg/sec):
+      Current:                    0.000
+  6   Limit:                      0.000
+  7 Stop type:         Stop Category 0
+  8 Delay time:                   0 msec
+  9 Disabling input: ---[  0:          ]
+ 10 Permissible distance   (deg):   0.0
+
+    No.  2              Status:CHGD
+  1 Comment:   [                       ]
+  2 Enable/Disable:             DISABLE
+  3 Direction:                      ALL
+  4 Group:                            1
+  5 Axis:                             1
+    Speed(deg/sec):
+      Current:                    0.000
+  6   Limit:                      0.000
+  7 Stop type:         Stop Category 0
+  8 Delay time:                   0 msec
+  9 Disabling input: ---[  0:          ]
+ 10 Permissible distance   (deg):   0.0
+
+--- Cartesian Position Check -----------
+  Process time factor (Max.1000):  172
+ No.        G M Status     Comment
+  1 DISABLE 1 WD CHGD [Cell Box In     ]
+  2 DISABLE 1 WD CHGD [Jackpot Box Out ]
+  3 DISABLE 1 WD CHGD [Incoming Box Out]
+  4 DISABLE 1 WD ---- [                ]
+  5 DISABLE 1 WD CHGD [Middle Box In   ]
+  6 DISABLE 1 WD CHGD [Left Side Box Ou]
+  7 DISABLE 1 WD CHGD [Right Side Box O]
+  8 DISABLE 1 WD CHGD [                ]
+  9 DISABLE 1 WD CHGD [Left Side J2 Slo]
+ 10 DISABLE 1 WD CHGD [Right Side J2 Sl]
+ 11 DISABLE 1 WD ---- [                ]
+ 12 DISABLE 1 WD ---- [                ]
+ 13 DISABLE 1 WD CHGD [pick dcs test   ]
+ 14 DISABLE 1 WD ---- [                ]
+ 15 DISABLE 1 WD ---- [                ]
+ 16 DISABLE 1 WD ---- [                ]
+ 17 DISABLE 1 WD ---- [                ]
+ 18 DISABLE 1 WD ---- [                ]
+ 19 DISABLE 1 WD ---- [                ]
+ 20 DISABLE 1 WD ---- [                ]
+ 21 DISABLE 1 WD ---- [                ]
+ 22 DISABLE 1 WD ---- [                ]
+ 23 DISABLE 1 WD ---- [                ]
+ 24 DISABLE 1 WD ---- [                ]
+ 25 DISABLE 1 WD ---- [                ]
+ 26 DISABLE 1 WD ---- [                ]
+ 27 DISABLE 1 WD ---- [                ]
+ 28 DISABLE 1 WD ---- [                ]
+ 29 DISABLE 1 WD ---- [                ]
+ 30 DISABLE 1 WD ---- [                ]
+ 31 DISABLE 1 WD ---- [                ]
+ 32 DISABLE 1 WD ---- [                ]
+
+    No.  1              Status:CHGD
+  1 Comment:   [Cell Box In            ]
+  2 Enable/Disable:            DISABLE
+  3 Method:    Working zone(Diagnal)   
+  4 Group:                            1
+  5 Target model 1:         Robot model
+  6 Target model 2:             DISABLE
+  7 Target model 3:             DISABLE
+  8 Base frame:   User frame:     0
+    Position(mm):
+        Current      Point 1    Point 2
+  9 X    1130.3        0.0        0.0
+ 10 Y       -.0        0.0        0.0
+ 11 Z     -42.4        0.0        0.0
+ 12 Stop type:         Stop Category 0
+ 13 Disabling input: ---[  0:          ]
+ 14 Use Stop Position Prediction: Yes   
+ -- Speed check detail --
+    Limit(mm/s) / DSBL input
+  1 Limit 1:  250.0 / ---[  0]
+  2 Limit 2:  250.0 / ---[  0]
+  3 Limit 3:  250.0 / ---[  0]
+  4 Limit 4:  250.0 / ---[  0]
+  5 delay time:                   0 msec
+  6 Permissible distance(mm):       0.0
+
+    No.  2              Status:CHGD
+  1 Comment:   [Jackpot Box Out        ]
+  2 Enable/Disable:            DISABLE
+  3 Method:    Working zone(Diagnal)   
+  4 Group:                            1
+  5 Target model 1:         Robot model
+  6 Target model 2:             DISABLE
+  7 Target model 3:             DISABLE
+  8 Base frame:   User frame:     0
+    Position(mm):
+        Current      Point 1    Point 2
+  9 X    1130.3        0.0        0.0
+ 10 Y       -.0        0.0        0.0
+ 11 Z     -42.4        0.0        0.0
+ 12 Stop type:         Stop Category 0
+ 13 Disabling input: ---[  0:          ]
+ 14 Use Stop Position Prediction: Yes   
+ -- Speed check detail --
+    Limit(mm/s) / DSBL input
+  1 Limit 1:  250.0 / ---[  0]
+  2 Limit 2:  250.0 / ---[  0]
+  3 Limit 3:  250.0 / ---[  0]
+  4 Limit 4:  250.0 / ---[  0]
+  5 delay time:                   0 msec
+  6 Permissible distance(mm):       0.0
+
+    No.  3              Status:CHGD
+  1 Comment:   [Incoming Box Out       ]
+  2 Enable/Disable:            DISABLE
+  3 Method:    Working zone(Diagnal)   
+  4 Group:                            1
+  5 Target model 1:         Robot model
+  6 Target model 2:             DISABLE
+  7 Target model 3:             DISABLE
+  8 Base frame:   User frame:     0
+    Position(mm):
+        Current      Point 1    Point 2
+  9 X    1130.3        0.0        0.0
+ 10 Y       -.0        0.0        0.0
+ 11 Z     -42.4        0.0        0.0
+ 12 Stop type:         Stop Category 0
+ 13 Disabling input: ---[  0:          ]
+ 14 Use Stop Position Prediction: Yes   
+ -- Speed check detail --
+    Limit(mm/s) / DSBL input
+  1 Limit 1:  250.0 / ---[  0]
+  2 Limit 2:  250.0 / ---[  0]
+  3 Limit 3:  250.0 / ---[  0]
+  4 Limit 4:  250.0 / ---[  0]
+  5 delay time:                   0 msec
+  6 Permissible distance(mm):       0.0
+
+    No.  5              Status:CHGD
+  1 Comment:   [Middle Box In          ]
+  2 Enable/Disable:            DISABLE
+  3 Method:    Working zone(Diagnal)   
+  4 Group:                            1
+  5 Target model 1:         Robot model
+  6 Target model 2:             DISABLE
+  7 Target model 3:             DISABLE
+  8 Base frame:   User frame:     0
+    Position(mm):
+        Current      Point 1    Point 2
+  9 X    1130.3        0.0        0.0
+ 10 Y       -.0        0.0        0.0
+ 11 Z     -42.4        0.0        0.0
+ 12 Stop type:         Stop Category 0
+ 13 Disabling input: ---[  0:          ]
+ 14 Use Stop Position Prediction: Yes   
+ -- Speed check detail --
+    Limit(mm/s) / DSBL input
+  1 Limit 1:  250.0 / ---[  0]
+  2 Limit 2:  250.0 / ---[  0]
+  3 Limit 3:  250.0 / ---[  0]
+  4 Limit 4:  250.0 / ---[  0]
+  5 delay time:                   0 msec
+  6 Permissible distance(mm):       0.0
+
+    No.  6              Status:CHGD
+  1 Comment:   [Left Side Box Out      ]
+  2 Enable/Disable:            DISABLE
+  3 Method:    Working zone(Diagnal)   
+  4 Group:                            1
+  5 Target model 1:         Robot model
+  6 Target model 2:             DISABLE
+  7 Target model 3:             DISABLE
+  8 Base frame:   User frame:     0
+    Position(mm):
+        Current      Point 1    Point 2
+  9 X    1130.3        0.0        0.0
+ 10 Y       -.0        0.0        0.0
+ 11 Z     -42.4        0.0        0.0
+ 12 Stop type:         Stop Category 0
+ 13 Disabling input: ---[  0:          ]
+ 14 Use Stop Position Prediction: Yes   
+ -- Speed check detail --
+    Limit(mm/s) / DSBL input
+  1 Limit 1:  250.0 / ---[  0]
+  2 Limit 2:  250.0 / ---[  0]
+  3 Limit 3:  250.0 / ---[  0]
+  4 Limit 4:  250.0 / ---[  0]
+  5 delay time:                   0 msec
+  6 Permissible distance(mm):       0.0
+
+    No.  7              Status:CHGD
+  1 Comment:   [Right Side Box Out     ]
+  2 Enable/Disable:            DISABLE
+  3 Method:    Working zone(Diagnal)   
+  4 Group:                            1
+  5 Target model 1:         Robot model
+  6 Target model 2:             DISABLE
+  7 Target model 3:             DISABLE
+  8 Base frame:   User frame:     0
+    Position(mm):
+        Current      Point 1    Point 2
+  9 X    1130.3        0.0        0.0
+ 10 Y       -.0        0.0        0.0
+ 11 Z     -42.4        0.0        0.0
+ 12 Stop type:         Stop Category 0
+ 13 Disabling input: ---[  0:          ]
+ 14 Use Stop Position Prediction: Yes   
+ -- Speed check detail --
+    Limit(mm/s) / DSBL input
+  1 Limit 1:  250.0 / ---[  0]
+  2 Limit 2:  250.0 / ---[  0]
+  3 Limit 3:  250.0 / ---[  0]
+  4 Limit 4:  250.0 / ---[  0]
+  5 delay time:                   0 msec
+  6 Permissible distance(mm):       0.0
+
+    No.  8              Status:CHGD
+  1 Comment:   [                       ]
+  2 Enable/Disable:            DISABLE
+  3 Method:    Working zone(Diagnal)   
+  4 Group:                            1
+  5 Target model 1:         Robot model
+  6 Target model 2:             DISABLE
+  7 Target model 3:             DISABLE
+  8 Base frame:   User frame:     0
+    Position(mm):
+        Current      Point 1    Point 2
+  9 X    1130.3        0.0        0.0
+ 10 Y       -.0        0.0        0.0
+ 11 Z     -42.4        0.0        0.0
+ 12 Stop type:         Stop Category 0
+ 13 Disabling input: ---[  0:          ]
+ 14 Use Stop Position Prediction: Yes   
+ -- Speed check detail --
+    Limit(mm/s) / DSBL input
+  1 Limit 1:  250.0 / ---[  0]
+  2 Limit 2:  250.0 / ---[  0]
+  3 Limit 3:  250.0 / ---[  0]
+  4 Limit 4:  250.0 / ---[  0]
+  5 delay time:                   0 msec
+  6 Permissible distance(mm):       0.0
+
+    No.  9              Status:CHGD
+  1 Comment:   [Left Side J2 Slowdown  ]
+  2 Enable/Disable:            DISABLE
+  3 Method:    Working zone(Diagnal)   
+  4 Group:                            1
+  5 Target model 1:         Robot model
+  6 Target model 2:             DISABLE
+  7 Target model 3:             DISABLE
+  8 Base frame:   User frame:     0
+    Position(mm):
+        Current      Point 1    Point 2
+  9 X    1130.3        0.0        0.0
+ 10 Y       -.0        0.0        0.0
+ 11 Z     -42.4        0.0        0.0
+ 12 Stop type:         Stop Category 0
+ 13 Disabling input: ---[  0:          ]
+ 14 Use Stop Position Prediction: Yes   
+ -- Speed check detail --
+    Limit(mm/s) / DSBL input
+  1 Limit 1:  250.0 / ---[  0]
+  2 Limit 2:  250.0 / ---[  0]
+  3 Limit 3:  250.0 / ---[  0]
+  4 Limit 4:  250.0 / ---[  0]
+  5 delay time:                   0 msec
+  6 Permissible distance(mm):       0.0
+
+    No. 10              Status:CHGD
+  1 Comment:   [Right Side J2 Slowdown ]
+  2 Enable/Disable:            DISABLE
+  3 Method:    Working zone(Diagnal)   
+  4 Group:                            1
+  5 Target model 1:         Robot model
+  6 Target model 2:             DISABLE
+  7 Target model 3:             DISABLE
+  8 Base frame:   User frame:     0
+    Position(mm):
+        Current      Point 1    Point 2
+  9 X    1130.3        0.0        0.0
+ 10 Y       -.0        0.0        0.0
+ 11 Z     -42.4        0.0        0.0
+ 12 Stop type:         Stop Category 0
+ 13 Disabling input: ---[  0:          ]
+ 14 Use Stop Position Prediction: Yes   
+ -- Speed check detail --
+    Limit(mm/s) / DSBL input
+  1 Limit 1:  250.0 / ---[  0]
+  2 Limit 2:  250.0 / ---[  0]
+  3 Limit 3:  250.0 / ---[  0]
+  4 Limit 4:  250.0 / ---[  0]
+  5 delay time:                   0 msec
+  6 Permissible distance(mm):       0.0
+
+    No. 13              Status:CHGD
+  1 Comment:   [pick dcs test          ]
+  2 Enable/Disable:            DISABLE
+  3 Method:    Working zone(Diagnal)   
+  4 Group:                            1
+  5 Target model 1:         Robot model
+  6 Target model 2:             DISABLE
+  7 Target model 3:             DISABLE
+  8 Base frame:   User frame:     0
+    Position(mm):
+        Current      Point 1    Point 2
+  9 X    1130.3        0.0        0.0
+ 10 Y       -.0        0.0        0.0
+ 11 Z     -42.4        0.0        0.0
+ 12 Stop type:         Stop Category 0
+ 13 Disabling input: ---[  0:          ]
+ 14 Use Stop Position Prediction: Yes   
+ -- Speed check detail --
+    Limit(mm/s) / DSBL input
+  1 Limit 1:  250.0 / ---[  0]
+  2 Limit 2:  250.0 / ---[  0]
+  3 Limit 3:  250.0 / ---[  0]
+  4 Limit 4:  250.0 / ---[  0]
+  5 delay time:                   0 msec
+  6 Permissible distance(mm):       0.0
+
+--- Cartesian Speed Check --------------
+No.         G T Status     Comment
+  1 DISABLE 1  0 CHGD [100 Safe Speed ]
+  2 DISABLE 1  0 CHGD [10 Safe Speed  ]
+  3 DISABLE 1  0 ---- [                ]
+  4 DISABLE 1  0 ---- [                ]
+  5 DISABLE 1  0 ---- [                ]
+  6 DISABLE 1  0 ---- [                ]
+  7 DISABLE 1  0 ---- [                ]
+  8 DISABLE 1  0 ---- [                ]
+  9 DISABLE 1  0 ---- [                ]
+ 10 DISABLE 1  0 ---- [                ]
+ 11 DISABLE 1  0 ---- [                ]
+ 12 DISABLE 1  0 ---- [                ]
+ 13 DISABLE 1  0 ---- [                ]
+ 14 DISABLE 1  0 ---- [                ]
+ 15 DISABLE 1  0 ---- [                ]
+ 16 DISABLE 1  0 ---- [                ]
+
+    No.  1              Status:CHGD
+  1 Comment:   [100 Safe Speed        ]
+  2 Enable/Disable:             DISABLE
+  3 Direction:                 ALL     
+  4 Group:                            1
+  5 Tool frame:                       0
+    (0:FacePlate, -1:Current tool)
+  6 Base frame:        User Frame :   0
+    Speed of the direction(mm/sec):
+      Current:                    0.000
+  7   Limit:                      0.000
+  8 Stop type:         Stop Category 0
+  9 delay time:                   0 msec
+ 10 disabling input: ---[  0:          ]
+ 11 Permissible distance(mm):       0.0
+
+    No.  2              Status:CHGD
+  1 Comment:   [10 Safe Speed         ]
+  2 Enable/Disable:             DISABLE
+  3 Direction:                 ALL     
+  4 Group:                            1
+  5 Tool frame:                       0
+    (0:FacePlate, -1:Current tool)
+  6 Base frame:        User Frame :   0
+    Speed of the direction(mm/sec):
+      Current:                    0.000
+  7   Limit:                      0.000
+  8 Stop type:         Stop Category 0
+  9 delay time:                   0 msec
+ 10 disabling input: ---[  0:          ]
+ 11 Permissible distance(mm):       0.0
+
+--- User model -------------------------
+No. Elem Status  type      Comment
+  1  0    CHGD [EOAT                   ]
+  2  0    CHGD [J3                     ]
+  3  0     OK  [                       ]
+  4  0     OK  [                       ]
+  5  0     OK  [                       ]
+  6  0     OK  [                       ]
+  7  0     OK  [                       ]
+  8  0     OK  [                       ]
+  9  0     OK  [                       ]
+ 10  0     OK  [                       ]
+ 11  0     OK  [                       ]
+ 12  0     OK  [                       ]
+ 13  0     OK  [                       ]
+ 14  0     OK  [                       ]
+ 15  0     OK  [                       ]
+ 16  0     OK  [                       ]
+
+No.   1  [EOAT                   ]
+ Elements
+  No.         Link  Shape   Size Status
+  1  DISABLE  99  Point        0   CHGD
+  2  DISABLE  99  Point        0   CHGD
+  3  DISABLE  99  Point        0   CHGD
+  4  DISABLE  99  Point        0   CHGD
+  5  DISABLE  99  Point        0    OK 
+  6  DISABLE  99  Point        0    OK 
+  7  DISABLE  99  Point        0    OK 
+  8  DISABLE  99  Point        0    OK 
+  9  DISABLE  99  Point        0    OK 
+ 10  DISABLE  99  Point        0    OK 
+
+No.   1  [EOAT                   ]
+Element:  1    Status: CHGD
+
+  1 Enable/Disable:             DISABLE
+  2 Link No.(99:FacePlate):          99
+  3 Link type:                 NORMAL  
+  4 Tool frame:                       0
+  5 Shape:                     Point   
+  6 Size (mm):                      0.0
+  Pos1
+  7  X:    0.000 Y:    0.000 Z:    0.000
+  Pos2
+  8  X:    0.000 Y:    0.000 Z:    0.000
+
+No.   1  [EOAT                   ]
+Element:  2    Status: CHGD
+
+  1 Enable/Disable:             DISABLE
+  2 Link No.(99:FacePlate):          99
+  3 Link type:                 NORMAL  
+  4 Tool frame:                       0
+  5 Shape:                     Point   
+  6 Size (mm):                      0.0
+  Pos1
+  7  X:    0.000 Y:    0.000 Z:    0.000
+  Pos2
+  8  X:    0.000 Y:    0.000 Z:    0.000
+
+No.   1  [EOAT                   ]
+Element:  3    Status: CHGD
+
+  1 Enable/Disable:             DISABLE
+  2 Link No.(99:FacePlate):          99
+  3 Link type:                 NORMAL  
+  4 Tool frame:                       0
+  5 Shape:                     Point   
+  6 Size (mm):                      0.0
+  Pos1
+  7  X:    0.000 Y:    0.000 Z:    0.000
+  Pos2
+  8  X:    0.000 Y:    0.000 Z:    0.000
+
+No.   1  [EOAT                   ]
+Element:  4    Status: CHGD
+
+  1 Enable/Disable:             DISABLE
+  2 Link No.(99:FacePlate):          99
+  3 Link type:                 NORMAL  
+  4 Tool frame:                       0
+  5 Shape:                     Point   
+  6 Size (mm):                      0.0
+  Pos1
+  7  X:    0.000 Y:    0.000 Z:    0.000
+  Pos2
+  8  X:    0.000 Y:    0.000 Z:    0.000
+
+No.   2  [J3                     ]
+ Elements
+  No.         Link  Shape   Size Status
+  1  DISABLE  99  Point        0   CHGD
+  2  DISABLE  99  Point        0    OK 
+  3  DISABLE  99  Point        0    OK 
+  4  DISABLE  99  Point        0    OK 
+  5  DISABLE  99  Point        0    OK 
+  6  DISABLE  99  Point        0    OK 
+  7  DISABLE  99  Point        0    OK 
+  8  DISABLE  99  Point        0    OK 
+  9  DISABLE  99  Point        0    OK 
+ 10  DISABLE  99  Point        0    OK 
+
+No.   2  [J3                     ]
+Element:  1    Status: CHGD
+
+  1 Enable/Disable:             DISABLE
+  2 Link No.(99:FacePlate):          99
+  3 Link type:                 NORMAL  
+  4 Tool frame:                       0
+  5 Shape:                     Point   
+  6 Size (mm):                      0.0
+  Pos1
+  7  X:    0.000 Y:    0.000 Z:    0.000
+  Pos2
+  8  X:    0.000 Y:    0.000 Z:    0.000
+
+--- Stop position prediction -----------
+Group: 1                          Status
+Cartesian
+  1 Mode:                   DISABLE CHGD
+  2 Expand Point as line:   DISABLE  OK 
+    Stop Category 0
+  3   Stopping distance (mm):   0.0 CHGD
+  4   Speed (mm/sec):           0.0 CHGD
+    Stop Category 1
+  5   Stopping distance (mm):   0.0 CHGD
+  6   Speed (mm/sec):           0.0 CHGD
+Joint J1
+  7 Mode:                   DISABLE  OK 
+    Stop Category 0
+  8   Stopping distance(deg):   0.0  OK 
+  9   Speed(deg/sec):           0.0  OK 
+    Stop Category 1
+ 10   Stopping distance(deg):   0.0  OK 
+ 11   Speed(deg/sec):           0.0  OK 
+Joint J2
+ 12 Mode:                   DISABLE  OK 
+    Stop Category 0
+ 13   Stopping distance(deg):   0.0  OK 
+ 14   Speed(deg/sec):           0.0  OK 
+    Stop Category 1
+ 15   Stopping distance(deg):   0.0  OK 
+ 16   Speed(deg/sec):           0.0  OK 
+Joint J3
+ 17 Mode:                   DISABLE  OK 
+    Stop Category 0
+ 18   Stopping distance(deg):   0.0  OK 
+ 19   Speed(deg/sec):           0.0  OK 
+    Stop Category 1
+ 20   Stopping distance(deg):   0.0  OK 
+ 21   Speed(deg/sec):           0.0  OK 
+Joint J4
+ 22 Mode:                   DISABLE  OK 
+    Stop Category 0
+ 23   Stopping distance(deg):   0.0  OK 
+ 24   Speed(deg/sec):           0.0  OK 
+    Stop Category 1
+ 25   Stopping distance(deg):   0.0  OK 
+ 26   Speed(deg/sec):           0.0  OK 
+Joint J5
+ 27 Mode:                   DISABLE  OK 
+    Stop Category 0
+ 28   Stopping distance(deg):   0.0  OK 
+ 29   Speed(deg/sec):           0.0  OK 
+    Stop Category 1
+ 30   Stopping distance(deg):   0.0  OK 
+ 31   Speed(deg/sec):           0.0  OK 
+Joint J6
+ 32 Mode:                   DISABLE  OK 
+    Stop Category 0
+ 33   Stopping distance(deg):   0.0  OK 
+ 34   Speed(deg/sec):           0.0  OK 
+    Stop Category 1
+ 35   Stopping distance(deg):   0.0  OK 
+ 36   Speed(deg/sec):           0.0  OK 
+Joint J7
+ 37 Mode:                   DISABLE  OK 
+    Stop Category 0
+ 38   Stopping distance(deg):   0.0  OK 
+ 39   Speed(deg/sec):           0.0  OK 
+    Stop Category 1
+ 40   Stopping distance(deg):   0.0  OK 
+ 41   Speed(deg/sec):           0.0  OK 
+Joint J8
+ 42 Mode:                   DISABLE  OK 
+    Stop Category 0
+ 43   Stopping distance(deg):   0.0  OK 
+ 44   Speed(deg/sec):           0.0  OK 
+    Stop Category 1
+ 45   Stopping distance(deg):   0.0  OK 
+ 46   Speed(deg/sec):           0.0  OK 
+Joint J9
+ 47 Mode:                   DISABLE  OK 
+    Stop Category 0
+ 48   Stopping distance(deg):   0.0  OK 
+ 49   Speed(deg/sec):           0.0  OK 
+    Stop Category 1
+ 50   Stopping distance(deg):   0.0  OK 
+ 51   Speed(deg/sec):           0.0  OK 
+
+--- Robot setup ------------------------
+                                  Status
+Number of groups: 0                 CHGD
+Scan time: 8 msec                    OK 
+
+
+--- Safe I/O connect -------------------
+ Output     Input1         Input2 Status
+  ---[  0]=  ---[  0]      ---[  0]CHGD
+  ---[  0]=  ---[  0]      ---[  0]CHGD
+  ---[  0]=  ---[  0]      ---[  0]CHGD
+  ---[  0]=  ---[  0]      ---[  0]CHGD
+  ---[  0]=  ---[  0]      ---[  0]CHGD
+  ---[  0]=  ---[  0]      ---[  0]CHGD
+  ---[  0]=  ---[  0]      ---[  0]CHGD
+  ---[  0]=  ---[  0]      ---[  0]CHGD
+  ---[  0]=  ---[  0]      ---[  0]CHGD
+  ---[  0]=  ---[  0]      ---[  0]CHGD
+  ---[  0]=  ---[  0]      ---[  0]CHGD
+  ---[  0]=  ---[  0]      ---[  0]CHGD
+  ---[  0]=  ---[  0]      ---[  0]CHGD
+  ---[  0]=  ---[  0]      ---[  0]CHGD
+  ---[  0]=  ---[  0]      ---[  0]CHGD
+  ---[  0]=  ---[  0]      ---[  0]CHGD
+  ---[  0]=  ---[  0]      ---[  0]CHGD
+  ---[  0]=  ---[  0]      ---[  0]CHGD
+  ---[  0]=  ---[  0]      ---[  0]CHGD
+  ---[  0]=  ---[  0]      ---[  0]CHGD
+  ---[  0]=  ---[  0]      ---[  0]CHGD
+  ---[  0]=  ---[  0]      ---[  0]CHGD
+  ---[  0]=  ---[  0]      ---[  0] OK 
+  ---[  0]=  ---[  0]      ---[  0] OK 
+  ---[  0]=  ---[  0]      ---[  0] OK 
+  ---[  0]=  ---[  0]      ---[  0] OK 
+  ---[  0]=  ---[  0]      ---[  0] OK 
+  ---[  0]=  ---[  0]      ---[  0] OK 
+  ---[  0]=  ---[  0]      ---[  0] OK 
+  ---[  0]=  ---[  0]      ---[  0] OK 
+  ---[  0]=  ---[  0]      ---[  0] OK 
+  ---[  0]=  ---[  0]      ---[  0] OK 
+  ---[  0]=  ---[  0]      ---[  0] OK 
+  ---[  0]=  ---[  0]      ---[  0] OK 
+  ---[  0]=  ---[  0]      ---[  0] OK 
+  ---[  0]=  ---[  0]      ---[  0] OK 
+  ---[  0]=  ---[  0]      ---[  0] OK 
+  ---[  0]=  ---[  0]      ---[  0] OK 
+  ---[  0]=  ---[  0]      ---[  0] OK 
+  ---[  0]=  ---[  0]      ---[  0] OK 
+  ---[  0]=  ---[  0]      ---[  0] OK 
+  ---[  0]=  ---[  0]      ---[  0] OK 
+  ---[  0]=  ---[  0]      ---[  0] OK 
+  ---[  0]=  ---[  0]      ---[  0] OK 
+  ---[  0]=  ---[  0]      ---[  0] OK 
+  ---[  0]=  ---[  0]      ---[  0] OK 
+  ---[  0]=  ---[  0]      ---[  0] OK 
+  ---[  0]=  ---[  0]      ---[  0] OK 
+  ---[  0]=  ---[  0]      ---[  0] OK 
+  ---[  0]=  ---[  0]      ---[  0] OK 
+  ---[  0]=  ---[  0]      ---[  0] OK 
+  ---[  0]=  ---[  0]      ---[  0] OK 
+  ---[  0]=  ---[  0]      ---[  0] OK 
+  ---[  0]=  ---[  0]      ---[  0] OK 
+  ---[  0]=  ---[  0]      ---[  0] OK 
+  ---[  0]=  ---[  0]      ---[  0] OK 
+  ---[  0]=  ---[  0]      ---[  0] OK 
+  ---[  0]=  ---[  0]      ---[  0] OK 
+  ---[  0]=  ---[  0]      ---[  0] OK 
+  ---[  0]=  ---[  0]      ---[  0] OK 
+  ---[  0]=  ---[  0]      ---[  0] OK 
+  ---[  0]=  ---[  0]      ---[  0] OK 
+  ---[  0]=  ---[  0]      ---[  0] OK 
+  ---[  0]=  ---[  0]      ---[  0] OK 
+
+--- Signature number (Dec) -------------
+                Current        Latch
+1 Total:         592251029            0
+  Time:25-AUG-20 03:02              None
+2 Base:        -1672622576            0
+  Time:25-AUG-20 03:02              None
+   Mastering:    336434605
+   Robot:       -427933804
+   Other:       -930978075
+3 Pos./Speed:  -1128030488            0
+  Time:25-AUG-20 03:02              None
+4 I/O connect: -1486176252            0
+  Time:25-AUG-20 03:02              None
+

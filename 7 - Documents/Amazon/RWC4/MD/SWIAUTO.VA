@@ -1,0 +1,44 @@
+[SWIAUTO]AUTHORIZED  Storage: DRAM  Access: RW  : BOOLEAN = Uninitialized
+
+[SWIAUTO]CHK815CLR  Storage: DRAM  Access: RW  : BOOLEAN = Uninitialized
+
+[SWIAUTO]COMPATIBLE  Storage: DRAM  Access: RW  : BOOLEAN = Uninitialized
+
+[SWIAUTO]CURR_VERSION  Storage: DRAM  Access: RW  : STRING[25] = 'V9.10122     12/13/2018'
+
+[SWIAUTO]DEVICE  Storage: DRAM  Access: RW  : STRING[20] = Uninitialized
+
+[SWIAUTO]ENTRY  Storage: DRAM  Access: RW  : INTEGER = 2147418612
+
+[SWIAUTO]FILE_BUFFER  Storage: DRAM  Access: RW  : STRING[80] = '#define VERSION "V9.10170      9/18/2019" '
+
+[SWIAUTO]ICURR_MAJOR  Storage: DRAM  Access: RW  : INTEGER = 910
+
+[SWIAUTO]ICURR_MINOR  Storage: DRAM  Access: RW  : INTEGER = 122
+
+[SWIAUTO]INDEX  Storage: DRAM  Access: RW  : INTEGER = 2
+
+[SWIAUTO]INEW_MINOR  Storage: DRAM  Access: RW  : INTEGER = 170
+
+[SWIAUTO]IO_STAT  Storage: DRAM  Access: RW  : INTEGER = 2014
+
+[SWIAUTO]NEW_MAJOR  Storage: DRAM  Access: RW  : INTEGER = 910
+
+[SWIAUTO]NEW_VERSION  Storage: DRAM  Access: RW  : STRING[25] = 'V9.10170  '
+
+[SWIAUTO]SPCMD  Storage: DRAM  Access: RW  : STRING[60] = Uninitialized
+
+[SWIAUTO]STAT1  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+
+[SWIAUTO]STAT2  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+
+[SWIAUTO]STATUS  Storage: DRAM  Access: RW  : INTEGER = 0
+
+[SWIAUTO]STR  Storage: DRAM  Access: RW  : STRING[1] = Uninitialized
+
+[SWIAUTO]TEMP  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+
+[SWIAUTO]VER_FLOAT  Storage: DRAM  Access: RW  : STRING[25] = '0170  '
+
+[SWIAUTO]VER_NUM  Storage: DRAM  Access: RW  : REAL = 9.101700e+00
+

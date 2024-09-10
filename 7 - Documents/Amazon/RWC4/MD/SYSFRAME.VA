@@ -1,0 +1,137 @@
+[*SYSTEM*]$CELL_FLOOR  Storage: SHADOW  Access: RW  : POSITION = 
+  Group: 1   Config: N D B, 0, 0, 0
+  X:     0.000   Y:     0.000   Z:     0.000
+  W:     0.000   P:     0.000   R:     0.000
+
+[*SYSTEM*]$CELL_GRP  Storage: SHADOW  Access: RW  : ARRAY[1] OF CELL_GRP_T
+     Field: $CELL_GRP[1].$CELL_FRAME Access: RW: POSITION = 
+  Group: 0   Config: 
+  X:     0.000   Y:     0.000   Z:   670.000
+  W:     0.000   P:     0.000   R:     0.000
+     Field: $CELL_GRP[1].$MOUNT_LOC Access: RW: POSITION = 
+  Group: 1   Config: N D B, 0, 0, 0
+  X:     0.000   Y:     0.000   Z:   670.000
+  W:     0.000   P:     0.000   R:     0.000
+     Field: $CELL_GRP[1].$CF_METHOD Access: RW: INTEGER = 1
+     Field: $CELL_GRP[1].$CPY_SRC_IDX Access: RW: INTEGER = Uninitialized
+     Field: $CELL_GRP[1].$PLATFRM_OFS Access: RW: POSITION = Uninitialized
+     Field: $CELL_GRP[1].$PLATFRM_DIM Access: RW: VECTOR = Uninitialized
+     Field: $CELL_GRP[1].$BASE_OFFSET Access: RW: POSITION = Uninitialized
+     Field: $CELL_GRP[1].$BASE_DIM Access: RW: VECTOR = Uninitialized
+     Field: $CELL_GRP[1].$AUX_ORDER  ARRAY[3] OF INTEGER
+      [1] = Uninitialized
+      [2] = Uninitialized
+      [3] = Uninitialized
+     Field: $CELL_GRP[1].$AUX_XYZ_MAP  ARRAY[3] OF INTEGER
+      [1] = Uninitialized
+      [2] = Uninitialized
+      [3] = Uninitialized
+     Field: $CELL_GRP[1].$AUX_OFFSET  ARRAY[3] OF REAL
+      [1] = Uninitialized
+      [2] = Uninitialized
+      [3] = Uninitialized
+     Field: $CELL_GRP[1].$AUX_LENGTH  ARRAY[3] OF REAL
+      [1] = Uninitialized
+      [2] = Uninitialized
+      [3] = Uninitialized
+     Field: $CELL_GRP[1].$ATTCH_GP_MS Access: RW: INTEGER = Uninitialized
+     Field: $CELL_GRP[1].$AUTORAIL Access: RW: INTEGER = Uninitialized
+
+[*SYSTEM*]$MNUFRAME  Storage: SHADOW  Access: RW  : ARRAY[1,12] OF POSITION
+    [1,1] = 
+  Group: 1   Config: N U T, 0, 0, 0
+  X: -1420.000   Y: -1230.000   Z: -1212.000
+  W:     0.000   P:     0.000   R:     0.000
+    [1,2] = 
+  Group: 1   Config: N U T, 0, 0, 0
+  X:   -10.000   Y: -1230.000   Z: -1210.000
+  W:     0.000   P:     0.000   R:     0.000
+    [1,3] = 
+  Group: 1   Config: N U T, 0, 0, 0
+  X:  1405.000   Y: -1140.000   Z: -1209.000
+  W:     0.000   P:     0.000   R:     0.000
+    [1,4] = 
+  Group: 1   Config: N U T, 0, 0, 0
+  X: -1415.000   Y:  1245.000   Z: -1212.000
+  W:     0.000   P:     0.000   R:     0.000
+    [1,5] = 
+  Group: 1   Config: N U T, 0, 0, 0
+  X:    -5.000   Y:  1245.000   Z: -1212.000
+  W:     0.000   P:     0.000   R:     0.000
+    [1,6] = 
+  Group: 1   Config: N U T, 0, 0, 0
+  X:  1405.000   Y:  1140.000   Z: -1209.000
+  W:     0.000   P:     0.000   R:     0.000
+    [1,7] = 
+  Group: 1   Config: N D B, 0, 0, 0
+  X:     0.000   Y:     0.000   Z:     0.000
+  W:     0.000   P:     0.000   R:     0.000
+    [1,8] = 
+  Group: 1   Config: N D B, 0, 0, 0
+  X:     0.000   Y:     0.000   Z:     0.000
+  W:     0.000   P:     0.000   R:     0.000
+    [1,9] = 
+  Group: 1   Config: N U T, 0, 0, 0
+  X:  1613.762   Y:   482.180   Z:  -592.197
+  W:      .008   P:      .103   R:     -.053
+    [1,10] = 
+  Group: 1   Config: N U T, 0, 0, 0
+  X: -1328.335   Y:  -393.428   Z:  -575.724
+  W:     -.220   P:     -.226   R:     -.083
+    [1,11] = 
+  Group: 1   Config: N U T, 0, 0, 0
+  X:     0.000   Y:     0.000   Z:     0.000
+  W:     0.000   P:     0.000   R:     0.000
+    [1,12] = 
+  Group: 1   Config: N U T, 0, 0, 0
+  X:  1985.381   Y:  -588.428   Z:  -580.114
+  W:     -.402   P:     -.193   R:     -.199
+
+[*SYSTEM*]$MNUFRAMENUM  Storage: SHADOW  Access: RW  : ARRAY[1] OF BYTE
+  [1] = 0
+
+[*SYSTEM*]$MNUTOOL  Storage: SHADOW  Access: RW  : ARRAY[1,10] OF POSITION
+    [1,1] = 
+  Group: 1   Config: N D B, 0, 0, 0
+  X:   305.492   Y:  -167.388   Z:   938.538
+  W:   179.398   P:      .272   R:   -29.612
+    [1,2] = 
+  Group: 1   Config: N U T, 0, 0, 0
+  X:     0.000   Y:     0.000   Z:   350.000
+  W:  -180.000   P:     0.000   R:  -120.000
+    [1,3] = 
+  Group: 1   Config: N D B, 0, 0, 0
+  X:     0.000   Y:     0.000   Z:   622.000
+  W:  -180.000   P:      .000   R:  -120.000
+    [1,4] = 
+  Group: 1   Config: N D B, 0, 0, 0
+  X:     0.000   Y:     0.000   Z:     0.000
+  W:     0.000   P:     0.000   R:     0.000
+    [1,5] = 
+  Group: 1   Config: N D B, 0, 0, 0
+  X:     0.000   Y:     0.000   Z:     0.000
+  W:     0.000   P:     0.000   R:     0.000
+    [1,6] = 
+  Group: 1   Config: N D B, 0, 0, 0
+  X:     0.000   Y:     0.000   Z:     0.000
+  W:     0.000   P:     0.000   R:     0.000
+    [1,7] = 
+  Group: 1   Config: N D B, 0, 0, 0
+  X:     0.000   Y:     0.000   Z:     0.000
+  W:     0.000   P:     0.000   R:     0.000
+    [1,8] = 
+  Group: 1   Config: N D B, 0, 0, 0
+  X:     0.000   Y:     0.000   Z:     0.000
+  W:     0.000   P:     0.000   R:     0.000
+    [1,9] = 
+  Group: 1   Config: N D B, 0, 0, 0
+  X:     0.000   Y:     0.000   Z:     0.000
+  W:     0.000   P:     0.000   R:     0.000
+    [1,10] = 
+  Group: 1   Config: N D B, 0, 0, 0
+  X:     0.000   Y:     0.000   Z:     0.000
+  W:     0.000   P:     0.000   R:     0.000
+
+[*SYSTEM*]$MNUTOOLNUM  Storage: SHADOW  Access: RW  : ARRAY[1] OF BYTE
+  [1] = 3
+

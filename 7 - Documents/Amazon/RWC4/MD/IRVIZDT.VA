@@ -1,0 +1,18 @@
+[IRVIZDT]DESC_STR  Storage: DRAM  Access: RW  : STRING[50] = Uninitialized
+
+[IRVIZDT]PRIORITY  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+
+[IRVIZDT]VR_NUM  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+
+[IRVIZDT]IMREG  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+
+[IRVIZDT]DATA_TYPE  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+
+[IRVIZDT]DMY_INT  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+
+[IRVIZDT]DMY_REAL  Storage: DRAM  Access: RW  : REAL = Uninitialized
+
+[IRVIZDT]DMY_STR  Storage: DRAM  Access: RW  : STRING[2] = Uninitialized
+
+[IRVIZDT]STAT  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+

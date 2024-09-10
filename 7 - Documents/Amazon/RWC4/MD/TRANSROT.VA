@@ -1,0 +1,19 @@
+[TRANSROT]INT_PARAM  Storage: CMOS  Access: RW  : ARRAY[5] OF INTEGER
+  [1] = Uninitialized
+  [2] = Uninitialized
+  [3] = Uninitialized
+  [4] = Uninitialized
+  [5] = Uninitialized
+
+[TRANSROT]I  Storage: CMOS  Access: RW  : INTEGER = Uninitialized
+
+[TRANSROT]J  Storage: CMOS  Access: RW  : INTEGER = Uninitialized
+
+[TRANSROT]GROUP_NUM  Storage: CMOS  Access: RW  : INTEGER = Uninitialized
+
+[TRANSROT]STATUS  Storage: CMOS  Access: RW  : INTEGER = Uninitialized
+
+[TRANSROT]RET_STATUS  Storage: CMOS  Access: RW  : INTEGER = Uninitialized
+
+[TRANSROT]ERR_MSG  Storage: CMOS  Access: RW  : STRING[40] = Uninitialized
+

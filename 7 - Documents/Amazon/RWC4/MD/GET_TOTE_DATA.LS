@@ -1,0 +1,37 @@
+/PROG  GET_TOTE_DATA
+/ATTR
+OWNER		= MNEDITOR;
+COMMENT		= "";
+PROG_SIZE	= 281;
+CREATE		= DATE 18-04-19  TIME 14:13:12;
+MODIFIED	= DATE 18-04-19  TIME 14:23:34;
+FILE_NAME	= ;
+VERSION		= 0;
+LINE_COUNT	= 10;
+MEMORY_SIZE	= 613;
+PROTECT		= READ;
+TCD:  STACK_SIZE	= 0,
+      TASK_PRIORITY	= 50,
+      TIME_SLICE	= 0,
+      BUSY_LAMP_OFF	= 0,
+      ABORT_REQUEST	= 0,
+      PAUSE_REQUEST	= 0;
+DEFAULT_GROUP	= 1,*,*,*,*;
+CONTROL_CODE	= 00000000 00000000;
+/APPL
+
+AUTO_SINGULARITY_HEADER;
+  ENABLE_SINGULARITY_AVOIDANCE   : FALSE;
+/MN
+   1:  !get data from plc ;
+   2:   ;
+   3:  DO[15:OFF:Get New Tote Data]=ON ;
+   4:   ;
+   5:  WAIT DI[15:OFF:Got New Data]=ON    ;
+   6:   ;
+   7:  DO[15:OFF:Get New Tote Data]=OFF ;
+   8:   ;
+   9:   ;
+  10:   ;
+/POS
+/END

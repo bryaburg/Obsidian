@@ -1,0 +1,38 @@
+/PROG  JR_CALICRATION
+/ATTR
+OWNER		= MNEDITOR;
+COMMENT		= "";
+PROG_SIZE	= 311;
+CREATE		= DATE 18-05-02  TIME 18:53:08;
+MODIFIED	= DATE 19-10-04  TIME 14:27:44;
+FILE_NAME	= ;
+VERSION		= 0;
+LINE_COUNT	= 11;
+MEMORY_SIZE	= 639;
+PROTECT		= READ;
+TCD:  STACK_SIZE	= 0,
+      TASK_PRIORITY	= 50,
+      TIME_SLICE	= 0,
+      BUSY_LAMP_OFF	= 0,
+      ABORT_REQUEST	= 0,
+      PAUSE_REQUEST	= 0;
+DEFAULT_GROUP	= 1,*,*,*,*;
+CONTROL_CODE	= 00000000 00000000;
+/APPL
+
+AUTO_SINGULARITY_HEADER;
+  ENABLE_SINGULARITY_AVOIDANCE   : FALSE;
+/MN
+   1:  UFRAME_NUM=12 ;
+   2:  UTOOL_NUM=1 ;
+   3:   ;
+   4:  DO[87:OFF:Lights ON]=ON ;
+   5:   ;
+   6:  !first plane ;
+   7:J PR[115:vis grid plane 1] 25% FINE    ;
+   8:   ;
+   9:  !second plane ;
+  10:J PR[116:vis grid plane 2] 100% FINE    ;
+  11:   ;
+/POS
+/END

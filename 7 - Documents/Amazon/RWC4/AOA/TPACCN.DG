@@ -1,0 +1,40 @@
+                       TP Accounting
+
+F Number: F236039
+VERSION : HandlingTool         
+$VERSION: V9.10170      9/18/2019
+DATE:     06-NOV-20 09:51 
+
+Menu                         Elapsed Time         #Sel       #Keys
+                     (YY-MM-DD HH:MM:SS)
+Id:  962, 1                       02:10            2          10
+Home                                 10            2           2
+DCS                               21:28           10          79
+File                     02-10 02:47:00           11         582
+Variables                            40            2         176
+Config                            02:08            4         168
+SELECT                            23:46           35         484
+EDIT                           02:48:48           22        1533
+Digital                           41:34            1         115
+Id:  381, 2                          04            1           3
+Vision Setup                      54:58            1          10
+Registers                            12            4          10
+Position Reg                01 14:05:14            6        1663
+Hints                                14            1           4
+Version ID                           22            1           0
+Id:  381, 5                          00            1           0
+Ovrd Select                          10            1           2
+Clock                                12            7          69
+
+Full Menus:              02-11 07:09:18 
+Quick Menus:                         00 
+
+MENU Popup:                                       17
+[ TYPE ] Pullup:                                   6
+
+Functions at COLD start
+ABORT (ALL)                                        7
+CYCLE POWER                                        6
+
+Functions at CTRL start
+START (COLD)                                       2

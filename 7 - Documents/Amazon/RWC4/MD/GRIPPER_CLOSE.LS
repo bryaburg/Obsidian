@@ -1,0 +1,38 @@
+/PROG  GRIPPER_CLOSE
+/ATTR
+OWNER		= MNEDITOR;
+COMMENT		= "";
+PROG_SIZE	= 311;
+CREATE		= DATE 18-03-27  TIME 11:32:22;
+MODIFIED	= DATE 18-04-08  TIME 09:18:18;
+FILE_NAME	= ;
+VERSION		= 0;
+LINE_COUNT	= 11;
+MEMORY_SIZE	= 771;
+PROTECT		= READ;
+TCD:  STACK_SIZE	= 0,
+      TASK_PRIORITY	= 50,
+      TIME_SLICE	= 0,
+      BUSY_LAMP_OFF	= 0,
+      ABORT_REQUEST	= 0,
+      PAUSE_REQUEST	= 0;
+DEFAULT_GROUP	= *,*,*,*,*;
+CONTROL_CODE	= 00000000 00000000;
+/APPL
+
+AUTO_SINGULARITY_HEADER;
+  ENABLE_SINGULARITY_AVOIDANCE   : FALSE;
+/MN
+   1:  DO[81:OFF:Side Clamps To Work]=ON ;
+   2:  DO[80:ON :Side Clamps To Home]=OFF ;
+   3:   ;
+   4:  WAIT DI[80:OFF:Side Clamps AT Work]=ON TIMEOUT,LBL[1] ;
+   5:  JMP LBL[99] ;
+   6:  LBL[1] ;
+   7:   ;
+   8:  DO[81:OFF:Side Clamps To Work]=OFF ;
+   9:  DO[80:ON :Side Clamps To Home]=ON ;
+  10:  WAIT DI[81:ON :Side Clamps AT Home]=ON    ;
+  11:  LBL[99] ;
+/POS
+/END

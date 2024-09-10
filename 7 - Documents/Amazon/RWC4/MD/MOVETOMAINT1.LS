@@ -1,0 +1,41 @@
+/PROG  MOVETOMAINT1
+/ATTR
+OWNER		= MNEDITOR;
+COMMENT		= "";
+PROG_SIZE	= 367;
+CREATE		= DATE 18-04-17  TIME 07:59:00;
+MODIFIED	= DATE 18-04-19  TIME 06:45:58;
+FILE_NAME	= ;
+VERSION		= 0;
+LINE_COUNT	= 14;
+MEMORY_SIZE	= 815;
+PROTECT		= READ;
+TCD:  STACK_SIZE	= 0,
+      TASK_PRIORITY	= 50,
+      TIME_SLICE	= 0,
+      BUSY_LAMP_OFF	= 0,
+      ABORT_REQUEST	= 0,
+      PAUSE_REQUEST	= 0;
+DEFAULT_GROUP	= 1,*,*,*,*;
+CONTROL_CODE	= 00000000 00000000;
+/APPL
+
+AUTO_SINGULARITY_HEADER;
+  ENABLE_SINGULARITY_AVOIDANCE   : FALSE;
+/MN
+   1:  !move to maint ;
+   2:   ;
+   3:  UFRAME_NUM=0 ;
+   4:  UTOOL_NUM=3 ;
+   5:   ;
+   6:  !if at another maint pos ;
+   7:  IF DO[101:OFF:At Maint 2]=ON OR DO[102:OFF:At Maint 3]=ON,JMP LBL[10] ;
+   8:   ;
+   9:J PR[35:Pallet 4&5SafePt] 25% CNT100    ;
+  10:   ;
+  11:  LBL[10] ;
+  12:J PR[55:maint 1] 25% FINE    ;
+  13:   ;
+  14:   ;
+/POS
+/END

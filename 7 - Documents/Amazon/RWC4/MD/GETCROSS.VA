@@ -1,0 +1,56 @@
+[GETCROSS]REG_NUM  Storage: CMOS  Access: RW  : ARRAY[4] OF INTEGER
+  [1] = Uninitialized
+  [2] = Uninitialized
+  [3] = Uninitialized
+  [4] = Uninitialized
+
+[GETCROSS]LEFT_REG  Storage: CMOS  Access: RW  : POSITION = Uninitialized
+
+[GETCROSS]RIGHT_REG  Storage: CMOS  Access: RW  : ARRAY[2] OF POSITION
+  [1] = Uninitialized
+  [2] = Uninitialized
+
+[GETCROSS]TMP_XYZEX  Storage: CMOS  Access: RW  : XYZWPREXT = Uninitialized
+
+[GETCROSS]TMP_XYZ  Storage: CMOS  Access: RW  : XYZWPR = Uninitialized
+
+[GETCROSS]STATUS  Storage: CMOS  Access: RW  : INTEGER = Uninitialized
+
+[GETCROSS]I  Storage: CMOS  Access: RW  : INTEGER = Uninitialized
+
+[GETCROSS]EXT_FLAG  Storage: CMOS  Access: RW  : BOOLEAN = Uninitialized
+
+[GETCROSS]GROUP_NUM  Storage: CMOS  Access: RW  : INTEGER = Uninitialized
+
+[GETCROSS]V1V2  Storage: CMOS  Access: RW  : REAL = Uninitialized
+
+[GETCROSS]P1_P2  Storage: CMOS  Access: RW  : VECTOR = Uninitialized
+
+[GETCROSS]X  Storage: CMOS  Access: RW  : VECTOR = Uninitialized
+
+[GETCROSS]V1P1_P2  Storage: CMOS  Access: RW  : REAL = Uninitialized
+
+[GETCROSS]K  Storage: CMOS  Access: RW  : REAL = Uninitialized
+
+[GETCROSS]POS_TYPE  Storage: CMOS  Access: RW  : INTEGER = Uninitialized
+
+[GETCROSS]NUM_AXES  Storage: CMOS  Access: RW  : INTEGER = Uninitialized
+
+[GETCROSS]DATA_TYPE  Storage: CMOS  Access: RW  : ARRAY[4] OF INTEGER
+  [1] = Uninitialized
+  [2] = Uninitialized
+  [3] = Uninitialized
+  [4] = Uninitialized
+
+[GETCROSS]REAL_PARAM  Storage: CMOS  Access: RW  : ARRAY[4] OF REAL
+  [1] = Uninitialized
+  [2] = Uninitialized
+  [3] = Uninitialized
+  [4] = Uninitialized
+
+[GETCROSS]STR_PARAM  Storage: CMOS  Access: RW  : STRING[100] = Uninitialized
+
+[GETCROSS]RET_STATUS  Storage: CMOS  Access: RW  : INTEGER = Uninitialized
+
+[GETCROSS]ERR_MSG  Storage: CMOS  Access: RW  : STRING[40] = Uninitialized
+

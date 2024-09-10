@@ -1,0 +1,36 @@
+[LOADNOM]A  Storage: CMOS  Access: RW  : ARRAY[4] OF INTEGER
+  [1] = Uninitialized
+  [2] = Uninitialized
+  [3] = Uninitialized
+  [4] = Uninitialized
+
+[LOADNOM]STATUS  Storage: CMOS  Access: RW  : INTEGER = Uninitialized
+
+[LOADNOM]GROUP_NUM  Storage: CMOS  Access: RW  : INTEGER = Uninitialized
+
+[LOADNOM]I  Storage: CMOS  Access: RW  : INTEGER = Uninitialized
+
+[LOADNOM]J  Storage: CMOS  Access: RW  : INTEGER = Uninitialized
+
+[LOADNOM]DATA_TYPE  Storage: CMOS  Access: RW  : ARRAY[4] OF INTEGER
+  [1] = Uninitialized
+  [2] = Uninitialized
+  [3] = Uninitialized
+  [4] = Uninitialized
+
+[LOADNOM]REAL_PARAM  Storage: CMOS  Access: RW  : REAL = Uninitialized
+
+[LOADNOM]STR_PARAM  Storage: CMOS  Access: RW  : STRING[100] = Uninitialized
+
+[LOADNOM]POS_TYPE  Storage: CMOS  Access: RW  : INTEGER = Uninitialized
+
+[LOADNOM]POS_XYZEX  Storage: CMOS  Access: RW  : XYZWPREXT = Uninitialized
+
+[LOADNOM]POS_XYZ  Storage: CMOS  Access: RW  : XYZWPR = Uninitialized
+
+[LOADNOM]POS  Storage: CMOS  Access: RW  : POSITION = Uninitialized
+
+[LOADNOM]RET_STATUS  Storage: CMOS  Access: RW  : INTEGER = Uninitialized
+
+[LOADNOM]ERR_MSG  Storage: CMOS  Access: RW  : STRING[40] = Uninitialized
+

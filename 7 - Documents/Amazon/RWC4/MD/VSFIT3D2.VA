@@ -1,0 +1,65 @@
+[VSFIT3D2]STATUS  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+
+[VSFIT3D2]I  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+
+[VSFIT3D2]PARAM  Storage: DRAM  Access: RW  : ARRAY[8] OF INTEGER
+  [1] = Uninitialized
+  [2] = Uninitialized
+  [3] = Uninitialized
+  [4] = Uninitialized
+  [5] = Uninitialized
+  [6] = Uninitialized
+  [7] = Uninitialized
+  [8] = Uninitialized
+
+[VSFIT3D2]MSG_ENABLE  Storage: DRAM  Access: RW  : BOOLEAN = Uninitialized
+
+[VSFIT3D2]GROUP_NO  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+
+[VSFIT3D2]DATA_TYPE  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+
+[VSFIT3D2]INT_VALUE  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+
+[VSFIT3D2]REAL_VALUE  Storage: DRAM  Access: RW  : REAL = Uninitialized
+
+[VSFIT3D2]STR_VALUE  Storage: DRAM  Access: RW  : STRING[100] = Uninitialized
+
+[VSFIT3D2]REAL_FLAG  Storage: DRAM  Access: RW  : BOOLEAN = Uninitialized
+
+[VSFIT3D2]NUM_AXES  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+
+[VSFIT3D2]POS_TYPE  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+
+[VSFIT3D2]POS_DATA  Storage: DRAM  Access: RW  : XYZWPR = Uninitialized
+
+[VSFIT3D2]EPOS_DATA  Storage: DRAM  Access: RW  : XYZWPREXT = Uninitialized
+
+[VSFIT3D2]MRX_DATA  Storage: DRAM  Access: RW  : POSITION = Uninitialized
+
+[VSFIT3D2]DIST  Storage: DRAM  Access: RW  : ARRAY[3] OF REAL
+  [1] = Uninitialized
+  [2] = Uninitialized
+  [3] = Uninitialized
+
+[VSFIT3D2]LINE  Storage: DRAM  Access: RW  : ARRAY[3] OF LINE3D
+     Field: LINE[1].P Access: RW: VECTOR = Uninitialized
+     Field: LINE[1].V Access: RW: VECTOR = Uninitialized
+     Field: LINE[2].P Access: RW: VECTOR = Uninitialized
+     Field: LINE[2].V Access: RW: VECTOR = Uninitialized
+     Field: LINE[3].P Access: RW: VECTOR = Uninitialized
+     Field: LINE[3].V Access: RW: VECTOR = Uninitialized
+
+[VSFIT3D2]POINT  Storage: DRAM  Access: RW  : ARRAY[3] OF VECTOR
+  [1] = Uninitialized
+  [2] = Uninitialized
+  [3] = Uninitialized
+
+[VSFIT3D2]CNV3D_OK  Storage: DRAM  Access: RW  : BOOLEAN = Uninitialized
+
+[VSFIT3D2]CFG  Storage: DRAM  Access: RW  : CONFIG = Uninitialized
+
+[VSFIT3D2]TMP_XF  Storage: DRAM  Access: RW  : ARRAY[3] OF POSITION
+  [1] = Uninitialized
+  [2] = Uninitialized
+  [3] = Uninitialized
+

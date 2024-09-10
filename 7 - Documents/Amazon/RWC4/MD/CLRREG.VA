@@ -1,0 +1,50 @@
+[CLRREG]RECV_FLAG  Storage: CMOS  Access: RW  : ARRAY[10] OF BOOLEAN
+  [1] = Uninitialized
+  [2] = Uninitialized
+  [3] = Uninitialized
+  [4] = Uninitialized
+  [5] = Uninitialized
+  [6] = Uninitialized
+  [7] = Uninitialized
+  [8] = Uninitialized
+  [9] = Uninitialized
+  [10] = Uninitialized
+
+[CLRREG]REAL_FLAG  Storage: CMOS  Access: RW  : ARRAY[10] OF BOOLEAN
+  [1] = Uninitialized
+  [2] = Uninitialized
+  [3] = Uninitialized
+  [4] = Uninitialized
+  [5] = Uninitialized
+  [6] = Uninitialized
+  [7] = Uninitialized
+  [8] = Uninitialized
+  [9] = Uninitialized
+  [10] = Uninitialized
+
+[CLRREG]INT_DATA  Storage: CMOS  Access: RW  : ARRAY[10] OF INTEGER
+  [1] = Uninitialized
+  [2] = Uninitialized
+  [3] = Uninitialized
+  [4] = Uninitialized
+  [5] = Uninitialized
+  [6] = Uninitialized
+  [7] = Uninitialized
+  [8] = Uninitialized
+  [9] = Uninitialized
+  [10] = Uninitialized
+
+[CLRREG]REAL_DATA  Storage: CMOS  Access: RW  : ARRAY[10] OF REAL
+  [1] = Uninitialized
+  [2] = Uninitialized
+  [3] = Uninitialized
+  [4] = Uninitialized
+  [5] = Uninitialized
+  [6] = Uninitialized
+  [7] = Uninitialized
+  [8] = Uninitialized
+  [9] = Uninitialized
+  [10] = Uninitialized
+
+[CLRREG]I  Storage: CMOS  Access: RW  : INTEGER = Uninitialized
+

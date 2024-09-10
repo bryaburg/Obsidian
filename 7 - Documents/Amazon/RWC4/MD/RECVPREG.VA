@@ -1,0 +1,46 @@
+[RECVPREG]DATA_TYPE  Storage: CMOS  Access: RW  : ARRAY[4] OF INTEGER
+  [1] = Uninitialized
+  [2] = Uninitialized
+  [3] = Uninitialized
+  [4] = Uninitialized
+
+[RECVPREG]INT_PARAM  Storage: CMOS  Access: RW  : ARRAY[4] OF INTEGER
+  [1] = Uninitialized
+  [2] = Uninitialized
+  [3] = Uninitialized
+  [4] = Uninitialized
+
+[RECVPREG]REAL_PARAM  Storage: CMOS  Access: RW  : REAL = Uninitialized
+
+[RECVPREG]STR_PARAM  Storage: CMOS  Access: RW  : STRING[30] = Uninitialized
+
+[RECVPREG]STATUS  Storage: CMOS  Access: RW  : INTEGER = Uninitialized
+
+[RECVPREG]REG_ARY_NUM  Storage: CMOS  Access: RW  : INTEGER = Uninitialized
+
+[RECVPREG]REG_NUM  Storage: CMOS  Access: RW  : INTEGER = Uninitialized
+
+[RECVPREG]STATUS_NUM  Storage: CMOS  Access: RW  : INTEGER = Uninitialized
+
+[RECVPREG]GROUP_NUM  Storage: CMOS  Access: RW  : INTEGER = Uninitialized
+
+[RECVPREG]POS_TYPE  Storage: CMOS  Access: RW  : INTEGER = Uninitialized
+
+[RECVPREG]NUM_AXES  Storage: CMOS  Access: RW  : INTEGER = Uninitialized
+
+[RECVPREG]POS  Storage: CMOS  Access: RW  : POSITION = Uninitialized
+
+[RECVPREG]POS_XYZ  Storage: CMOS  Access: RW  : XYZWPR = Uninitialized
+
+[RECVPREG]I  Storage: CMOS  Access: RW  : INTEGER = Uninitialized
+
+[RECVPREG]RET_STATUS  Storage: CMOS  Access: RW  : INTEGER = Uninitialized
+
+[RECVPREG]ERR_MSG  Storage: CMOS  Access: RW  : STRING[40] = Uninitialized
+
+[RECVPREG]NUM_ROB_AXS  Storage: CMOS  Access: RW  : INTEGER = Uninitialized
+
+[RECVPREG]EXT_AXES  Storage: CMOS  Access: RW  : INTEGER = Uninitialized
+
+[RECVPREG]ENTRY  Storage: CMOS  Access: RW  : INTEGER = Uninitialized
+

@@ -1,0 +1,60 @@
+[AVERAGE_XYZ]VIS_REG  Storage: CMOS  Access: RW  : ARRAY[3] OF INTEGER
+  [1] = Uninitialized
+  [2] = Uninitialized
+  [3] = Uninitialized
+
+[AVERAGE_XYZ]NUM_REG  Storage: CMOS  Access: RW  : ARRAY[3] OF INTEGER
+  [1] = Uninitialized
+  [2] = Uninitialized
+  [3] = Uninitialized
+
+[AVERAGE_XYZ]DMY_INT  Storage: CMOS  Access: RW  : INTEGER = Uninitialized
+
+[AVERAGE_XYZ]DMY_REAL  Storage: CMOS  Access: RW  : REAL = Uninitialized
+
+[AVERAGE_XYZ]STAT  Storage: CMOS  Access: RW  : INTEGER = Uninitialized
+
+[AVERAGE_XYZ]TMP_STAT  Storage: CMOS  Access: RW  : INTEGER = Uninitialized
+
+[AVERAGE_XYZ]REAL_FLAG  Storage: CMOS  Access: RW  : BOOLEAN = Uninitialized
+
+[AVERAGE_XYZ]ARG_INDEX  Storage: CMOS  Access: RW  : INTEGER = Uninitialized
+
+[AVERAGE_XYZ]REG_INDEX  Storage: CMOS  Access: RW  : INTEGER = Uninitialized
+
+[AVERAGE_XYZ]OFS_TYPE  Storage: CMOS  Access: RW  : ARRAY[2] OF INTEGER
+  [1] = Uninitialized
+  [2] = Uninitialized
+
+[AVERAGE_XYZ]UF_NUM  Storage: CMOS  Access: RW  : ARRAY[2] OF INTEGER
+  [1] = Uninitialized
+  [2] = Uninitialized
+
+[AVERAGE_XYZ]OFFSET  Storage: CMOS  Access: RW  : ARRAY[2] OF XYZWPR
+  [1] = Uninitialized
+  [2] = Uninitialized
+
+[AVERAGE_XYZ]FOUND_POS  Storage: CMOS  Access: RW  : ARRAY[2] OF XYZWPR
+  [1] = Uninitialized
+  [2] = Uninitialized
+
+[AVERAGE_XYZ]GAIN  Storage: CMOS  Access: RW  : REAL = Uninitialized
+
+[AVERAGE_XYZ]GAIN0  Storage: CMOS  Access: RW  : REAL = Uninitialized
+
+[AVERAGE_XYZ]DIFF_L  Storage: CMOS  Access: RW  : REAL = Uninitialized
+
+[AVERAGE_XYZ]DIFF_RL  Storage: CMOS  Access: RW  : REAL = Uninitialized
+
+[AVERAGE_XYZ]SUM_OFS_X  Storage: CMOS  Access: RW  : REAL = Uninitialized
+
+[AVERAGE_XYZ]SUM_OFS_Y  Storage: CMOS  Access: RW  : REAL = Uninitialized
+
+[AVERAGE_XYZ]SUM_OFS_Z  Storage: CMOS  Access: RW  : REAL = Uninitialized
+
+[AVERAGE_XYZ]SUB_OFS_X  Storage: CMOS  Access: RW  : REAL = Uninitialized
+
+[AVERAGE_XYZ]SUB_OFS_Y  Storage: CMOS  Access: RW  : REAL = Uninitialized
+
+[AVERAGE_XYZ]SUB_OFS_Z  Storage: CMOS  Access: RW  : REAL = Uninitialized
+

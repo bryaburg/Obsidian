@@ -1,0 +1,51 @@
+[MRG_2CAM_XYZ]VIS_REG  Storage: CMOS  Access: RW  : ARRAY[3] OF INTEGER
+  [1] = Uninitialized
+  [2] = Uninitialized
+  [3] = Uninitialized
+
+[MRG_2CAM_XYZ]NUM_REG  Storage: CMOS  Access: RW  : INTEGER = Uninitialized
+
+[MRG_2CAM_XYZ]DMY_INT  Storage: CMOS  Access: RW  : INTEGER = Uninitialized
+
+[MRG_2CAM_XYZ]DMY_REAL  Storage: CMOS  Access: RW  : REAL = Uninitialized
+
+[MRG_2CAM_XYZ]STAT  Storage: CMOS  Access: RW  : INTEGER = Uninitialized
+
+[MRG_2CAM_XYZ]TMP_STAT  Storage: CMOS  Access: RW  : INTEGER = Uninitialized
+
+[MRG_2CAM_XYZ]REAL_FLAG  Storage: CMOS  Access: RW  : BOOLEAN = Uninitialized
+
+[MRG_2CAM_XYZ]ARG_INDEX  Storage: CMOS  Access: RW  : INTEGER = Uninitialized
+
+[MRG_2CAM_XYZ]REG_INDEX  Storage: CMOS  Access: RW  : INTEGER = Uninitialized
+
+[MRG_2CAM_XYZ]WRITE_VALUE1  Storage: CMOS  Access: RW  : INTEGER = Uninitialized
+
+[MRG_2CAM_XYZ]WRITE_VALUE2  Storage: CMOS  Access: RW  : INTEGER = Uninitialized
+
+[MRG_2CAM_XYZ]OFS_TYPE  Storage: CMOS  Access: RW  : ARRAY[2] OF INTEGER
+  [1] = Uninitialized
+  [2] = Uninitialized
+
+[MRG_2CAM_XYZ]UF_NUM  Storage: CMOS  Access: RW  : ARRAY[2] OF INTEGER
+  [1] = Uninitialized
+  [2] = Uninitialized
+
+[MRG_2CAM_XYZ]OFFSET  Storage: CMOS  Access: RW  : ARRAY[2] OF XYZWPR
+  [1] = Uninitialized
+  [2] = Uninitialized
+
+[MRG_2CAM_XYZ]FOUND_POS  Storage: CMOS  Access: RW  : ARRAY[2] OF XYZWPR
+  [1] = Uninitialized
+  [2] = Uninitialized
+
+[MRG_2CAM_XYZ]UF1_POSITION  Storage: CMOS  Access: RW  : POSITION = Uninitialized
+
+[MRG_2CAM_XYZ]UF2_POSITION  Storage: CMOS  Access: RW  : POSITION = Uninitialized
+
+[MRG_2CAM_XYZ]APPROACH1  Storage: CMOS  Access: RW  : VECTOR = Uninitialized
+
+[MRG_2CAM_XYZ]NORMAL2  Storage: CMOS  Access: RW  : VECTOR = Uninitialized
+
+[MRG_2CAM_XYZ]INNER_VAL  Storage: CMOS  Access: RW  : REAL = Uninitialized
+

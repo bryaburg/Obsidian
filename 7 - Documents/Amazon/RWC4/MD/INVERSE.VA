@@ -1,0 +1,38 @@
+[INVERSE]REG_NUM  Storage: CMOS  Access: RW  : ARRAY[3] OF INTEGER
+  [1] = Uninitialized
+  [2] = Uninitialized
+  [3] = Uninitialized
+
+[INVERSE]LEFT_REG  Storage: CMOS  Access: RW  : POSITION = Uninitialized
+
+[INVERSE]RIGHT_REG  Storage: CMOS  Access: RW  : POSITION = Uninitialized
+
+[INVERSE]TMP_XYZEX  Storage: CMOS  Access: RW  : XYZWPREXT = Uninitialized
+
+[INVERSE]TMP_XYZ  Storage: CMOS  Access: RW  : XYZWPR = Uninitialized
+
+[INVERSE]STATUS  Storage: CMOS  Access: RW  : INTEGER = Uninitialized
+
+[INVERSE]I  Storage: CMOS  Access: RW  : INTEGER = Uninitialized
+
+[INVERSE]EXT_FLAG  Storage: CMOS  Access: RW  : BOOLEAN = Uninitialized
+
+[INVERSE]GROUP_NUM  Storage: CMOS  Access: RW  : INTEGER = Uninitialized
+
+[INVERSE]POS_TYPE  Storage: CMOS  Access: RW  : INTEGER = Uninitialized
+
+[INVERSE]NUM_AXES  Storage: CMOS  Access: RW  : INTEGER = Uninitialized
+
+[INVERSE]DATA_TYPE  Storage: CMOS  Access: RW  : ARRAY[3] OF INTEGER
+  [1] = Uninitialized
+  [2] = Uninitialized
+  [3] = Uninitialized
+
+[INVERSE]REAL_PARAM  Storage: CMOS  Access: RW  : REAL = Uninitialized
+
+[INVERSE]STR_PARAM  Storage: CMOS  Access: RW  : STRING[100] = Uninitialized
+
+[INVERSE]RET_STATUS  Storage: CMOS  Access: RW  : INTEGER = Uninitialized
+
+[INVERSE]ERR_MSG  Storage: CMOS  Access: RW  : STRING[40] = Uninitialized
+

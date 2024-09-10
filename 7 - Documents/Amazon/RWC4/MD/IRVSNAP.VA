@@ -1,0 +1,16 @@
+[IRVSNAP]NAME  Storage: DRAM  Access: RW  : STRING[40] = Uninitialized
+
+[IRVSNAP]VIEW  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+
+[IRVSNAP]IMREG  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+
+[IRVSNAP]DATA_TYPE  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+
+[IRVSNAP]DMY_INT  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+
+[IRVSNAP]DMY_REAL  Storage: DRAM  Access: RW  : REAL = Uninitialized
+
+[IRVSNAP]DMY_STR  Storage: DRAM  Access: RW  : STRING[2] = Uninitialized
+
+[IRVSNAP]STAT  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+

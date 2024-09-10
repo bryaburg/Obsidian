@@ -1,0 +1,3 @@
+ERREXT.LS      Robot Name ROBOT 06-NOV-20 09:51:20  
+
+The Extended Alarm Log option must be loaded and enabled

@@ -1,0 +1,16 @@
+[IRVTRAIN]VP_NAME  Storage: DRAM  Access: RW  : STRING[40] = Uninitialized
+
+[IRVTRAIN]FILE_NAME  Storage: DRAM  Access: RW  : STRING[254] = Uninitialized
+
+[IRVTRAIN]ERR_LINENUM  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+
+[IRVTRAIN]STATUS  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+
+[IRVTRAIN]DATA_TYPE  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+
+[IRVTRAIN]DMY_INT  Storage: DRAM  Access: RW  : INTEGER = Uninitialized
+
+[IRVTRAIN]DMY_REAL  Storage: DRAM  Access: RW  : REAL = Uninitialized
+
+[IRVTRAIN]DMY_STR  Storage: DRAM  Access: RW  : STRING[40] = Uninitialized
+

@@ -1,0 +1,64 @@
+[mfinidsp] --- enable FSSB ATR init ---
+[mfinidsp] --- start ITP ---
+[miinit] done 
+[mfinidsp] waiting for SSTB...
+[mfinidsp] all SSTB become 1
+[mfredampid] [d:1 da:1 g:1 ga:1] amp_svm:A06B-6400-H002        amp_psm:                     (ps:0) amp_svmsrl:V20431164   amp_psmsrl:            amp_svmver:9H0603.0 amp_psmver:9G0606.0
+[mfredampid] [d:1 da:2 g:1 ga:2] amp_svm:A06B-6400-H002        amp_psm:                     (ps:0) amp_svmsrl:V20431164   amp_psmsrl:            amp_svmver:9H0603.0 amp_psmver:9G0606.0
+[mfredampid] [d:1 da:3 g:1 ga:3] amp_svm:A06B-6400-H002        amp_psm:                     (ps:0) amp_svmsrl:V20431164   amp_psmsrl:            amp_svmver:9H0603.0 amp_psmver:9G0606.0
+[mfredampid] [d:1 da:4 g:1 ga:4] amp_svm:A06B-6400-H002        amp_psm:                     (ps:0) amp_svmsrl:V20431164   amp_psmsrl:            amp_svmver:9H0603.0 amp_psmver:9G0606.0
+[mfredampid] [d:1 da:5 g:1 ga:5] amp_svm:A06B-6400-H002        amp_psm:                     (ps:0) amp_svmsrl:V20431164   amp_psmsrl:            amp_svmver:9H0603.0 amp_psmver:9G0606.0
+[mfredampid] [d:1 da:6 g:1 ga:6] amp_svm:A06B-6400-H002        amp_psm:                     (ps:0) amp_svmsrl:V20431164   amp_psmsrl:            amp_svmver:9H0603.0 amp_psmver:9G0606.0
+[SYINISUB] Checking $repower.$flag
+[syinisub] TICK_OFFSET 11fdd374 to 110
+[quiccrcv] TICK_OFFSET 117dc374 to 110
+[vmshadow_cleanup] Redirected from task 72 to TID_VMSC
+STRT_NSLC 0
+[CIPCONCB] Fast UDP in use (0)
+[syinit] waiting for EVF_ENB_PWF...
+[syinit] osconflg(EVF_ENB_PWF) $16a
+[syinit] oswaiflg(EVF_ENB_PWF) $0
+[syinit] syrset(), status = $0
+[syinisub] Starting C shell 0x0
+[syinisub]starting shell $0
+[Shxsp] Ref positions in use
+[Shxsp] Initialize extension
+"cold2.com for V9.10P/23 (FD V9.10163)"
+"cold2cus.com complete"
+"cold2.com complete"
+[syinisub] Ready to run ATSHELL
+Ready to run SHELL
+[syinisub] Start Karel shell 0x0
+[SYINISUB] restored user device UD1:
+[syinit] Setting VMGR for in-line calls
+[syinit] end
+[set_load_device] stat good device = UD1:, BMON 
+[set_load_device]setting $LOAD_DEVICE to UD1:
+[symonutl] Getting data (0, 1)
+[vmshadow_cleanup] Redirected from task 72 to TID_VMSC
+SYINISUB TOTAL TIME 11516
+[SYINISUB] restored user device UD1:
+[TPSPART] Found KAREL ATMSKCHG 200
+[TPSPART] Found KAREL ATPRGADJ 930
+[TPSPART] Found KAREL ATWAITRL 931
+[TPSPART] Found KAREL ATPRSCRN 932
+[TPSPART] Found KAREL ATPASWRD 935
+[TPSPART] Found KAREL ATINSTAL 936
+[TPKSINIT] dname -K943- not found devstat = 0 cfg $133746f0
+[TPSPART] Found KAREL ATCELLIO 955
+[TPSPART] Found KAREL ACTPSS 958
+[TPKSINIT] dname -K972- not found devstat = 0 cfg $13374400
+[TPKSINIT] dname -K973- not found devstat = 0 cfg $13374344
+[TPSPART] Found KAREL ATSOFTPA 992
+Result size = 596
+[vmfndvar] [*SYSTEM*]$SYSTEM_TIMER truncated to $SYSTEM_TIME
+[tpcputl] Options loaded: lite 0 Option 0
+[syinmpc] received new password config
+[tpmains] Waiting at 32864ms
+[RCMUTL] Running ZDTMSGTYPES completed: 0x0
+[tpmains] Ready at 32882ms Total Startup Time ~ 40 seconds
+[tpmains] ready at 07-NOV-20 00:43:06 
+[tpmains] ready at 07-NOV-20 00:45:56 
+UD1 Inserted
+[vmisavef] appending segment to MDS1:\SYSVARS.SV
+[ZIP] INIT

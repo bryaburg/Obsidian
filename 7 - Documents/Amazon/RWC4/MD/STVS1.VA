@@ -1,0 +1,52 @@
+[STVS1]REG_NUM  Storage: CMOS  Access: RW  : ARRAY[5] OF INTEGER
+  [1] = Uninitialized
+  [2] = Uninitialized
+  [3] = Uninitialized
+  [4] = Uninitialized
+  [5] = Uninitialized
+
+[STVS1]ST_TOL  Storage: CMOS  Access: RW  : REAL = Uninitialized
+
+[STVS1]ST_DIST  Storage: CMOS  Access: RW  : REAL = Uninitialized
+
+[STVS1]OFF  Storage: CMOS  Access: RW  : REAL = Uninitialized
+
+[STVS1]XYZ  Storage: CMOS  Access: RW  : VECTOR = Uninitialized
+
+[STVS1]I  Storage: CMOS  Access: RW  : INTEGER = Uninitialized
+
+[STVS1]STATUS  Storage: CMOS  Access: RW  : INTEGER = Uninitialized
+
+[STVS1]POS_TYPE  Storage: CMOS  Access: RW  : INTEGER = Uninitialized
+
+[STVS1]POS  Storage: CMOS  Access: RW  : ARRAY[2] OF POSITION
+  [1] = Uninitialized
+  [2] = Uninitialized
+
+[STVS1]OUT_POS  Storage: CMOS  Access: RW  : XYZWPR = Uninitialized
+
+[STVS1]OUT_POSEXT  Storage: CMOS  Access: RW  : XYZWPREXT = Uninitialized
+
+[STVS1]POS1  Storage: CMOS  Access: RW  : POSITION = Uninitialized
+
+[STVS1]DATA_TYPE  Storage: CMOS  Access: RW  : ARRAY[5] OF INTEGER
+  [1] = Uninitialized
+  [2] = Uninitialized
+  [3] = Uninitialized
+  [4] = Uninitialized
+  [5] = Uninitialized
+
+[STVS1]REAL_PARAM  Storage: CMOS  Access: RW  : REAL = Uninitialized
+
+[STVS1]STR_PARAM  Storage: CMOS  Access: RW  : STRING[100] = Uninitialized
+
+[STVS1]REAL_FLAG  Storage: CMOS  Access: RW  : BOOLEAN = Uninitialized
+
+[STVS1]INT_VALUE  Storage: CMOS  Access: RW  : INTEGER = Uninitialized
+
+[STVS1]REAL_VALUE  Storage: CMOS  Access: RW  : REAL = Uninitialized
+
+[STVS1]RET_STATUS  Storage: CMOS  Access: RW  : INTEGER = Uninitialized
+
+[STVS1]ERR_MSG  Storage: CMOS  Access: RW  : STRING[40] = Uninitialized
+
