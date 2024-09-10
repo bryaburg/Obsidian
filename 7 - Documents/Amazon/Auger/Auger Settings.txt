@@ -1,0 +1,23 @@
+Marathon 
+1-800-633-8974
+
+Model ECD Auger/Compactor
+
+North Unit SN  51596465 	EAM 100504990
+
+South Unit SN  51596472		EAM 
+
+HMI Login --> Username: manager		Password: 9105
+
+MicroLogix PLC IP: 192.168.2.3
+HMI IP:	192.168.2.4
+
+Must hold "Auto Start" for 20 secs to start unit.  This is a safety setting per regulations.
+
+
+
+(Do not change any logic.  Allow Marathon to make all changes.)
+PLC Password: 7679  
+
+
+FOR DSM5 SN on units are different and EAM asset number

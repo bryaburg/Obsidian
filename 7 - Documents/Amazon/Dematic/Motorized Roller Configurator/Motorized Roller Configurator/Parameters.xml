@@ -1,0 +1,720 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file contains ECC/EDM device paramater definitions for the C-L 110 product.
+It is used by the MRC configuration tool.
+
+Rev Date      By      Description
+============  ====  ==================================================
+11/07/2007    KLR   Added "manufacturing" attribute, 125 conf=yes
+10/24/2007    KLR   Parameter 115 Is Writable, 94-98 have an index_count of 1
+10/16/2007    KLR   First Released Version - Based on Ver C.21
+
+Firmware Type 1=ACC, 2=SWD, 3=RAT, 4=EDM ACC(1A), 5=EDM PLC(1A), 6=EDM ACC(1B), 7=EDM PLC(1B)
+Device Types 1=
+
+-->
+<NewDataSet>
+  <CL110>
+    <ECC>
+      <Parmeter number="1" index="1" index_count="1" bytes="1" uom="" display="binary" devicetype="*" mode="" range="0-255" default="0" manufacturing="no" configuration="no" write="yes" reboot="no"
+      name="Cmd" description="">
+        <Flags>
+          <Bit byte="0" bit="0" description="Enable" />
+          <Bit byte="0" bit="1" description="E-Stop OK" />
+          <Bit byte="0" bit="2" description="Fault Reset Request" />
+          <Bit byte="0" bit="3" description="Fault Reset Complete" />
+          <Bit byte="0" bit="4" description="Calculate Parameter Checksum Request" />
+          <Bit byte="0" bit="5" description="Energy Management Wakeup" />
+        </Flags>
+        <!-- Sample custom HTML Tooltip (don't use for now)
+      <ToolTip>
+        <![CDATA[
+              <b>Cmd</b>
+              <table>
+              <tr><td><b>Bit</b></td><td><b>Description</b></td></tr>
+              <tr><td>0</td><td>Enable</td></tr>
+              <tr><td>1</td><td>E-Stop OK</td></tr>
+              </table>
+        ]]>
+      </ToolTip>
+      -->
+      </Parmeter>
+      <Parmeter number="2" index="1" index_count="1" bytes="1" display="decimal" range="0-255" configuration="yes" manufacturing="no" write="yes" reboot="no"
+      name="SpeedPercentage" description="The percent to multiply the speed setpoints by. Used for speed following." uom="" default="0">
+      </Parmeter>
+      <Parmeter number="3" index="1" index_count="4" bytes="1" display="decimal" range="0-1" devicetype="2" configuration="no" manufacturing="no" write="yes" reboot="no"
+      name="JogZones" description="The JogZones feature is intended to place all motors for the ECC into jog behavior. 0-disable 1-enable" uom="" default="0">
+      </Parmeter>
+      <Parmeter number="4" index="1" index_count="4" bytes="1" uom="" display="decimal" range="0-1" default="0" devicetype="2" configuration="yes" write="yes" reboot="no"
+      name="FullStatusEnable" description="Enable or disable full percentage status to PLC for each zone." manufacturing="no">
+      </Parmeter>
+      <Parmeter number="5" index="1" index_count="4" bytes="1" uom="" display="decimal" range="0-1" default="0" devicetype="2" configuration="yes" write="yes" reboot="no"
+      name="HardBraking" description="Enable the ECC to brake aggressively in order to stop heavy and/or fast packages." manufacturing="no">
+      </Parmeter>
+      <Parmeter number="6" index="1" index_count="4" bytes="1" uom="" display="decimal" range="0-255" default="0" devicetype="2" configuration="yes" write="yes" reboot="no"
+      name="PELeadDebounce" description="PE Leading edge debounce in ms." manufacturing="no">
+      </Parmeter>
+      <Parmeter number="7" index="1" index_count="4" bytes="1" uom="" display="decimal" range="0-255" default="0" devicetype="2" configuration="yes" write="yes" reboot="no"
+      name="PETrailDebounce" description="PE Trailing edge debounce in ms." manufacturing="no">
+      </Parmeter>
+      <Parmeter number="8" index="1" index_count="4" bytes="1" uom="" display="decimal" range="0-1" default="0" configuration="yes" write="yes" reboot="no"
+      name="PLCParameterPolling" description="Enables or disables parameter polling in EPM mode.(Index 0). Index 1 enables command parameter writing in EPM mode" manufacturing="no">
+      </Parmeter>
+      <Parmeter number="9" index="1" index_count="4" bytes="1" uom="" display="decimal" range="0-24" default="0" devicetype="2" configuration="yes" write="yes" reboot="yes"
+      name="NeighborNode" description="The Network ID of the neighbor node connected at each Connection Point. The index refers to the neighbor Node connected at that CP." manufacturing="no">
+      </Parmeter>
+      <Parmeter number="10" index="1" index_count="1" bytes="1" uom="" display="decimal" range="0-24" default="0" devicetype="2" configuration="yes" write="yes" reboot="yes"
+      name="NetworkID" description="The node address of the device.  It can be set by the LCD or Auto-Addressing." manufacturing="no">
+      </Parmeter>
+      <Parmeter number="11" index="1" index_count="4" bytes="1" uom="" display="hex" range="0,128,129" default="0" devicetype="2" configuration="yes" write="yes" reboot="yes"
+      name="NeighborFlow" description="Configuration of Connected Neighbors, the flow of the neighbors relative to this node, and whether or not communication (CP) exists between the nodes." manufacturing="no">
+        <Flags>
+          <Bit byte="0" bit="0" description="Output Exists." />
+          <Bit byte="0" bit="1" description="Input Exists." />
+          <Bit byte="0" bit="2" description="Input-Output Exists" />
+          <Bit byte="0" bit="3" description="Hardware RTS Aux In1 Exists" />
+          <Bit byte="0" bit="4" description="Hardware RTS AuxIn2 Exists"></Bit>
+          <Bit byte="0" bit="5" description="Hardware RTR AuxIn1 Exists"></Bit>
+          <Bit byte="0" bit="6" description="Hardware RTR AuxIn2 Exists"></Bit>
+          <Bit byte="0" bit="7" description="Node CP Exists" ></Bit>
+        </Flags>
+      </Parmeter>
+      <Parmeter number="12" index="1" index_count="4" bytes="1" uom="" display="decimal" range="0-1" default="0" configuration="yes" write="yes" reboot="no"
+      name="TrackCtrFlags" description="0 = disabled 1 = Leading edge of package generates tracking ID message to PLC" manufacturing="no">
+        <Flags>
+          <Bit byte="0" bit="0" description="This bit dictates whether or not the zone is to start the tracking process. When set, the zone will ASSIGN package IDs. When clear, the zone will look upstream for the package ID." />
+          <Bit byte="0" bit="1" description="When set and the leading edge of a package is detected, a Package Leading Edge Message is sent to PLC." />
+          <Bit byte="0" bit="2" description="When this is set, the Scanner ID is added to the upper nibble of the package ID." />
+          <Bit byte="0" bit="3" description="When this is set, node reports MinGap warnings." />
+          <Bit byte="0" bit="4" description="When this is set, node will transmit tracking messages to downstream PLC (only index 0)." />
+          <Bit byte="0" bit="5" description="When this is set, node will transmit missing package, MUZ and FIFO full errors to PLC." />
+          <Bit byte="0" bit="6" description="When this is set, node will transmit transmit unknown package ID messages to PLC." />
+        </Flags>
+      </Parmeter>
+      <Parmeter number="13" index="1" index_count="4" bytes="1" uom="" display="decimal" range="0-7,16,17" default="0" devicetype="2" configuration="yes" write="yes" reboot="yes"
+      name="ACCMode" description="1=TRP, 2=TRA, 6=Dynamic Gap, 7=Pass Through, 16=PLC MRG, 17=SI MRG, 19=1265, 20=PLC GRP RUN, 21=LCL GRP RUN" manufacturing="no">
+        <RangeValues>
+          <Range value="1" description="Transportation (TRP)" />
+          <Range value="2" description="Traditional Accumulation (TRA)" />
+          <Range value="3" description="Zero Pressure Acc Single (Future)" />
+          <Range value="4" description="Zero Pressure Acc Train (Future)" />
+          <Range value="5" description="Zero Gap Accumulation (Future)" />
+          <Range value="6" description="Dynamic Gapping Accumulation" />
+          <Range value="7" description="Pass Thru Control" />
+          <Range value="16" description="PLC Controlled Merge" />
+          <Range value="17" description="Merge Side Induct" />
+          <Range value="19" description="1265 Mode (EDM)" />
+          <Range value="20" description="Transportation PLC Group Run" />
+          <Range value="21" description="Transportation local Group Run" />
+          <Range value="22" description="Slug Mode Accumulation" />
+        </RangeValues>
+      </Parmeter>
+      <Parmeter number="14" index="1" index_count="4" bytes="1" uom="" display="decimal" range="0" default="0" configuration="yes" write="yes" reboot="yes"
+      name="RATMode" description=" Index 1 value must be 32 (0x20) for RAT Default Mode, or  35 (0x23) for RAT No-Wait Mode. Index 2 defines the divert management scheme for the RAT. Indeces 3 and 4 are not used." manufacturing="yes">
+        <Flags>
+          <Bit byte="0" bit="1" description="Index 2 RATTypeHeavy - 1=enables RAT Heavy Mode - 4motors(2TRP, 2TXF) 0=enables RAT Light Mode - 2motors (1TRP, 1TXF)" />
+          <Bit byte="0" bit="2" description="Index 2 CartonDistributorEnable - 1=Enables Carton Distributor." />
+          <Bit byte="0" bit="7" description="Index 2 MsPLCDvtReqRetry - When set the RAT will retry all request messages." />
+        </Flags>
+      </Parmeter>
+      <Parmeter number="15" index="1" index_count="3" bytes="1" uom="" display="hex" range="0" default="0" configuration="yes" write="yes" reboot="yes"
+      name="SWDMode" description="Index 1 value must be = 48 (0x30). Index2 defines the divert management scheme for the SWD. Indeces 3 and 4 aren't used." manufacturing="yes">
+        <Flags>
+          <Bit byte="0" bit="0" description="Index 2 CartonDistributorEnable - When set, then enable Carton Distributor Logic. When clear, assume PLC is connected for divert responses." />
+          <Bit byte="0" bit="1" description="Index 2 NoDestinationChangeAllowed - When set, destination cannot be changed to default port or any available ports. When clear, destination changes are permitted." />
+          <Bit byte="0" bit="2" description="Index 2 WaitForDivertResponse - When set and CartonDistributorEnable is off, package destination cannot be written until PLC responds with a destination. Retries are used in this mode configured by DvtRequestRetryTmr." />
+          <Bit byte="0" bit="3" description="Index 2 EnableConfirmations - When set and CartonDistributorEnable is off, divert confirmation logic is enabled. Shadow packages will be tracked to CP1 whenever the destinaton is CP3 or CP4." />
+        </Flags>
+      </Parmeter>
+      <Parmeter number="16" index="1" index_count="2" bytes="1" uom="" display="decimal" range="22-25" default="23" configuration="yes" write="yes" reboot="yes"
+      name="EDMMode" description="22=PLC Mode (future) 23=IO Mode 24=VFD" manufacturing="yes">
+        <RangeValues>
+          <Range value="22" description="EPM Mode" />
+          <Range value="23" description="IO Mode" />
+          <Range value="24" description="VFD Mode" />
+          <Range value="25" description="SWD Slave" />
+        </RangeValues>
+      </Parmeter>
+      <Parmeter number="17" index="1" index_count="1" bytes="1" uom="" display="decimal" range="1-4" default="4" devicetype="2" configuration="yes" write="yes" reboot="yes"
+      name="NumberOfMotorsUsed" description="The number of motors connected to this ECC (1-4)" manufacturing="yes">
+      </Parmeter>
+      <Parmeter number="18" index="1" index_count="1" bytes="1" uom="" display="decimal" range="0-1" default="0" devicetype="2" configuration="yes" write="yes" reboot="yes"
+      name="MotorChannelLayout" description="ECC motors can be configured in 2 different layouts." manufacturing="yes">
+        <RangeValues>
+          <Range value="0" description="A=1,B=2,C=3,D=4" />
+          <Range value="1" description="A=4,B=3,C=2,D=1" />
+        </RangeValues>
+      </Parmeter>
+      <Parmeter number="19" index="1" index_count="4" bytes="1" uom="" display="decimal" range="0-1" default="0" devicetype="2" configuration="yes" write="yes" reboot="yes"
+      name="PEExist" description="Configure Photoeye Connection" manufacturing="yes">
+        <RangeValues>
+          <Range value="0" description="No Photoeye" />
+          <Range value="1" description="Photoeye Exist" />
+        </RangeValues>
+      </Parmeter>
+      <Parmeter number="20" index="1" index_count="4" bytes="1" uom="" display="decimal" range="0-2" default="0" configuration="yes" write="yes" reboot="yes"
+      name="EnableWarnOnEPMFltOut" description="EPM fault output configuration" manufacturing="yes">
+        <RangeValues>
+          <Range value="0" description="Enable faults only on EPM fault output" />
+          <Range value="1" description="Enable faults and warnings on EPM fault output" />
+          <Range value="2" description="Enable faults and warnings and EPM heartbeat failure on EPM fault output" />
+        </RangeValues>
+      </Parmeter>
+      <Parmeter number="21" index="1" index_count="4" bytes="1" uom="" display="decimal" range="0-1" default="0" devicetype="2" configuration="yes" write="yes" reboot="no"
+      name="ConveyorDirection" description="Use the motor cable as the axis to determine the motor direction. Looking at the motor cable, setting ConveyorDirection to 0 will set  the motor to rotate clockwise around the motor cable axis. Setting ConveyorDirection to 1 will set the motor to rotate counter clockwise around the motor cable axis. 0 = Clockwise 1 = Counter Clockwise" manufacturing="yes">
+        <RangeValues>
+          <Range value="0" description="Clockwise" />
+          <Range value="1" description="Counter Clockwise" />
+        </RangeValues>
+      </Parmeter>
+      <Parmeter number="22" index="1" index_count="4" bytes="1" uom="" display="decimal" range="1-40" default="" devicetype="2" configuration="yes" write="yes" reboot="yes"
+      name="ZoneAccelRamp" description="10th of m/s2" manufacturing="no">
+      </Parmeter>
+      <Parmeter number="23" index="1" index_count="4" bytes="1" uom="" display="decimal" range="1-40" default="" devicetype="2" configuration="yes" write="yes" reboot="yes"
+      name="ZoneDecelRamp" description="10th of m/s2" manufacturing="no">
+      </Parmeter>
+      <Parmeter number="24" index="1" index_count="1" bytes="1" uom="" display="decimal" range="0-1" default="" configuration="yes" write="yes" reboot="no"
+      name="NOPLCAckMsgCounter" description="Debug parameter" manufacturing="no">
+      </Parmeter>
+      <Parmeter number="25" index="1" index_count="4" bytes="1" uom="" display="decimal" range="0-2" default="" devicetype="2" configuration="yes" write="yes" reboot="no"
+      name="PELatching" description="Configure PE Latching type" manufacturing="no">
+        <RangeValues>
+          <Range value="0" description="No PE Latching" />
+          <Range value="1" description="End of Zone Latching" />
+          <Range value="2" description="Resetting Latch" />
+        </RangeValues>
+      </Parmeter>
+      <Parmeter number="26" index="1" index_count="4" bytes="1" uom="" display="decimal" range="1-5" default="" configuration="yes" write="yes" reboot="yes"
+      name="MotorType" description="" manufacturing="yes">
+        <RangeValues>
+          <Range value="1" description="Siemens AD supplied motor" />
+          <Range value="2" description="Motor Power Company (Italy)" />
+          <Range value="3" description="VFD Drive (BOS/BOR) with digital AT SPEED output" />
+          <Range value="4" description="Smart Motor" />
+          <Range value="83" description="VFD Drive (BOS/BOR) with Analog Speed Output" />
+        </RangeValues>
+      </Parmeter>
+      <Parmeter number="27" index="1" index_count="4" bytes="1" uom="" display="hex" range="0-3" default="" configuration="yes" write="yes" reboot="no"
+      name="TrackingDebugInfo" description="This parameter specifies the default path to be taken by any package whose package id is “unknown”. " manufacturing="no">
+        <RangeValues>
+          <Range value="1" description="Debug Tracking Enable" />
+          <Range value="2" description="Debug Dynamic Gapping Enable" />
+          <Range value="3" description="Debug Rat Transfer Enable" />
+        </RangeValues>
+      </Parmeter>
+      <Parmeter number="28" index="1" index_count="4" bytes="1" uom="" display="hex" range="0-255" default="" configuration="yes" write="yes" reboot="no"
+      name="DefaultPkgPath" description="This parameter specifies the default path to be taken by any package whose package id is “unknown”. " manufacturing="no">
+      </Parmeter>
+      <Parmeter number="29" index="1" index_count="4" bytes="1" uom="" display="decimal" range="0-1" default="" configuration="no" write="no" reboot="no"
+      name="AuxIn1" description="This parameter exposes the current value of the AUX inputs (is read-only). Used for debug visibility." manufacturing="no">
+      </Parmeter>
+      <Parmeter number="30" index="1" index_count="4" bytes="1" uom="" display="decimal" range="0-1" default="" configuration="no" write="no" reboot="no"
+      name="AuxIn2" description="This parameter exposes the current value of the AUX inputs (is read-only). Used for debug visibility." manufacturing="no">
+      </Parmeter>
+      <Parmeter number="31" index="1" index_count="4" bytes="1" uom="" display="decimal" range="0-1" default="" configuration="no" write="no" reboot="no"
+      name="ChainIn" description="This parameter exposes the current value of the Chain In (is read-only)&#xD;&#xA;Used for debug visibility.&#xD;&#xA;Refer to the section “Auto-Addressing” for further details. &#xD;&#xA;" manufacturing="no">
+      </Parmeter>
+      <Parmeter number="32" index="1" index_count="4" bytes="1" uom="" display="decimal" range="0-40" default="" configuration="no" write="no" reboot="no"
+      name="THMFeedback" description="This parameter exposes the current value of the “Thermistor” – read only. Used for debug visibility." manufacturing="no">
+      </Parmeter>
+      <Parmeter number="33" index="1" index_count="4" bytes="1" uom="" display="decimal" range="0-255" default="" configuration="no" write="no" reboot="no"
+      name="FALFeedback" description="This parameter exposes the feedback from the Hall Effect Sensor for each of the motors.  When this feedback falls outside of an internally defined range a Hall Effect Sensor Fault will be reported.&#xD;&#xA;This value is a 0 to 255 scaled value of the actual.&#xD;&#xA;" manufacturing="no">
+      </Parmeter>
+      <Parmeter number="34" index="1" index_count="4" bytes="1" uom="" display="decimal" range="0-255" default="" configuration="no" write="no" reboot="no"
+      name="CurrentFeedback" description="This parameter exposes the feedback current for each of the motors.  When this feedback falls outside of an internally defined range an Over/Under current faultwill be reported.&#xD;&#xA;This value is a 0 to 255 scaled value of the actual..&#xD;&#xA;" manufacturing="no">
+      </Parmeter>
+      <Parmeter number="35" index="1" index_count="1" bytes="1" uom="" display="decimal" range="0-255" default="" configuration="no" write="no" reboot="no"
+      name="PWSFeedback" description="Monitors 48V power" manufacturing="no">
+      </Parmeter>
+      <Parmeter number="36" index="1" index_count="4" bytes="1" uom="" display="decimal" range="0-1" default="" configuration="no" write="no" reboot="no"
+      name="MotorTempSwitch" description="This parameter exposes the current value of motor temperature switch .&#xD;&#xA;&#xD;&#xA;Used for debug visibility.&#xD;&#xA;" manufacturing="no">
+      </Parmeter>
+      <Parmeter number="37" index="1" index_count="4" bytes="1" uom="" display="decimal" range="0-1" default="" configuration="no" write="no" reboot="no"
+      name="PEHealthStatus " description="0 = not good health &#xD;&#xA;1 = good health &#xD;&#xA;" manufacturing="no">
+      </Parmeter>
+      <Parmeter number="38" index="1" index_count="4" bytes="1" uom="" display="decimal" range="0-1" default="0" configuration="no" write="yes" reboot="no"
+      name="AuxOut" description="Used for debugging purposes.&#xD;&#xA;&#xD;&#xA;0 = Auxiliary Output is turned off.&#xD;&#xA;1 = Auxiliary Output is turned on. &#xD;&#xA;&#xD;&#xA;Note:  DebugOutputEnable Must be ON for this parameter to function&#xD;&#xA;" manufacturing="no">
+      </Parmeter>
+      <Parmeter number="39" index="1" index_count="4" bytes="1" uom="" display="decimal" range="0-1" default="0" configuration="no" write="yes" reboot="no"
+      name="BrkOut" description="Used for debugging purposes.&#xD;&#xA;&#xD;&#xA;0 = Brake Output is turned off for this zone.&#xD;&#xA;1 = Brake Output is turned on for this zone.&#xD;&#xA;&#xD;&#xA;Note:  DebugOutputEnable Must be ON for this parameter to function&#xD;&#xA;" manufacturing="no">
+      </Parmeter>
+      <Parmeter number="40" index="1" index_count="4" bytes="1" uom="" display="decimal" range="0-1" default="0" configuration="yes" write="yes" reboot="no"
+      name="DebugOutputEnable" description="Used for debugging purposes.&#xD;&#xA;&#xD;&#xA;0 = Disables outputs to be written from parameters AuxOut and BrkOut. Outputs are written from internal logic only.&#xD;&#xA;1 = Enables outputs to be written from parameters AuxOut and BrkOut. The parameters will override the internal logic.&#xD;&#xA;" manufacturing="no">
+      </Parmeter>
+      <Parmeter number="41" index="1" index_count="4" bytes="1" uom="ms" display="decimal" range="0-255" default="0" configuration="yes" write="yes" reboot="yes"
+      name="InputDebounceOne" description="Input debounce, in ms, associated with inputs 1-4 (EDM only). Use parameter index 0 to write debounce time to inputs 1-4. Use index 1 to write to just input one, etc." manufacturing="no">
+      </Parmeter>
+      <Parmeter number="42" index="1" index_count="4" bytes="1" uom="ms" display="decimal" range="0-255" default="0" configuration="yes" write="yes" reboot="yes"
+      name="InputDebounceTwo" description="Input debounce, in ms, associated with inputs 5-8 (EDM only). Use parameter index 0 to write debounce time to inputs 5-8. Use index 1 to write to just input 5, etc." manufacturing="no">
+      </Parmeter>
+      <Parmeter number="43" index="1" index_count="4" bytes="1" uom="" display="decimal" range="0-255" default="0" configuration="yes" write="yes" reboot="no"
+      name="ScannerID" description="Node at which a scanner resides" manufacturing="no">
+      </Parmeter>
+      <Parmeter number="44" index="1" index_count="4" bytes="1" uom="" display="decimal" range="0-255" default="0" configuration="yes" write="yes" reboot="no"
+      name="DVTNeighborNode" description="On the SWD this must define the NetworkID of the EDM Divert Controller which controls the Divert, on EDM this must define the NetworkID for the SWD master." manufacturing="no">
+      </Parmeter>
+      <Parmeter number="45" index="1" index_count="4" bytes="1" uom="" display="decimal" range="0-255" default="1" configuration="yes" write="yes" reboot="no"
+      name="ServoManualOverride" description="Manual Servo override for testing mode" manufacturing="no">
+      </Parmeter>
+      <Parmeter number="46" index="1" index_count="4" bytes="1" uom="" display="decimal" range="0-255" default="0" configuration="yes" write="yes" reboot="no"
+      name="NewPkgNoRespThreshold" description="Defines the maximum threshold for outstanding new package (leading edge) without PLC response before fault is declared." manufacturing="no">
+      </Parmeter>
+      <Parmeter number="47" index="1" index_count="4" bytes="1" uom="" display="binary" range="0-15" default="0" configuration="no" write="yes" reboot="no"
+      name="AuxOutFromPLC" description="Parameter that allows the PLC to control the outputs of the EDM with in I/O mode.  This is bit encoded, each bit of the first nibble represents the corresponding output.  Bit 0 = output 1, etc" manufacturing="no">
+      </Parmeter>
+      <Parmeter number="48" index="1" index_count="4" bytes="1" uom="" display="decimal" range="0-29" default="0" configuration="yes" write="yes" reboot="no"
+      name="UpstreamNeighbor" description="The node ID of the ECC/EDM that is physically located upstream." manufacturing="no">
+      </Parmeter>
+      <Parmeter number="49" index="1" index_count="4" bytes="1" uom="" display="decimal" range="0-1" default="0" configuration="yes" write="yes" reboot="no"
+      name="DVTConfirmationZone" description="When enabled, it is the ACC Zone that will relay the divert confirmations to the PLC." manufacturing="no">
+      </Parmeter>
+      <Parmeter number="50" index="1" index_count="4" bytes="1" uom="" display="hex" range="0-1" default="1" configuration="yes" write="yes" reboot="no"
+      name="DVTFeedInZone" description="Enables zone as a divert feed zone"  manufacturing="no">
+      </Parmeter>
+      <Parmeter number="51" index="1" index_count="4" bytes="1" uom="" display="decimal" range="0-255" default="2" configuration="yes" write="yes" reboot="yes"
+      name="HardwareCmdConfig" description="Configure the type of hardware enable if no PLC or EPM is present." manufacturing="yes">
+        <Flags>
+          <Bit byte="0" bit="0" description="Standalone Enable:  Enable standalone system. Enable is equal to the 48V power supply." />
+          <Bit byte="0" bit="1" description="EnableAuxIn1:  Enable signal comes from Aux In 1" />
+          <Bit byte="0" bit="2" description="EnableAuxIn2:  Enable signal comes from Aux In 2" />
+          <Bit byte="0" bit="3" description="FaultResetAuxIn1:  Fault Reset signal comes from Aux In 1" />
+          <Bit byte="0" bit="4" description="FaultResetAuxIn2:  Fault Reset signal comes from Aux In 2" />
+          <Bit byte="0" bit="5" description="SuppressFaultsAndWarns:  Faults and Warnings will not be sent to a host." />
+          <Bit byte="0" bit="6" description="HardwareRTRAuxOutExists:  Aux Out 1 is configured for CP2 out RTR." />
+          <Bit byte="0" bit="7" description="HardwareRTSAuxOutExists:  Aux Out 1 is configured for CP1 out RTS." />
+        </Flags>
+      </Parmeter>
+      <Parmeter number="52" index="1" index_count="4" bytes="1" uom="" display="decimal" range="0-255" default="2" configuration="yes" write="yes" reboot="yes"
+      name="PowerSupplyConfig" description="Configures the type of motor power supply." manufacturing="yes">
+        <Flags>
+          <Bit byte="0" bit="0" description="24V Motor Power Supply" />
+          <Bit byte="0" bit="1" description="48V Motor Power Supply" />
+          <Bit byte="0" bit="1" description="No Motor Power Supply Present" />
+
+
+        </Flags>
+      </Parmeter>
+      <Parmeter number="53" index="1" index_count="4" bytes="1" uom="" display="decimal" range="0-255" default="0" configuration="yes" write="yes" reboot="no"
+      name="CartonDistributor" description="?" manufacturing="no">
+      </Parmeter>
+      <Parmeter number="54" index="1" index_count="4" bytes="1" uom="" display="decimal" range="0-255" default="0" configuration="yes" write="yes" reboot="no"
+      name="DvtUseInternalPE" description="?" manufacturing="no">
+      </Parmeter>
+      <Parmeter number="55" index="1" index_count="4" bytes="1" uom="" display="decimal" range="0-2" default="" configuration="yes" write="yes" reboot="yes"
+      name="DynamicGapType" description="Configure Dynamic gap type.  Must also configure RequiredDynamicGap for gapping to properly work." manufacturing="no">
+        <RangeValues>
+          <Range value="1" description="Window Gap" />
+          <Range value="2" description="Pitch Gap" />
+        </RangeValues>
+      </Parmeter>
+      <Parmeter number="56" index="1" index_count="4" bytes="1" uom="" display="decimal" range="0-2" default="" devicetype="2" configuration="yes" write="yes" reboot="yes"
+      name="StaticGapType" description="Configure Static gap type.  Must also configure RequiredStaticGap for gapping to properly work." manufacturing="no">
+        <RangeValues>
+          <Range value="0" description="No Gapping" />
+          <Range value="1" description="Window Gap" />
+          <Range value="2" description="Pitch Gap" />
+        </RangeValues>
+      </Parmeter>
+      <Parmeter number="57" index="1" index_count="4" bytes="1" uom="" display="decimal" range="0-1" default="0" configuration="yes" write="yes" reboot="no"
+      name="InvertInputBank2" description="Allows the user in invert inputs in EPM mode (inputs 5-8)" manufacturing="no">
+      </Parmeter>
+      <Parmeter number="58" index="1" index_count="4" bytes="1" uom="" display="decimal" range="1-24" default="2" configuration="yes" write="yes" reboot="no"
+      name="NumberOfNodes" description="Number Of Nodes in a simple system. Used for EPM mode" manufacturing="no">
+      </Parmeter>
+      <Parmeter number="59" index="1" index_count="4" bytes="1" uom="" display="decimal" range="1-255" default="255" configuration="yes" write="yes" reboot="no"
+      name="MaxPackageID" description="Max allowable package ID" manufacturing="no">
+      </Parmeter>
+      <Parmeter number="60" index="1" index_count="4" bytes="1" uom="" display="decimal" range="1-255" default="255" configuration="yes" write="yes" reboot="no"
+      name="DefaultExitPort" description="Default exit port" manufacturing="no">
+      </Parmeter>
+      <Parmeter number="73" index="1" index_count="4" bytes="1" uom="" display="decimal" range="0-1" default="0" configuration="no" write="yes" reboot="no"
+      name="AuxOut2" description="Used for debugging purposes.&#xD;&#xA;&#xD;&#xA;0 = Auxiliary Output is turned off.&#xD;&#xA;1 = Auxiliary Output is turned on. &#xD;&#xA;&#xD;&#xA;Note:  DebugOutputEnable Must be ON for this parameter to function&#xD;&#xA;" manufacturing="no">
+      </Parmeter>
+      <Parmeter number="75" index="1" index_count="4" bytes="1" uom="" display="decimal" range="0-255" default="0" configuration="yes" write="yes" reboot="no"
+      name="ReceiveBufferPeakSize" description="?" manufacturing="no">
+      </Parmeter>
+      <Parmeter number="76" index="1" index_count="4" bytes="1" uom="" display="decimal" range="0-1" default="0" configuration="yes" write="yes" reboot="no"
+      name="TransmitBufferPeakSize" description="TransmitBufferPeakSize" manufacturing="no">
+      </Parmeter>
+      <Parmeter number="77" index="1" index_count="4" bytes="1" uom="" display="decimal" range="0-1" default="0" configuration="no" write="yes" reboot="no"
+      name="EDMAnalogTest" description="Test parameter for manufacturing" manufacturing="yes">
+      </Parmeter>
+      <Parmeter number="79" index="1" index_count="4" bytes="1" uom="" display="decimal" range="0-255" default="0" configuration="no" write="yes" reboot="no"
+      name="TrackingMishandleFlags" description="Used for Debugging Purposes Only." manufacturing="yes">
+      </Parmeter>
+      <Parmeter number="80" index="1" index_count="4" bytes="2" uom="mm" display="decimal" range="0-65535" default="3000" devicetype="2" configuration="yes" write="yes" reboot="no"
+      name="JamLength" description="This value is used by the ECC to calculate when a jam should occur. Typical values should be 2-3 times the longest package." manufacturing="no">
+      </Parmeter>
+      <Parmeter number="81" index="1" index_count="4" bytes="2" uom="mm" display="decimal" range="0-65535" default="30000" devicetype="2" configuration="yes" write="yes" reboot="no"
+      name="EnerManTimeout" description="When the ECC has not seen a product for this elapsed distance, the ECC will shut down into sleep/energy management mode." manufacturing="no">
+      </Parmeter>
+      <Parmeter number="82" index="1" index_count="4" bytes="2" uom="mm" display="decimal" range="100-10000" default="1000" devicetype="2" configuration="yes" write="yes" reboot="no"
+      name="ConveyorLength" description="" manufacturing="no">
+      </Parmeter>
+      <Parmeter number="83" index="1" index_count="4" bytes="2" uom="mm/s" display="decimal" range="200-2000" default="1000" devicetype="2" configuration="yes" write="yes" reboot="no"
+      name="NominalSpeed" description="" manufacturing="no">
+      </Parmeter>
+      <Parmeter number="84" index="1" index_count="4" bytes="2" uom="mm/s" display="decimal" range="200-2000" default="400" configuration="yes" write="yes" reboot="no"
+      name="MinimumSpeed" description="This parameter is only used in dynamic gapping mode. Refer to section “Dynamic Gapping Accumulation” for further details." manufacturing="no">
+      </Parmeter>
+      <Parmeter number="85" index="1" index_count="4" bytes="2" uom="mm/s" display="decimal" range="200-2000" default="1000" configuration="yes" write="yes" reboot="no"
+      name="MaximumSpeed" description="This parameter is only used in dynamic gapping mode. Refer to section “Dynamic Gapping Accumulation” for further details." manufacturing="no">
+      </Parmeter>
+      <Parmeter number="86" index="1" index_count="4" bytes="2" uom="mm" display="decimal" range="0-65535" default="400" devicetype="2" configuration="yes" write="yes" reboot="no"
+      name="BrakingSpeed" description="This parameter is only used in dynamic gapping mode. Refer to section “Dynamic Gapping Accumulation” for further details." manufacturing="no">
+      </Parmeter>
+      <Parmeter number="87" index="1" index_count="1" bytes="2" uom="mm" display="decimal" range="0-65535" default="250" configuration="yes" write="yes" reboot="no"
+      name="DvtDecisionPosition" description="In ACC used for DVTFeedInZone. This is the point where the package is tracked into the RAT component. In SWD used for deciding when to go to brake speed for unassinged packages." manufacturing="no">
+      </Parmeter>
+      <Parmeter number="88" index="1" index_count="4" bytes="2" uom="ms" display="decimal" range="0-65535" default="0" devicetype="2" configuration="yes" write="yes" reboot="no"
+      name="RTRDelay" description="Delay in ms between when a “Ready to Receive” signal and motion start.&#xD;&#xA;Available in all accumulation and transportation modes.&#xD;&#xA;" manufacturing="no">
+      </Parmeter>
+      <Parmeter number="89" index="1" index_count="4" bytes="2" uom="ms" display="decimal" range="0-65535" default="0" configuration="yes" write="yes" reboot="no"
+      name="MRGSideInductPEClrTime" description="Time in milliseconds the photo eye must be clear before releasing the Side Induct Merge" manufacturing="no">
+      </Parmeter>
+      <Parmeter number="90" index="1" index_count="4" bytes="2" uom="mm" display="decimal" range="0-65535" default="4000" configuration="yes" write="yes" reboot="yes"
+      name="GiveUpGapLength" description="If the calculated gap between parcels is larger than this value the ECC abandon trying to close the gap with the ahead parcel . This parameter is used only when ACCMode is Dynamic Gapping Accumulation (DYN_GAP)" manufacturing="no">
+      </Parmeter>
+      <Parmeter number="91" index="1" index_count="4" bytes="2" uom="ms" display="decimal" range="0-65535" default="0" devicetype="2" configuration="yes" write="yes" reboot="no"
+      name="FullSetTmr" description="This is the delay counter preset to delay the sending of the Fullness set message to the PLC when managing any of the fullness levels" manufacturing="no">
+      </Parmeter>
+      <Parmeter number="92" index="1" index_count="4" bytes="2" uom="ms" display="decimal" range="0-65535" default="0" devicetype="2" configuration="yes" write="yes" reboot="no"
+      name="FullClrTmr" description="This is the delay counter preset to delay the sending of the Fullness clear message to the PLC when managing any of the fullness levels" manufacturing="no">
+      </Parmeter>
+      <Parmeter number="93" index="1" index_count="1" bytes="2" uom="" display="decimal" range="0-65535" default="85" configuration="yes" write="yes" reboot="no"
+      name="AnalogOutputRatio" description="This parameter takes the maximum speed and coverts it to a number between 0 and 255 for the analog voltage to a VFD. If the top speed of a  VFD conveyor section is 3000mm/sec then to determine the AnalogOutputRatio, use the following equation: 3000mm/sec * (AnalogOutputRatio*1000) = 255." manufacturing="no">
+      </Parmeter>
+      <Parmeter number="94" index="1" index_count="4" bytes="2" uom="mm" display="decimal" range="0-65535" default="50" configuration="yes" write="yes" reboot="no"
+        name="DvtSettings" 
+        description="Index 1 = The division point between large and small packages.  
+                    Any package lengths measured less than the value are “small” and any greater than the value are “large”
+                    Index 2 =  If this is set to a value of non-zero this parameter determines the amount of ticks the RAT waits 
+                    for a package that has been seen on an Induct photo eye to for this package to arrive at the RAT corresponding photo-eye. 
+                    If the package does not arrive in this amount of ticks the package is removed from the RAT buffer and a divert confirmation 
+                    with an error code of 'F5' is given to the host.
+                    Index 3 = RAT Reset Length - Amount of ticks RAT will run after a reset before setting reset complete flag
+                    Index 4 = If this set to a value of non-zero, if a box exits the RAT in less ticks than this parameter , the RAT will fault with an appropriate error message 
+                    indicating that this condition occurred. This applies to straight –thru diverts such as paths of '1 to 2', '2 to 1', '3 to 4', or '4 to 3' only." manufacturing="no">
+      </Parmeter>
+      <Parmeter number="95" index="1" index_count="2" bytes="2" uom="mm" display="decimal" range="0-65535" default="100" configuration="yes" write="yes" reboot="no"
+          name="DvtTrainValTRPSmPckg" description=" Index 1 = Training value for the transportation direction motors (rollers) for the “small” packages.  
+          This sets the distance the “small” packages will travel on the transportation motors before beginning to divert
+          Index 2 = 0 = Training Value means dist in mm between trail edge of box and stop point 1= Training Value means center of RAT in mm 
+          2 = Training Value means dst in mm between leading edge box and stop point." manufacturing="no">
+      </Parmeter>
+      <Parmeter number="96" index="1" index_count="2" bytes="2" uom="mm" display="decimal" range="0-65535" configuration="yes" write="yes" reboot="no"
+        name="DvtTrainValTRPLgPckg" description="Index 1 = Training value for the transportation direction motors (rollers) for the “large” packages.  
+        This sets the distance the “large” packages will travel on the transportation motors before beginning to divert.
+        Index 2 = 0 = Training Value means dist in mm between trail edge of box and stop point 1= Training Value means center of RAT in mm 
+        2 = Training Value means dst in mm between leading edge box and stop point." manufacturing="no">
+      </Parmeter>
+      <Parmeter number="97" index="1" index_count="2" bytes="2" uom="mm" display="decimal" range="0-65535" configuration="yes" write="yes" reboot="no"
+        name="DvtTrainValTXFSmPckg" description="Index 1 = Training value for the transfer direction motors band) for the “small” packages.  
+        This sets the distance the “small” packages will travel on the transfer motors before beginning to divert.
+        Index 2 = 0 = Training Value means dist in mm between trail edge of box and stop point 1= Training Value means center of RAT in mm 
+        2 = Training Value means dst in mm between leading edge box and stop point." manufacturing="no">
+      </Parmeter>
+      <Parmeter number="98" index="1" index_count="2" bytes="2" uom="mm" display="decimal" range="0-65535" configuration="yes" write="yes" reboot="no"
+        name="DvtTrainValTXFLgPckg" description="Training value for the transfer direction motors (rollers) for the “large” packages.  
+        This sets the distance the “large” packages will travel on the transfer motors before beginning to divert.
+        Index 2 = 0 = Training Value means dist in mm between trail edge of box and stop point 1= Training Value means center of RAT in mm 
+        2 = Training Value means dst in mm between leading edge box and stop point." manufacturing="no">
+      </Parmeter>
+      <Parmeter number="99" index="1" index_count="4" bytes="2" uom="mm" display="decimal" range="0-65535" configuration="yes" write="yes" reboot="no"
+      name="MinimumGap" description="This defines the minimum gap length used to detect the minimum gap error. Automatically used in the SWD and min gap detection zones configured by TrackCtrlFlags." manufacturing="no">
+      </Parmeter>
+      <Parmeter number="100" index="1" index_count="4" bytes="2" uom="mm" display="decimal" range="0-65535" configuration="yes" write="yes" reboot="no"
+      name="SlugBumpDistance" description="The minimum amount of distance in mm the slug belt must run when the upstream photo eye is detected as blocked. Only used in Slug Mode (0x18)." manufacturing="no">
+      </Parmeter>
+      <Parmeter number="101" index="1" index_count="4" bytes="2" uom="mm" display="decimal" range="0-65535" configuration="yes" write="yes" reboot="no"
+      name="SlugCrunchDistance" description="The distance in mm the slug belt will continue to run after the photo eye is blocked. Can be thought of as an accumulation delay in mm. Only used in Slug Mode (0x18)." manufacturing="no">
+      </Parmeter>
+      <Parmeter number="102" index="1" index_count="4" bytes="2" uom="mm" display="decimal" range="0-65535" configuration="yes" write="yes" reboot="no"
+      name="RTRPESetTmr" description="RTR photo eye set timer." manufacturing="no">
+      </Parmeter>
+      <Parmeter number="103" index="1" index_count="4" bytes="2" uom="mm" display="decimal" range="0-65535" configuration="yes" write="yes" reboot="no"
+      name="RtrPEClreTmr" description="RTR photo eye clear timer" manufacturing="no">
+      </Parmeter>
+      <Parmeter number="104" index="1" index_count="4" bytes="2" uom="mm" display="decimal" range="0-65535" default="200" configuration="yes" write="yes" reboot="no"
+      name="RequiredDynamicGap" description="This parameter is only used in dynamic gapping mode. Refer to section “Dynamic Gapping Accumulation” for further details." manufacturing="no">
+      </Parmeter>
+      <Parmeter number="105" index="1" index_count="4" bytes="2" uom="mm" display="decimal" range="0-65535" default="200" devicetype="2" configuration="yes" write="yes" reboot="no"
+      name="RequiredStaticGap" description="This parameter is used for static gapping. Refer to section “Traditional Static Gapping Accumulation” for further details." manufacturing="no">
+      </Parmeter>
+      <Parmeter number="106" index="1" index_count="2" bytes="2" uom="" display="decimal" range="0-65535" configuration="yes" write="yes" reboot="no"
+      name="RATBrakingSpeedDelay" description="RAT Braking Speed Delay in mm from RAT entrance. RAT will go to braking speed when diverting after this many millimeters of travel" manufacturing="no">
+      </Parmeter>
+      <Parmeter number="107" index_count="4" bytes="2" uom="ms" display="decimal" range="0-65535" default="5000" configuration="yes" write="yes" reboot="no"
+      name="HornDurationTmr" description="The time, in ms, that the horn stays on during a start or fault reset in EPM mode" manufacturing="no">
+      </Parmeter>
+      <Parmeter number="108" index_count="4" bytes="2" uom="ms" display="decimal" range="0-65535" default="100" configuration="yes" write="yes" reboot="no"
+      name="ServoDelayTmr" description="Index 1 = time in ms between trp stop and servo/solenoid up, 
+                                        Index 2 = time in ms between txf exit and servo/solenoid down
+                                        Index 3 = time in ms between servo/solenoid down command and actual servo/solenoid down(used when entering in the RAT - ensures RAT lift mechanism is all the way down when entering."  manufacturing="no">
+      </Parmeter>
+      <Parmeter number="109" index_count="1" bytes="2" uom="ms" display="decimal" range="0-65535" default="0" configuration="yes" write="yes" reboot="no"
+      name="DvtRequestRetryTmr" description="Used for the SWD when WaitForDivertResponse in SWDMode is set. When configured above 0, divert requests not acked will be retried on a periodic basis. This parameter indicates the time period in ms." manufacturing="no">
+      </Parmeter>
+      <Parmeter number="110" index="1" index_count="4" bytes="2" uom="" display="decimal" range="0-1000" configuration="yes" write="yes" reboot="no"
+      name="TrkEdgeBeginWindow" description="Reduce the ConveyorLength by this value to compare if the leading edge of the package less than the result, if true the package is unexpected." manufacturing="no">
+      </Parmeter>
+      <Parmeter number="111" index="1" index_count="4" bytes="2" uom="" display="decimal" range="0-1000" configuration="yes" write="yes" reboot="no"
+      name="TrkEdgeEndWindow" description="Reduce the ConveyorLength by this value to compare if the leading edge of the package less than the result, if true the package is unexpected." manufacturing="no">
+      </Parmeter>
+      <Parmeter number="112" index="1" index_count="2" bytes="2" uom="" display="hex" range="0-65535" configuration="no" write="no" reboot="no"
+      name="NoPLCAckCounter" description="Number of messages the PLC has not acked." manufacturing="no">
+      </Parmeter>
+      <Parmeter number="113" index="1" index_count="1" bytes="2" uom="" display="decimal" range="0-65535" configuration="yes" write="no" reboot="no"
+      name="ParametersChecksum" description="This parameter is written to when the device is commanded to recalculate the checksum thru the Command Parameter (bit 4 of Parameter 1).  When the Calculate Parameter Checksum Request is set high in Parameter 1, the device will calculate a checksum for the complete parameter  table and store the resulting checksum to this parameter.  The PLC can read this parameter to check if any parameters have changed." manufacturing="no">
+      </Parmeter>
+      <Parmeter number="114" index="1" index_count="2" bytes="2" uom="" display="decimal" range="0-65535" configuration="yes" write="no" reboot="no"
+      name="FirmwareChecksum" description="This parameter is written to only on startup of the device. Index 1 is used to store the checksum value of the bootloader code of the firmware. Index 2 is used to store the checksum value of the complete firmware code." manufacturing="no">
+      </Parmeter>
+      <Parmeter number="115" index="1" index_count="4" bytes="2" uom="ms" display="decimal" range="0-65535" devicetype="2" configuration="yes" write="yes" reboot="no"
+      name="HeartBeat" description="Length in time between heart beat messages sent to the downstream parameter.  If the downstream does not ACK the heart beat then the zone sets a Downstream Heartbeat Failure warning.  Setting this parameter to 0 disables the heart beat functionality." manufacturing="no">
+      </Parmeter>
+      <Parmeter number="116" index="1" index_count="4" bytes="4" uom="h" display="decimal" range="0-4294967295" configuration="no" write="no" reboot="no"
+      name="DeviceRunTime" description="Total run time of each zone of ECC in hours." manufacturing="no">
+      </Parmeter>
+      <Parmeter number="117" index="1" index_count="4" bytes="4" uom="" display="decimal" range="0-4294967295" configuration="no" write="no" reboot="no"
+      name="ProductCount" description="Count of Total product seen by any configured photo eye in the ECC " manufacturing="no">
+      </Parmeter>
+      <Parmeter number="118" index="1" index_count="4" bytes="4" uom="" display="decimal" range="0-4294967295" configuration="no" write="no" reboot="no"
+      name="DvtStatusFlags" description="Count of Total product seen by any configured photo eye in the ECC " manufacturing="no">
+        <Flags>
+          <Bit byte="0" bit="0" description="RAT =rat_busy" />
+          <Bit byte="0" bit="1" description="RAT =rat_occupied" />
+          <Bit byte="0" bit="2" description="RAT =rat_divert_init" />
+          <Bit byte="0" bit="3" description="RAT =wait_for_divert_event" />
+          <Bit byte="0" bit="4" description="RAT =rat_request_destination" />
+          <Bit byte="0" bit="5" description="RAT =rat_operation_ready" />
+          <Bit byte="0" bit="6" description="RAT =rat_rtr_at_dest" />
+          <Bit byte="0" bit="7" description="RAT =rat_release_init" />
+          <Bit byte="1" bit="0" description="RAT =rat_internal_fault" />
+          <Bit byte="1" bit="1" description="RAT =rat_trp_stopped" />
+          <Bit byte="1" bit="2" description="RAT =rat_txf_stopped" />
+          <Bit byte="1" bit="3" description="RAT =rat_trp_init_flag" />
+          <Bit byte="1" bit="4" description="RAT =rat_txf_init_flag" />
+          <Bit byte="1" bit="5" description="RAT =rat_release_rtr" />
+          <Bit byte="1" bit="6" description="RAT =rat_Divert_ConditionsOK" />
+          <Bit byte="1" bit="7" description="RAT =Unsused" />
+          <Bit byte="2" bit="0" description="RAT =Unsused" />
+          <Bit byte="2" bit="1" description="RAT =Unsused" />
+          <Bit byte="2" bit="2" description="RAT =Unsused" />
+          <Bit byte="2" bit="3" description="RAT =Unsused" />
+          <Bit byte="2" bit="4" description="RAT =Unsused" />
+          <Bit byte="2" bit="5" description="RAT =Unsused" />
+          <Bit byte="2" bit="6" description="RAT =Unsused" />
+          <Bit byte="2" bit="7" description="RAT =Unsused" />
+        </Flags>
+      </Parmeter>
+      <Parmeter number="119" index="1" index_count="4" bytes="4" uom="" display="decimal" range="0-4294967295" configuration="no" write="no" reboot="no"
+      name="OutputVoltage" description="Voltage on the EDM analog output" manufacturing="no">
+      </Parmeter>
+      <Parmeter number="120" index="1" index_count="4" bytes="4" uom="" display="decimal" range="0-4294967295" configuration="yes" write="no" reboot="no"
+      name="HW_FW_Version" description="Index 1 = Version, Index 2 = Device Type, Index 3 = Date, Index 4 = Family Version" manufacturing="no">
+      </Parmeter>
+      <Parmeter number="121" index="1" index_count="2" bytes="4" uom="" display="hex" range="0-4294967295" configuration="no" write="no" reboot="no"
+      name="SysState" description="" manufacturing="no">
+        <Flags>
+          <Bit byte="0" bit="0" description="24V power supply is on" />
+          <Bit byte="0" bit="1" description="Motor Power Supply Status" />
+          <Bit byte="0" bit="2" description="Board Temperature is acceptable" />
+          <Bit byte="0" bit="3" description="Chain Input On" />
+          <Bit byte="0" bit="4" description="ServoMoving" />
+          <Bit byte="0" bit="5" description="ServoPosUp_R" />
+          <Bit byte="0" bit="6" description="ServoPosDwn_L" />
+          <Bit byte="0" bit="7" description="ServoPosCenter" />
+
+          <Bit byte="1" bit="0" description="Aux In1 ON" />
+          <Bit byte="1" bit="1" description="Aux In2 ON" />
+          <Bit byte="1" bit="2" description="Aux In3 ON" />
+          <Bit byte="1" bit="3" description="Aux In4 ON" />
+          <Bit byte="1" bit="4" description="Aux In5 ON" />
+          <Bit byte="1" bit="5" description="Aux In6 ON" />
+          <Bit byte="1" bit="6" description="Aux In7 ON" />
+          <Bit byte="1" bit="7" description="Aux In8 ON" />
+          <Bit byte="2" bit="0" description="Aux Out1 ON" />
+          <Bit byte="2" bit="1" description="Aux Out2 ON" />
+          <Bit byte="2" bit="2" description="Aux Out3 ON" />
+          <Bit byte="2" bit="3" description="Aux Out4 ON" />
+          <Bit byte="2" bit="4" description="Aux Out5 ON" />
+          <Bit byte="2" bit="5" description="Aux Out6 ON" />
+          <Bit byte="2" bit="6" description="Aux Out7 ON" />
+          <Bit byte="2" bit="7" description="Aux Out8 ON" />
+          <Bit byte="3" bit="0" description="ECC Device/EDM VFD" />
+          <Bit byte="3" bit="1" description="EDM IO    /EDM VFD" />
+        </Flags>
+      </Parmeter>
+      <Parmeter number="122" index="1" index_count="4" bytes="4" uom="" display="decimal" range="0-4294967295" configuration="no" write="no" reboot="no"
+      name="ZoneStatus" description="" manufacturing="no">
+        <Flags>
+          <Bit byte="0" bit="0" description="Slave Zone Enabled Status" />
+          <Bit byte="0" bit="1" description="Gap Being Pulled Status" />
+          <Bit byte="0" bit="2" description="Zone Runon Lead Status" />
+          <Bit byte="0" bit="3" description="Zone Runon Trail Status" />
+          <Bit byte="0" bit="4" description="PE Clear" />
+          <Bit byte="0" bit="5" description="Brake Status" />
+          <Bit byte="0" bit="6" description="Send In Progress" />
+          <Bit byte="0" bit="7" description="Ready To Send" />
+          <Bit byte="1" bit="0" description="Fault Present" />
+          <Bit byte="1" bit="1" description="Occupied Status" />
+          <Bit byte="1" bit="2" description="Merge Release" />
+          <Bit byte="1" bit="3" description="Minimum Speed" />
+          <Bit byte="1" bit="4" description="Maximum Speed" />
+          <Bit byte="1" bit="5" description="Accumulated" />
+          <Bit byte="1" bit="6" description="Receive in Progress" />
+          <Bit byte="1" bit="7" description="Ready to Receive" />
+          <Bit byte="3" bit="0" description="Motor Running" />
+          <Bit byte="3" bit="1" description="Zone Faulted" />
+          <Bit byte="3" bit="2" description="Zone Warning" />
+          <Bit byte="3" bit="3" description="PE Clear" />
+          <Bit byte="3" bit="4" description="PE Health Status" />
+          <Bit byte="3" bit="5" description="Brake Status" />
+          <Bit byte="3" bit="6" description="Full Status" />
+          <Bit byte="3" bit="7" description="Jog Status" />
+        </Flags>
+      </Parmeter>
+      <Parmeter number="123" index="1" index_count="4" bytes="4" uom="" display="hex" range="0-4294967295" devicetype="2" configuration="no" write="no" reboot="no"
+      name="ZoneWarning" description="" manufacturing="no">
+        <Flags>
+          <Bit byte="0" bit="0" description="CAN Req Buf PLC No Ack" />
+          <Bit byte="0" bit="1" description="CAN Req Buf ECC No Ack" />
+          <Bit byte="0" bit="2" description="CAN Chain Ack Buffer Full" />
+          <Bit byte="0" bit="3" description="Divert Buffer Full" />
+          <Bit byte="0" bit="4" description="CAN-xmitExt-Buf-OVFFlag" />
+          <Bit byte="0" bit="5" description="LCD-WriteAll-Checksum-Failed" />
+          <Bit byte="0" bit="7" description="EDM Warning Servo-Position-Error" />
+
+          <Bit byte="1" bit="1" description="CAN transmit request buffer overflow" />
+          <Bit byte="1" bit="2" description="CAN transmit response buffer overflow" />
+          <Bit byte="1" bit="3" description="CAN receive buffer overflow (hardware buffer)" />
+          <Bit byte="1" bit="4" description="CAN TX/RX Warning (over95 errors on the bus)" />
+          <Bit byte="1" bit="5" description="CAN TX bus overflow (over 255 errors)" />
+          <Bit byte="1" bit="6" description="CAN TX bus passive (over 127 TX errors on the bus)" />
+          <Bit byte="1" bit="7" description="CAN RX bus passive (over 127 RX errors on the bus)" />
+
+          <Bit byte="2" bit="0" description="PE Health Warning" />
+          <Bit byte="2" bit="1" description="Undervoltage-Warning-48V" />
+          <Bit byte="2" bit="2" description="Motor-Over-Current-Warning" />
+          <Bit byte="2" bit="3" description="PLC-HeartBeat-Failure" />
+          <Bit byte="2" bit="4" description="Tracking FIFO Mishandle" />
+          <Bit byte="2" bit="5" description="PassThru HeartBeat Failure" />
+          <Bit byte="2" bit="6" description="Downstream Heartbeat Failure" />
+          <Bit byte="2" bit="7" description="IO Heartbeat Failure" />
+        </Flags>
+      </Parmeter>
+      <Parmeter number="124" index="1" index_count="4" bytes="4" uom="" display="hex" range="0-4294967295" devicetype="2" configuration="no" write="no" reboot="no"
+      name="ZoneFaults" description="" manufacturing="no">
+        <Flags>
+
+
+          <Bit byte="0" bit="0" description="Motor Over Current" />
+          <Bit byte="0" bit="1" description="Motor Stall Error" />
+          <Bit byte="0" bit="2" description="Motor Hall Effect Error" />
+          <Bit byte="0" bit="3" description="CAN Bus Fault" />
+          <Bit byte="0" bit="4" description="Drive Faulted" />
+          <Bit byte="0" bit="5" description="TrackEdge NO Resp Error - no PLC response to Tracking edge message(s)"/>
+          <Bit byte="0" bit="6" description="RAT_invalid_destination_received" />
+          <Bit byte="0" bit="7" description="RAT_invalid_source_received"/>
+
+          <Bit byte="1" bit="0" description="RAT:_multiple_pckgs_detected_pe1" />
+          <Bit byte="1" bit="1" description="RAT:_multiple_pckgs_detected_pe2" />
+          <Bit byte="1" bit="2" description="RAT:_multiple_pckgs_detected_pe3" />
+          <Bit byte="1" bit="3" description="RAT:_multiple_pckgs_detected_pe4" />
+          <Bit byte="1" bit="4" description="RAT:_package_did_not_exit_in_time_trp"/>
+          <Bit byte="1" bit="5" description="RAT:_package_did_not_exit_in_time_txf" />
+          <Bit byte="1" bit="6" description="RAT:_too_many_buffer_entries" />
+
+          <Bit byte="2" bit="0" description="Zone Jam" />
+          <Bit byte="2" bit="1" description="Motor Over Temp" />
+          <Bit byte="2" bit="2" description="CAN Init Error" />
+          <Bit byte="2" bit="3" description="Over Voltage 48V" />
+          <Bit byte="2" bit="4" description="Under Voltage 48V" />
+          <Bit byte="2" bit="5" description="Board Over Temp" />
+
+          <Bit byte="3" bit="0" description="RAT_package_blocked_pe_while_trying_to_divert" />
+          <Bit byte="3" bit="1" description="RAT_package_blocked_pe_while_already_diverting" />
+          <Bit byte="3" bit="2" description="RAT/SWD/EDM Servo Position Error" />
+          <Bit byte="3" bit="4" description="RAT package showed up at exit too early / SWD_DvtControllerHeartbeatFail" />
+          <Bit byte="3" bit="5" description="SWD_FltInvalid_PkgPath" />
+
+        </Flags>
+      </Parmeter>
+
+      <Parmeter number="125" index="1" index_count="4" bytes="4" uom="" display="hex" range="0-4294967295" devicetype="2" configuration="yes" write="yes" reboot="no"
+      name="ZoneStatusMsgEnable" description="When a bit is set in the following table, a Zone Status Message (refer to Table 30:  Peer Status to PLC Message Decode Types) is sent out for the corresponding zone when the status bit changes. The table is used to mask what status bits the PLC will receive on change of state. When a message is sent out, the complete double word value of the ZoneStatus Parameter is sent out in a message to the PLC." manufacturing="no">
+      </Parmeter>
+      <Parmeter number="126" index="1" index_count="2" bytes="4" uom="ms" display="decimal" range="0-4294967295" configuration="no" write="yes" reboot="no"
+      name="PASServoDivertDelay" description="The delay in ms before moving the servo arm to the extend position from the retracted position. Index1 = Servo1, Index2 = Servo2." manufacturing="no">
+      </Parmeter>
+      <Parmeter number="127" index="1" index_count="2" bytes="4" uom="ms" display="decimal" range="0-4294967295" configuration="no" write="yes" reboot="no"
+      name="PASServoRetractDelay" description="The delay in ms before moving the servo arm to the retract position from the extended position. Index1 = Servo1, Index2 = Servo2." manufacturing="no">
+      </Parmeter>
+      <Parmeter number="133" index="1" index_count="4" bytes="4" uom="" display="hex" range="0-4294967295" configuration="no" write="no" reboot="no"
+      name="DebugZoneState" description="" manufacturing="no">
+        <Flags>
+          <Bit byte="0" bit="0" description="RTR_IN_Present" />
+          <Bit byte="0" bit="1" description="RTS_IN_Present" />
+          <Bit byte="0" bit="2" description="RTR_OUT_Present" />
+          <Bit byte="0" bit="3" description="RTS_OUT_Present" />
+        </Flags>
+      </Parmeter>
+      <Parmeter number="134" index="1" index_count="4" bytes="2" uom="" display="decimal" range="0-65535" configuration="no" write="yes" reboot="no"
+      name="DvtJobIOPort" description="This displays the destination output port assigned to relevant package in the package FIFO.Index1=DVTjob[0](first package in FIFO), Index2=DVTjob[1], Index3=DVTjob[2], Index4=DVTjob[3]" manufacturing="no">
+      </Parmeter>
+      <Parmeter number="135" index="1" index_count="4" bytes="2" uom="mm" display="decimal" range="0-65535" configuration="no" write="yes" reboot="no"
+      name="DvtJobPackageID" description="This displays the package id assigned to relevant package in the package FIFO." manufacturing="no">
+      </Parmeter>
+      <Parmeter number="136" index="1" index_count="4" bytes="2" uom="mm" display="hex" range="0-255" configuration="no" write="yes" reboot="no"
+      name="DvtProcStatus" description="Index1= incoming_buffer_count_value, Index2=process_counter_value, Index3 = reset_rat_counter_value, Index4=same_counter_value" manufacturing="no">
+      </Parmeter>
+      <Parmeter number="137" index="1" index_count="4" bytes="2" uom="" display="hex" range="0-65535" configuration="no" write="no" reboot="no"
+      name="DvtProcPackageID" description="Current Package Index1=Input Port, Index2=package_id, Index3=rat Destination, Index4=rat_dvt_job_index." manufacturing="no">
+      </Parmeter>
+      <Parmeter number="138" index="1" index_count="4" bytes="4" uom="" display="decimal" range="0-4294967295" configuration="no" write="no" reboot="no"
+      name="DvtStatusFlags" description="Count of Total product seen by any configured photo eye in the ECC " manufacturing="no">
+        <Flags>
+          <Bit byte="0" bit="0" description="RAT =rat_busy" />
+          <Bit byte="0" bit="1" description="RAT =rat_occupied" />
+          <Bit byte="0" bit="2" description="RAT =rat_divert_init" />
+          <Bit byte="0" bit="3" description="RAT =wait_for_divert_event" />
+          <Bit byte="0" bit="4" description="RAT =rat_request_destination" />
+          <Bit byte="0" bit="5" description="RAT =rat_operation_ready" />
+          <Bit byte="0" bit="6" description="RAT =rat_rtr_at_dest" />
+          <Bit byte="0" bit="7" description="RAT =rat_release_init" />
+          <Bit byte="1" bit="0" description="RAT =rat_internal_fault" />
+          <Bit byte="1" bit="1" description="RAT =rat_trp_stopped" />
+          <Bit byte="1" bit="2" description="RAT =rat_txf_stopped" />
+          <Bit byte="1" bit="3" description="RAT =rat_trp_init_flag" />
+          <Bit byte="1" bit="4" description="RAT =rat_txf_init_flag" />
+          <Bit byte="1" bit="5" description="RAT =rat_release_rtr" />
+          <Bit byte="1" bit="6" description="RAT =rat_Divert_ConditionsOK" />
+          <Bit byte="1" bit="7" description="RAT =rat_Reset_Tmr_Flag" />
+          <Bit byte="2" bit="0" description="RAT =rat_Req_Reset_Init" />
+          <Bit byte="2" bit="1" description="RAT =rat_Req_Reset_Complete" />
+          <Bit byte="2" bit="2" description="RAT =rat_Output_PE_Blocked" />
+          <Bit byte="2" bit="3" description="RAT =rat_Input_PE_Blocked" />
+          <Bit byte="2" bit="4" description="RAT =rat_TRP_PE_Blocked" />
+          <Bit byte="2" bit="5" description="RAT =rat_TXF_PE_Blocked" />
+          <Bit byte="2" bit="6" description="RAT =Unused" />
+          <Bit byte="2" bit="7" description="RAT =Unused" />
+          <Bit byte="3" bit="0" description="RAT =rat_package_in_RAT" />
+        </Flags>
+      </Parmeter>
+    </ECC>
+    <EDM>
+    </EDM>
+    <Parmeter>
+    </Parmeter>
+  </CL110>
+  <Parmeter number="16" index="1" index_count="1" bytes="1" uom="" display="decimal" range="22-25" configuration="yes" write="yes" reboot="yes"
+  name="EDMMode" description="22=PLC Mode (future) 23=IO Mode 24=VFD" manufacturing="no">
+    <RangeValues>
+      <Range value="22" description="PLC Mode (future)" />
+      <Range value="23" description="IO Mode" />
+      <Range value="24" description="VFD Mode" />
+      <Range value="25" description="SWD Slave" />
+    </RangeValues>
+  </Parmeter>
+</NewDataSet>

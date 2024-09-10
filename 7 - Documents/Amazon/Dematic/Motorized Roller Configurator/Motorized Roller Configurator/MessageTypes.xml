@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Messages>
+  <MessageType PLC2Peer="False" Command="10" Symbol="HeartBeat" Description="Peer to Peer Heartbeat Request">
+    <Field DataByte="1" DataSize="1" display="decimal" show="true" description="CP:" />
+    <Field DataByte="2" DataSize="1" display="decimal" show="true" description="EM:" />
+    <Field DataByte="3" DataSize="2" display="hex" show="true" description="Status:" >
+      <Bit index="0" OnText="SZN" />
+      <Bit index="1" OnText="GAP" />
+      <Bit index="2" OnText="ZRL" />
+      <Bit index="3" OnText="ZRT" />
+      <Bit index="4" OnText="PES" />
+      <Bit index="5" OnText="BRK"/>
+      <Bit index="6" OnText="SIP" />
+      <Bit index="7" OnText="RTS"/>
+      <Bit index="8" OnText="FLT" />
+      <Bit index="9" OnText="OCC" />
+      <Bit index="10" OnText="REL" />
+      <Bit index="11" OnText="MIN" />
+      <Bit index="12" OnText="MAX"/>
+      <Bit index="13" OnText="ACC" />
+      <Bit index="14" OnText="FUL" />
+      <Bit index="15" OnText="RTR" />
+    </Field>
+  </MessageType>
+  <MessageType PLC2Peer="False" Command="20" Symbol="HeartBeatACK" Description="Peer to Peer Heartbeat Response">
+    <Field DataByte="1" DataSize="1" display="decimal" show="true" description="CP:" />
+    <Field DataByte="3" DataSize="2" display="hex" show="true" description="Status:" >
+      <Bit index="0" OnText="SZN" />
+      <Bit index="1" OnText="GAP" />
+      <Bit index="2" OnText="ZRL" />
+      <Bit index="3" OnText="ZRT" />
+      <Bit index="4" OnText="PES" />
+      <Bit index="5" OnText="BRK"/>
+      <Bit index="6" OnText="SIP" />
+      <Bit index="7" OnText="RTS"/>
+      <Bit index="8" OnText="FLT" />
+      <Bit index="9" OnText="OCC" />
+      <Bit index="10" OnText="REL" />
+      <Bit index="11" OnText="MIN" />
+      <Bit index="12" OnText="MAX"/>
+      <Bit index="13" OnText="ACC" />
+      <Bit index="14" OnText="FUL" />
+      <Bit index="15" OnText="RTR" />
+    </Field>
+  </MessageType>
+  <MessageType PLC2Peer="False" Command="31" Symbol="PkgXferLeadEdge" Description="Package Transfer Lead Edge">
+    <Field DataByte="1" DataSize="1" display="decimal" show="true" description="CP:" />
+    <Field DataByte="2" DataSize="1" display="decimal" show="true" description="ID:" />
+    <Field DataByte="3" DataSize="1" display="hex" show="true" description="FLAGS:" />
+    <Field DataByte="4" DataSize="1" display="hex" show="true" description="IntPath:" />
+  </MessageType>
+  <MessageType PLC2Peer="False" Command="32" Symbol="PkgXferTrailEdge" Description="Package Transfer Trail Edge">
+    <Field DataByte="1" DataSize="1" display="decimal" show="true" description="CP:" />
+    <Field DataByte="2" DataSize="1" display="decimal" show="true" description="ID:" />
+    <Field DataByte="3" DataSize="1" display="hex" show="true" description="FLAGS:" />
+    <Field DataByte="4" DataSize="1" display="hex" show="true" description="IntPath:" />
+  </MessageType>
+  <MessageType PLC2Peer="False" Command="33" Symbol="PkgXferLeadEdgeConf" Description="Package transfer leading edge confirmation">
+    <Field DataByte="1" DataSize="1" display="decimal" show="true" description="CP:" />
+    <Field DataByte="2" DataSize="1" display="decimal" show="true" description="ID:" />
+    <Field DataByte="3" DataSize="1" display="hex" show="true" description="FLAGS:" />
+    <Field DataByte="4" DataSize="1" display="hex" show="true" description="IntPath:" />
+  </MessageType>
+  <MessageType PLC2Peer="False" Command="3E" Symbol="DebugDataReq" Description="Debug data request" />
+  <MessageType PLC2Peer="False" Command="3F" Symbol="DebugDataResp" Description="Debug data request response " />
+  <MessageType PLC2Peer="False" Command="50" Symbol="ACK" Description="Message Acknowledgement " />
+  <MessageType PLC2Peer="False" Command="60" Symbol="ChainAck" Description="Chain Acknowledgement to PLC or ECC" />
+  <MessageType PLC2Peer="False" Command="61" Symbol="ChainAckPCG" Description="Chain Acknowledgement to PCG" />
+  <MessageType PLC2Peer="False" Command="72" Symbol="SWDDvtCmd" Description="SWD Divert Command Message" />
+  <MessageType PLC2Peer="False" Command="73" Symbol="SWDDvtCmdAck" Description="SWD Divert Command Acknowledgement Message" />
+  <MessageType PLC2Peer="False" Command="74" Symbol="SWDDvtStatus" Description="SWD Divert Status Message" />
+  <MessageType PLC2Peer="False" Command="75" Symbol="SWDDvtInitCmd" Description="SWD Divert Init Command Message" />
+  <MessageType PLC2Peer="False" Command="76" Symbol="SWDDvtInitAck" Description="SWD Divert Init Command Acknowledgement Message" />
+  <MessageType PLC2Peer="False" Command="81" Symbol="Fault" Description="Status message to PLC type indicating a Fault">
+    <Field DataByte="1" DataSize="1" display="decimal" show="true" description="Zone:" />
+    <Field DataByte="2" DataSize="4" display="hex" show="true" description="" >
+      <Bit index="0" OnText="Motor Over Current" />
+      <Bit index="1" OnText="Motor Stall Error" />
+      <Bit index="2" OnText="Motor Hall Effect Error" />
+      <Bit index="3" OnText="CAN Bus Fault" />
+      <Bit index="4" OnText="Drive Faulted" />
+      <Bit index="5" OnText="TrackEdge NO Resp Error - no PLC response to Tracking edge message(s)"/>
+      <Bit index="6" OnText="RAT_invalid_destination_received" />
+      <Bit index="7" OnText="RAT_invalid_source_received"/>
+
+      <Bit index="8" OnText="RAT:_multiple_pckgs_detected_pe1" />
+      <Bit index="9" OnText="RAT:_multiple_pckgs_detected_pe2" />
+      <Bit index="10" OnText="RAT:_multiple_pckgs_detected_pe3" />
+      <Bit index="11" OnText="RAT:_multiple_pckgs_detected_pe4" />
+      <Bit index="12" OnText="RAT:_package_did_not_exit_in_time_trp"/>
+      <Bit index="13" OnText="RAT:_package_did_not_exit_in_time_txf" />
+      <Bit index="14" OnText="RAT:_too_many_buffer_entries" />
+
+      <Bit index="16" OnText="Zone Jam" />
+      <Bit index="17" OnText="Motor Over Temp" />
+      <Bit index="18" OnText="CAN Init Error" />
+      <Bit index="19" OnText="Over Voltage 48V" />
+      <Bit index="20" OnText="Under Voltage 48V" />
+      <Bit index="21" OnText="Board Over Temp" />
+
+      <Bit index="24" OnText="RAT_package_blocked_pe_while_trying_to_divert" />
+      <Bit index="25" OnText="RAT_package_blocked_pe_while_already_diverting" />
+      <Bit index="26" OnText="RAT/SWD/EDM Servo Position Error" />
+      <Bit index="27" OnText="SWD_DvtControllerHeartbeatFail" />
+      <Bit index="28" OnText="SWD_FltInvalid_PkgPath" />
+    </Field>
+  </MessageType>
+  <MessageType PLC2Peer="False" Command="82" Symbol="Warning" Description="Status message to PLC type indicating a Warning">
+    <Field DataByte="1" DataSize="1" display="decimal" show="true" description="Zone:" />
+    <Field DataByte="2" DataSize="4" display="hex" show="true" description="" >
+      <Bit index="0" OnText="CAN Req Buf PLC No Ack" />
+      <Bit index="1" OnText="CAN Req Buf ECC No Ack" />
+      <Bit index="2" OnText="CAN Chain Ack Buffer Full" />
+      <Bit index="3" OnText="Divert Buffer Full" />
+      <Bit index="4" OnText="CAN-xmitExt-Buf-OVFFlag" />
+      <Bit index="5" OnText="LCD-WriteAll-Checksum-Failed" />
+      <Bit index="7" OnText="EDM Warning Servo-Position-Error" />
+
+      <Bit index="8" OnText="Downstream Heartbeat Failure" />
+      <Bit index="9" OnText="CAN transmit request buffer overflow" />
+      <Bit index="10" OnText="CAN transmit response buffer overflow" />
+      <Bit index="11" OnText="CAN receive buffer overflow (hardware buffer)" />
+      <Bit index="12" OnText="CAN TX/RX Warning (over95 errors on the bus)" />
+      <Bit index="13" OnText="CAN TX bus overflow (over 255 errors)" />
+      <Bit index="14" OnText="CAN TX bus passive (over 127 TX errors on the bus)" />
+      <Bit index="15" OnText="CAN RX bus passive (over 127 RX errors on the bus)" />
+
+      <Bit index="16" OnText="PE Health Warning" />
+      <Bit index="17" OnText="Undervoltage-Warning-48V" />
+      <Bit index="18" OnText="Motor-Over-Current-Warning" />
+      <Bit index="19" OnText="PLC-HeartBeat-Failure" />
+      <Bit index="20" OnText="Tracking FIFO Mishandle" />
+    </Field>
+  </MessageType>
+  <MessageType PLC2Peer="False" Command="83" Symbol="Status" Description="Zone status to the PLC (response to a zone status request)">
+    <Field DataByte="1" DataSize="1" display="decimal" show="true" description="Zone:" />
+    <Field DataByte="2" DataSize="1" display="hex" show="true" description="Status:">
+      <Bit index="0" OnText="MTR Running" />
+      <Bit index="1" OnText="Zone Faulted" />
+      <Bit index="2" OnText="Zone Warning" />
+      <Bit index="3" OnText="PE Clear" OffText="PE Blocked" />
+      <Bit index="4" OnText="PE Health" />
+      <Bit index="5" OnText="Brake"/>
+      <Bit index="6" OnText="Full" />
+    </Field>
+    <Field DataByte="3" DataSize="1" display="decimal" show="true" description="EM:" />
+    <Field DataByte="4" DataSize="2" display="hex" show="true" description="Status:" >
+      <Bit index="0" OnText="SZN(CP2)" />
+      <Bit index="1" OnText="GAP(CP2)" />
+      <Bit index="2" OnText="ZRL(CP1)" />
+      <Bit index="3" OnText="ZRT(CP1)" />
+      <Bit index="4" OnText="PES(CP1)" />
+      <Bit index="5" OnText="BRK(CP2)"/>
+      <Bit index="6" OnText="SIP(CP2)" />
+      <Bit index="7" OnText="RTS(CP1)"/>
+      <Bit index="8" OnText="FLT(CP2)" />
+      <Bit index="9" OnText="OCC(CP2)" />
+      <Bit index="10" OnText="REL(CP2)" />
+      <Bit index="11" OnText="MIN(CP2)" />
+      <Bit index="12" OnText="MAX(CP2)"/>
+      <Bit index="13" OnText="ACC(CP2)" />
+      <Bit index="14" OnText="FUL" />
+      <Bit index="15" OnText="RTR(CP2)" />
+    </Field>
+  </MessageType>
+  <MessageType PLC2Peer="False" Command="84" Symbol="FullStatus" Description="Status message to PLC indicating fullness level" />
+  <MessageType PLC2Peer="False" Command="85" Symbol="DvtReq" Description="Divert request to PLC">
+    <Field DataByte="1" DataSize="1" display="decimal" show="true" description="ID:" />
+    <Field DataByte="2" DataSize="1" display="hex" show="true" description="FLAGS:" />
+  </MessageType>
+  <MessageType PLC2Peer="False" Command="86" Symbol="DvtCnf" Description="Divert confirmation to PLC">
+    <Field DataByte="1" DataSize="1" display="decimal" show="true" description="ID:" />
+    <Field DataByte="2" DataSize="1" display="hex" show="true" description="FLAGS:" />
+    <Field DataByte="3" DataSize="1" display="hex" show="true" description="Status:" >
+      <Bit index="0" OnText="MinGap" />
+      <Bit index="1" OnText="Switched2Default" />
+      <Bit index="2" OnText="NoDvtResponse" />
+      <Bit index="3" OnText="InvalidPLCData" />
+      <Bit index="4" OnText="MisDivert" />
+      <Bit index="5" OnText="Unexpected"/>
+      <Bit index="6" OnText="LateOrMissingResponse" />
+      <Bit index="7" OnText="MUZError"/>
+    </Field>
+    <Field DataByte="4" DataSize="1" display="hex" show="true" description="IntPath:" />
+    <Field DataByte="5" DataSize="1" display="hex" show="true" description="ActPath:" />
+  </MessageType>
+  <MessageType PLC2Peer="False" Command="87" Symbol="PkgLeadEdgeID" Description="Status message to PLC type indicating a Package Leading Edge">
+    <Field DataByte="1" DataSize="1" display="decimal" show="true" description="ZONE:" />
+    <Field DataByte="2" DataSize="1" display="decimal" show="true" description="ID:" />
+    <Field DataByte="3" DataSize="1" display="hex" show="true" description="FLAGS:" />
+  </MessageType>
+  <MessageType PLC2Peer="False" Command="88" Symbol="PkgTrailEdgeID" Description="Status message to PLC type indicating a Package Trainling Edge">
+    <Field DataByte="1" DataSize="1" display="decimal" show="true" description="ZONE:" />
+    <Field DataByte="2" DataSize="1" display="decimal" show="true" description="ID:" />
+    <Field DataByte="3" DataSize="1" display="hex" show="true" description="FLAGS:" />
+  </MessageType>
+  <MessageType PLC2Peer="False" Command="89" Symbol="MinGapError" Description="Status message to PLC indicating minimum gap detected">
+    <Field DataByte="1" DataSize="1" display="decimal" show="true" description="ZONE:" />
+    <Field DataByte="2" DataSize="1" display="decimal" show="true" description="ID:" />
+    <Field DataByte="3" DataSize="1" display="hex" show="true" description="FLAGS:" />
+    <Field DataByte="4" DataSize="1" display="decimal" show="true" description="AHEAD_ID:" />
+    <Field DataByte="5" DataSize="1" display="hex" show="true" description="AHEAD_FLAGS:" />
+  </MessageType>
+  <MessageType PLC2Peer="False" Command="8A" Symbol="MissingPkgError" Description="Status message to PLC indicating missing package in tracking">
+    <Field DataByte="1" DataSize="1" display="decimal" show="true" description="ZONE:" />
+    <Field DataByte="2" DataSize="1" display="decimal" show="true" description="ID:" />
+    <Field DataByte="3" DataSize="1" display="hex" show="true" description="FLAGS:" />
+  </MessageType>
+  <MessageType PLC2Peer="False" Command="8B" Symbol="MUZError" Description="Status message to PLC indicating a moving update zone error (MUZ error)">
+    <Field DataByte="1" DataSize="1" display="decimal" show="true" description="ZONE:" />
+    <Field DataByte="2" DataSize="1" display="decimal" show="true" description="ID:" />
+    <Field DataByte="3" DataSize="1" display="hex" show="true" description="FLAGS:" />
+  </MessageType>
+  <MessageType PLC2Peer="False" Command="8C" Symbol="FIFOFullError" Description="Status message to PLC indicating package id has been discarded because internal tracking FIFO is full">
+    <Field DataByte="1" DataSize="1" display="decimal" show="true" description="ZONE:" />
+    <Field DataByte="2" DataSize="1" display="decimal" show="true" description="ID:" />
+    <Field DataByte="3" DataSize="1" display="hex" show="true" description="FLAGS:" />
+  </MessageType>
+  <MessageType PLC2Peer="False" Command="8D" Symbol="RessettableFault" Description="Status message to PLC indicating that a fault has been cleared and the ECC/EDM is waiting for a fault reset complete message from the PLC">
+    <Field DataByte="1" DataSize="1" display="hex" show="true" description="">
+      <Bit index="0" OnText="Resettable Fault Exist" OffText="Fault Reset Complete"/>
+    </Field>
+  </MessageType>
+  <MessageType PLC2Peer="False" Command="90" Symbol="ReadResponse" Description="Response to PLC Read Request message">
+    <Field DataByte="1" DataSize="1" display="decimal" show="true" description="Parameter:" />
+    <Field DataByte="2" DataSize="1" display="decimal" show="true" description="Index:" />
+    <Field DataByte="3" DataSize="4" display="hex" show="true" description="Value:" />
+  </MessageType>
+  <MessageType PLC2Peer="False" Command="91" Symbol="ReadResponsePCG" Description="Response to PCG Read Request message">
+    <Field DataByte="1" DataSize="1" display="decimal" show="true" description="Parameter:" />
+    <Field DataByte="2" DataSize="1" display="decimal" show="true" description="Index:" />
+    <Field DataByte="3" DataSize="4" display="hex" show="true" description="Value:" />
+  </MessageType>
+  <MessageType PLC2Peer="False" Command="A4" Symbol="DynGapDebugMsg" Description="Dynamic Gapping Debug Message" />
+  <MessageType PLC2Peer="False" Command="A5" Symbol="TrackDebugInfoLeadIn" Description="Tracking Info Lead In Debug Message" />
+  <MessageType PLC2Peer="False" Command="A6" Symbol="TrkDebugInfoLeadOut" Description="Tracking Info Lead Out Debug Message" />
+  <MessageType PLC2Peer="False" Command="A7" Symbol="RatXferDebug" Description="RAT Transfer Debug Message" />
+  <MessageType PLC2Peer="False" Command="A8" Symbol="TrkDebugInfoTrailIn" Description="Tacking Info Trail In Debug Message" />
+  <MessageType PLC2Peer="False" Command="A9" Symbol="TrkDebugDvtCnfOut" Description="Tracking Divert Confirmation Out Debug Message" />
+  <MessageType PLC2Peer="False" Command="AA" Symbol="SWDDebugSkipDvtOut" Description="SWD Skip Divert Debug Message" />
+  <MessageType PLC2Peer="False" Command="AB" Symbol="SWDDebugPkgIDQOut" Description="" />
+  <MessageType PLC2Peer="False" Command="AC" Symbol="SWDDebugDvtReqOut" Description="" />
+  <MessageType PLC2Peer="False" Command="C0" Symbol="IO_Heartbeat" Description="I/O heartbeat between PLC and EDM I/O" Ack="C1">
+    <Field DataByte="1" DataSize="1" display="hex" show="true" description="Outputs:" >
+      <Bit index="0" OnText ="1=ON" OffText="" Description=""/>
+      <Bit index="1" OnText ="2=ON" OffText="" Description=""/>
+      <Bit index="2" OnText ="3=ON" OffText="" Description=""/>
+      <Bit index="3" OnText ="4=ON" OffText="" Description=""/>
+      <Bit index="4" OnText ="5=ON" OffText="" Description=""/>
+      <Bit index="5" OnText ="6=ON" OffText="" Description=""/>
+      <Bit index="6" OnText ="7=ON" OffText="" Description=""/>
+      <Bit index="7" OnText ="8=ON" OffText="" Description=""/>
+    </Field>
+  </MessageType>
+  <MessageType PLC2Peer="False" Command="C1" Symbol="IO_HeartbeatAck" Description="I/O heartbeat ack between PLC and EDM I/O" Req="C0">
+    <Field DataByte="1" DataSize="1" display="hex" show="true" description="Inputs:" >
+      <Bit index="0" OnText ="1=ON" OffText="" Description=""/>
+      <Bit index="1" OnText ="2=ON" OffText="" Description=""/>
+      <Bit index="2" OnText ="3=ON" OffText="" Description=""/>
+      <Bit index="3" OnText ="4=ON" OffText="" Description=""/>
+      <Bit index="4" OnText ="5=ON" OffText="" Description=""/>
+      <Bit index="5" OnText ="6=ON" OffText="" Description=""/>
+      <Bit index="6" OnText ="7=ON" OffText="" Description=""/>
+      <Bit index="7" OnText ="8=ON" OffText="" Description=""/>
+    </Field>
+  </MessageType>
+  <MessageType PLC2Peer="False" Command="C2" Symbol="PassThru" Description="PLC Pass Thru message" Ack="C3">
+    <Field DataByte="0" DataSize="1" display="hex" show="false" description="sequence number" />
+    <Field DataByte="1" DataSize="1" display="hex" show="true" description="Zone 1" >
+      <Bit index="0" OnText ="MTR" OffText="" Description="Run Motor"/>
+      <Bit index="1" OnText ="REV" OffText="FWD" Description="Motor Direction"/>
+      <Bit index="2" OnText ="SPD1" OffText="" Description="Speed Select 1"/>
+      <Bit index="3" OnText ="SPD2" OffText="" Description="Speed Select 2"/>
+      <Bit index="4" OnText ="BRK" OffText="" Description="Brake Enable"/>
+      <Bit index="5" OnText ="OUT" OffText="" Description="Aux Output"/>
+    </Field>
+    <Field DataByte="2" DataSize="1" display="hex" show="true" description="Zone 2" >
+      <Bit index="0" OnText ="MTR" OffText="" Description="Run Motor"/>
+      <Bit index="1" OnText ="REV" OffText="FWD" Description="Motor Direction"/>
+      <Bit index="2" OnText ="SPD1" OffText="" Description="Speed Select 1"/>
+      <Bit index="3" OnText ="SPD2" OffText="" Description="Speed Select 2"/>
+      <Bit index="4" OnText ="BRK" OffText="" Description="Brake Enable"/>
+      <Bit index="5" OnText ="OUT" OffText="" Description="Aux Output"/>
+    </Field>
+    <Field DataByte="3" DataSize="1" display="hex" show="true" description="Zone 3" >
+      <Bit index="0" OnText ="MTR" OffText="" Description="Run Motor"/>
+      <Bit index="1" OnText ="REV" OffText="FWD" Description="Motor Direction"/>
+      <Bit index="2" OnText ="SPD1" OffText="" Description="Speed Select 1"/>
+      <Bit index="3" OnText ="SPD2" OffText="" Description="Speed Select 2"/>
+      <Bit index="4" OnText ="BRK" OffText="" Description="Brake Enable"/>
+      <Bit index="5" OnText ="OUT" OffText="" Description="Aux Output"/>
+    </Field>
+    <Field DataByte="4" DataSize="1" display="hex" show="true" description="Zone 4" >
+      <Bit index="0" OnText ="MTR" OffText="" Description="Run Motor"/>
+      <Bit index="1" OnText ="REV" OffText="FWD" Description="Motor Direction"/>
+      <Bit index="2" OnText ="SPD1" OffText="" Description="Speed Select 1"/>
+      <Bit index="3" OnText ="SPD2" OffText="" Description="Speed Select 2"/>
+      <Bit index="4" OnText ="BRK" OffText="" Description="Brake Enable"/>
+      <Bit index="5" OnText ="OUT" OffText="" Description="Aux Output"/>
+    </Field>
+  </MessageType>
+  <MessageType PLC2Peer="False" Command="C3" Symbol="PassThruAck" Description="PLC Pass Thru Ack message" Req="C2">
+    <Field DataByte="0" DataSize="1" display="hex" show="false" description="sequence number" />
+    <Field DataByte="1" DataSize="1" display="hex" show="true" description="Zone 1" >
+      <Bit index="0" OnText ="RNG" OffText="" Description="Motor Running"/>
+      <Bit index="1" OnText ="FLT" OffText="" Description="Zone Faulted"/>
+      <Bit index="2" OnText ="WRN" OffText="" Description="Zone Warning"/>
+      <Bit index="3" OnText ="" OffText="PE" Description="Photo eye Status"/>
+      <Bit index="4" OnText ="PEH" OffText="" Description="Photo eye Health Status"/>
+      <Bit index="5" OnText ="IN" OffText="" Description="Aux Input"/>
+    </Field>
+    <Field DataByte="2" DataSize="1" display="hex" show="true" description="Zone 2" >
+      <Bit index="0" OnText ="RNG" OffText="" Description="Motor Running"/>
+      <Bit index="1" OnText ="FLT" OffText="" Description="Zone Faulted"/>
+      <Bit index="2" OnText ="WRN" OffText="" Description="Zone Warning"/>
+      <Bit index="3" OnText ="" OffText="PE" Description="Photo eye Status"/>
+      <Bit index="4" OnText ="PEH" OffText="" Description="Photo eye Health Status"/>
+      <Bit index="5" OnText ="IN" OffText="" Description="Aux Input"/>
+    </Field>
+    <Field DataByte="3" DataSize="1" display="hex" show="true" description="Zone 3" >
+      <Bit index="0" OnText ="RNG" OffText="" Description="Motor Running"/>
+      <Bit index="1" OnText ="FLT" OffText="" Description="Zone Faulted"/>
+      <Bit index="2" OnText ="WRN" OffText="" Description="Zone Warning"/>
+      <Bit index="3" OnText ="" OffText="PE" Description="Photo eye Status"/>
+      <Bit index="4" OnText ="PEH" OffText="" Description="Photo eye Health Status"/>
+      <Bit index="5" OnText ="IN" OffText="" Description="Aux Input"/>
+    </Field>
+    <Field DataByte="4" DataSize="1" display="hex" show="true" description="Zone 4" >
+      <Bit index="0" OnText ="RNG" OffText="" Description="Motor Running"/>
+      <Bit index="1" OnText ="FLT" OffText="" Description="Zone Faulted"/>
+      <Bit index="2" OnText ="WRN" OffText="" Description="Zone Warning"/>
+      <Bit index="3" OnText ="" OffText="PE" Description="Photo eye Status"/>
+      <Bit index="4" OnText ="PEH" OffText="" Description="Photo eye Health Status"/>
+      <Bit index="5" OnText ="IN" OffText="" Description="Aux Input"/>
+    </Field>
+  </MessageType>
+  <MessageType PLC2Peer="True" Command="00" Symbol="WriteDataPLC" Description="PLC Write Parameter Value">
+    <Field DataByte="2" DataSize="1" display="decimal" show="true" description="Parameter:" />
+    <Field DataByte="3" DataSize="1" display="decimal" show="true" description="Index:" />
+    <Field DataByte="4" DataSize="4" display="hex" show="true" description="Value:" />
+  </MessageType>
+  <MessageType PLC2Peer="True" Command="07" Symbol="PLCDivertResponse" Description="PLC Divert Destination Response">
+    <Field DataByte="2" DataSize="1" display="decimal" show="true" description="ID:" />
+    <Field DataByte="3" DataSize="1" display="hex" show="true" description="FLAGS:" />
+    <Field DataByte="4" DataSize="1" display="hex" show="true" description="IntPath:" />
+  </MessageType>
+  <MessageType PLC2Peer="True" Command="10" Symbol="WriteDataPCG" Description="PCG Write Parameter Value">
+    <Field DataByte="2" DataSize="1" display="decimal" show="true" description="Parameter:" />
+    <Field DataByte="3" DataSize="1" display="decimal" show="true" description="Index:" />
+    <Field DataByte="4" DataSize="4" display="hex" show="true" description="Value:" />
+  </MessageType>
+  <MessageType PLC2Peer="True" Command="40" Symbol="ReadReqPLC" Description="PLC Read Parameter Value">
+    <Field DataByte="2" DataSize="1" display="decimal" show="true" description="Parameter:" />
+    <Field DataByte="3" DataSize="1" display="decimal" show="true" description="Index:" />
+  </MessageType>
+  <MessageType PLC2Peer="True" Command="50" Symbol="ReadReqPCG" Description="PCG Read Parameter Value">
+    <Field DataByte="2" DataSize="1" display="decimal" show="true" description="Parameter:" />
+    <Field DataByte="3" DataSize="1" display="decimal" show="true" description="Index:" />
+  </MessageType>
+</Messages>
