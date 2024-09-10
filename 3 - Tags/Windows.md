@@ -183,6 +183,10 @@ Create bat file and put info inside it
 Set_COMPAT_LAYER=RunAsInvoker
 Start #sample.exe
 ```
+
+
+System Icons:  **%SystemRoot%\system32\imageres.dll**
+
 # Reference
 
 [Windows technical documentation](https://learn.microsoft.com/en-us/windows/)

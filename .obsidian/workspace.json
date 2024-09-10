@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "10f76f6e2a477993",
+            "id": "153972670542a103",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "6 - Main Notes/You Unix Linux The Ultimate Guide.md",
+                "file": "6 - Main Notes/51240053 - Conagra Brands - Waterloo IA - Snacks Multipack Cartoner CNA.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 517.5
+    "width": 377.5
   },
   "right": {
     "id": "296912aba2423345",
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "6 - Main Notes/You Unix Linux The Ultimate Guide.md",
+                "file": "6 - Main Notes/51240053 - Conagra Brands - Waterloo IA - Snacks Multipack Cartoner CNA.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "6 - Main Notes/You Unix Linux The Ultimate Guide.md",
+                "file": "6 - Main Notes/51240053 - Conagra Brands - Waterloo IA - Snacks Multipack Cartoner CNA.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "6 - Main Notes/You Unix Linux The Ultimate Guide.md"
+                "file": "6 - Main Notes/51240053 - Conagra Brands - Waterloo IA - Snacks Multipack Cartoner CNA.md"
               }
             }
           }
@@ -147,19 +147,23 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "10f76f6e2a477993",
+  "active": "153972670542a103",
   "lastOpenFiles": [
-    "7 - Documents/Zone Flex Max/ZFM/11E. Importing and Exporting ZFA configurations (incomplete; needs more pictures).docx",
-    "7 - Documents/Zone Flex Max/ZFM/11D. PB 16-018 ZoneFlex Advanced Status Update.pdf",
-    "7 - Documents/Zone Flex Max/ZFM/11B. Options for Quick Recovery from loss of Heartbeat on ZFM.docx",
-    "7 - Documents/Zone Flex Max/ZFM/9. ZFA ZFM Configuration Guide v2.70.pdf",
-    "7 - Documents/Zone Flex Max/ZFM/8. ZoneFlex Training Hands-On Helps updated.pptx",
-    "7 - Documents/Zone Flex Max/ZFM/6. ZFM Connection and Unhook MD Supplement to GD Procedure.docx",
-    "7 - Documents/Zone Flex Max/ZFM/3. ZFM Config Upload.pdf",
-    "7 - Documents/Zone Flex Max/ZFM/2. Setting Up the ZFM-ZFC Windows 10 Dell Machine.docx",
-    "7 - Documents/Zone Flex Max/ZFM/ZoneFlex Troubleshoot.docx",
-    "7 - Documents/Zone Flex Max/ZFM/Programming+Tote+Stacker’s+Conveylinx+Board(1).pptx",
-    "7 - Documents/Zone Flex Max/ZFM/11A. Manual Install of ZFM, RNDIS Driver, AnyConnect v2(1).pdf",
+    "7 - Documents/O&O/ooregeditor/en/OORegEdt.dll",
+    "7 - Documents/O&O/ooregeditor/en",
+    "7 - Documents/O&O/ooregeditor/de/OORegEdt.dll",
+    "7 - Documents/O&O/ooregeditor/de",
+    "7 - Documents/O&O/ooregeditor/README.TXT",
+    "7 - Documents/O&O/ooregeditor/OORegEdt32.exe",
+    "7 - Documents/O&O/ooregeditor/OORegEdt.INI",
+    "7 - Documents/O&O/ooregeditor/OORegEdt.exe",
+    "7 - Documents/O&O/ooregeditor",
+    "7 - Documents/O&O/OOSU10.exe",
+    "7 - Documents/O&O/ooregeditor.zip",
+    "3 - Tags/Windows.md",
+    "6 - Main Notes/51240053 - Conagra Brands - Waterloo IA - Snacks Multipack Cartoner CNA.md",
+    "6 - Main Notes/51240056 - Conagra Brands - Russellville AR - Frozen Dinner Line 11 Pallet Wrapper CNA Upgrades.md",
+    "6 - Main Notes/You Unix Linux The Ultimate Guide.md",
     "7 - Documents/Amazon/MDR Card/Orange MDR Settings.PNG",
     "7 - Documents/Emerson/PAC Machine Edition v10.2.9762.0/PAC8000 Tools/409/splash.bmp",
     "7 - Documents/Emerson/PAC Machine Edition v10.2.9762.0/Manager Tools/HTML Audit Trail/Server/printer.gif",
@@ -170,9 +174,7 @@
     "7 - Documents/Amazon/USS Tote Stackers/conveyLinx/parametersForConveyLinx0.png",
     "7 - Documents/Amazon/USS Tote Stackers/conveyLinx/parametersForConveyLinx0.1.png",
     "7 - Documents/Amazon/SmartPac/SmartPac_ShipID_Reader/2021-10-13_23-57-14-851.jpg",
-    "6 - Main Notes/51240053 - Conagra Brands - Waterloo IA - Snacks Multipack Cartoner CNA.md",
     "6 - Main Notes/Travel Booking.md",
-    "6 - Main Notes/You Unix Linux The Ultimate Guide.md",
     "Bookmarks/README.md",
     "6 - Main Notes/Lazyvim.md",
     "6 - Main Notes/browser.md",
@@ -181,7 +183,6 @@
     "6 - Main Notes/Factorytalk Activation Manager.md",
     "6 - Main Notes/Factorytalk Activation Manager manual cleanup.md",
     "6 - Main Notes/Factorytalk Activation Manager Flexnet Stopped.md",
-    "6 - Main Notes/51240056 - Conagra Brands - Russellville AR - Frozen Dinner Line 11 Pallet Wrapper CNA Upgrades.md",
     "6 - Main Notes/PanelView Plus 7.md",
     "6 - Main Notes/51240105 - Kraft Heinz - Cedar Rapids IA VFD IP Addressing - General.md",
     "6 - Main Notes/51240107 - Builders FirstSource - New Hampton IA SLC 5-01 Upgrade - General.md",
@@ -194,7 +195,6 @@
     "6 - Main Notes/51240055 - Conagra Brands - Russellville AR - Frozen Dinner Line 11 FlexiCell Panel CNA Upgrades.md",
     "6 - Main Notes/TCP Port Probe Utility.md",
     "6 - Main Notes/Python Packet Cannon.md",
-    "3 - Tags/Conagra.md",
     "Untitled.canvas"
   ]
 }
