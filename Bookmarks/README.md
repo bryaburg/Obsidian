@@ -439,6 +439,7 @@ Some websites can fall into multiple categories. If you can't find what you need
 - [Cheatography](https://cheatography.com) - Cheatography provides cheat sheets and quick references for various topics.
 - [OverAPI](https://overapi.com) - OverAPI is a collection of cheat sheets for various programming languages.
 - [Plagiarism Remover](https://www.plagiarismremover.net) - Plagiarism Remover helps you rewrite content to avoid plagiarism.
+- [Lecture News] - to any website add *lecture.news/* to the front of it
 
 ## AI/ML
 
@@ -2712,7 +2713,10 @@ real interview questions from your favorite companies
 - [massgrave](https://massgrave.dev/genuine-installation-media)
 - [bobpony](https://dl.bobpony.com/windows/10/)
 - [MSDN](https://files.dog/MSDN/)
-- [Helzerg Optimiser](https://github.com/hellzerg/optimizer) 
+- [Helzerg Optimizer](https://github.com/hellzerg/optimizer) 
+- [WindHawk](https://windhawk.net/) - Customization App
+- [CopyQ](https://hluk.github.io/CopyQ/) - clipboard tooluniget ui
+- 
 
 ### Windows Recovery
 

@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "153972670542a103",
+            "id": "fd4c17e25c4ea0ce",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -16,6 +16,26 @@
                 "file": "6 - Main Notes/51240053 - Conagra Brands - Waterloo IA - Snacks Multipack Cartoner CNA.md",
                 "mode": "source",
                 "source": false
+              }
+            }
+          },
+          {
+            "id": "9f623b232fd04f18",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "7 - Documents/Plus/PS-5000 Series Programmable Limit Switch.pdf"
+              }
+            }
+          },
+          {
+            "id": "419216f7a7247e0f",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "7 - Documents/Rockwell/Allen Bradely/843E Absolute Encoders/EthernetIP Absolute Encoder.pdf"
               }
             }
           }
@@ -147,21 +167,25 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "153972670542a103",
+  "active": "fd4c17e25c4ea0ce",
   "lastOpenFiles": [
-    "7 - Documents/O&O/ooregeditor/en/OORegEdt.dll",
-    "7 - Documents/O&O/ooregeditor/en",
-    "7 - Documents/O&O/ooregeditor/de/OORegEdt.dll",
-    "7 - Documents/O&O/ooregeditor/de",
-    "7 - Documents/O&O/ooregeditor/README.TXT",
-    "7 - Documents/O&O/ooregeditor/OORegEdt32.exe",
-    "7 - Documents/O&O/ooregeditor/OORegEdt.INI",
-    "7 - Documents/O&O/ooregeditor/OORegEdt.exe",
-    "7 - Documents/O&O/ooregeditor",
-    "7 - Documents/O&O/OOSU10.exe",
-    "7 - Documents/O&O/ooregeditor.zip",
-    "3 - Tags/Windows.md",
+    "7 - Documents/Rockwell/Allen Bradely/PanelView 800 HMI Terminals",
+    "7 - Documents/Rockwell/Allen Bradely/New folder",
+    "7 - Documents/Rockwell/Allen Bradely/Smart industrial control/Branch Motor Control & Protection.pdf",
+    "7 - Documents/Rockwell/Allen Bradely/Smart industrial control",
+    "7 - Documents/Rockwell/Allen Bradely/Drives in Common Bus Configurations/Drives in Common Bus Configurations.pdf",
+    "7 - Documents/Rockwell/Allen Bradely/Drives in Common Bus Configurations",
+    "7 - Documents/Rockwell/Allen Bradely/Emonitor Condition Monitoring Software/Emonitor Condition Monitoring Software (v4.1).pdf",
+    "7 - Documents/Rockwell/Allen Bradely/Emonitor Condition Monitoring Software",
+    "7 - Documents/Rockwell/Allen Bradely/Food and Beverage Industry Solution/Dairy Dryer Closed-Loop Prescriptive Analytics Application.pdf",
+    "7 - Documents/Rockwell/Allen Bradely/Food and Beverage Industry Solution",
+    "7 - Documents/Rockwell/Allen Bradely/CIP Safety Encoder/Safely-limited Position with Rollover via a GuardLogix Controller.pdf",
+    "Bookmarks/README.md",
     "6 - Main Notes/51240053 - Conagra Brands - Waterloo IA - Snacks Multipack Cartoner CNA.md",
+    "Screenshots/Pasted image 20240910154007.png",
+    "Computer-Help/computer_help.md",
+    "6 - Main Notes/yt-dlp.md",
+    "3 - Tags/Windows.md",
     "6 - Main Notes/51240056 - Conagra Brands - Russellville AR - Frozen Dinner Line 11 Pallet Wrapper CNA Upgrades.md",
     "6 - Main Notes/You Unix Linux The Ultimate Guide.md",
     "7 - Documents/Amazon/MDR Card/Orange MDR Settings.PNG",
@@ -173,9 +197,7 @@
     "7 - Documents/Emerson/PAC Machine Edition v10.2.9762.0/InstallBitmaps/ME256.bmp",
     "7 - Documents/Amazon/USS Tote Stackers/conveyLinx/parametersForConveyLinx0.png",
     "7 - Documents/Amazon/USS Tote Stackers/conveyLinx/parametersForConveyLinx0.1.png",
-    "7 - Documents/Amazon/SmartPac/SmartPac_ShipID_Reader/2021-10-13_23-57-14-851.jpg",
     "6 - Main Notes/Travel Booking.md",
-    "Bookmarks/README.md",
     "6 - Main Notes/Lazyvim.md",
     "6 - Main Notes/browser.md",
     "6 - Main Notes/Git.md",
@@ -193,8 +215,6 @@
     "6 - Main Notes/51240017 - Builders FirstSource - New Hampton IA SLC Support - General.md",
     "6 - Main Notes/51240018 - Kraft Heinz - Cedar Rapids IA 2024 Support - General.md",
     "6 - Main Notes/51240055 - Conagra Brands - Russellville AR - Frozen Dinner Line 11 FlexiCell Panel CNA Upgrades.md",
-    "6 - Main Notes/TCP Port Probe Utility.md",
-    "6 - Main Notes/Python Packet Cannon.md",
     "Untitled.canvas"
   ]
 }
