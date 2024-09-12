@@ -4,42 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "64d3da489e2d3395",
+        "id": "1bf006edc9e783d2",
         "type": "tabs",
         "children": [
           {
-            "id": "fd4c17e25c4ea0ce",
+            "id": "631442b72e5372eb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "6 - Main Notes/51240053 - Conagra Brands - Waterloo IA - Snacks Multipack Cartoner CNA.md",
+                "file": "6 - Main Notes/Virtualbox.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "9f623b232fd04f18",
+            "id": "b032e08e8946affd",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "7 - Documents/Plus/PS-5000 Series Programmable Limit Switch.pdf"
-              }
-            }
-          },
-          {
-            "id": "419216f7a7247e0f",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "7 - Documents/Rockwell/Allen Bradely/843E Absolute Encoders/EthernetIP Absolute Encoder.pdf"
+                "file": "6 - Main Notes/Virtualbox Guest Additions.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -105,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "6 - Main Notes/51240053 - Conagra Brands - Waterloo IA - Snacks Multipack Cartoner CNA.md",
+                "file": "6 - Main Notes/Virtualbox Guest Additions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "6 - Main Notes/51240053 - Conagra Brands - Waterloo IA - Snacks Multipack Cartoner CNA.md",
+                "file": "6 - Main Notes/Virtualbox Guest Additions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "6 - Main Notes/51240053 - Conagra Brands - Waterloo IA - Snacks Multipack Cartoner CNA.md"
+                "file": "6 - Main Notes/Virtualbox Guest Additions.md"
               }
             }
           }
@@ -167,30 +160,33 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "fd4c17e25c4ea0ce",
+  "active": "b032e08e8946affd",
   "lastOpenFiles": [
+    "6 - Main Notes/Virtualbox.md",
+    "6 - Main Notes/Virtualbox Guest Additions.md",
+    "6 - Main Notes/Linux.md",
+    "6 - Main Notes/You Unix Linux The Ultimate Guide.md",
+    "Certs/Inductive Automation/Ignition/8.1/BryanBurgessCore8.1Certification.pdf",
+    "Certs/Inductive Automation/Ignition/8.1",
+    "Certs/Inductive Automation/Ignition/New folder",
+    "Certs/Inductive Automation/Ignition",
+    "Certs/Inductive Automation/New folder",
+    "Certs/Inductive Automation",
+    "Certs/New folder",
+    "3 - Tags/Windows.md",
+    "Computer-Help/computer_help.md",
+    "Books/Linux Books/Your UNIX Linux - The Ultimate Guide - Third Edition.pdf",
+    "6 - Main Notes/Tracfone APN Settings.md",
+    "6 - Main Notes/51240053 - Conagra Brands - Waterloo IA - Snacks Multipack Cartoner CNA.md",
+    "7 - Documents/Plus/PS-5000 Series Programmable Limit Switch.pdf",
     "Books/Wireshark/Practical-Packet-Analysis-Using-Wireshark-to-Solve-Real-World-Problems.pdf",
-    "Books/Wireshark/Practical Packet Analysis.htm",
-    "Books/Wireshark/Learn Wireshark A definitive guide to expertly analyzing protocols and troubleshooting networks using Wireshark.htm",
-    "Books/Web Secuirty/websecurityfordevelopers.pdf",
-    "Books/Thermodynamics Books/ME 2121 - [Yunus_A._Cengel,_Michael_A._Boles]_Thermodynamics.pdf",
-    "Books/Thermodynamics Books/ME 2121 - [Yunus_A._Cengel,_Michael_A._Boles]_Thermodynamics solution.pdf",
-    "Books/TCP-IP/tcp_ip-illustrated-vol-2.pdf",
-    "Books/Systems Architecture/Systems Architecture 7th Edition.pdf",
-    "Books/Systems Architecture/Embedded Systems Architecture Design and write software for embedded devices to build safe and connected systems.pdf",
-    "Books/Survival/King, Jeff & Johnson, Max - The Home Distiller's Workbook - Your Guide to Making Moonshine, Whisky, Vodka, Rum and So Much More! (2012, FOI Publishing) - libgen.li.pdf",
-    "Books/Survival/King, Jeff & Johnson, Max - The Home Distiller's Workbook - Your Guide to Making Moonshine, Whisky, Vodka, Rum and So Much More! (2012, FOI Publishing) - libgen.li.epub",
     "Books/Solution Manual - Mechanics of Materials 8th Edition -  Hibbeler/Mechanics_of_Materials-8th-Hibbeler.jpg",
     "Books/Mechanical Engineering Books Collection/TURBOMACHINES/Turbomachinery Design and Theory/Turbomachinery Design.jpg",
     "Books/Mechanical Engineering Books Collection/THEORY OF MACHINES/Theory Of Machine R.S.Khurmi/theory-mach.jpg",
     "Bookmarks/README.md",
-    "6 - Main Notes/51240053 - Conagra Brands - Waterloo IA - Snacks Multipack Cartoner CNA.md",
     "Screenshots/Pasted image 20240910154007.png",
-    "Computer-Help/computer_help.md",
     "6 - Main Notes/yt-dlp.md",
-    "3 - Tags/Windows.md",
     "6 - Main Notes/51240056 - Conagra Brands - Russellville AR - Frozen Dinner Line 11 Pallet Wrapper CNA Upgrades.md",
-    "6 - Main Notes/You Unix Linux The Ultimate Guide.md",
     "7 - Documents/Amazon/MDR Card/Orange MDR Settings.PNG",
     "7 - Documents/Emerson/PAC Machine Edition v10.2.9762.0/PAC8000 Tools/409/splash.bmp",
     "7 - Documents/Emerson/PAC Machine Edition v10.2.9762.0/Manager Tools/HTML Audit Trail/Server/printer.gif",
@@ -212,9 +208,6 @@
     "6 - Main Notes/64220146 - CHS - Mankato MN Suez Remium RO Implementation.md",
     "6 - Main Notes/51240016 - Kraft Heinz - Cedar Rapids IA AMC Ammonia HMI Glitch Reset - General.md",
     "6 - Main Notes/51240012 - Treehouse Foods - Cedar Rapids IA Casepacker Support - General.md",
-    "6 - Main Notes/51240017 - Builders FirstSource - New Hampton IA SLC Support - General.md",
-    "6 - Main Notes/51240018 - Kraft Heinz - Cedar Rapids IA 2024 Support - General.md",
-    "6 - Main Notes/51240055 - Conagra Brands - Russellville AR - Frozen Dinner Line 11 FlexiCell Panel CNA Upgrades.md",
     "Untitled.canvas"
   ]
 }

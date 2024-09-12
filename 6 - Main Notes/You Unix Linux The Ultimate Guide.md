@@ -245,6 +245,70 @@ before an option to negate its meaning
 - 5h and 3l:  Moves 5 spaces to the right and 3 spaces to the left
 - :(colon)  enters into *ex Mode* or *Last Line Mode*
 - vi reads the file $HOME/.exrc (same as ~/.exrc)
+- vim reads from .vimrc
+- i Inserts text to left of cursor (Existing text shifted right)
+- a Appends text to right of cursor (Existing text shifted right)
+- I Inserts text at beginning of line (Existing text shifted right)
+- A Appends text at end of line 
+- o Opens line below 
+- O Opens line above 
+- rch Replaces single character under cursor with ch (No [Esc] required) 
+- R Replaces text from cursor to right (Existing text overwritten) 
+- s Replaces single character under cursor with any number of characters 
+- S Replaces entire line
+- [Esc] and then u to undo the last action. If that makes matters worse, use u again. Linux users should instead use [Ctrl-r].
+- [Ctrl-l] to clear the screen.
+- :set showmode
+- Save and continue editing (:w).
+- Save and exit (:x and :wq).
+- Abandon all changes and quit (:q and :q!).
+- :w Saves file and remains in editing mode 
+- :x Saves file and quits editing mode 
+- :wq As above 
+- :w n2w.pl Like Save As ..... in Microsoft Windows 
+- :w! n2w.pl As above, but overwrites existing file 
+- :q Quits editing mode when no changes are made to file 
+- :q! Quits editing mode after abandoning changes 
+- :n1,n2w build.sql Writes lines n1 to n2 to file build.sql 
+- :3,10w build.sql Writes lines 3 to 10 to file build.sql 
+- :.w build.sql Writes current line to file build.sql 
+- :$w build.sql Writes last line to file build.sql 
+- :!cmd Runs cmd command and returns to Command Mode 
+- :sh Escapes to UNIX shell (use exit to return to vi) 
+- [Ctrl-z] Suspends current session and escapes to UNIX shell (only for shells supporting job control; use fg to return to vi) 
+- :e note1 Stops editing current file and edits file note1 
+- :e! Loads last saved edition of current file (Like Revert in Microsoft Windows) 
+- :e# Returns to editing most recently edited file
+- :5w n2words.pl Writes fifth line to another file 
+- :10,50w n2words.pl Writes 41 lines to another file
+- Escape to the Shell (:sh and [Ctrl-z]) How do you edit and compile your C program repeatedly? You need to make a temporary escape to the shell to run the cc command. There are two ways; the first method is to use the ex Mode command, sh: :sh $ _ You haven’t quit vi yet
+- This returns a shell prompt. Execute cc or any UNIX command here and then return to the editor using [Ctrl-d] or exit
+- h (or [Backspace]) Moves cursor left 
+- l (or spacebar) Moves cursor right 
+- 5l Moves five characters right 
+- k Moves cursor up 
+- 10k Moves 10 lines up 
+- j Moves cursor down 
+- Scrolling 
+- [Ctrl-f] Scrolls full page forward 
+- 5[Ctrl-f] Scrolls five full pages forward 
+- [Ctrl-b] Scrolls full page back 
+- [Ctrl-d] Scrolls half page forward 
+- [Ctrl-u] Scrolls half page back 
+- [Ctrl-l] Redraws the screen (no repeat factor) 
+- Word Navigation 
+- b Moves back to beginning of word 
+- 4b Moves back four words to beginning of word 
+- e Moves forward to end of word 
+- w Moves forward to beginning of word 
+- 8w Moves forward to beginning of 8th word Line Navigation and Absolute Movement 
+- 0 (zero) or | Moves to beginning of line 
+- 30| Moves to column 30 
+- ^ Moves to first word in line 
+- $ Moves to end of line 
+- 1G Moves to beginning of buffer 
+- 40G Moves to line 40 
+- G Moves to end of buffer
 - 
 
 # Reference

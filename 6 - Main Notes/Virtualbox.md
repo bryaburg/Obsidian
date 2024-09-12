@@ -16,3 +16,5 @@ VBoxManage.exe modifyvm "GNS3 VM" --nested-hw-virt on
 ```
 
 # Reference
+
+[[Virtualbox Guest Additions]]

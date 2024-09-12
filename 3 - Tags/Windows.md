@@ -53,7 +53,7 @@ Retrieves the executable path of a specific process given its Process ID.
 ### Upgrade All Installed Applications
 
 ```cmd
-winget upgrade --all
+winget upgrade --accept-package-agreements --all
 ```
 
 Uses the Windows Package Manager (winget) to upgrade all installed applications.
