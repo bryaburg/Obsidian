@@ -4,35 +4,32 @@
     "type": "split",
     "children": [
       {
-        "id": "1bf006edc9e783d2",
+        "id": "a7accb1afa50bbf7",
         "type": "tabs",
         "children": [
           {
-            "id": "631442b72e5372eb",
+            "id": "4638a58f85515372",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "6 - Main Notes/Virtualbox.md",
+                "file": "6 - Main Notes/51240053 - Conagra Brands - Waterloo IA - Snacks Multipack Cartoner CNA.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "b032e08e8946affd",
+            "id": "9b8b22081ef42f33",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "6 - Main Notes/Virtualbox Guest Additions.md",
-                "mode": "source",
-                "source": false
+                "file": "7 - Documents/Rockwell/Allen Bradely/843E Absolute Encoders/843E Absolute Encoders with EthernetIP.pdf"
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "6 - Main Notes/Virtualbox Guest Additions.md",
+                "file": "6 - Main Notes/51240053 - Conagra Brands - Waterloo IA - Snacks Multipack Cartoner CNA.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "6 - Main Notes/Virtualbox Guest Additions.md",
+                "file": "6 - Main Notes/51240053 - Conagra Brands - Waterloo IA - Snacks Multipack Cartoner CNA.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "6 - Main Notes/Virtualbox Guest Additions.md"
+                "file": "6 - Main Notes/51240053 - Conagra Brands - Waterloo IA - Snacks Multipack Cartoner CNA.md"
               }
             }
           }
@@ -160,8 +157,14 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "b032e08e8946affd",
+  "active": "4638a58f85515372",
   "lastOpenFiles": [
+    "7 - Documents/Rockwell/Allen Bradely/843E Absolute Encoders/843E Absolute Encoders with EthernetIP.pdf",
+    "6 - Main Notes/51240053 - Conagra Brands - Waterloo IA - Snacks Multipack Cartoner CNA.md",
+    "Books/Linux Books/Your UNIX Linux - The Ultimate Guide - Third Edition.pdf",
+    "6 - Main Notes/You Unix Linux The Ultimate Guide.md",
+    "6 - Main Notes/Virtualbox.md",
+    "6 - Main Notes/Virtualbox Guest Additions.md",
     "Books/Privacy Books/Michael Bazzell - OSINT Techniques. Resources for Uncovering Online Information - 10th Edition (2023) (2023) - libgen.li.pdf",
     "Books/Privacy Books/Michael Bazzell - Open Source Intelligence Techniques_ Resources for Searching and Analyzing Online Information (2022) - libgen.li-1.pdf",
     "Books/Privacy Books/Michael Bazzell - Open Source Intelligence Techniques_ Resources for Searching and Analyzing Online Information (2022) - libgen.li.pdf",
@@ -170,17 +173,10 @@
     "Books/Privacy Books/Michael Bazzell - Extreme Privacy_ Personal Data Removal Workbook Version 4.0 (2022, Independently Published) - libgen.li-1.pdf",
     "Books/Privacy Books/Michael Bazzell - Extreme Privacy_ Personal Data Removal Workbook Version 4.0 (2022, Independently Published) - libgen.li.pdf",
     "Books/Privacy Books/Michael Bazzell - Extreme Privacy_ Mobile Devices (2023, Independently Published) - libgen.li.pdf",
-    "Books/Privacy Books/Jon DiMaggio - The Art of Cyberwarfare An Investigator's Guide to Espionage, Ransomware, and Organized Cybercrime (2022, No Starch Press) - libgen.li.pdf",
-    "Books/Privacy Books/Jon DiMaggio - Ransom Mafia. Analysis of the World’s First Ransomware Cartel (2021, Analyst1) - libgen.li.pdf",
-    "Books/Privacy Books/Extreme Privacy What It Takes to Disappear.pdf",
-    "6 - Main Notes/Virtualbox.md",
-    "6 - Main Notes/Virtualbox Guest Additions.md",
     "6 - Main Notes/Linux.md",
-    "6 - Main Notes/You Unix Linux The Ultimate Guide.md",
     "3 - Tags/Windows.md",
     "Computer-Help/computer_help.md",
     "6 - Main Notes/Tracfone APN Settings.md",
-    "6 - Main Notes/51240053 - Conagra Brands - Waterloo IA - Snacks Multipack Cartoner CNA.md",
     "Books/Solution Manual - Mechanics of Materials 8th Edition -  Hibbeler/Mechanics_of_Materials-8th-Hibbeler.jpg",
     "Books/Mechanical Engineering Books Collection/TURBOMACHINES/Turbomachinery Design and Theory/Turbomachinery Design.jpg",
     "Books/Mechanical Engineering Books Collection/THEORY OF MACHINES/Theory Of Machine R.S.Khurmi/theory-mach.jpg",

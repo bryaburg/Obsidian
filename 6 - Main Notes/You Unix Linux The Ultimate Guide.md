@@ -309,6 +309,25 @@ before an option to negate its meaning
 - 1G Moves to beginning of buffer 
 - 40G Moves to line 40 
 - G Moves to end of buffer
-- 
+- d$ or D Deletes from cursor to end of line 
+- 5dd Deletes five lines 
+- d/} Deletes from cursor up to first occurrence of } 
+- d30G Deletes from cursor up to line number 30 
+- y$ or Y Yanks from cursor to end of line 
+- 3yw or y3w Yanks three words from cursor position 
+- 5yy Yanks five lines 
+- yG Yanks from cursor to end of file 
+- y?case Yanks from cursor up to first occurrence of string case in reverse direction 
+- c0 Changes from cursor to beginning of line 
+- 3cw or c3w Changes three words 
+- cc Changes current line
+- /pat Searches forward for pattern pat 
+- ?pat Searches backward for pattern pat 
+- n Repeats search in same direction along which previous search was made (no repeat factor) 
+- N Repeats search in direction opposite to that along which previous search was made (no repeat factor) 
+- :n1,n2s/s1/s2/ Replaces first occurrence of string or regular expression s1 with string s2 in lines n1 to n2 
+- :1,10s/find/look/g Replaces all occurrences of find with look in lines 1 to 10 
+- :.,$s/find/look/gc Interactively replaces find with look from current line through end 
+- :s Repeats last substitution on current line (Linux only)
 
 # Reference
