@@ -30,15 +30,19 @@ Tags:
 MSG_N99_260
 ![[Pasted image 20240910154007.png]]
 
-Switch VFD Parameters to Global
-Remove Remove drive status param
-add output current
-update running to active 
-start stop commands review
-speed reference commands update to point to new tag
-speed reference in speed line 30
-N7[0] - N7[39] - N7[50] -  Left alone
-update comments on data highway to say read by n7[50] cup con,  N7[0] & n7[39] Read by CSF (Connect Shop Work Floor).  Also B3[10] Message from cup con 1 
+- ~~Switch VFD Parameters to Global~~
+- ~~Remove Remove drive status param~~
+- ~~add output current~~
+- ~~update running to active~~ 
+- ~~start stop commands review~~
+- ~~speed reference commands update to point to new tag~~
+- speed reference in speed line 30
+- N7[0] - N7[39] - N7[50] -  Left alone
+- ~~update comments on data highway to say read by n7[50] cup con,  N7[0] & n7[39] Read by CSF (Connect Shop Work Floor).  Also B3[10] Message from cup con 1 ~~
+- _2_Main routine 68
+- Program #2 
+	- Channel 1 Lane 2 Glue Head
+	- 
 
 # Reference
 

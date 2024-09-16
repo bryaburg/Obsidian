@@ -19,6 +19,8 @@ Tags:
 *Kimetsu no Yaiba*
 *Jujutsu Kaisen*
 *Giji Harem*
+*Spy X Family*
+
 
 # Reference
 
