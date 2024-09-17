@@ -4,28 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "a7accb1afa50bbf7",
+        "id": "2a7c57feef56cded",
         "type": "tabs",
         "children": [
           {
-            "id": "4638a58f85515372",
+            "id": "b356d91693ddf6c4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "6 - Main Notes/51240053 - Conagra Brands - Waterloo IA - Snacks Multipack Cartoner CNA.md",
+                "file": "Anime List/Anime.md",
                 "mode": "source",
                 "source": false
-              }
-            }
-          },
-          {
-            "id": "9b8b22081ef42f33",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "7 - Documents/Rockwell/Allen Bradely/843E Absolute Encoders/843E Absolute Encoders with EthernetIP.pdf"
               }
             }
           }
@@ -95,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "6 - Main Notes/51240053 - Conagra Brands - Waterloo IA - Snacks Multipack Cartoner CNA.md",
+                "file": "Anime List/Anime.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "6 - Main Notes/51240053 - Conagra Brands - Waterloo IA - Snacks Multipack Cartoner CNA.md",
+                "file": "Anime List/Anime.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "6 - Main Notes/51240053 - Conagra Brands - Waterloo IA - Snacks Multipack Cartoner CNA.md"
+                "file": "Anime List/Anime.md"
               }
             }
           }
@@ -157,13 +147,17 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "4638a58f85515372",
+  "active": "b356d91693ddf6c4",
   "lastOpenFiles": [
+    "6 - Main Notes/Bash.md",
+    "6 - Main Notes/51240053 - Conagra Brands - Waterloo IA - Snacks Multipack Cartoner CNA.md",
+    "7 - Documents/Rockwell/Allen Bradely/843E Absolute Encoders/843E Absolute Encoders with EthernetIP.pdf",
+    "6 - Main Notes/Factorytalk Activation Manager.md",
+    "3 - Tags/Esco.md",
+    "6 - Main Notes/Factorytalk Activation Manager Opening Problem.md",
     "Anime List/Anime.md",
     "6 - Main Notes/Virtualbox.md",
     "7 - Documents/Rockwell/Allen Bradely/Studios_5000/Logix 5000 Controllers General Instructions.pdf",
-    "6 - Main Notes/51240053 - Conagra Brands - Waterloo IA - Snacks Multipack Cartoner CNA.md",
-    "7 - Documents/Rockwell/Allen Bradely/843E Absolute Encoders/843E Absolute Encoders with EthernetIP.pdf",
     "Books/Linux Books/Your UNIX Linux - The Ultimate Guide - Third Edition.pdf",
     "6 - Main Notes/You Unix Linux The Ultimate Guide.md",
     "6 - Main Notes/Virtualbox Guest Additions.md",
@@ -196,15 +190,11 @@
     "6 - Main Notes/browser.md",
     "6 - Main Notes/Git.md",
     "6 - Main Notes/Python.md",
-    "6 - Main Notes/Factorytalk Activation Manager.md",
     "6 - Main Notes/Factorytalk Activation Manager manual cleanup.md",
     "6 - Main Notes/Factorytalk Activation Manager Flexnet Stopped.md",
     "6 - Main Notes/PanelView Plus 7.md",
     "6 - Main Notes/51240105 - Kraft Heinz - Cedar Rapids IA VFD IP Addressing - General.md",
     "6 - Main Notes/51240107 - Builders FirstSource - New Hampton IA SLC 5-01 Upgrade - General.md",
-    "6 - Main Notes/51240110 - Conagra Brands - Russellville AR - Frozen Sustainability Project.md",
-    "6 - Main Notes/64220146 - CHS - Mankato MN Suez Remium RO Implementation.md",
-    "6 - Main Notes/51240016 - Kraft Heinz - Cedar Rapids IA AMC Ammonia HMI Glitch Reset - General.md",
     "Untitled.canvas"
   ]
 }
