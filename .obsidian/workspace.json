@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "2a7c57feef56cded",
+        "id": "ca0749953e0921db",
         "type": "tabs",
         "children": [
           {
-            "id": "b356d91693ddf6c4",
+            "id": "8484af75faadf07a",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Anime List/Anime.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Anime List/Anime.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Anime List/Anime.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Anime List/Anime.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -147,27 +139,34 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "b356d91693ddf6c4",
+  "active": "8484af75faadf07a",
   "lastOpenFiles": [
-    "6 - Main Notes/Bash.md",
+    "6 - Main Notes/Travel Booking.md",
+    "6 - Main Notes/Cisco Stratix 5200 Express Setup.md",
+    "6 - Main Notes/Cisco Stratix Switch CLI Basics.md",
+    "Bookmarks/README.md",
+    "6 - Main Notes/Cisco.md",
+    "6 - Main Notes/51240055 - Conagra Brands - Russellville AR - Frozen Dinner Line 11 FlexiCell Panel CNA Upgrades.md",
+    "7 - Documents/Rockwell/Allen Bradely/Stratix Switches/Stratix 5800 Managed Switches.pdf",
+    "6 - Main Notes/51240056 - Conagra Brands - Russellville AR - Frozen Dinner Line 11 Pallet Wrapper CNA Upgrades.md",
     "6 - Main Notes/51240053 - Conagra Brands - Waterloo IA - Snacks Multipack Cartoner CNA.md",
-    "7 - Documents/Rockwell/Allen Bradely/843E Absolute Encoders/843E Absolute Encoders with EthernetIP.pdf",
+    "7 - Documents/Kinesis Advantage Pro/Advantage360-Professional-Firmware-Update-Instructions-9.5.24-KB360-PRO.pdf",
+    "7 - Documents/Kinesis Advantage Pro",
+    "7 - Documents/New folder",
+    "7 - Documents/Rockwell/Allen Bradely/843E Absolute Encoders/EthernetIP Absolute Encoder.pdf",
+    "7 - Documents/Rockwell/Allen Bradely/Sample Code/Password Protected Code.L5X",
+    "7 - Documents/Rockwell/Allen Bradely/Sample Code",
+    "7 - Documents/Rockwell/Allen Bradely/New folder",
+    "7 - Documents/Math/ScalingCalculator.xlsx",
+    "7 - Documents/Math",
+    "Anime List/Anime.md",
+    "6 - Main Notes/Bash.md",
     "6 - Main Notes/Factorytalk Activation Manager.md",
     "3 - Tags/Esco.md",
     "6 - Main Notes/Factorytalk Activation Manager Opening Problem.md",
-    "Anime List/Anime.md",
     "6 - Main Notes/Virtualbox.md",
-    "7 - Documents/Rockwell/Allen Bradely/Studios_5000/Logix 5000 Controllers General Instructions.pdf",
-    "Books/Linux Books/Your UNIX Linux - The Ultimate Guide - Third Edition.pdf",
     "6 - Main Notes/You Unix Linux The Ultimate Guide.md",
     "6 - Main Notes/Virtualbox Guest Additions.md",
-    "Books/Privacy Books/Michael Bazzell - OSINT Techniques. Resources for Uncovering Online Information - 10th Edition (2023) (2023) - libgen.li.pdf",
-    "Books/Privacy Books/Michael Bazzell - Open Source Intelligence Techniques_ Resources for Searching and Analyzing Online Information (2022) - libgen.li-1.pdf",
-    "Books/Privacy Books/Michael Bazzell - Open Source Intelligence Techniques_ Resources for Searching and Analyzing Online Information (2022) - libgen.li.pdf",
-    "Books/Privacy Books/Michael Bazzell - IntelTechniques OSINT Training Consolidated Lesson Notebook Version 8.2022 (2022, Independently Published) - libgen.li.pdf",
-    "Books/Privacy Books/Michael Bazzell - Extreme Privacy_ What it takes to disappear (2022, Independently Published) - libgen.li.pdf",
-    "Books/Privacy Books/Michael Bazzell - Extreme Privacy_ Personal Data Removal Workbook Version 4.0 (2022, Independently Published) - libgen.li-1.pdf",
-    "Books/Privacy Books/Michael Bazzell - Extreme Privacy_ Personal Data Removal Workbook Version 4.0 (2022, Independently Published) - libgen.li.pdf",
     "6 - Main Notes/Linux.md",
     "3 - Tags/Windows.md",
     "Computer-Help/computer_help.md",
@@ -175,26 +174,19 @@
     "Books/Solution Manual - Mechanics of Materials 8th Edition -  Hibbeler/Mechanics_of_Materials-8th-Hibbeler.jpg",
     "Books/Mechanical Engineering Books Collection/TURBOMACHINES/Turbomachinery Design and Theory/Turbomachinery Design.jpg",
     "Books/Mechanical Engineering Books Collection/THEORY OF MACHINES/Theory Of Machine R.S.Khurmi/theory-mach.jpg",
-    "Bookmarks/README.md",
     "Screenshots/Pasted image 20240910154007.png",
     "6 - Main Notes/yt-dlp.md",
-    "6 - Main Notes/51240056 - Conagra Brands - Russellville AR - Frozen Dinner Line 11 Pallet Wrapper CNA Upgrades.md",
     "7 - Documents/Amazon/MDR Card/Orange MDR Settings.PNG",
     "7 - Documents/Emerson/PAC Machine Edition v10.2.9762.0/PAC8000 Tools/409/splash.bmp",
     "7 - Documents/Emerson/PAC Machine Edition v10.2.9762.0/Manager Tools/HTML Audit Trail/Server/printer.gif",
     "7 - Documents/Emerson/PAC Machine Edition v10.2.9762.0/Manager Tools/HTML Audit Trail/Server/HANDS.jpg",
     "7 - Documents/Emerson/PAC Machine Edition v10.2.9762.0/Manager Tools/HTML Audit Trail/Server/AuditReport.bmp",
     "7 - Documents/Emerson/PAC Machine Edition v10.2.9762.0/InstallBitmaps/MEsplas.bmp",
-    "6 - Main Notes/Travel Booking.md",
     "6 - Main Notes/Lazyvim.md",
     "6 - Main Notes/browser.md",
     "6 - Main Notes/Git.md",
     "6 - Main Notes/Python.md",
     "6 - Main Notes/Factorytalk Activation Manager manual cleanup.md",
-    "6 - Main Notes/Factorytalk Activation Manager Flexnet Stopped.md",
-    "6 - Main Notes/PanelView Plus 7.md",
-    "6 - Main Notes/51240105 - Kraft Heinz - Cedar Rapids IA VFD IP Addressing - General.md",
-    "6 - Main Notes/51240107 - Builders FirstSource - New Hampton IA SLC 5-01 Upgrade - General.md",
     "Untitled.canvas"
   ]
 }

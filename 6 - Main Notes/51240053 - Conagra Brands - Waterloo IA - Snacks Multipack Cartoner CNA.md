@@ -39,11 +39,17 @@ MSG_N99_260
 - speed reference in speed line 30
 - N7[0] - N7[39] - N7[50] -  Left alone
 - ~~update comments on data highway to say read by n7[50] cup con,  N7[0] & n7[39] Read by CSF (Connect Shop Work Floor).  Also B3[10] Message from cup con 1 ~~
-- _2_Main routine 68
-- Program #2 
-	- Channel 1 Lane 2 Glue Head
-	- 
-
+- ~~_2_Main routine 68~~
+- Encoder: 843E-SIP2BA7
+- ~~0-255 scaled to 0-359~~
+- ~~add zero in front of routines~~
+- fix PLS outputs
+- go over IO
+- ~~~Delete bad tags~~~
+- ~~Fix Migration code~~
+- ~~build controller~~
+- ~~Password Protect~~
+- 
 # Reference
 
 [[PS-5000 Series Programmable Limit Switch.pdf]]
