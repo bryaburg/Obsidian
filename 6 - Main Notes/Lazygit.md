@@ -8,7 +8,7 @@ Tags:
 [[Lazyvim]]
 [[nvim]]
 [[Linux]]
-[[git]]
+[[Git]]
 
 # Lazygit
 

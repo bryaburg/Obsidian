@@ -270,7 +270,7 @@ Some websites can fall into multiple categories. If you can't find what you need
 	- [Pokemon](#Pokemon)
 	- [Chess](#Chess)
 	- [Linux](#Linux)
-	- [Git](Git)
+	- [Git](Git.md)
 		- [GitHub](#GitHub)
 
 

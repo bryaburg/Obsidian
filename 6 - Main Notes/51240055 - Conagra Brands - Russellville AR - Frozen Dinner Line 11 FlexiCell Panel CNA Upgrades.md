@@ -1,5 +1,4 @@
-
-2024-08-21 09:30
+2024-09-20 15:39
 
 Status:
 
@@ -9,7 +8,8 @@ Tags:
 [[Conagra]]
 [[Projects]]
 
-# Conagra Russellville
+# 51240055 - Conagra Brands - Russellville AR - Frozen Dinner Line 11 FlexiCell Panel CNA Upgrades
+
 
 - Safety Training before leaving
 - Labor day weekend commissioning

@@ -6,14 +6,15 @@ Tags:
 [[Projects]]
 # Esco
 
-Shared Dev Storage:  \\mardev01
-User for VW machine: Escodevvm
-Common Password for VMs:  Aut0m@ted
-RA Support Number and account number:  1-888-382-1583 99145963
-RA License Server:  marRemote2
-User Login:  bburgess@eg.int
-Marion Esco Office Location:  3450 Third St Marion, IA 52302
-My Office Number:  319-377-6655
+- Shared Dev Storage:  \\mardev01
+- User for VW machine: Escodevvm
+- Common Password for VMs:  Aut0m@ted
+- RA Support Number and account number:  1-888-382-1583 99145963
+- RA License Server:  marRemote2
+- User Login:  bburgess@eg.int
+- Marion Esco Office Location:  3450 Third St Marion, IA 52302
+- My Office Number:  319-377-6655
+- Hotspot and pw:  ATT-WIFI-LkUk: vL3KjkAu
 
 # Reference
 

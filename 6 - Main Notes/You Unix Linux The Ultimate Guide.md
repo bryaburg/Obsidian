@@ -329,5 +329,14 @@ before an option to negate its meaning
 - :1,10s/find/look/g Replaces all occurrences of find with look in lines 1 to 10 
 - :.,$s/find/look/gc Interactively replaces find with look from current line through end 
 - :s Repeats last substitution on current line (Linux only)
+- :address/source_pattern/target_pattern/flags
+
+## The Shell
+
+### Pattern Matching—The Wild Cards
+- ![[Pasted image 20240920085454.png]]
+
+### Redirection
+- 
 
 # Reference

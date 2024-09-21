@@ -8,11 +8,15 @@
         "type": "tabs",
         "children": [
           {
-            "id": "8484af75faadf07a",
+            "id": "74cba43c52eab148",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Bookmarks/README.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Bookmarks/README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Bookmarks/README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Bookmarks/README.md"
+              }
             }
           }
         ]
@@ -139,54 +147,53 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "8484af75faadf07a",
+  "active": "74cba43c52eab148",
   "lastOpenFiles": [
+    "6 - Main Notes/Cisco Stratix Switch CLI Basics.md",
+    "7 - Documents/TreeDix/USB_Cable_Tester_Manual.pdf",
+    "7 - Documents/TreeDix/USB_Cable_Tester_Manual.pdf.crdownload",
+    "7 - Documents/TreeDix",
+    "7 - Documents/TreeDIx",
+    "7 - Documents/New folder",
+    "6 - Main Notes/Wireshark.md",
+    "Books/Wireshark/Practical-Packet-Analysis-Using-Wireshark-to-Solve-Real-World-Problems.pdf",
+    "6 - Main Notes/51240055 - Conagra Brands - Russellville AR - Frozen Dinner Line 11 FlexiCell Panel CNA Upgrades.md",
+    "6 - Main Notes/51240056 - Conagra Brands - Russellville AR - Frozen Dinner Line 11 Pallet Wrapper CNA Upgrades.md",
+    "3 - Tags/Git.md",
+    "3 - Tags/Linux.md",
+    "6 - Main Notes/Safety.md",
+    "6 - Main Notes/Virtualbox.md",
+    "3 - Tags/Cisco.md",
+    "6 - Main Notes/Books.md",
+    "6 - Main Notes/You Unix Linux The Ultimate Guide.md",
+    "3 - Tags/Windows.md",
+    "6 - Main Notes/51240053 - Conagra Brands - Waterloo IA - Snacks Multipack Cartoner CNA.md",
+    "3 - Tags/Esco.md",
+    "6 - Main Notes/Python Packet Cannon.md",
+    "Computer-Help/computer_help.md",
+    "Books/Linux Books/Your UNIX Linux - The Ultimate Guide - Third Edition.pdf",
+    "Screenshots/Pasted image 20240920085454.png",
+    "Bookmarks/README.md",
+    "Books/Industrial Automation/Programmable Logic Controllers_ A Practical Approach to IEC 61131-3 using Codesys.pdf",
     "6 - Main Notes/Travel Booking.md",
     "6 - Main Notes/Cisco Stratix 5200 Express Setup.md",
-    "6 - Main Notes/Cisco Stratix Switch CLI Basics.md",
-    "Bookmarks/README.md",
-    "6 - Main Notes/Cisco.md",
-    "6 - Main Notes/51240055 - Conagra Brands - Russellville AR - Frozen Dinner Line 11 FlexiCell Panel CNA Upgrades.md",
     "7 - Documents/Rockwell/Allen Bradely/Stratix Switches/Stratix 5800 Managed Switches.pdf",
-    "6 - Main Notes/51240056 - Conagra Brands - Russellville AR - Frozen Dinner Line 11 Pallet Wrapper CNA Upgrades.md",
-    "6 - Main Notes/51240053 - Conagra Brands - Waterloo IA - Snacks Multipack Cartoner CNA.md",
     "7 - Documents/Kinesis Advantage Pro/Advantage360-Professional-Firmware-Update-Instructions-9.5.24-KB360-PRO.pdf",
-    "7 - Documents/Kinesis Advantage Pro",
-    "7 - Documents/New folder",
-    "7 - Documents/Rockwell/Allen Bradely/843E Absolute Encoders/EthernetIP Absolute Encoder.pdf",
-    "7 - Documents/Rockwell/Allen Bradely/Sample Code/Password Protected Code.L5X",
-    "7 - Documents/Rockwell/Allen Bradely/Sample Code",
-    "7 - Documents/Rockwell/Allen Bradely/New folder",
-    "7 - Documents/Math/ScalingCalculator.xlsx",
-    "7 - Documents/Math",
     "Anime List/Anime.md",
     "6 - Main Notes/Bash.md",
     "6 - Main Notes/Factorytalk Activation Manager.md",
-    "3 - Tags/Esco.md",
     "6 - Main Notes/Factorytalk Activation Manager Opening Problem.md",
-    "6 - Main Notes/Virtualbox.md",
-    "6 - Main Notes/You Unix Linux The Ultimate Guide.md",
     "6 - Main Notes/Virtualbox Guest Additions.md",
-    "6 - Main Notes/Linux.md",
-    "3 - Tags/Windows.md",
-    "Computer-Help/computer_help.md",
     "6 - Main Notes/Tracfone APN Settings.md",
     "Books/Solution Manual - Mechanics of Materials 8th Edition -  Hibbeler/Mechanics_of_Materials-8th-Hibbeler.jpg",
     "Books/Mechanical Engineering Books Collection/TURBOMACHINES/Turbomachinery Design and Theory/Turbomachinery Design.jpg",
     "Books/Mechanical Engineering Books Collection/THEORY OF MACHINES/Theory Of Machine R.S.Khurmi/theory-mach.jpg",
     "Screenshots/Pasted image 20240910154007.png",
-    "6 - Main Notes/yt-dlp.md",
     "7 - Documents/Amazon/MDR Card/Orange MDR Settings.PNG",
     "7 - Documents/Emerson/PAC Machine Edition v10.2.9762.0/PAC8000 Tools/409/splash.bmp",
     "7 - Documents/Emerson/PAC Machine Edition v10.2.9762.0/Manager Tools/HTML Audit Trail/Server/printer.gif",
     "7 - Documents/Emerson/PAC Machine Edition v10.2.9762.0/Manager Tools/HTML Audit Trail/Server/HANDS.jpg",
     "7 - Documents/Emerson/PAC Machine Edition v10.2.9762.0/Manager Tools/HTML Audit Trail/Server/AuditReport.bmp",
-    "7 - Documents/Emerson/PAC Machine Edition v10.2.9762.0/InstallBitmaps/MEsplas.bmp",
-    "6 - Main Notes/Lazyvim.md",
-    "6 - Main Notes/browser.md",
-    "6 - Main Notes/Git.md",
-    "6 - Main Notes/Python.md",
-    "6 - Main Notes/Factorytalk Activation Manager manual cleanup.md",
     "Untitled.canvas"
   ]
 }

@@ -49,6 +49,7 @@ MSG_N99_260
 - ~~Fix Migration code~~
 - ~~build controller~~
 - ~~Password Protect~~
+- Just got out of the cartoner design review. They moved the outputs for the Glue and reject belts to O:8/0, O:8/1, and O:8/2. I think we had those at O:8/11, O:8/12, and O:8/13. Can you move those ouptuts in the code when you get back.
 - 
 # Reference
 
