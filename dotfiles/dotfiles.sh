@@ -10,13 +10,42 @@ sudo apt update && sudo apt upgrade -y
 mkdir -p tmp
 cd tmp
 
-# Install libraries and tools
+# Install required libraries and tools
 sudo apt install -y \
     build-essential pkg-config autoconf bison clang \
     libssl-dev libreadline-dev zlib1g-dev libyaml-dev libncurses5-dev libffi-dev libgdbm-dev libjemalloc2 \
     libvips imagemagick libmagickwand-dev mupdf mupdf-tools \
     redis-tools sqlite3 libsqlite3-0 libmysqlclient-dev \
-    git tldr vlc docker.io docker-buildx
+    git tldr vlc
+
+# Install Docker from the official Docker repository
+sudo apt remove docker docker-engine docker.io containerd runc || true
+sudo apt update
+
+# Install necessary packages for Docker installation
+sudo apt install -y \
+    apt-transport-https \
+    ca-certificates \
+    curl \
+    gnupg \
+    lsb-release \
+    software-properties-common
+
+# Add Docker’s official GPG key
+curl -fsSL https://download.docker.com/linux/debian/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
+
+# Set up the Docker stable repository
+echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/docker-archive-keyring.gpg] https://download.docker.com/linux/debian $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+
+# Install Docker Engine and Docker Buildx
+sudo apt update
+sudo apt install -y docker-ce docker-ce-cli containerd.io docker-buildx
+
+# Add user to Docker group
+sudo usermod -aG docker "${USER}"
+
+# Limit Docker log size
+echo '{"log-driver":"json-file","log-opts":{"max-size":"10m","max-file":"5"}}' | sudo tee /etc/docker/daemon.json
 
 # Add and install LibreWolf
 echo 'deb [signed-by=/usr/share/keyrings/librewolf-archive-keyring.gpg] http://deb.librewolf-community.gitlab.io/ librewolf main' | sudo tee /etc/apt/sources.list.d/librewolf.list
@@ -55,12 +84,6 @@ sudo install nvim-linux64/bin/nvim /usr/local/bin/nvim
 sudo cp -R nvim-linux64/lib /usr/local/
 sudo cp -R nvim-linux64/share /usr/local/
 rm -rf nvim-linux64 nvim.tar.gz
-
-# Limit Docker log size
-echo '{"log-driver":"json-file","log-opts":{"max-size":"10m","max-file":"5"}}' | sudo tee /etc/docker/daemon.json
-
-# Add user to Docker group
-sudo usermod -aG docker "${USER}"
 
 # Clone LazyVim configuration if Neovim has never been run
 if [ ! -d "$HOME/.config/nvim" ]; then
