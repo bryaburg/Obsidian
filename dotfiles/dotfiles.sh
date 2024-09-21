@@ -47,22 +47,6 @@ sudo usermod -aG docker "${USER}"
 # Limit Docker log size
 echo '{"log-driver":"json-file","log-opts":{"max-size":"10m","max-file":"5"}}' | sudo tee /etc/docker/daemon.json
 
-# Add and install LibreWolf
-echo 'deb [signed-by=/usr/share/keyrings/librewolf-archive-keyring.gpg] http://deb.librewolf-community.gitlab.io/ librewolf main' | sudo tee /etc/apt/sources.list.d/librewolf.list
-wget -qO- https://deb.librewolf-community.gitlab.io/librewolf-archive-keyring.gpg | gpg --dearmor | sudo tee /usr/share/keyrings/librewolf-archive-keyring.gpg
-sudo apt update
-sudo apt install -y librewolf
-xdg-settings set default-web-browser librewolf.desktop
-
-# Install Obsidian
-flatpak install -y flathub md.obsidian.Obsidian
-
-# Add and install Signal
-wget -qO- https://updates.signal.org/desktop/apt/keys.asc | gpg --dearmor | sudo tee /usr/share/keyrings/signal-desktop-keyring.gpg >/dev/null
-echo 'deb [arch=amd64 signed-by=/usr/share/keyrings/signal-desktop-keyring.gpg] https://updates.signal.org/desktop/apt xenial main' | sudo tee /etc/apt/sources.list.d/signal-xenial.list
-sudo apt update
-sudo apt install -y signal-desktop
-
 # Install Docker Compose
 DOCKER_COMPOSE_VERSION="2.27.0"
 DOCKER_CONFIG=${DOCKER_CONFIG:-$HOME/.docker}
