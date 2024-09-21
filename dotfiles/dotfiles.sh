@@ -1,6 +1,4 @@
-#!/bin/bash
-
-# Exit script if any command fails
+# Exit on any error
 set -e
 
 # Update and upgrade system
@@ -19,7 +17,7 @@ sudo apt install -y \
     git tldr vlc
 
 # Install Docker from the official Docker repository
-sudo apt remove docker docker-engine docker.io containerd runc || true
+for pkg in docker.io docker-doc docker-compose podman-docker containerd runc; do sudo apt-get remove -y $pkg || true; done
 sudo apt update
 
 # Install necessary packages for Docker installation
@@ -31,28 +29,21 @@ sudo apt install -y \
     lsb-release \
     software-properties-common
 
-# Add Docker’s official GPG key
-curl -fsSL https://download.docker.com/linux/debian/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
+# Add Docker's official GPG key:
+sudo curl -fsSL https://download.docker.com/linux/debian/gpg | sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg
 
-# Set up the Docker stable repository
-echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/docker-archive-keyring.gpg] https://download.docker.com/linux/debian $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
-
-# Install Docker Engine and Docker Buildx
+# Add the repository to Apt sources:
+echo \
+  "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/debian \
+  $(lsb_release -cs) stable" | \
+  sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
 sudo apt update
-sudo apt install -y docker-ce docker-ce-cli containerd.io docker-buildx
 
-# Add user to Docker group
-sudo usermod -aG docker "${USER}"
+# Install Docker packages
+sudo apt install -y docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
 
-# Limit Docker log size
-echo '{"log-driver":"json-file","log-opts":{"max-size":"10m","max-file":"5"}}' | sudo tee /etc/docker/daemon.json
-
-# Install Docker Compose
-DOCKER_COMPOSE_VERSION="2.27.0"
-DOCKER_CONFIG=${DOCKER_CONFIG:-$HOME/.docker}
-mkdir -p $DOCKER_CONFIG/cli-plugins
-curl -sSL "https://github.com/docker/compose/releases/download/v$DOCKER_COMPOSE_VERSION/docker-compose-linux-x86_64" -o $DOCKER_CONFIG/cli-plugins/docker-compose
-chmod +x $DOCKER_CONFIG/cli-plugins/docker-compose
+# Test Docker installation
+sudo docker run hello-world
 
 # Install LazyGit
 LAZYGIT_VERSION=$(curl -s "https://api.github.com/repos/jesseduffield/lazygit/releases/latest" | grep -Po '"tag_name": "v\K[^"]*')
