@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Bookmarks/README.md",
+                "file": "dotfiles/dotfiles.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Bookmarks/README.md",
+                "file": "dotfiles/dotfiles.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Bookmarks/README.md",
+                "file": "dotfiles/dotfiles.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Bookmarks/README.md"
+                "file": "dotfiles/dotfiles.md"
               }
             }
           }
@@ -149,6 +149,12 @@
   },
   "active": "74cba43c52eab148",
   "lastOpenFiles": [
+    "3 - Tags/Esco.md",
+    "dotfiles/dotfiles.md",
+    "dotfiles/dotfiles.sh",
+    "dotfiles/dotfiles.md.sh",
+    "6 - Main Notes/51240056 - Conagra Brands - Russellville AR - Frozen Dinner Line 11 Pallet Wrapper CNA Upgrades.md",
+    "Bookmarks/README.md",
     "6 - Main Notes/Cisco Stratix Switch CLI Basics.md",
     "7 - Documents/TreeDix/USB_Cable_Tester_Manual.pdf",
     "7 - Documents/TreeDix/USB_Cable_Tester_Manual.pdf.crdownload",
@@ -158,7 +164,6 @@
     "6 - Main Notes/Wireshark.md",
     "Books/Wireshark/Practical-Packet-Analysis-Using-Wireshark-to-Solve-Real-World-Problems.pdf",
     "6 - Main Notes/51240055 - Conagra Brands - Russellville AR - Frozen Dinner Line 11 FlexiCell Panel CNA Upgrades.md",
-    "6 - Main Notes/51240056 - Conagra Brands - Russellville AR - Frozen Dinner Line 11 Pallet Wrapper CNA Upgrades.md",
     "3 - Tags/Git.md",
     "3 - Tags/Linux.md",
     "6 - Main Notes/Safety.md",
@@ -168,17 +173,13 @@
     "6 - Main Notes/You Unix Linux The Ultimate Guide.md",
     "3 - Tags/Windows.md",
     "6 - Main Notes/51240053 - Conagra Brands - Waterloo IA - Snacks Multipack Cartoner CNA.md",
-    "3 - Tags/Esco.md",
     "6 - Main Notes/Python Packet Cannon.md",
     "Computer-Help/computer_help.md",
     "Books/Linux Books/Your UNIX Linux - The Ultimate Guide - Third Edition.pdf",
     "Screenshots/Pasted image 20240920085454.png",
-    "Bookmarks/README.md",
     "Books/Industrial Automation/Programmable Logic Controllers_ A Practical Approach to IEC 61131-3 using Codesys.pdf",
     "6 - Main Notes/Travel Booking.md",
     "6 - Main Notes/Cisco Stratix 5200 Express Setup.md",
-    "7 - Documents/Rockwell/Allen Bradely/Stratix Switches/Stratix 5800 Managed Switches.pdf",
-    "7 - Documents/Kinesis Advantage Pro/Advantage360-Professional-Firmware-Update-Instructions-9.5.24-KB360-PRO.pdf",
     "Anime List/Anime.md",
     "6 - Main Notes/Bash.md",
     "6 - Main Notes/Factorytalk Activation Manager.md",
