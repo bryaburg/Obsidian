@@ -31,7 +31,6 @@ sudo apt install -y \
     redis-tools sqlite3 libsqlite3-0 default-libmysqlclient-dev \
     git tldr vlc ripgrep fd-find python3 python3-pip cmake make
 
-
 # Alias fd to fdfind if necessary
 echo "alias fd=fdfind" >> ~/.bashrc
 source ~/.bashrc
@@ -93,17 +92,24 @@ if [ ! -d "$HOME/.config/nvim" ]; then
     git clone https://github.com/bryaburg/nvim ~/.config/nvim
 fi
 
-# Sync LazyVim and install all necessary plugins
+# Sync LazyVim and install all necessary plugins, including Telescope for live grep
 nvim --headless "+Lazy sync" +qall
 
 # Install Node.js and npm for Tree-sitter
 sudo apt install -y nodejs npm
 sudo npm install -g tree-sitter-cli
 
+# Verify if tree-sitter is installed correctly
+if command -v tree-sitter &>/dev/null; then
+    echo "tree-sitter-cli is successfully installed."
+else
+    echo "Error: tree-sitter-cli installation failed."
+fi
+
 # Add current user to Docker group
 sudo usermod -aG docker $USER
 
-# Cleanup
+# Cleanup tmp directory
 cd ..
 rm -rf tmp
 
