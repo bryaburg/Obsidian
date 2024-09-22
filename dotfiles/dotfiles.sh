@@ -29,7 +29,7 @@ sudo apt install -y \
     libssl-dev libreadline-dev zlib1g-dev libyaml-dev libncurses5-dev libffi-dev libgdbm-dev libjemalloc2 \
     libvips imagemagick libmagickwand-dev mupdf mupdf-tools \
     redis-tools sqlite3 libsqlite3-0 default-libmysqlclient-dev \
-    git tldr vlc ripgrep fd-find python3 python3-pip
+    git tldr vlc ripgrep fd-find python3 python3-pip cmake make
 
 
 # Alias fd to fdfind if necessary
