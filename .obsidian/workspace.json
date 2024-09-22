@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "dotfiles/dotfiles.md",
+                "file": "6 - Main Notes/Virtualbox Guest Additions.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dotfiles/dotfiles.md",
+                "file": "6 - Main Notes/Virtualbox Guest Additions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "dotfiles/dotfiles.md",
+                "file": "6 - Main Notes/Virtualbox Guest Additions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "dotfiles/dotfiles.md"
+                "file": "6 - Main Notes/Virtualbox Guest Additions.md"
               }
             }
           }
@@ -149,8 +149,9 @@
   },
   "active": "74cba43c52eab148",
   "lastOpenFiles": [
-    "3 - Tags/Esco.md",
+    "6 - Main Notes/You Unix Linux The Ultimate Guide.md",
     "dotfiles/dotfiles.md",
+    "3 - Tags/Esco.md",
     "dotfiles/dotfiles.sh",
     "dotfiles/dotfiles.md.sh",
     "6 - Main Notes/51240056 - Conagra Brands - Russellville AR - Frozen Dinner Line 11 Pallet Wrapper CNA Upgrades.md",
@@ -170,7 +171,6 @@
     "6 - Main Notes/Virtualbox.md",
     "3 - Tags/Cisco.md",
     "6 - Main Notes/Books.md",
-    "6 - Main Notes/You Unix Linux The Ultimate Guide.md",
     "3 - Tags/Windows.md",
     "6 - Main Notes/51240053 - Conagra Brands - Waterloo IA - Snacks Multipack Cartoner CNA.md",
     "6 - Main Notes/Python Packet Cannon.md",

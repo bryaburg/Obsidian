@@ -16,7 +16,7 @@ sudo apt install -y \
     redis-tools sqlite3 libsqlite3-0 libmysqlclient-dev \
     git tldr vlc
 
-# Install Docker from the official Docker repository
+# Remove conflicting Docker-related packages
 for pkg in docker.io docker-doc docker-compose podman-docker containerd runc; do sudo apt-get remove -y $pkg || true; done
 sudo apt update
 
@@ -30,17 +30,18 @@ sudo apt install -y \
     software-properties-common
 
 # Add Docker's official GPG key:
+sudo mkdir -p /etc/apt/keyrings
 sudo curl -fsSL https://download.docker.com/linux/debian/gpg | sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg
 
-# Add the repository to Apt sources:
+# Add Docker's repository to Apt sources
 echo \
   "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/debian \
   $(lsb_release -cs) stable" | \
   sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
 sudo apt update
 
-# Install Docker packages
-sudo apt install -y docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+# Install Docker (docker-ce should include docker-cli)
+sudo apt install -y docker-ce containerd.io docker-buildx-plugin docker-compose-plugin
 
 # Test Docker installation
 sudo docker run hello-world
@@ -65,8 +66,26 @@ if [ ! -d "$HOME/.config/nvim" ]; then
     git clone https://github.com/bryaburg/nvim ~/.config/nvim
 fi
 
+# Add current user to the Docker group (avoiding need for sudo)
+sudo usermod -aG docker $USER
+
 # Cleanup
 cd ..
 rm -rf tmp
+
+# Reload the shell for the changes to take effect
+echo "Reloading shell to apply changes..."
+exec $SHELL
+
+# Check for successful installations
+declare -a programs=("docker" "nvim" "lazygit" "git" "redis-cli" "sqlite3" "tldr" "vlc")
+
+for program in "${programs[@]}"; do
+    if command -v $program &>/dev/null; then
+        echo "$program is successfully installed."
+    else
+        echo "Error: $program installation failed or it's not in the PATH."
+    fi
+done
 
 echo "Setup completed successfully."
