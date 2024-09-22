@@ -1,5 +1,20 @@
-# Exit on any error
-set -e
+#!/bin/bash
+
+# Function to handle errors
+error_handler() {
+    echo "An error occurred."
+    while true; do
+        read -p "Do you want to continue? (y/n): " yn
+        case $yn in
+            [Yy]* ) return 0;; # Continue the script
+            [Nn]* ) exit 1;; # Exit the script
+            * ) echo "Please answer yes (y) or no (n).";;
+        esac
+    done
+}
+
+# Trap any command that returns a non-zero exit code and call error_handler
+trap 'error_handler' ERR
 
 # Update and upgrade system
 sudo apt update && sudo apt upgrade -y
@@ -14,9 +29,13 @@ sudo apt install -y \
     libssl-dev libreadline-dev zlib1g-dev libyaml-dev libncurses5-dev libffi-dev libgdbm-dev libjemalloc2 \
     libvips imagemagick libmagickwand-dev mupdf mupdf-tools \
     redis-tools sqlite3 libsqlite3-0 libmysqlclient-dev \
-    git tldr vlc
+    git tldr vlc ripgrep fd-find python3 python3-pip
 
-# Install Docker packages (without docker-ce-cli as it's part of docker-ce)
+# Alias fd to fdfind if necessary
+echo "alias fd=fdfind" >> ~/.bashrc
+source ~/.bashrc
+
+# Install Docker packages
 sudo apt remove -y docker.io docker-doc docker-compose podman-docker containerd runc || true
 sudo apt update
 
@@ -73,6 +92,13 @@ if [ ! -d "$HOME/.config/nvim" ]; then
     git clone https://github.com/bryaburg/nvim ~/.config/nvim
 fi
 
+# Sync LazyVim and install all necessary plugins
+nvim --headless "+Lazy sync" +qall
+
+# Install Node.js and npm for Tree-sitter
+sudo apt install -y nodejs npm
+sudo npm install -g tree-sitter-cli
+
 # Add current user to Docker group
 sudo usermod -aG docker $USER
 
@@ -84,7 +110,7 @@ rm -rf tmp
 exec $SHELL
 
 # Check for successful installations
-declare -a programs=("docker" "nvim" "lazygit" "git" "redis-cli" "sqlite3" "tldr" "vlc" "gcc" "wget")
+declare -a programs=("docker" "nvim" "lazygit" "git" "redis-cli" "sqlite3" "tldr" "vlc" "gcc" "wget" "ripgrep" "fd" "python3" "pip" "tree-sitter")
 
 for program in "${programs[@]}"; do
     if command -v $program &>/dev/null; then
