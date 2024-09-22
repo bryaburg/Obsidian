@@ -23,13 +23,12 @@ sudo apt update && sudo apt upgrade -y
 mkdir -p tmp
 cd tmp
 
-# Install required libraries and tools
-sudo apt install -y \
-    build-essential pkg-config autoconf bison clang gcc wget \
-    libssl-dev libreadline-dev zlib1g-dev libyaml-dev libncurses5-dev libffi-dev libgdbm-dev libjemalloc2 \
-    libvips imagemagick libmagickwand-dev mupdf mupdf-tools \
-    redis-tools sqlite3 libsqlite3-0 default-libmysqlclient-dev \
-    git tldr vlc ripgrep fd-find python3 python3-pip cmake make
+# Install required libraries and tools, including g++
+sudo apt install -y build-essential pkg-config autoconf bison clang gcc g++ wget \
+    libssl-dev libreadline-dev zlib1g-dev libyaml-dev libncurses5-dev libffi-dev \
+    libgdbm-dev libjemalloc2 libvips imagemagick libmagickwand-dev mupdf mupdf-tools \
+    redis-tools sqlite3 libsqlite3-0 default-libmysqlclient-dev git tldr vlc ripgrep \
+    fd-find python3 python3-pip cmake make
 
 # Alias fd to fdfind if necessary
 echo "alias fd=fdfind" >> ~/.bashrc
@@ -95,9 +94,18 @@ fi
 # Sync LazyVim and install all necessary plugins, including Telescope for live grep
 nvim --headless "+Lazy sync" +qall
 
-# Install Node.js and npm for Tree-sitter
+# Install Node.js and npm for Tree-sitter CLI
 sudo apt install -y nodejs npm
-sudo npm install -g tree-sitter-cli
+
+# Set up global npm directory to avoid permission issues
+mkdir -p ~/.npm-global
+npm config set prefix '~/.npm-global'
+export PATH=~/.npm-global/bin:$PATH
+echo "export PATH=~/.npm-global/bin:\$PATH" >> ~/.bashrc
+source ~/.bashrc
+
+# Install tree-sitter CLI globally
+npm install -g tree-sitter-cli
 
 # Verify if tree-sitter is installed correctly
 if command -v tree-sitter &>/dev/null; then
