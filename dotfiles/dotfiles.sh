@@ -28,11 +28,15 @@ sudo apt install -y build-essential pkg-config autoconf bison clang gcc g++ wget
     libssl-dev libreadline-dev zlib1g-dev libyaml-dev libncurses5-dev libffi-dev \
     libgdbm-dev libjemalloc2 libvips imagemagick libmagickwand-dev mupdf mupdf-tools \
     redis-tools sqlite3 libsqlite3-0 default-libmysqlclient-dev git tldr vlc ripgrep \
-    fd-find python3 python3-pip cmake make
+    fd-find python3 python3-pip cmake make xclip luarocks curl
 
 # Alias fd to fdfind if necessary
 echo "alias fd=fdfind" >> ~/.bashrc
 source ~/.bashrc
+
+# Configure Git with username and email
+git config --global user.name "alloutnoob"
+git config --global user.email "bryanburgess95@hotmail.com"
 
 # Install Docker packages
 sudo apt remove -y docker.io docker-doc docker-compose podman-docker containerd runc || true
@@ -94,8 +98,10 @@ fi
 # Sync LazyVim and install all necessary plugins, including Telescope for live grep
 nvim --headless "+Lazy sync" +qall
 
-# Install Node.js and npm for Tree-sitter CLI
+# --- Node.js Provider ---
+# Install Node.js and npm for Tree-sitter CLI and Neovim Node.js provider
 sudo apt install -y nodejs npm
+npm install -g neovim
 
 # Set up global npm directory to avoid permission issues
 mkdir -p ~/.npm-global
@@ -107,11 +113,39 @@ source ~/.bashrc
 # Install tree-sitter CLI globally
 npm install -g tree-sitter-cli
 
-# Verify if tree-sitter is installed correctly
-if command -v tree-sitter &>/dev/null; then
-    echo "tree-sitter-cli is successfully installed."
+# --- Perl Provider ---
+# Install Perl provider for Neovim and force-install the Neovim::Ext module
+sudo apt install -y cpanminus liblocal-lib-perl
+cpanm --force Neovim::Ext
+
+# --- Python Provider ---
+# Ensure python3-venv is installed
+sudo apt install -y python3-venv
+
+# Create a virtual environment for Neovim Python packages
+python3 -m venv ~/.nvim-venv
+source ~/.nvim-venv/bin/activate
+
+# Install Neovim Python package inside the virtual environment
+pip install pynvim
+
+# Deactivate the virtual environment after installation
+deactivate
+
+# --- Ruby Provider ---
+# Install Ruby and Neovim Ruby provider
+sudo apt install -y ruby-full
+gem install neovim
+
+# --- LuaRocks ---
+# Install LuaRocks for Lua module management
+sudo apt install -y luarocks
+
+# Verify if LuaRocks is installed correctly
+if command -v luarocks &>/dev/null; then
+    echo "LuaRocks is successfully installed."
 else
-    echo "Error: tree-sitter-cli installation failed."
+    echo "Error: LuaRocks installation failed."
 fi
 
 # Add current user to Docker group
@@ -125,7 +159,7 @@ rm -rf tmp
 exec $SHELL
 
 # Check for successful installations
-declare -a programs=("docker" "nvim" "lazygit" "git" "redis-cli" "sqlite3" "tldr" "vlc" "gcc" "wget" "ripgrep" "fd" "python3" "pip" "tree-sitter")
+declare -a programs=("docker" "nvim" "lazygit" "git" "redis-cli" "sqlite3" "tldr" "vlc" "gcc" "wget" "ripgrep" "fd" "python3" "pip" "tree-sitter" "luarocks" "perl" "ruby" "node" "npm")
 
 for program in "${programs[@]}"; do
     if command -v $program &>/dev/null; then
