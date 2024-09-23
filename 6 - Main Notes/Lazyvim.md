@@ -5,7 +5,11 @@ Status:
 
 Tags:
 
+[[Nvim]]
 # Lazyvim
 
 
 # Reference
+
+[Website](https://www.lazyvim.org/)
+

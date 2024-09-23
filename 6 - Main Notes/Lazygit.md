@@ -6,7 +6,7 @@ Status:
 Tags:
 
 [[Lazyvim]]
-[[nvim]]
+[[Nvim]]
 [[Linux]]
 [[Git]]
 

@@ -5,7 +5,12 @@ Status:
 
 Tags:
 
+[[Linux]]
+
 # Bash
 
 
 # Reference
+
+[[Bash Curl Command]]
+

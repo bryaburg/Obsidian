@@ -7,6 +7,14 @@ Tags:
 
 # Linux
 
+## Adding user to su group
+
+```bash
+su
+
+sudo usermod -aG sudo [username]
+
+```
 
 # Reference
 
@@ -18,4 +26,5 @@ Tags:
 [[You Unix Linux The Ultimate Guide]]
 [[Your UNIX Linux - The Ultimate Guide - Third Edition.pdf]]
 [[comptialinuxpluscertificationguide.pdf]]
+[[Bash]]
 

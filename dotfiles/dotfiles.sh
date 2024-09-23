@@ -1,5 +1,7 @@
 #!/bin/bash
 
+cd ~
+
 # Function to handle errors
 error_handler() {
     echo "An error occurred."
