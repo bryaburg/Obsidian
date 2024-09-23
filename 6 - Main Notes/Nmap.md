@@ -129,8 +129,7 @@ Tags:
 |-data-length|nmap -data-length 200 192.168.1.1|Appends random data to sent packets|
 **Example IDS Evasion command**
 
-nmap -f -t 0 -n -Pn --data-length 200 -D  
-192.168.1.101,192.168.1.102,192.168.1.103,192.168.1.23 192.168.1.1
+nmap -f -n -Pn 192.168.1.1-255
 
 
 # Reference

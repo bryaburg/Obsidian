@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "58989d2bc675e17e",
+        "id": "9ea75fb27ddb99df",
         "type": "tabs",
         "children": [
           {
-            "id": "be7bf3196a1a0c61",
+            "id": "c3df60662c89ac17",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "3 - Tags/Linux.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "3 - Tags/Linux.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "3 - Tags/Linux.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "3 - Tags/Linux.md"
+              }
             }
           }
         ]
@@ -139,19 +147,26 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "be7bf3196a1a0c61",
+  "active": "c3df60662c89ac17",
   "lastOpenFiles": [
+    "Books/Stories/This Is How They Tell Me the World Ends The Cyberweapons Arms Race.pdf",
+    "Books/Stories/This Is How They Tell Me the World Ends The Cyberweapons Arms Race.epub",
+    "Books/Stories/The 48 Laws Of Power.pdf",
+    "Books/Stories/Summary of Mastery.pdf",
+    "Books/Linux Books/Your UNIX Linux - The Ultimate Guide - Third Edition.pdf",
+    "Books/Linux Books/Bash-Beginners-Guide.pdf",
+    "Books/TCP-IP/tcp_ip-illustrated-vol-2.pdf",
+    "6 - Main Notes/Nmap.md",
+    "3 - Tags/Git.md",
     "6 - Main Notes/You Unix Linux The Ultimate Guide.md",
     "6 - Main Notes/Virtualbox Guest Additions.md",
     "6 - Main Notes/Kali Linux Docker Image.md",
     "6 - Main Notes/Kali Linux.md",
     "3 - Tags/Linux.md",
-    "Books/Linux Books/Your UNIX Linux - The Ultimate Guide - Third Edition.pdf",
     "6 - Main Notes/browser.md",
     "6 - Main Notes/nvim.md",
     "3 - Tags/Docker.md",
     "3 - Tags/Books.md",
-    "6 - Main Notes/Nmap.md",
     "Books/Hacking/The Ultimate Kali Linux Book Perform advanced penetration testing using Nmap, Metasploit, Aircrack-ng, and Empire, 2nd Edition.pdf",
     "dotfiles/dotfiles.md",
     "3 - Tags/Esco.md",
@@ -161,14 +176,8 @@
     "Bookmarks/README.md",
     "6 - Main Notes/Cisco Stratix Switch CLI Basics.md",
     "7 - Documents/TreeDix/USB_Cable_Tester_Manual.pdf",
-    "7 - Documents/TreeDix/USB_Cable_Tester_Manual.pdf.crdownload",
-    "7 - Documents/TreeDix",
-    "7 - Documents/TreeDIx",
-    "7 - Documents/New folder",
     "6 - Main Notes/Wireshark.md",
-    "Books/Wireshark/Practical-Packet-Analysis-Using-Wireshark-to-Solve-Real-World-Problems.pdf",
     "6 - Main Notes/51240055 - Conagra Brands - Russellville AR - Frozen Dinner Line 11 FlexiCell Panel CNA Upgrades.md",
-    "3 - Tags/Git.md",
     "6 - Main Notes/Safety.md",
     "6 - Main Notes/Virtualbox.md",
     "3 - Tags/Cisco.md",
