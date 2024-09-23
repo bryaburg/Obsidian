@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "ca0749953e0921db",
+        "id": "58989d2bc675e17e",
         "type": "tabs",
         "children": [
           {
-            "id": "74cba43c52eab148",
+            "id": "be7bf3196a1a0c61",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "6 - Main Notes/Virtualbox Guest Additions.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "6 - Main Notes/Virtualbox Guest Additions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "6 - Main Notes/Virtualbox Guest Additions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "6 - Main Notes/Virtualbox Guest Additions.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -147,9 +139,20 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "74cba43c52eab148",
+  "active": "be7bf3196a1a0c61",
   "lastOpenFiles": [
     "6 - Main Notes/You Unix Linux The Ultimate Guide.md",
+    "6 - Main Notes/Virtualbox Guest Additions.md",
+    "6 - Main Notes/Kali Linux Docker Image.md",
+    "6 - Main Notes/Kali Linux.md",
+    "3 - Tags/Linux.md",
+    "Books/Linux Books/Your UNIX Linux - The Ultimate Guide - Third Edition.pdf",
+    "6 - Main Notes/browser.md",
+    "6 - Main Notes/nvim.md",
+    "3 - Tags/Docker.md",
+    "3 - Tags/Books.md",
+    "6 - Main Notes/Nmap.md",
+    "Books/Hacking/The Ultimate Kali Linux Book Perform advanced penetration testing using Nmap, Metasploit, Aircrack-ng, and Empire, 2nd Edition.pdf",
     "dotfiles/dotfiles.md",
     "3 - Tags/Esco.md",
     "dotfiles/dotfiles.sh",
@@ -166,26 +169,14 @@
     "Books/Wireshark/Practical-Packet-Analysis-Using-Wireshark-to-Solve-Real-World-Problems.pdf",
     "6 - Main Notes/51240055 - Conagra Brands - Russellville AR - Frozen Dinner Line 11 FlexiCell Panel CNA Upgrades.md",
     "3 - Tags/Git.md",
-    "3 - Tags/Linux.md",
     "6 - Main Notes/Safety.md",
     "6 - Main Notes/Virtualbox.md",
     "3 - Tags/Cisco.md",
-    "6 - Main Notes/Books.md",
     "3 - Tags/Windows.md",
     "6 - Main Notes/51240053 - Conagra Brands - Waterloo IA - Snacks Multipack Cartoner CNA.md",
     "6 - Main Notes/Python Packet Cannon.md",
     "Computer-Help/computer_help.md",
-    "Books/Linux Books/Your UNIX Linux - The Ultimate Guide - Third Edition.pdf",
     "Screenshots/Pasted image 20240920085454.png",
-    "Books/Industrial Automation/Programmable Logic Controllers_ A Practical Approach to IEC 61131-3 using Codesys.pdf",
-    "6 - Main Notes/Travel Booking.md",
-    "6 - Main Notes/Cisco Stratix 5200 Express Setup.md",
-    "Anime List/Anime.md",
-    "6 - Main Notes/Bash.md",
-    "6 - Main Notes/Factorytalk Activation Manager.md",
-    "6 - Main Notes/Factorytalk Activation Manager Opening Problem.md",
-    "6 - Main Notes/Virtualbox Guest Additions.md",
-    "6 - Main Notes/Tracfone APN Settings.md",
     "Books/Solution Manual - Mechanics of Materials 8th Edition -  Hibbeler/Mechanics_of_Materials-8th-Hibbeler.jpg",
     "Books/Mechanical Engineering Books Collection/TURBOMACHINES/Turbomachinery Design and Theory/Turbomachinery Design.jpg",
     "Books/Mechanical Engineering Books Collection/THEORY OF MACHINES/Theory Of Machine R.S.Khurmi/theory-mach.jpg",
