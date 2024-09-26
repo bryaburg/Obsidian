@@ -562,6 +562,8 @@ Some websites can fall into multiple categories. If you can't find what you need
 - [Rockwell Documentation](https://www.rockwellautomation.com/en-us/support/documentation.html) - Rockwell Automation's documentation and support portal.
 - [Rockwell TCP and UDP Port Configuration](https://literature.rockwellautomation.com/idc/groups/literature/documents/qr/comm-qr001_-en-e.pdf) - Rockwell's TCP and UDP port configs
 - [Knowledge Base](https://rockwellautomation.custhelp.com/) - Rockwell's Knowledge base for tickets and answers
+- [Compatibility Tool](https://compatibility.rockwellautomation.com/Pages/MultiProductSelector.aspx?crumb=111)
+
 
 ### Instrumentation Tools
 

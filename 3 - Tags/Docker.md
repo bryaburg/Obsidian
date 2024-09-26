@@ -7,6 +7,8 @@ Tags:
 
 # Docker
 
+Docker [DF](https://docs.docker.com/reference/cli/docker/system/df/) sees system stuff like memory usage and disk usage
+
 docker ps -a See all containers that are made and there statuses
 
 Docker images "See what images are on your system"
