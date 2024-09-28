@@ -5,7 +5,10 @@ Status:
 
 Tags:
 
-# browser
+# Browser
 
 
 # Reference
+
+[[Tor Browser]]
+[[Librewolf]]
