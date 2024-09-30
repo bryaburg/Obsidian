@@ -97,9 +97,6 @@ if [ ! -d "$HOME/.config/nvim" ]; then
     git clone https://github.com/bryaburg/nvim ~/.config/nvim
 fi
 
-# Sync LazyVim and install all necessary plugins, including Telescope for live grep
-nvim --headless "+Lazy sync" +qall
-
 # --- Node.js Provider ---
 # Install Node.js and npm for Tree-sitter CLI and Neovim Node.js provider
 sudo apt install -y nodejs npm
@@ -143,32 +140,16 @@ gem install neovim
 # Install LuaRocks for Lua module management
 sudo apt install -y luarocks
 
-# Verify if LuaRocks is installed correctly
-if command -v luarocks &>/dev/null; then
-    echo "LuaRocks is successfully installed."
-else
-    echo "Error: LuaRocks installation failed."
-fi
 
 # Add current user to Docker group
 sudo usermod -aG docker $USER
 
 # Cleanup tmp directory
-cd ..
+cd ~
 rm -rf tmp
+
+# Sync LazyVim and install all necessary plugins, including Telescope for live grep
+nvim --headless "+Lazy sync" +qall
 
 # Reload shell
 exec $SHELL
-
-# Check for successful installations
-declare -a programs=("docker" "nvim" "lazygit" "git" "redis-cli" "sqlite3" "tldr" "vlc" "gcc" "wget" "ripgrep" "fd" "python3" "pip" "tree-sitter" "luarocks" "perl" "ruby" "node" "npm")
-
-for program in "${programs[@]}"; do
-    if command -v $program &>/dev/null; then
-        echo "$program is successfully installed."
-    else
-        echo "Error: $program installation failed or it's not in the PATH."
-    fi
-done
-
-echo "Setup completed successfully."

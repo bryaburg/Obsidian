@@ -25,13 +25,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "6 - Main Notes/Virtualbox Guest Additions.md",
+                "file": "3 - Tags/Docker.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -97,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "6 - Main Notes/51240053 - Conagra Brands - Waterloo IA - Snacks Multipack Cartoner CNA.md",
+                "file": "3 - Tags/Docker.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "6 - Main Notes/51240053 - Conagra Brands - Waterloo IA - Snacks Multipack Cartoner CNA.md",
+                "file": "3 - Tags/Docker.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "6 - Main Notes/51240053 - Conagra Brands - Waterloo IA - Snacks Multipack Cartoner CNA.md"
+                "file": "3 - Tags/Docker.md"
               }
             }
           }
@@ -159,16 +160,17 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "7069998651b216d3",
+  "active": "b9b340abfbc7e64b",
   "lastOpenFiles": [
+    "dotfiles/dotfiles.sh",
+    "6 - Main Notes/Virtualbox Guest Additions.md",
+    "6 - Main Notes/51240053 - Conagra Brands - Waterloo IA - Snacks Multipack Cartoner CNA.md",
     "6 - Main Notes/Tor Browser.md",
     "6 - Main Notes/Browser.md",
     "Bookmarks/README.md",
-    "6 - Main Notes/Virtualbox Guest Additions.md",
     "Books/Parenting/Unconditional Parenting Moving from Rewards and Punishments to Love and Reason",
     "Books/Parenting",
     "Books/Survival/The Encyclopedia of Country Living, 50th Anniversary Edition_ The Original Manual for Living off the Land & Doing It Yourself.epub",
-    "6 - Main Notes/51240053 - Conagra Brands - Waterloo IA - Snacks Multipack Cartoner CNA.md",
     "3 - Tags/Docker.md",
     "6 - Main Notes/Kali Linux Docker Image.md",
     "3 - Tags/Esco.md",
@@ -196,7 +198,6 @@
     "6 - Main Notes/Cisco Stratix Switch CLI Basics.md",
     "6 - Main Notes/Wireshark.md",
     "6 - Main Notes/51240055 - Conagra Brands - Russellville AR - Frozen Dinner Line 11 FlexiCell Panel CNA Upgrades.md",
-    "6 - Main Notes/Safety.md",
     "Screenshots/Pasted image 20240920085454.png",
     "Books/Solution Manual - Mechanics of Materials 8th Edition -  Hibbeler/Mechanics_of_Materials-8th-Hibbeler.jpg",
     "Books/Mechanical Engineering Books Collection/TURBOMACHINES/Turbomachinery Design and Theory/Turbomachinery Design.jpg",

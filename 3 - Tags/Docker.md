@@ -39,7 +39,7 @@ docker build -t
 
 Example Docker compose file
 ```Docker
-services:
+services: 
 
   windows:
 
