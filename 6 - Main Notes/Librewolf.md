@@ -5,7 +5,7 @@ Status:
 
 Tags:
 
-[[browser]]
+[[Browser]]
 # Librewolf
 
 # Backing up your profile
