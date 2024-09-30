@@ -25,14 +25,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3 - Tags/Docker.md",
+                "file": "Bookmarks/README.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "3 - Tags/Docker.md",
+                "file": "6 - Main Notes/51240053 - Conagra Brands - Waterloo IA - Snacks Multipack Cartoner CNA.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "3 - Tags/Docker.md",
+                "file": "6 - Main Notes/51240053 - Conagra Brands - Waterloo IA - Snacks Multipack Cartoner CNA.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "3 - Tags/Docker.md"
+                "file": "6 - Main Notes/51240053 - Conagra Brands - Waterloo IA - Snacks Multipack Cartoner CNA.md"
               }
             }
           }
@@ -160,18 +159,18 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "b9b340abfbc7e64b",
+  "active": "7069998651b216d3",
   "lastOpenFiles": [
+    "Bookmarks/README.md",
+    "3 - Tags/Docker.md",
     "dotfiles/dotfiles.sh",
     "6 - Main Notes/Virtualbox Guest Additions.md",
     "6 - Main Notes/51240053 - Conagra Brands - Waterloo IA - Snacks Multipack Cartoner CNA.md",
     "6 - Main Notes/Tor Browser.md",
     "6 - Main Notes/Browser.md",
-    "Bookmarks/README.md",
     "Books/Parenting/Unconditional Parenting Moving from Rewards and Punishments to Love and Reason",
     "Books/Parenting",
     "Books/Survival/The Encyclopedia of Country Living, 50th Anniversary Edition_ The Original Manual for Living off the Land & Doing It Yourself.epub",
-    "3 - Tags/Docker.md",
     "6 - Main Notes/Kali Linux Docker Image.md",
     "3 - Tags/Esco.md",
     "7 - Documents/Amazon/Siemens Decant/Documentation/740-01436__A VarioStack IO Test Procedure.pdf",
@@ -186,7 +185,6 @@
     "Books/Stories/This Is How They Tell Me the World Ends The Cyberweapons Arms Race.epub",
     "Books/Stories/The 48 Laws Of Power.pdf",
     "Books/Stories/Summary of Mastery.pdf",
-    "Books/Linux Books/Bash-Beginners-Guide.pdf",
     "6 - Main Notes/Nmap.md",
     "3 - Tags/Git.md",
     "6 - Main Notes/You Unix Linux The Ultimate Guide.md",
