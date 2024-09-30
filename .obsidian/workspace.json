@@ -18,6 +18,18 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "b9b340abfbc7e64b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "6 - Main Notes/Virtualbox Guest Additions.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ]
       }
@@ -150,6 +162,10 @@
   "active": "7069998651b216d3",
   "lastOpenFiles": [
     "Bookmarks/README.md",
+    "6 - Main Notes/Virtualbox Guest Additions.md",
+    "Books/Parenting/Unconditional Parenting Moving from Rewards and Punishments to Love and Reason",
+    "Books/Parenting",
+    "Books/Survival/The Encyclopedia of Country Living, 50th Anniversary Edition_ The Original Manual for Living off the Land & Doing It Yourself.epub",
     "6 - Main Notes/51240053 - Conagra Brands - Waterloo IA - Snacks Multipack Cartoner CNA.md",
     "3 - Tags/Docker.md",
     "6 - Main Notes/Kali Linux Docker Image.md",
@@ -167,24 +183,19 @@
     "Books/Stories/The 48 Laws Of Power.pdf",
     "Books/Stories/Summary of Mastery.pdf",
     "Books/Linux Books/Bash-Beginners-Guide.pdf",
-    "Books/TCP-IP/tcp_ip-illustrated-vol-2.pdf",
     "6 - Main Notes/Nmap.md",
     "3 - Tags/Git.md",
     "6 - Main Notes/You Unix Linux The Ultimate Guide.md",
-    "6 - Main Notes/Virtualbox Guest Additions.md",
     "6 - Main Notes/Kali Linux.md",
     "6 - Main Notes/browser.md",
     "3 - Tags/Books.md",
-    "Books/Hacking/The Ultimate Kali Linux Book Perform advanced penetration testing using Nmap, Metasploit, Aircrack-ng, and Empire, 2nd Edition.pdf",
     "dotfiles/dotfiles.md",
-    "dotfiles/dotfiles.sh",
     "6 - Main Notes/51240056 - Conagra Brands - Russellville AR - Frozen Dinner Line 11 Pallet Wrapper CNA Upgrades.md",
     "6 - Main Notes/Cisco Stratix Switch CLI Basics.md",
     "6 - Main Notes/Wireshark.md",
     "6 - Main Notes/51240055 - Conagra Brands - Russellville AR - Frozen Dinner Line 11 FlexiCell Panel CNA Upgrades.md",
     "6 - Main Notes/Safety.md",
     "6 - Main Notes/Virtualbox.md",
-    "3 - Tags/Cisco.md",
     "Screenshots/Pasted image 20240920085454.png",
     "Books/Solution Manual - Mechanics of Materials 8th Edition -  Hibbeler/Mechanics_of_Materials-8th-Hibbeler.jpg",
     "Books/Mechanical Engineering Books Collection/TURBOMACHINES/Turbomachinery Design and Theory/Turbomachinery Design.jpg",
