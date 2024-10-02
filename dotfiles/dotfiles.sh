@@ -30,7 +30,7 @@ sudo apt install -y build-essential pkg-config autoconf bison clang gcc g++ wget
     libssl-dev libreadline-dev zlib1g-dev libyaml-dev libncurses5-dev libffi-dev \
     libgdbm-dev libjemalloc2 libvips imagemagick libmagickwand-dev mupdf mupdf-tools \
     redis-tools sqlite3 libsqlite3-0 default-libmysqlclient-dev git tldr vlc ripgrep \
-    fd-find python3 python3-pip cmake make xclip luarocks curl
+    fd-find python3 python3-pip cmake make xclip luarocks curl htop
 
 # Alias fd to fdfind if necessary
 echo "alias fd=fdfind" >> ~/.bashrc
