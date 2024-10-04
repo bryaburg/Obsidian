@@ -24,6 +24,12 @@ The Cisco IOS is also utilized in the Stratix line of switches by Rockwell, so w
     - Flow Control: None
 - In addition, you will have a COM Port Setting that will be for the USB or Serial Port that you are using on your laptop. You can check “Device Manager” on your laptop to see where the device is set up. Most of the time a direct serial port will be set as COM 1 and an external USB-Serial adapter will be COM 3 or COM 4.
 
+#### Connecting to switch with linux
+
+- sudo apt install screen
+- sudo dmesg | grep -i tty
+- screen /dev/ttyUSB0 'Depending on what USB port its on'
+
 An “out of the box” switch will have almost no configuration. It will be essentially an unmanaged switch. When you connect, you will only get a prompt “switch>”
 
 [![](https://i0.wp.com/theautomationblog.com/wp-content/uploads/2020/11/TheAutomationBlog-20-11-ImageBy-BrandonCooper-CLI1-switch_Unprivelege.png?resize=296%2C76&ssl=1)](https://i0.wp.com/theautomationblog.com/wp-content/uploads/2020/11/TheAutomationBlog-20-11-ImageBy-BrandonCooper-CLI1-switch_Unprivelege.png?ssl=1)
@@ -63,5 +69,18 @@ This article is starting from the beginning and may be too basic for some engine
 Getting connected is the first step and as we progress further, there are many things that must be set up in a switch to have the desired configuration needed for a switch that can be placed into production with the necessary security measures and bells and whistles.
 
 And, by all means, this could never be a “one size fits all” application and every network will have similar but different configurations. This will be a generic configuration that will help you to become familiar with the configuration in general.
+
+## Set static IP to VLAN 1
+
+- enable
+- configure terminal
+- interface vlan 1\
+- ip address 192.168.1.1 255.255.255.0
+- no shutdown
+- exit
+- copy running-config startup-config
+- show ip interface brief
+- enable 
+- reload
 # Reference
 

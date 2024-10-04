@@ -15,6 +15,7 @@ Tags:
 - Marion Esco Office Location:  3450 Third St Marion, IA 52302
 - My Office Number:  319-377-6655
 - Hotspot and pw:  ATT-WIFI-LkUk: vL3KjkAu
+- Guest Wifi PW: e$cogue$t
 
 # Reference
 

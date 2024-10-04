@@ -2711,14 +2711,13 @@ real interview questions from your favorite companies
 - [Microsoft-Activation-Scripts](https://github.com/massgravel/Microsoft-Activation-Scripts) - This repository contains scripts for activating Microsoft products.
 - [Bloatbox](https://github.com/builtbybel/bloatbox) - Bloatbox helps you remove unwanted Windows 10 apps.
 - [Win11Debloat](https://github.com/Raphire/Win11Debloat) - This repository contains scripts for debloating Windows 11.
-- [Windows 10 Debloater]([GitHub - Sycnex/Windows10Debloater: Script to remove Windows 10 bloatware.](https://github.com/Sycnex/Windows10Debloater)) 
+- [Windows 10 Debloater](https://github.com/Sycnex/Windows10Debloater)) - This repository contains scripts for debloating Windows 10.
 - [massgrave](https://massgrave.dev/genuine-installation-media)
 - [bobpony](https://dl.bobpony.com/windows/10/)
 - [MSDN](https://files.dog/MSDN/)
 - [Helzerg Optimizer](https://github.com/hellzerg/optimizer) 
 - [WindHawk](https://windhawk.net/) - Customization App
 - [CopyQ](https://hluk.github.io/CopyQ/) - clipboard tooluniget ui
-- 
 
 ### Windows Recovery
 
