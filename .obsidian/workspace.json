@@ -13,13 +13,36 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3 - Tags/Esco.md",
+                "file": "6 - Main Notes/You Unix Linux The Ultimate Guide.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2c20e8905f5b0cda",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Books/Linux Books/Your UNIX Linux - The Ultimate Guide - Third Edition.pdf"
+              }
+            }
+          },
+          {
+            "id": "4659175b11bac584",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "6 - Main Notes/Regex.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -85,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "3 - Tags/Esco.md",
+                "file": "6 - Main Notes/Regex.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "3 - Tags/Esco.md",
+                "file": "6 - Main Notes/Regex.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "3 - Tags/Esco.md"
+                "file": "6 - Main Notes/Regex.md"
               }
             }
           }
@@ -147,18 +170,21 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "5a76c5a82571bda2",
+  "active": "4659175b11bac584",
   "lastOpenFiles": [
+    "6 - Main Notes/Regex.md",
+    "Books/Linux Books/Your UNIX Linux - The Ultimate Guide - Third Edition.pdf",
+    "7 - Documents/Amazon/USS Tote Stackers/conveyLinx/Microsoft Word - ERSC_1020 ConveyMerge_Users_Guide_v1_1.docx.pdf",
+    "6 - Main Notes/You Unix Linux The Ultimate Guide.md",
+    "3 - Tags/Esco.md",
     "Bookmarks/README.md",
     "6 - Main Notes/[GitHub.md",
-    "3 - Tags/Esco.md",
     "3 - Tags/Windows.md",
     "6 - Main Notes/51240053 - Conagra Brands - Waterloo IA - Snacks Multipack Cartoner CNA.md",
     "6 - Main Notes/Cisco Stratix Switch CLI Basics.md",
     "6 - Main Notes/Cisco Stratix 5200 Express Setup.md",
     "6 - Main Notes/Application Manager.md",
     "6 - Main Notes/Passwordless ssh with keys using ssh agent.md",
-    "6 - Main Notes/Untitled.md",
     "3 - Tags/Git.md",
     "6 - Main Notes/().md",
     "6 - Main Notes/GPG GNU Privacy Guard.md",
@@ -172,7 +198,6 @@
     "Books/Survival/The Encyclopedia of Country Living, 50th Anniversary Edition_ The Original Manual for Living off the Land & Doing It Yourself.epub",
     "6 - Main Notes/Kali Linux Docker Image.md",
     "7 - Documents/Amazon/Siemens Decant/Documentation/740-01436__A VarioStack IO Test Procedure.pdf",
-    "Books/Linux Books/Your UNIX Linux - The Ultimate Guide - Third Edition.pdf",
     "3 - Tags/Linux.md",
     "6 - Main Notes/Lazyvim.md",
     "6 - Main Notes/Nvim.md",
@@ -182,9 +207,6 @@
     "Books/Stories/This Is How They Tell Me the World Ends The Cyberweapons Arms Race.pdf",
     "Books/Stories/This Is How They Tell Me the World Ends The Cyberweapons Arms Race.epub",
     "Books/Stories/The 48 Laws Of Power.pdf",
-    "Books/Stories/Summary of Mastery.pdf",
-    "6 - Main Notes/Nmap.md",
-    "6 - Main Notes/You Unix Linux The Ultimate Guide.md",
     "Screenshots/Pasted image 20240920085454.png",
     "Books/Solution Manual - Mechanics of Materials 8th Edition -  Hibbeler/Mechanics_of_Materials-8th-Hibbeler.jpg",
     "Books/Mechanical Engineering Books Collection/TURBOMACHINES/Turbomachinery Design and Theory/Turbomachinery Design.jpg",
