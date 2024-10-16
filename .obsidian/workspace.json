@@ -13,36 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "6 - Main Notes/You Unix Linux The Ultimate Guide.md",
+                "file": "3 - Tags/Cisco.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "2c20e8905f5b0cda",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Books/Linux Books/Your UNIX Linux - The Ultimate Guide - Third Edition.pdf"
-              }
-            }
-          },
-          {
-            "id": "4659175b11bac584",
+            "id": "42fc3ea1c20d33f8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "6 - Main Notes/Regex.md",
+                "file": "6 - Main Notes/CCNA Configure Your First ACL.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -108,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "6 - Main Notes/Regex.md",
+                "file": "6 - Main Notes/CCNA Configure Your First ACL.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "6 - Main Notes/Regex.md",
+                "file": "6 - Main Notes/CCNA Configure Your First ACL.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "6 - Main Notes/Regex.md"
+                "file": "6 - Main Notes/CCNA Configure Your First ACL.md"
               }
             }
           }
@@ -170,13 +160,16 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "4659175b11bac584",
+  "active": "42fc3ea1c20d33f8",
   "lastOpenFiles": [
-    "Books/Survival/The MeatEater Fish and Game Cookbook",
-    "6 - Main Notes/Regex.md",
-    "Books/Linux Books/Your UNIX Linux - The Ultimate Guide - Third Edition.pdf",
-    "7 - Documents/Amazon/USS Tote Stackers/conveyLinx/Microsoft Word - ERSC_1020 ConveyMerge_Users_Guide_v1_1.docx.pdf",
+    "3 - Tags/Cisco.md",
+    "6 - Main Notes/CCNA Configure Your First ACL.md",
     "6 - Main Notes/You Unix Linux The Ultimate Guide.md",
+    "6 - Main Notes/Nmap.md",
+    "Books/Linux Books/Your UNIX Linux - The Ultimate Guide - Third Edition.pdf",
+    "6 - Main Notes/Regex.md",
+    "Books/Survival/The MeatEater Fish and Game Cookbook",
+    "7 - Documents/Amazon/USS Tote Stackers/conveyLinx/Microsoft Word - ERSC_1020 ConveyMerge_Users_Guide_v1_1.docx.pdf",
     "3 - Tags/Esco.md",
     "Bookmarks/README.md",
     "6 - Main Notes/[GitHub.md",
@@ -203,11 +196,8 @@
     "6 - Main Notes/Lazyvim.md",
     "6 - Main Notes/Nvim.md",
     "6 - Main Notes/Lazygit.md",
-    "6 - Main Notes/Bash Curl Command.md",
-    "6 - Main Notes/Bash.md",
     "Books/Stories/This Is How They Tell Me the World Ends The Cyberweapons Arms Race.pdf",
     "Books/Stories/This Is How They Tell Me the World Ends The Cyberweapons Arms Race.epub",
-    "Books/Stories/The 48 Laws Of Power.pdf",
     "Screenshots/Pasted image 20240920085454.png",
     "Books/Solution Manual - Mechanics of Materials 8th Edition -  Hibbeler/Mechanics_of_Materials-8th-Hibbeler.jpg",
     "Books/Mechanical Engineering Books Collection/TURBOMACHINES/Turbomachinery Design and Theory/Turbomachinery Design.jpg",

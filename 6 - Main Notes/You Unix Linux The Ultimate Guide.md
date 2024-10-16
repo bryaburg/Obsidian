@@ -337,7 +337,5 @@ before an option to negate its meaning
 - ![[Pasted image 20240920085454.png]]
 
 
-### Redirection
-- 
 
 # Reference
