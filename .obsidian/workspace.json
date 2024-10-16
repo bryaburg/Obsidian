@@ -146,8 +146,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -160,7 +159,7 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "f0b77011a67bee26",
+  "active": "42fc3ea1c20d33f8",
   "lastOpenFiles": [
     "7 - Documents/Cisco/Training/Cisco Modeling Labs/ccna-topology.yaml",
     "7 - Documents/Cisco/Training/Cisco Modeling Labs",

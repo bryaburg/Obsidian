@@ -42,5 +42,22 @@ ip access-group 1 in
 
 ## Configure Your First ACL
 
+- Example creating ACL that allows H1 access to H3 & H4 but deny access to the other hosts in the same subnet H2
+- There are also 2 switches access-sw1 handles 172.16.10.0/24 H1 & H2 and access-sw2 handles 172.16.10.0/24 H3 & H4.  The ACLs will be applied to router1
+- log into router1 and enter global config mode.
+```
+enable
+conf t
+```
+- Next create ACL 
+```
+access-list 1 permit 172.16.10.11
+```
+- Add ACL to interface Gig 0/0 
+```
+interface Gig0/0
+ip access-group 1 in
+end
+```
 - 
 # Reference
