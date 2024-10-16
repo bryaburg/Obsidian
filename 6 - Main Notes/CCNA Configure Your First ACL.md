@@ -59,5 +59,27 @@ interface Gig0/0
 ip access-group 1 in
 end
 ```
-- 
+- Test you ACL by logging into each machine and ping each other machine.
+```
+H2:~$ ping 172.16.20.41
+PING 172.16.20.41 (172.16.20.41): 56 data bytes
+64 bytes from 172.16.20.41: seq=0 ttl=42 time=8.567 ms
+64 bytes from 172.16.20.41: seq=1 ttl=42 time=3.262 ms
+^C
+--- 172.16.20.41 ping statistics ---
+2 packets transmitted, 2 packets received, 0% packet loss
+round-trip min/avg/max = 3.262/5.914/8.567 ms
+H2:~$
+H2:~$
+H2:~$
+H2:~$
+H2:~$ ping 172.16.20.41
+PING 172.16.20.41 (172.16.20.41): 56 data bytes
+^C
+--- 172.16.20.41 ping statistics ---
+2 packets transmitted, 0 packets received, 100% packet loss
+H2:~$
+```
+
+
 # Reference

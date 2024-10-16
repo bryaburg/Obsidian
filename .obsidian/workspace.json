@@ -20,12 +20,12 @@
             }
           },
           {
-            "id": "42fc3ea1c20d33f8",
+            "id": "481ad264615c1d7c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "6 - Main Notes/CCNA Configure Your First ACL.md",
+                "file": "6 - Main Notes/Git for Network Engineers - The Basics.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "6 - Main Notes/CCNA Configure Your First ACL.md",
+                "file": "6 - Main Notes/Git for Network Engineers - The Basics.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "6 - Main Notes/CCNA Configure Your First ACL.md",
+                "file": "6 - Main Notes/Git for Network Engineers - The Basics.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "6 - Main Notes/CCNA Configure Your First ACL.md"
+                "file": "6 - Main Notes/Git for Network Engineers - The Basics.md"
               }
             }
           }
@@ -146,7 +146,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -159,8 +160,12 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "42fc3ea1c20d33f8",
+  "active": "481ad264615c1d7c",
   "lastOpenFiles": [
+    "3 - Tags/Git.md",
+    "6 - Main Notes/Git for Network Engineers - The Basics.md",
+    "3 - Tags/Cisco.md",
+    "6 - Main Notes/CCNA Configure Your First ACL.md",
     "7 - Documents/Cisco/Training/Cisco Modeling Labs/ccna-topology.yaml",
     "7 - Documents/Cisco/Training/Cisco Modeling Labs",
     "7 - Documents/Cisco/Training",
@@ -169,8 +174,6 @@
     "7 - Documents/NIST/Formalizing ISA-95 Level 3 Control with Smart Manufacturing System Models.pdf",
     "7 - Documents/NIST",
     "Books/Survival/The MeatEater Fish and Game Cookbook",
-    "3 - Tags/Cisco.md",
-    "6 - Main Notes/CCNA Configure Your First ACL.md",
     "6 - Main Notes/You Unix Linux The Ultimate Guide.md",
     "6 - Main Notes/Nmap.md",
     "Books/Linux Books/Your UNIX Linux - The Ultimate Guide - Third Edition.pdf",
@@ -185,11 +188,9 @@
     "6 - Main Notes/Cisco Stratix 5200 Express Setup.md",
     "6 - Main Notes/Application Manager.md",
     "6 - Main Notes/Passwordless ssh with keys using ssh agent.md",
-    "3 - Tags/Git.md",
     "6 - Main Notes/().md",
     "6 - Main Notes/GPG GNU Privacy Guard.md",
     "3 - Tags/Docker.md",
-    "dotfiles/dotfiles.sh",
     "6 - Main Notes/Virtualbox Guest Additions.md",
     "6 - Main Notes/Tor Browser.md",
     "6 - Main Notes/Browser.md",
