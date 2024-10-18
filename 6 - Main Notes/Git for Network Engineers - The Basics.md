@@ -331,6 +331,68 @@ Date:   Tue Jul 12 11:43:51 2022 -0400
     Remove router devices file
 ```
 
+## Show Things :: git show
+
+- The `git show` command along with `git log` command are useful in reviewing what has been done in the repository. The `git show` command shows "various types of objects," as the documentation summarizes. Here, we are going to use it to look at the `git diff` of a particular commit made on the repository.
+
+- First, let's use `git log` and copy the SHA-1 commit checksum from the third commit from the top.
+
+```
+MacOS $ git log -n 3
+commit 46125202f573989ee8d2024c49f879132ccc7c05 (HEAD -> main)
+Author: Tony Roman <tonyroman@example.com>
+Date:   Tue Jul 12 11:43:51 2022 -0400
+
+    Remove router devices file
+
+commit cf2dfb65aa1d05b10cc6d4ae5afc33ebdc0a603f
+Author: Tony Roman <tonyroman@example.com>
+Date:   Tue Jul 12 11:30:48 2022 -0400
+
+    Remove plural context for switch and router files
+
+commit 0c72f59874b405c6b38643990dccd5962a603c79
+Author: Tony Roman <tonyroman@example.com>
+Date:   Tue Jul 12 11:23:04 2022 -0400
+
+    Add switches and routers
+MacOS $
+```
+
+- Now, if you are following along at home, the SHA-1 checksum will probably not be the same, so you will need to copy it from the `git log` output. Let's copy the SHA-1 checksum for the last commit displayed.
+
+```
+MacOS $ git show 0c72f59874b405c6b38643990dccd5962a603c79
+commit 0c72f59874b405c6b38643990dccd5962a603c79
+Author: Tony Roman <tonyroman@example.com>
+Date:   Tue Jul 12 11:23:04 2022 -0400
+
+    Add switches and routers
+
+diff --git a/devices/routers b/devices/routers
+new file mode 100644
+index 0000000..704aefd
+--- /dev/null
++++ b/devices/routers
+@@ -0,0 +1,2 @@
++r0.main.office
++r0.branch.office
+diff --git a/devices/switches b/devices/switches
+new file mode 100644
+index 0000000..4767bdf
+--- /dev/null
++++ b/devices/switches
+@@ -0,0 +1,3 @@
++sw0.main.office
++sw1.main.office
++sw0.branch.office
+MacOS $
+```
+
+- As you can see from the output of the `git show` command, it looks like `git log` and `git diff` outputs together for one commit. In the case of this commit, we added two files. The `git diff` output as part of `git show` tells us the new files and then proceeds to show the content of the file preceded with `+` denoting the addition of those lines in a new file. The new file is denoted by the `git diff` output of `--- /dev/null`, which basically says, in computer geek speak, that the file did not previously exist or was ****null****.
+
+- The `git show` command can be very helpful to view many things in a Git repository, but the primary usage case is typically to inspect what was done in a commit.
+
 
 # Reference
 

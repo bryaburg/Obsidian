@@ -25,12 +25,22 @@ sudo apt update && sudo apt upgrade -y
 mkdir -p tmp
 cd tmp
 
+# pyenv install
+curl https://pyenv.run | bash
+echo -e '\n# Pyenv configuration\nexport PATH="$HOME/.pyenv/bin:$PATH"\neval "$(pyenv init --path)"\neval "$(pyenv init -)"\neval "$(pyenv virtualenv-init -)"' >> ~/.bashrc
+source ~/.bashrc
+
+
+# Using pyenv to install python 3
+pyenv install 3.13.0
+pyenv global 3.13.0
+
 # Install required libraries and tools, including g++
 sudo apt install -y build-essential pkg-config autoconf bison clang gcc g++ wget \
     libssl-dev libreadline-dev zlib1g-dev libyaml-dev libncurses5-dev libffi-dev \
     libgdbm-dev libjemalloc2 libvips imagemagick libmagickwand-dev mupdf mupdf-tools \
     redis-tools sqlite3 libsqlite3-0 default-libmysqlclient-dev git tldr vlc ripgrep \
-    fd-find python3 python3-pip cmake make xclip luarocks curl htop
+    fd-find cmake make xclip luarocks curl htop
 
 # Alias fd to fdfind if necessary
 echo "alias fd=fdfind" >> ~/.bashrc

@@ -5,6 +5,7 @@ Status:
 
 Tags:
 
+[[Networking]]
 # Nmap
 
 ## **Target Specification**
